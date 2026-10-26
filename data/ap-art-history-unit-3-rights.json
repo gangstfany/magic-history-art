@@ -1,0 +1,620 @@
+{
+  "ap48-catacomb-priscilla::greek-chapel": {
+    "creatorOrInstitution": "Early Christian painter; photograph André Held/akg / Catacomb of Priscilla / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap48-catacomb-priscilla::orant-fresco": {
+    "creatorOrInstitution": "Early Christian painter; Joseph Wilpert reproduction / Catacomb of Priscilla / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap48-catacomb-priscilla::good-shepherd-fresco": {
+    "creatorOrInstitution": "Early Christian painter; Joseph Wilpert reproduction / Catacomb of Priscilla / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap49-santa-sabina::exterior": {
+    "creatorOrInstitution": "Jensens / Wikimedia Commons",
+    "licenseName": "Public domain (self-dedicated)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+    "releaseClass": "open"
+  },
+  "ap49-santa-sabina::interior": {
+    "creatorOrInstitution": "WikiRomaWiki / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap49-santa-sabina::plan": {
+    "creatorOrInstitution": "KU Leuven EuroPhot / Wikimedia Commons",
+    "licenseName": "Public domain (anonymous EU work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-anon-70-EU",
+    "releaseClass": "open"
+  },
+  "ap50-vienna-genesis::rebecca-eliezer": {
+    "creatorOrInstitution": "Vienna Genesis illuminator / Austrian National Library / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap50-vienna-genesis::jacob-wrestling-angel": {
+    "creatorOrInstitution": "Vienna Genesis illuminator / Austrian National Library / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap51-san-vitale::exterior": {
+    "creatorOrInstitution": "Tango7174 / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap51-san-vitale::interior": {
+    "creatorOrInstitution": "BjoernEisbaer / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap51-san-vitale::justinian-panel": {
+    "creatorOrInstitution": "José Luiz Bernardes Ribeiro / Basilica of San Vitale / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap51-san-vitale::theodora-panel": {
+    "creatorOrInstitution": "Petar Milošević / Basilica of San Vitale / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap51-san-vitale::plan": {
+    "creatorOrInstitution": "KU Leuven EuroPhot / Wikimedia Commons",
+    "licenseName": "Public domain (anonymous EU work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-anon-70-EU",
+    "releaseClass": "open"
+  },
+  "ap52-hagia-sophia::exterior": {
+    "creatorOrInstitution": "Yair Haklai / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap52-hagia-sophia::interior": {
+    "creatorOrInstitution": "Matthew Badger (bad_germ) / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap52-hagia-sophia::plan": {
+    "creatorOrInstitution": "David Bjorgen/Cybjorg / Wikimedia Commons",
+    "licenseName": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "releaseClass": "open"
+  },
+  "ap53-merovingian-fibulae::primary": {
+    "creatorOrInstitution": "Anonymous / Musée d’Archéologie nationale / Musée du Louvre",
+    "licenseName": "Louvre educational-use terms; commercial permission required",
+    "licenseUrl": "https://collections.louvre.fr/en/page/cgu",
+    "releaseClass": "institutionalEducational"
+  },
+  "ap54-virgin-theotokos-saints::primary": {
+    "creatorOrInstitution": "Byzantine icon painter / Saint Catherine’s Monastery / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap55-lindisfarne-gospels::st-matthew-cross-carpet": {
+    "creatorOrInstitution": "Eadfrith / British Library / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap55-lindisfarne-gospels::st-luke-portrait": {
+    "creatorOrInstitution": "Eadfrith (traditionally attributed) / British Library / Smarthistory",
+    "licenseName": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "releaseClass": "noncommercial"
+  },
+  "ap55-lindisfarne-gospels::st-luke-incipit": {
+    "creatorOrInstitution": "Eadfrith-associated workshop / British Library / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap56-great-mosque-cordoba::exterior": {
+    "creatorOrInstitution": "Richard Mortel / Wikimedia Commons",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "releaseClass": "open"
+  },
+  "ap56-great-mosque-cordoba::hypostyle-hall": {
+    "creatorOrInstitution": "Antonio Palacios / Wikimedia Commons",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "releaseClass": "open"
+  },
+  "ap56-great-mosque-cordoba::mihrab-detail": {
+    "creatorOrInstitution": "TheBoxagon / Wikimedia Commons",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap56-great-mosque-cordoba::double-tier-arches": {
+    "creatorOrInstitution": "James (Jim) Gordon / Wikimedia Commons",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "releaseClass": "open"
+  },
+  "ap56-great-mosque-cordoba::plan": {
+    "creatorOrInstitution": "Azahara22; revision R. Prazeres / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap57-pyxis-al-mughira::primary": {
+    "creatorOrInstitution": "Workshop at the court of Madinat al-Zahra / Musée du Louvre / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap58-church-sainte-foy::exterior": {
+    "creatorOrInstitution": "Velvet / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap58-church-sainte-foy::last-judgment-tympanum": {
+    "creatorOrInstitution": "Woodstock / Wikimedia Commons",
+    "licenseName": "Free Art License 1.3",
+    "licenseUrl": "https://artlibre.org/licence/lal/en/",
+    "releaseClass": "open"
+  },
+  "ap58-church-sainte-foy::interior": {
+    "creatorOrInstitution": "PMRMaeyaert / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap58-church-sainte-foy::reliquary": {
+    "creatorOrInstitution": "Medieval metalworkers / Abbey Church of Sainte-Foy / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap59-bayeux-tapestry::narrative-overview": {
+    "creatorOrInstitution": "Anglo-Saxon embroiderers / Bayeux Museum / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap59-bayeux-tapestry::narrative-detail": {
+    "creatorOrInstitution": "Anglo-Saxon embroiderers; photograph Myrabella / Bayeux Museum / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap60-chartres-cathedral::west-facade": {
+    "creatorOrInstitution": "Dcconsta / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap60-chartres-cathedral::nave": {
+    "creatorOrInstitution": "Zairon / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap60-chartres-cathedral::plan": {
+    "creatorOrInstitution": "Eugène Viollet-le-Duc / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap60-chartres-cathedral::royal-portal": {
+    "creatorOrInstitution": "Patrick Monchicourt / Wikimedia Commons",
+    "licenseName": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "releaseClass": "open"
+  },
+  "ap60-chartres-cathedral::rose-window": {
+    "creatorOrInstitution": "Ludvig14 / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap60-chartres-cathedral::stained-glass": {
+    "creatorOrInstitution": "Oliver Mitchell / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap61-bibles-moralisees::dedication-page": {
+    "creatorOrInstitution": "Parisian illuminators / Toledo Cathedral / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap61-bibles-moralisees::apocalypse-scenes": {
+    "creatorOrInstitution": "Parisian illuminators / Austrian National Library / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap62-rottgen-pieta::primary": {
+    "creatorOrInstitution": "Rhineland sculptor; photograph J. Vogel / LVR-LandesMuseum Bonn / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap63-arena-scrovegni-chapel::chapel-interior": {
+    "creatorOrInstitution": "Hugo DK / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap63-arena-scrovegni-chapel::lamentation": {
+    "creatorOrInstitution": "Giotto di Bondone / Scrovegni Chapel / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap63-arena-scrovegni-chapel::chapel-exterior": {
+    "creatorOrInstitution": "Andrea Piroddi / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap64-golden-haggadah::plagues-egypt": {
+    "creatorOrInstitution": "Jewish manuscript painter / British Library / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap64-golden-haggadah::scenes-liberation": {
+    "creatorOrInstitution": "Jewish manuscript painter; NLI Education Center / British Library / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap64-golden-haggadah::preparation-passover": {
+    "creatorOrInstitution": "Jewish manuscript painter / British Library / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap65-alhambra::exterior": {
+    "creatorOrInstitution": "Jebulon / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap65-alhambra::court-lions": {
+    "creatorOrInstitution": "David Green / Wikimedia Commons",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "releaseClass": "open"
+  },
+  "ap65-alhambra::hall-sisters": {
+    "creatorOrInstitution": "PerryPlanet / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap65-alhambra::plan": {
+    "creatorOrInstitution": "Encyclopædia Britannica (1911) / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap66-merode-altarpiece::primary": {
+    "creatorOrInstitution": "Workshop of Robert Campin / The Met Cloisters",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap67-pazzi-chapel::exterior": {
+    "creatorOrInstitution": "Yair Haklai / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap67-pazzi-chapel::interior": {
+    "creatorOrInstitution": "Gryffindor / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap68-arnolfini-portrait::primary": {
+    "creatorOrInstitution": "Jan van Eyck / National Gallery, London / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap69-donatello-david::primary": {
+    "creatorOrInstitution": "Donatello; photograph Yair Haklai / Museo Nazionale del Bargello / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap70-palazzo-rucellai::primary": {
+    "creatorOrInstitution": "Leon Battista Alberti; photograph Miguel Hermoso Cuesta / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap71-madonna-child-two-angels::primary": {
+    "creatorOrInstitution": "Fra Filippo Lippi; photograph Armin Kleiner / Uffizi Gallery / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap72-birth-venus::primary": {
+    "creatorOrInstitution": "Sandro Botticelli / Uffizi Gallery / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap73-last-supper::primary": {
+    "creatorOrInstitution": "Leonardo da Vinci; reproduction uploaded by Sailko / Museo del Cenacolo Vinciano / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap74-adam-eve-durer::primary": {
+    "creatorOrInstitution": "Albrecht Dürer / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap75-sistine-chapel-frescoes::ceiling-overview": {
+    "creatorOrInstitution": "Michelangelo; photograph Gary Todd / Sistine Chapel / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap75-sistine-chapel-frescoes::delphic-sibyl": {
+    "creatorOrInstitution": "Michelangelo / Sistine Chapel / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap75-sistine-chapel-frescoes::the-flood": {
+    "creatorOrInstitution": "Michelangelo / Sistine Chapel / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap75-sistine-chapel-frescoes::last-judgment": {
+    "creatorOrInstitution": "Michelangelo / Sistine Chapel / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap76-school-athens::primary": {
+    "creatorOrInstitution": "Raphael / Apostolic Palace / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap77-isenheim-altarpiece::closed-state": {
+    "creatorOrInstitution": "Matthias Grünewald; photograph Gerhard Salomon / Unterlinden Museum / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap77-isenheim-altarpiece::open-state": {
+    "creatorOrInstitution": "Matthias Grünewald and Nikolaus Hagenauer; photograph Gsimonov / Unterlinden Museum / Wikimedia Commons",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap78-entombment-christ-pontormo::primary": {
+    "creatorOrInstitution": "Jacopo da Pontormo / Capponi Chapel / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap79-allegory-law-grace::primary": {
+    "creatorOrInstitution": "Lucas Cranach the Elder; scan by Concord / Weimar Schlossmuseum and British Museum / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap80-venus-urbino::primary": {
+    "creatorOrInstitution": "Titian / Uffizi Gallery / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap81-codex-mendoza-frontispiece::primary": {
+    "creatorOrInstitution": "Mexica painter-scribes / Bodleian Libraries / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap82-il-gesu::facade": {
+    "creatorOrInstitution": "Hugo DK / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap82-il-gesu::nave": {
+    "creatorOrInstitution": "NateBergin / Wikimedia Commons",
+    "licenseName": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "releaseClass": "open"
+  },
+  "ap82-il-gesu::triumph-name-jesus": {
+    "creatorOrInstitution": "Fb78 / Wikimedia Commons",
+    "licenseName": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "releaseClass": "open"
+  },
+  "ap83-hunters-snow::primary": {
+    "creatorOrInstitution": "Pieter Bruegel the Elder / Kunsthistorisches Museum / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap84-mosque-selim-ii::exterior": {
+    "creatorOrInstitution": "eye of einstein / Wikimedia Commons",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "releaseClass": "open"
+  },
+  "ap84-mosque-selim-ii::interior": {
+    "creatorOrInstitution": "Tarik Kaan Muslu / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap84-mosque-selim-ii::plan": {
+    "creatorOrInstitution": "Dosseman / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap85-calling-saint-matthew::primary": {
+    "creatorOrInstitution": "Caravaggio / Contarelli Chapel / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap86-henri-iv-marie-medici::primary": {
+    "creatorOrInstitution": "Peter Paul Rubens / Musée du Louvre / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap87-self-portrait-saskia::primary": {
+    "creatorOrInstitution": "Rembrandt van Rijn / Rembrandt House Museum / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap88-san-carlo-quattro-fontane::facade": {
+    "creatorOrInstitution": "Nicholas Hartmann / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap88-san-carlo-quattro-fontane::interior": {
+    "creatorOrInstitution": "Oursana / Wikimedia Commons",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap88-san-carlo-quattro-fontane::plan": {
+    "creatorOrInstitution": "Afernand74 / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap89-ecstasy-saint-teresa::church-interior": {
+    "creatorOrInstitution": "Livioandronico2013 / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap89-ecstasy-saint-teresa::cornaro-chapel": {
+    "creatorOrInstitution": "Викидим / Santa Maria della Vittoria / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap89-ecstasy-saint-teresa::ecstasy-saint-teresa": {
+    "creatorOrInstitution": "David Finn Archive / National Gallery of Art / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap90-angel-arquebus::primary": {
+    "creatorOrInstitution": "Circle of the Master of Calamarca / National Museum of Art, La Paz / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap91-las-meninas::primary": {
+    "creatorOrInstitution": "Diego Velázquez / Museo del Prado / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap92-woman-holding-balance::primary": {
+    "creatorOrInstitution": "Johannes Vermeer / National Gallery of Art / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap93-palace-versailles::aerial-overview": {
+    "creatorOrInstitution": "Bonjour145644 / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap93-palace-versailles::facade": {
+    "creatorOrInstitution": "DiscoA340 / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap93-palace-versailles::courtyard": {
+    "creatorOrInstitution": "Blood Destructor / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap93-palace-versailles::hall-mirrors": {
+    "creatorOrInstitution": "Gary Todd / Wikimedia Commons",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap93-palace-versailles::gardens": {
+    "creatorOrInstitution": "HerRobin / Wikimedia Commons",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap94-screen-siege-belgrade::siege-belgrade-front": {
+    "creatorOrInstitution": "Circle of the González family / Brooklyn Museum / Wikimedia Commons",
+    "licenseName": "No known copyright restrictions",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_subject_matter#Photographs_of_old_artworks",
+    "releaseClass": "open"
+  },
+  "ap94-screen-siege-belgrade::hunting-scene-reverse": {
+    "creatorOrInstitution": "Circle of the González family / Brooklyn Museum / Wikimedia Commons",
+    "licenseName": "No known copyright restrictions",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_subject_matter#Photographs_of_old_artworks",
+    "releaseClass": "open"
+  },
+  "ap95-virgin-guadalupe::primary": {
+    "creatorOrInstitution": "Miguel González / Los Angeles County Museum of Art",
+    "licenseName": "LACMA collection image; reuse subject to museum terms",
+    "licenseUrl": "https://www.lacma.org/terms-use",
+    "releaseClass": "institutionalEducational"
+  },
+  "ap96-fruit-insects::primary": {
+    "creatorOrInstitution": "Rachel Ruysch / Uffizi Gallery / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap97-spaniard-indian-mestizo::primary": {
+    "creatorOrInstitution": "Attributed to Juan Rodríguez Juárez / Breamore House / Smarthistory",
+    "licenseName": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "releaseClass": "noncommercial"
+  },
+  "ap98-tete-a-tete::primary": {
+    "creatorOrInstitution": "William Hogarth / National Gallery, London / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  }
+}

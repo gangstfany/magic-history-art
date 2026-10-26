@@ -1,0 +1,1014 @@
+{
+  "artworks": [
+    {
+      "id": "ap13-palette-of-king-narmer",
+      "apNumber": 13,
+      "titleEn": "Palette of King Narmer",
+      "titleZh": "纳尔迈王调色板",
+      "unit": 2,
+      "culture": "egypt",
+      "region": "northAfrica",
+      "period": "Predynastic Egypt",
+      "date": "c. 3000–2920 B.C.E.",
+      "artistCulture": "Predynastic Egyptian",
+      "siteName": "Hierakonpolis (Nekhen)",
+      "siteQualifier": "出土地",
+      "coordinates": {
+        "x": 790,
+        "y": 430
+      },
+      "medium": "Greywacke",
+      "workType": "ceremonial palette",
+      "function": "奉献于神庙并宣示王权与统一",
+      "form": "双面浮雕、分层构图、等级比例",
+      "content": "国王戴上下埃及王冠击敌，神兽交颈形成调色凹槽",
+      "context": "早期王朝形成期以礼仪图像建构统一君权",
+      "recognitionAnchors": [
+        "两面不同王冠",
+        "击敌姿态与等级比例",
+        "交颈神兽"
+      ],
+      "comparisonIds": [
+        "ap24-last-judgment-of-hunefer",
+        "ap40-alexander-mosaic"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Narmer_Palette.jpg",
+      "imageAlt": "纳尔迈王调色板正反面浮雕",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Narmer_Palette.jpg",
+      "keywords": [
+        "Narmer",
+        "palette",
+        "hierarchy",
+        "unification"
+      ]
+    },
+    {
+      "id": "ap15-seated-scribe",
+      "apNumber": 15,
+      "titleEn": "Seated scribe",
+      "titleZh": "坐姿书记官",
+      "unit": 2,
+      "culture": "egypt",
+      "region": "northAfrica",
+      "period": "Old Kingdom",
+      "date": "c. 2620–2500 B.C.E.",
+      "artistCulture": "Old Kingdom Egyptian",
+      "siteName": "Saqqara",
+      "siteQualifier": "墓葬区出土",
+      "coordinates": {
+        "x": 670,
+        "y": 335
+      },
+      "medium": "Painted limestone",
+      "workType": "funerary sculpture",
+      "function": "墓葬替身并彰显书记官身份",
+      "form": "盘腿坐姿、正面性、彩绘写实",
+      "content": "手持展开纸草卷的中年书记官，眼睛嵌饰",
+      "context": "识字官僚在古王国行政体系中地位突出",
+      "recognitionAnchors": [
+        "盘腿执纸草卷",
+        "嵌饰双眼",
+        "非理想化躯体"
+      ],
+      "comparisonIds": [
+        "ap18-king-menkaura-and-queen",
+        "ap41-seated-boxer"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Le_Scribe_accroupi_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_E_3023.jpg",
+      "imageAlt": "卢浮宫 E 3023 坐姿书记官彩绘石灰岩像",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Scribe_accroupi_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_E_3023.jpg",
+      "keywords": [
+        "scribe",
+        "Saqqara",
+        "limestone",
+        "bureaucracy"
+      ]
+    },
+    {
+      "id": "ap17-great-pyramids-giza",
+      "apNumber": 17,
+      "titleEn": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx",
+      "titleZh": "吉萨大金字塔群与狮身人面像",
+      "unit": 2,
+      "culture": "egypt",
+      "region": "northAfrica",
+      "period": "Old Kingdom, Fourth Dynasty",
+      "date": "c. 2550–2490 B.C.E.",
+      "artistCulture": "Old Kingdom Egyptian",
+      "siteName": "Giza",
+      "coordinates": {
+        "x": 650,
+        "y": 330
+      },
+      "medium": "Cut limestone",
+      "workType": "funerary architecture complex",
+      "function": "法老陵墓与来世祭祀中心",
+      "form": "巨型几何体、方位精确、轴线式祭祀建筑群",
+      "content": "胡夫、哈夫拉、孟卡拉金字塔及大狮身人面像",
+      "context": "集中资源与劳动力体现古王国神圣王权",
+      "recognitionAnchors": [
+        "三座巨型金字塔",
+        "河谷庙至葬祭庙轴线",
+        "狮身人面守护像"
+      ],
+      "comparisonIds": [
+        "ap21-mortuary-temple-hatshepsut",
+        "ap26-athenian-agora"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/All_Gizah_Pyramids.jpg",
+      "imageAlt": "吉萨三座大金字塔全景",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+      "keywords": [
+        "Giza",
+        "pyramid",
+        "sphinx",
+        "pharaoh"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap18-king-menkaura-and-queen",
+      "apNumber": 18,
+      "titleEn": "King Menkaura and queen",
+      "titleZh": "孟卡拉王与王后像",
+      "unit": 2,
+      "culture": "egypt",
+      "region": "northAfrica",
+      "period": "Old Kingdom, Fourth Dynasty",
+      "date": "c. 2490–2472 B.C.E.",
+      "artistCulture": "Old Kingdom Egyptian",
+      "siteName": "Giza",
+      "coordinates": {
+        "x": 650,
+        "y": 330
+      },
+      "medium": "Greywacke",
+      "workType": "royal funerary sculpture",
+      "function": "葬祭中的永恒王室替身",
+      "form": "正面直立、左脚前迈、石块支撑",
+      "content": "国王与王后并立，身体理想化且亲密相拥",
+      "context": "王室形象以恒久材料表达秩序与神圣统治",
+      "recognitionAnchors": [
+        "双人并立",
+        "国王左脚前迈",
+        "背板与未完全释放石块"
+      ],
+      "comparisonIds": [
+        "ap15-seated-scribe",
+        "ap42-head-of-a-roman-patrician"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/King_Menkaura_%28Mycerinus%29_and_queen.jpg",
+      "imageAlt": "孟卡拉王与王后灰瓦岩双人像",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:King_Menkaura_%28Mycerinus%29_and_queen.jpg",
+      "keywords": [
+        "Menkaura",
+        "queen",
+        "greywacke",
+        "ka"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap20-temple-of-amun-re-karnak",
+      "apNumber": 20,
+      "titleEn": "Temple of Amun-Re and Hypostyle Hall",
+      "titleZh": "卡纳克阿蒙-拉神庙与多柱厅",
+      "unit": 2,
+      "culture": "egypt",
+      "region": "northAfrica",
+      "period": "New Kingdom",
+      "date": "c. 1550 B.C.E.; hall c. 1250 B.C.E.",
+      "artistCulture": "New Kingdom Egyptian",
+      "siteName": "Karnak, Thebes (Luxor)",
+      "coordinates": {
+        "x": 700,
+        "y": 415
+      },
+      "medium": "Cut sandstone and mud brick",
+      "workType": "temple complex",
+      "function": "阿蒙-拉祭祀、节庆巡游与王权展示",
+      "form": "塔门、庭院、巨柱厅沿轴线层层深入",
+      "content": "巨型纸草柱、方尖碑、浮雕和神圣内殿",
+      "context": "历代法老扩建国家神庙，连接神权与帝国资源",
+      "recognitionAnchors": [
+        "密集巨柱厅",
+        "纸草束形柱头",
+        "塔门—庭院—内殿轴线"
+      ],
+      "comparisonIds": [
+        "ap21-mortuary-temple-hatshepsut",
+        "ap46-pantheon"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Templo_de_Karnak,_Luxor,_Egipto,_2022-04-03,_DD_146.jpg",
+      "imageAlt": "卡纳克神庙多柱厅巨柱",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Templo_de_Karnak,_Luxor,_Egipto,_2022-04-03,_DD_146.jpg",
+      "keywords": [
+        "Karnak",
+        "Amun-Re",
+        "hypostyle",
+        "pylon"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap21-mortuary-temple-hatshepsut",
+      "apNumber": 21,
+      "titleEn": "Mortuary temple of Hatshepsut",
+      "titleZh": "哈特谢普苏特葬祭庙",
+      "unit": 2,
+      "culture": "egypt",
+      "region": "northAfrica",
+      "period": "New Kingdom, Eighteenth Dynasty",
+      "date": "c. 1473–1458 B.C.E.",
+      "artistCulture": "New Kingdom Egyptian; attributed to Senenmut",
+      "siteName": "Deir el-Bahri, Thebes",
+      "coordinates": {
+        "x": 690,
+        "y": 420
+      },
+      "medium": "Sandstone, partially carved into a rock cliff, and red granite",
+      "workType": "mortuary temple",
+      "function": "女法老葬祭与阿蒙崇拜",
+      "form": "三层露台、坡道和柱廊嵌入悬崖",
+      "content": "神圣诞生、蓬特远征与王室祭祀浮雕",
+      "context": "以建筑和图像为女性法老统治提供神授合法性",
+      "recognitionAnchors": [
+        "三层水平露台",
+        "中央长坡道",
+        "贴合代尔巴哈里峭壁"
+      ],
+      "comparisonIds": [
+        "ap17-great-pyramids-giza",
+        "ap26-athenian-agora"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Temple_of_Hatshepsut,_Deir_el-Bahari,_Luxor,_Egypt.jpg",
+      "imageAlt": "代尔巴哈里哈特谢普苏特葬祭庙正面",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Hatshepsut,_Deir_el-Bahari,_Luxor,_Egypt.jpg",
+      "keywords": [
+        "Hatshepsut",
+        "mortuary temple",
+        "terraces",
+        "Senenmut"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap22-akhenaten-nefertiti-daughters",
+      "apNumber": 22,
+      "titleEn": "Akhenaten, Nefertiti, and three daughters",
+      "titleZh": "阿肯那顿、娜芙蒂蒂与三个女儿",
+      "unit": 2,
+      "culture": "egypt",
+      "region": "northAfrica",
+      "period": "New Kingdom, Amarna Period",
+      "date": "c. 1353–1335 B.C.E.",
+      "artistCulture": "Amarna Egyptian",
+      "siteName": "Amarna (Akhetaten)",
+      "siteQualifier": "阿玛尔纳时期家庭祭坛浮雕",
+      "coordinates": {
+        "x": 680,
+        "y": 370
+      },
+      "medium": "Limestone",
+      "workType": "domestic altar relief",
+      "function": "家庭崇拜与王室神圣性的私人祭坛",
+      "form": "凹雕与低浮雕结合、亲密非正式姿态",
+      "content": "王后与国王亲吻女儿，太阳圆盘阿顿伸出光线",
+      "context": "阿肯那顿宗教改革以阿顿为核心并改变王室图像",
+      "recognitionAnchors": [
+        "阿顿光线末端小手",
+        "王室亲子互动",
+        "拉长头颅与身体"
+      ],
+      "comparisonIds": [
+        "ap13-palette-of-king-narmer",
+        "ap42-head-of-a-roman-patrician"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Akhenaten,_Nefertiti_and_their_children.jpg",
+      "imageAlt": "阿肯那顿王室家庭祭坛浮雕",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Akhenaten,_Nefertiti_and_their_children.jpg",
+      "keywords": [
+        "Amarna",
+        "Aten",
+        "Akhenaten",
+        "Nefertiti"
+      ]
+    },
+    {
+      "id": "ap24-last-judgment-of-hunefer",
+      "apNumber": 24,
+      "titleEn": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead)",
+      "titleZh": "胡内弗《末日审判》",
+      "unit": 2,
+      "culture": "egypt",
+      "region": "northAfrica",
+      "period": "New Kingdom, Nineteenth Dynasty",
+      "date": "c. 1275 B.C.E.",
+      "artistCulture": "New Kingdom Egyptian",
+      "siteName": "Thebes",
+      "siteQualifier": "墓葬纸草卷，现藏大英博物馆",
+      "coordinates": {
+        "x": 695,
+        "y": 422
+      },
+      "medium": "Painted papyrus scroll",
+      "workType": "funerary manuscript",
+      "function": "以咒文和图像引导亡者通过来世审判",
+      "form": "连续叙事、复合视角、象形文字注释",
+      "content": "阿努比斯称心、阿米特守候、荷鲁斯引见奥西里斯",
+      "context": "《亡灵书》卷轴为精英定制，协助获得永生",
+      "recognitionAnchors": [
+        "心脏与羽毛天平",
+        "鳄首阿米特",
+        "奥西里斯审判场景"
+      ],
+      "comparisonIds": [
+        "ap13-palette-of-king-narmer",
+        "ap40-alexander-mosaic"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BD_Hunefer.jpg",
+      "imageAlt": "胡内弗亡灵书称心审判场景",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:BD_Hunefer.jpg",
+      "keywords": [
+        "Book of the Dead",
+        "weighing of heart",
+        "Osiris",
+        "papyrus"
+      ]
+    },
+    {
+      "id": "ap27-anavysos-kouros",
+      "apNumber": 27,
+      "titleEn": "Anavysos Kouros",
+      "titleZh": "阿纳维索斯青年立像",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "Archaic Greece",
+      "date": "c. 530 B.C.E.",
+      "artistCulture": "Archaic Greek",
+      "siteName": "Anavysos, Attica",
+      "siteQualifier": "墓标出土地",
+      "coordinates": {
+        "x": 405,
+        "y": 285
+      },
+      "medium": "Marble with remnants of paint",
+      "workType": "grave marker sculpture",
+      "function": "纪念阵亡青年克罗伊索斯",
+      "form": "裸体正面立姿、左脚前迈、程式化对称",
+      "content": "理想化青年以古风式微笑面向观者",
+      "context": "贵族墓标借英雄化裸体表达青春与荣誉",
+      "recognitionAnchors": [
+        "古风式微笑",
+        "辫珠状头发",
+        "左脚前迈但重量均衡"
+      ],
+      "comparisonIds": [
+        "ap28-peplos-kore",
+        "ap34-doryphoros"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kouros_anavissos.jpg",
+      "imageAlt": "阿纳维索斯青年大理石裸体立像",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kouros_anavissos.jpg",
+      "keywords": [
+        "kouros",
+        "Archaic smile",
+        "grave marker",
+        "Kroisos"
+      ]
+    },
+    {
+      "id": "ap28-peplos-kore",
+      "apNumber": 28,
+      "titleEn": "Peplos Kore from the Acropolis",
+      "titleZh": "卫城佩普洛斯少女像",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "Archaic Greece",
+      "date": "c. 530 B.C.E.",
+      "artistCulture": "Archaic Greek",
+      "siteName": "Athens",
+      "coordinates": {
+        "x": 390,
+        "y": 270
+      },
+      "medium": "Marble, painted details",
+      "workType": "votive sculpture",
+      "function": "献给雅典娜的奉献像",
+      "form": "着衣正面立姿、古风式微笑、原有彩绘",
+      "content": "年轻女性手臂前伸，厚重衣装下保留身体轮廓",
+      "context": "卫城祭祀奉献物体现贵族虔敬与古风人体范式",
+      "recognitionAnchors": [
+        "古风式微笑",
+        "着衣女性正面像",
+        "残留彩绘与缺失前伸手臂"
+      ],
+      "comparisonIds": [
+        "ap27-anavysos-kouros",
+        "ap36-grave-stele-hegeso"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/ACMA_679_Kore_1.JPG",
+      "imageAlt": "雅典卫城佩普洛斯少女像",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ACMA_679_Kore_1.JPG",
+      "keywords": [
+        "kore",
+        "Peplos",
+        "votive",
+        "polychromy"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap33-niobides-krater",
+      "apNumber": 33,
+      "titleEn": "Niobides Krater",
+      "titleZh": "尼俄柏子女双耳喷口酒器",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "Early Classical Greece",
+      "date": "c. 460–450 B.C.E.",
+      "artistCulture": "Attributed to the Niobid Painter",
+      "siteName": "Orvieto, Italy",
+      "siteQualifier": "发现地；希腊阿提卡制陶",
+      "coordinates": {
+        "x": 285,
+        "y": 250
+      },
+      "medium": "Clay, red-figure technique with white highlights",
+      "workType": "calyx krater",
+      "function": "宴饮中调和酒水并承载神话教育",
+      "form": "红绘式，多层地面线营造空间",
+      "content": "阿波罗与阿耳忒弥斯惩罚尼俄柏子女；另一面英雄群像",
+      "context": "古典早期瓶画吸收大型壁画的空间与姿态实验",
+      "recognitionAnchors": [
+        "多层人物错落",
+        "红绘式裸体",
+        "阿波罗与阿耳忒弥斯射箭"
+      ],
+      "comparisonIds": [
+        "ap24-last-judgment-of-hunefer",
+        "ap40-alexander-mosaic"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Niobid_Krater_-_Niobid_massacre.jpg",
+      "imageAlt": "尼俄柏子女红绘式双耳喷口酒器",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Niobid_Krater_-_Niobid_massacre.jpg",
+      "keywords": [
+        "krater",
+        "red-figure",
+        "Niobids",
+        "symposium"
+      ]
+    },
+    {
+      "id": "ap34-doryphoros",
+      "apNumber": 34,
+      "titleEn": "Doryphoros (Spear Bearer)",
+      "titleZh": "持矛者",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "High Classical Greece",
+      "date": "Original c. 450–440 B.C.E.; Roman marble copy",
+      "artistCulture": "Polykleitos; Roman copy after Greek bronze original",
+      "siteName": "Pompeii",
+      "siteQualifier": "现存罗马大理石复制品发现地",
+      "coordinates": {
+        "x": 205,
+        "y": 300
+      },
+      "medium": "Marble (Roman copy of Greek bronze)",
+      "workType": "ideal male sculpture",
+      "function": "呈现波利克里托斯《法则》的理想比例",
+      "form": "对立式平衡、肌肉理想化、动态均衡",
+      "content": "裸体持矛青年以支撑腿与放松腿形成交叉平衡",
+      "context": "古典希腊以数学比例和人体观察定义理想美",
+      "recognitionAnchors": [
+        "成熟 contrapposto",
+        "支撑与放松肢体交叉",
+        "罗马复制品树桩支撑"
+      ],
+      "comparisonIds": [
+        "ap27-anavysos-kouros",
+        "ap42-head-of-a-roman-patrician"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Doryphoros.jpg",
+      "imageAlt": "波利克里托斯持矛者罗马大理石复制品",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Doryphoros.jpg",
+      "keywords": [
+        "Doryphoros",
+        "Polykleitos",
+        "Canon",
+        "contrapposto"
+      ]
+    },
+    {
+      "id": "ap36-grave-stele-hegeso",
+      "apNumber": 36,
+      "titleEn": "Grave stele of Hegeso",
+      "titleZh": "赫格索墓碑",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "High Classical Greece",
+      "date": "c. 410 B.C.E.",
+      "artistCulture": "Attributed to Kallimachos",
+      "siteName": "Athens",
+      "coordinates": {
+        "x": 390,
+        "y": 270
+      },
+      "medium": "Marble and paint",
+      "workType": "grave stele",
+      "function": "纪念雅典精英女性并标示家族墓地",
+      "form": "浅浮雕、山墙框景、克制古典姿态",
+      "content": "赫格索坐着从侍女递来的盒中取首饰",
+      "context": "私人墓碑以家庭物品和女性角色呈现身份与失落",
+      "recognitionAnchors": [
+        "坐姿女主人与站立侍女",
+        "打开的首饰盒",
+        "山墙式建筑框架"
+      ],
+      "comparisonIds": [
+        "ap28-peplos-kore",
+        "ap41-seated-boxer"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_Grave_Stele_of_Hegeso_%285th_cent._B.C.%29_at_the_National_Archaeological_Museum_on_3_April_2018.jpg",
+      "imageAlt": "赫格索与侍女墓碑浅浮雕",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Grave_Stele_of_Hegeso_%285th_cent._B.C.%29_at_the_National_Archaeological_Museum_on_3_April_2018.jpg",
+      "keywords": [
+        "Hegeso",
+        "grave stele",
+        "oikos",
+        "relief"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap37-winged-victory-samothrace",
+      "apNumber": 37,
+      "titleEn": "Winged Victory of Samothrace",
+      "titleZh": "萨莫色雷斯的胜利女神",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "Hellenistic Greece",
+      "date": "c. 190 B.C.E.",
+      "artistCulture": "Hellenistic Greek",
+      "siteName": "Samothrace",
+      "siteQualifier": "大神圣所出土",
+      "coordinates": {
+        "x": 455,
+        "y": 195
+      },
+      "medium": "Marble",
+      "workType": "votive monument sculpture",
+      "function": "纪念海战胜利并奉献给神域",
+      "form": "强烈前冲姿态、湿衣纹、全方位戏剧效果",
+      "content": "有翼尼刻立于船首，迎风降临",
+      "context": "希腊化王国以壮观环境和情绪感染观众",
+      "recognitionAnchors": [
+        "展开双翼",
+        "船首基座",
+        "风吹湿衣纹"
+      ],
+      "comparisonIds": [
+        "ap38-great-altar-pergamon",
+        "ap41-seated-boxer"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Louvre_Victoire_de_Samothrace_%28Winged_Victory%29_%289811957165%29.jpg",
+      "imageAlt": "卢浮宫萨莫色雷斯胜利女神与船首基座",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Louvre_Victoire_de_Samothrace_%28Winged_Victory%29_%289811957165%29.jpg",
+      "keywords": [
+        "Nike",
+        "Samothrace",
+        "Hellenistic",
+        "wet drapery"
+      ]
+    },
+    {
+      "id": "ap38-great-altar-pergamon",
+      "apNumber": 38,
+      "titleEn": "Great Altar of Zeus and Athena at Pergamon",
+      "titleZh": "帕加马宙斯与雅典娜大祭坛",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "Hellenistic Greece",
+      "date": "c. 175 B.C.E.",
+      "artistCulture": "Hellenistic Greek",
+      "siteName": "Pergamon (Bergama)",
+      "coordinates": {
+        "x": 505,
+        "y": 235
+      },
+      "medium": "Marble (architecture and sculpture)",
+      "workType": "monumental altar",
+      "function": "献祭并宣扬阿塔罗斯王朝胜利与文明秩序",
+      "form": "宽阔阶梯、爱奥尼亚柱廊、高浮雕环绕基座",
+      "content": "诸神与巨人之战，雅典娜击败阿尔库俄纽斯",
+      "context": "王朝将对高卢人的胜利类比为神战胜混乱",
+      "recognitionAnchors": [
+        "巨型中央阶梯",
+        "人物突破浮雕边框",
+        "雅典娜与盖亚神战场面"
+      ],
+      "comparisonIds": [
+        "ap37-winged-victory-samothrace",
+        "ap45-forum-of-trajan"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Berlin_-_Pergamonmuseum_-_Altar_01.jpg",
+      "imageAlt": "柏林帕加马祭坛复原正面",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin_-_Pergamonmuseum_-_Altar_01.jpg",
+      "keywords": [
+        "Pergamon",
+        "Gigantomachy",
+        "altar",
+        "Hellenistic"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap39-house-of-the-vettii",
+      "apNumber": 39,
+      "titleEn": "House of the Vettii",
+      "titleZh": "维蒂之家",
+      "unit": 2,
+      "culture": "rome",
+      "region": "southernEurope",
+      "period": "Imperial Roman",
+      "date": "Second century B.C.E.; rebuilt c. 62–79 C.E.",
+      "artistCulture": "Imperial Roman",
+      "siteName": "Pompeii",
+      "coordinates": {
+        "x": 205,
+        "y": 300
+      },
+      "medium": "Cut stone and fresco",
+      "workType": "domus",
+      "function": "富裕家庭居住、接待客户与展示社会身份",
+      "form": "轴线式中庭—花园住宅，第四风格壁画覆盖室内",
+      "content": "前庭普里阿普斯、伊克西翁厅神话壁画与喷泉花园",
+      "context": "获释奴隶维蒂兄弟借住宅装饰表达财富与文化资本",
+      "recognitionAnchors": [
+        "中庭与柱廊花园",
+        "第四风格幻景壁画",
+        "入口普里阿普斯称重壁画"
+      ],
+      "comparisonIds": [
+        "ap35-athenian-acropolis",
+        "ap46-pantheon"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/House_of_the_Vettii,_Pompeii,_20230623_133502_34.jpg",
+      "imageAlt": "庞贝维蒂之家柱廊庭院",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:House_of_the_Vettii,_Pompeii,_20230623_133502_34.jpg",
+      "keywords": [
+        "Vettii",
+        "Pompeii",
+        "domus",
+        "Fourth Style"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap40-alexander-mosaic",
+      "apNumber": 40,
+      "titleEn": "Alexander Mosaic from the House of Faun, Pompeii",
+      "titleZh": "亚历山大马赛克",
+      "unit": 2,
+      "culture": "rome",
+      "region": "southernEurope",
+      "period": "Republican Roman",
+      "date": "c. 100 B.C.E.",
+      "artistCulture": "Roman mosaic after a lost Greek painting",
+      "siteName": "Pompeii",
+      "coordinates": {
+        "x": 205,
+        "y": 300
+      },
+      "medium": "Mosaic",
+      "workType": "floor mosaic",
+      "function": "装饰宴会空间并彰显业主的希腊文化素养",
+      "form": "细小 tesserae、强烈透视缩短、拥挤动态构图",
+      "content": "亚历山大冲向大流士，波斯军队溃退",
+      "context": "罗马精英住宅复制著名希腊绘画以占有文化声望",
+      "recognitionAnchors": [
+        "亚历山大与大流士对视",
+        "倒下战士盾中反光",
+        "长矛斜线与拥挤战场"
+      ],
+      "comparisonIds": [
+        "ap33-niobides-krater",
+        "ap45-forum-of-trajan"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Alexander_%28Battle_of_Issus%29_Mosaic.jpg",
+      "imageAlt": "伊苏斯之战亚历山大马赛克全景",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_%28Battle_of_Issus%29_Mosaic.jpg",
+      "keywords": [
+        "Alexander Mosaic",
+        "Issus",
+        "tesserae",
+        "House of the Faun"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap44-colosseum",
+      "apNumber": 44,
+      "titleEn": "Colosseum (Flavian Amphitheater)",
+      "titleZh": "罗马斗兽场（弗拉维圆形竞技场）",
+      "unit": 2,
+      "culture": "rome",
+      "region": "southernEurope",
+      "period": "Imperial Roman, Flavian",
+      "date": "70–80 C.E.",
+      "artistCulture": "Imperial Roman",
+      "siteName": "Rome",
+      "coordinates": {
+        "x": 170,
+        "y": 230
+      },
+      "medium": "Stone and concrete",
+      "workType": "amphitheater",
+      "function": "角斗、猎兽与公共娱乐，巩固皇帝恩惠",
+      "form": "椭圆多层拱券、叠层柱式、放射状混凝土结构",
+      "content": "分等级座席、地下设施与高效环形交通系统",
+      "context": "弗拉维王朝在尼禄宫苑旧址建公共建筑以塑造合法性",
+      "recognitionAnchors": [
+        "椭圆露天竞技场",
+        "连续拱券与叠层柱式",
+        "放射状 vault 交通体系"
+      ],
+      "comparisonIds": [
+        "ap26-athenian-agora",
+        "ap46-pantheon"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Colosseum_-_Rome.jpg",
+      "imageAlt": "罗马斗兽场外立面拱券",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Colosseum_-_Rome.jpg",
+      "keywords": [
+        "Colosseum",
+        "Flavian",
+        "amphitheater",
+        "concrete"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap45-forum-of-trajan",
+      "apNumber": 45,
+      "titleEn": "Forum of Trajan",
+      "titleZh": "图拉真广场",
+      "unit": 2,
+      "culture": "rome",
+      "region": "southernEurope",
+      "period": "Imperial Roman",
+      "date": "106–112 C.E.; column completed 113 C.E.",
+      "artistCulture": "Imperial Roman; Apollodorus of Damascus",
+      "siteName": "Rome",
+      "coordinates": {
+        "x": 170,
+        "y": 230
+      },
+      "medium": "Brick and concrete (architecture); marble (column)",
+      "workType": "imperial civic complex",
+      "function": "行政、司法、商业与皇帝达契亚胜利纪念",
+      "form": "轴线式广场、巴西利卡、庭院、市场与纪功柱",
+      "content": "图拉真柱螺旋浮雕连续叙述达契亚战争",
+      "context": "战争战利品资助宏大工程，将皇帝塑为将领与治理者",
+      "recognitionAnchors": [
+        "图拉真柱螺旋叙事",
+        "巴西利卡乌尔比亚横向阻隔",
+        "多层市场与半圆柱廊"
+      ],
+      "comparisonIds": [
+        "ap35-athenian-acropolis",
+        "ap38-great-altar-pergamon"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Foro_Traiano_dal_Vittoriano_Roma_sera.jpg",
+      "imageAlt": "罗马图拉真广场遗址与纪功柱",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Foro_Traiano_dal_Vittoriano_Roma_sera.jpg",
+      "keywords": [
+        "Trajan",
+        "forum",
+        "column",
+        "Apollodorus"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap46-pantheon",
+      "apNumber": 46,
+      "titleEn": "Pantheon",
+      "titleZh": "万神殿",
+      "unit": 2,
+      "culture": "rome",
+      "region": "southernEurope",
+      "period": "Imperial Roman",
+      "date": "118–125 C.E.",
+      "artistCulture": "Imperial Roman, under Hadrian",
+      "siteName": "Rome",
+      "coordinates": {
+        "x": 170,
+        "y": 230
+      },
+      "medium": "Concrete with stone facing",
+      "workType": "temple",
+      "function": "敬奉诸神并关联皇帝与宇宙秩序",
+      "form": "传统门廊连接圆形穹顶大厅，内切完整球体",
+      "content": "格状穹顶由下至上变轻，圆形天窗引入移动光束",
+      "context": "罗马混凝土技术创造前所未有的统一内部空间",
+      "recognitionAnchors": [
+        "柱廊门面加圆形 rotunda",
+        "巨大无筋混凝土穹顶",
+        "中央 oculus 与 coffers"
+      ],
+      "comparisonIds": [
+        "ap20-temple-of-amun-re-karnak",
+        "ap44-colosseum"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Interior_oculus_of_the_Rome_Pantheon.jpg",
+      "imageAlt": "罗马万神殿穹顶格槽与中央天窗",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_oculus_of_the_Rome_Pantheon.jpg",
+      "keywords": [
+        "Pantheon",
+        "oculus",
+        "dome",
+        "Hadrian"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap47-ludovisi-battle-sarcophagus",
+      "apNumber": 47,
+      "titleEn": "Ludovisi Battle Sarcophagus",
+      "titleZh": "卢多维西战斗石棺",
+      "unit": 2,
+      "culture": "rome",
+      "region": "southernEurope",
+      "period": "Late Imperial Roman",
+      "date": "c. 250 C.E.",
+      "artistCulture": "Late Imperial Roman",
+      "siteName": "Rome",
+      "coordinates": {
+        "x": 170,
+        "y": 230
+      },
+      "medium": "Marble",
+      "workType": "sarcophagus relief",
+      "function": "安葬并英雄化罗马军官",
+      "form": "高浮雕、密集无地线构图、强烈光影与钻孔",
+      "content": "中央罗马统帅在罗马人与蛮族混战上方从容出现",
+      "context": "三世纪危机时期图像以混乱、等级比例和胜利承诺建构秩序",
+      "recognitionAnchors": [
+        "满幅拥挤战斗",
+        "中央无盔统帅额头密特拉符号",
+        "深钻孔形成强光影"
+      ],
+      "comparisonIds": [
+        "ap23-tutankhamun-innermost-coffin",
+        "ap38-great-altar-pergamon"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Grande_Ludovisi_Altemps_Inv8574.jpg",
+      "imageAlt": "卢多维西战斗石棺正面高浮雕",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Grande_Ludovisi_Altemps_Inv8574.jpg",
+      "keywords": [
+        "Ludovisi",
+        "sarcophagus",
+        "Late Empire",
+        "battle"
+      ],
+      "siteQualifier": null
+    }
+  ],
+  "credits": {
+    "ap13-palette-of-king-narmer": {
+      "creatorOrInstitution": "作者：anonymous；来源机构：Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap15-seated-scribe": {
+      "creatorOrInstitution": "摄影：Shonagon；来源机构：Wikimedia Commons",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap17-great-pyramids-giza": {
+      "creatorOrInstitution": "摄影：Ricardo Liberato；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+    },
+    "ap18-king-menkaura-and-queen": {
+      "creatorOrInstitution": "摄影：Jen（Calliopejen1）；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap20-temple-of-amun-re-karnak": {
+      "creatorOrInstitution": "摄影：Diego Delso；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap21-mortuary-temple-hatshepsut": {
+      "creatorOrInstitution": "摄影：Vyacheslav Argenberg；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "ap22-akhenaten-nefertiti-daughters": {
+      "creatorOrInstitution": "摄影：Gerbil；来源机构：Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap24-last-judgment-of-hunefer": {
+      "creatorOrInstitution": "摄影署名：Jon Bodsworth；来源机构：Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap27-anavysos-kouros": {
+      "creatorOrInstitution": "摄影：Mountain；来源机构：Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap28-peplos-kore": {
+      "creatorOrInstitution": "摄影：Marsyas；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/"
+    },
+    "ap33-niobides-krater": {
+      "creatorOrInstitution": "摄影：Seudo；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap34-doryphoros": {
+      "creatorOrInstitution": "摄影者未列；来源机构：Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap36-grave-stele-hegeso": {
+      "creatorOrInstitution": "摄影：George E. Koronaios；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap37-winged-victory-samothrace": {
+      "creatorOrInstitution": "摄影：Gary Todd；来源机构：Wikimedia Commons",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap38-great-altar-pergamon": {
+      "creatorOrInstitution": "摄影：Jan Mehlich（Lestat）；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap39-house-of-the-vettii": {
+      "creatorOrInstitution": "摄影：Argo Navis；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap40-alexander-mosaic": {
+      "creatorOrInstitution": "来源机构：Wikimedia Commons / art database",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap44-colosseum": {
+      "creatorOrInstitution": "摄影：Mattia.masala；来源机构：Wikimedia Commons",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap45-forum-of-trajan": {
+      "creatorOrInstitution": "摄影：Wolfgang Moroder；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap46-pantheon": {
+      "creatorOrInstitution": "摄影：T. Le Berre；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap47-ludovisi-battle-sarcophagus": {
+      "creatorOrInstitution": "摄影署名：Jastrow（2006）；来源机构：Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  }
+}

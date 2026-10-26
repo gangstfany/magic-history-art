@@ -1,0 +1,380 @@
+{
+  "ap99-portrait-sor-juana::primary": {
+    "creatorOrInstitution": "Miguel Cabrera / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap100-philosopher-lecture-orrery::primary": {
+    "creatorOrInstitution": "Joseph Wright of Derby / Derby Museums / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap101-swing::primary": {
+    "creatorOrInstitution": "Jean-Honoré Fragonard / Wallace Collection / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap102-monticello::exterior": {
+    "creatorOrInstitution": "Matt Kozlowski (Mojo Hand) / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap102-monticello::plan": {
+    "creatorOrInstitution": "Historic American Buildings Survey / Library of Congress",
+    "licenseName": "Library of Congress HABS/HAER rights advisory; no known restrictions",
+    "licenseUrl": "https://www.loc.gov/pictures/collection/hh/rights.html",
+    "releaseClass": "open"
+  },
+  "ap103-oath-horatii::primary": {
+    "creatorOrInstitution": "Jacques-Louis David / Louvre Museum / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap104-george-washington::primary": {
+    "creatorOrInstitution": "SuperShadowP1ay / Virginia State Capitol / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap105-self-portrait-vigee-le-brun::primary": {
+    "creatorOrInstitution": "Élisabeth Louise Vigée Le Brun / National Gallery, London / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap106-y-no-hai-remedio::primary": {
+    "creatorOrInstitution": "Francisco de Goya / Metropolitan Museum of Art / Wikimedia Commons",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap107-grande-odalisque::primary": {
+    "creatorOrInstitution": "Jean-Auguste-Dominique Ingres / Louvre Museum / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap108-liberty-leading-people::primary": {
+    "creatorOrInstitution": "Eugène Delacroix / Louvre Museum / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap109-oxbow::primary": {
+    "creatorOrInstitution": "Thomas Cole / Metropolitan Museum of Art / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap110-still-life-studio::primary": {
+    "creatorOrInstitution": "Louis Daguerre / Société française de photographie / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap111-slave-ship::primary": {
+    "creatorOrInstitution": "J. M. W. Turner / Museum of Fine Arts, Boston / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap112-palace-westminster::exterior": {
+    "creatorOrInstitution": "ThatsTheBoss / Wikimedia Commons",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap112-palace-westminster::central-lobby": {
+    "creatorOrInstitution": "The Queen's Empire / Wikimedia Commons",
+    "licenseName": "Public domain (U.S. pre-1931 publication)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+    "releaseClass": "open"
+  },
+  "ap112-palace-westminster::westminster-hall": {
+    "creatorOrInstitution": "Tristan Surtel / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap113-stone-breakers::primary": {
+    "creatorOrInstitution": "Gustave Courbet / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap114-nadar-raising-photography::primary": {
+    "creatorOrInstitution": "Honoré Daumier / Metropolitan Museum of Art / Wikimedia Commons",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap115-olympia::primary": {
+    "creatorOrInstitution": "Édouard Manet / Musée d’Orsay / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap116-saint-lazare-station::primary": {
+    "creatorOrInstitution": "Claude Monet / Musée d’Orsay / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap117-horse-motion::primary": {
+    "creatorOrInstitution": "Eadweard Muybridge / Library of Congress / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap118-valley-mexico::primary": {
+    "creatorOrInstitution": "José María Velasco / Museo Nacional de Arte / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap119-burghers-calais::primary": {
+    "creatorOrInstitution": "JD (Kinchan1) / Wikimedia Commons",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "releaseClass": "open"
+  },
+  "ap120-starry-night::primary": {
+    "creatorOrInstitution": "Vincent van Gogh / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap121-coiffure::primary": {
+    "creatorOrInstitution": "Mary Cassatt / National Gallery of Art",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "releaseClass": "open"
+  },
+  "ap122-scream::primary": {
+    "creatorOrInstitution": "Edvard Munch / Nasjonalmuseet",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap123-where-do-we-come-from::primary": {
+    "creatorOrInstitution": "Paul Gauguin / Museum of Fine Arts Boston",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap124-carson-pirie-scott::exterior": {
+    "creatorOrInstitution": "Ken Lund / Wikimedia Commons",
+    "licenseName": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "releaseClass": "open"
+  },
+  "ap124-carson-pirie-scott::detail": {
+    "creatorOrInstitution": "Beyond My Ken / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap124-carson-pirie-scott::plan": {
+    "creatorOrInstitution": "HABS / National Park Service / Library of Congress",
+    "licenseName": "Library of Congress HABS/HAER rights advisory; no known restrictions",
+    "licenseUrl": "https://www.loc.gov/pictures/collection/hh/rights.html",
+    "releaseClass": "open"
+  },
+  "ap125-mont-sainte-victoire::primary": {
+    "creatorOrInstitution": "Paul Cézanne / Philadelphia Museum of Art",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap126-demoiselles-avignon::primary": {
+    "creatorOrInstitution": "Pablo Picasso / MoMA / Estate of Pablo Picasso–ARS",
+    "licenseName": "MoMA fair-use terms—noncommercial educational use",
+    "licenseUrl": "https://www.moma.org/about/about-this-site/",
+    "releaseClass": "institutionalEducational"
+  },
+  "ap127-steerage::primary": {
+    "creatorOrInstitution": "Alfred Stieglitz / Google Art Project",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap128-kiss-klimt::primary": {
+    "creatorOrInstitution": "Gustav Klimt / Belvedere / Google Cultural Institute",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap129-kiss-brancusi::primary": {
+    "creatorOrInstitution": "Constantin Brancusi / Philadelphia Museum of Art",
+    "licenseName": "PMA educational/fair-use terms",
+    "licenseUrl": "https://www.philamuseum.org/legal",
+    "releaseClass": "institutionalEducational"
+  },
+  "ap130-portuguese::primary": {
+    "creatorOrInstitution": "Georges Braque / University at Buffalo Department of Visual Studies",
+    "licenseName": "University at Buffalo educational-use terms",
+    "licenseUrl": "https://digital.lib.buffalo.edu/items/show/31590",
+    "releaseClass": "institutionalEducational"
+  },
+  "ap131-goldfish::primary": {
+    "creatorOrInstitution": "Henri Matisse / Pushkin Museum",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap132-improvisation-28::primary": {
+    "creatorOrInstitution": "Aerra Carnicom / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap133-self-portrait-soldier::primary": {
+    "creatorOrInstitution": "Ernst Ludwig Kirchner / Allen Memorial Art Museum",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap134-memorial-sheet-karl-liebknecht::primary": {
+    "creatorOrInstitution": "Käthe Kollwitz / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap135-villa-savoye::exterior": {
+    "creatorOrInstitution": "Balthazar Korab / Library of Congress",
+    "licenseName": "No known restrictions on publication",
+    "licenseUrl": "https://hdl.loc.gov/loc.pnp/res.598.kora",
+    "releaseClass": "open"
+  },
+  "ap135-villa-savoye::interior-ramp": {
+    "creatorOrInstitution": "Balthazar Korab Studios / Library of Congress",
+    "licenseName": "No known restrictions on publication",
+    "licenseUrl": "https://hdl.loc.gov/loc.pnp/res.598.kora",
+    "releaseClass": "open"
+  },
+  "ap136-composition-red-blue-yellow::primary": {
+    "creatorOrInstitution": "Piet Mondrian / Kunsthaus Zürich",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open"
+  },
+  "ap137-first-five-year-plan::primary": {
+    "creatorOrInstitution": "Varvara Stepanova / MoMA / rights holders",
+    "licenseName": "MoMA fair-use terms—noncommercial educational use",
+    "licenseUrl": "https://www.moma.org/about/about-this-site/",
+    "releaseClass": "institutionalEducational"
+  },
+  "ap138-object-dejeuner-fourrure::primary": {
+    "creatorOrInstitution": "Meret Oppenheim / MoMA / rights holders",
+    "licenseName": "MoMA fair-use terms—noncommercial educational use",
+    "licenseUrl": "https://www.moma.org/about/about-this-site/",
+    "releaseClass": "institutionalEducational"
+  },
+  "ap139-fallingwater::exterior": {
+    "creatorOrInstitution": "Eritak / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap139-fallingwater::living-room": {
+    "creatorOrInstitution": "Eritak / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap139-fallingwater::site-plan": {
+    "creatorOrInstitution": "Historic American Buildings Survey / National Park Service / Library of Congress",
+    "licenseName": "Library of Congress HABS/HAER rights advisory; no known restrictions",
+    "licenseUrl": "https://www.loc.gov/pictures/collection/hh/rights.html",
+    "releaseClass": "open"
+  },
+  "ap140-two-fridas::primary": {
+    "creatorOrInstitution": "Museo de Arte Moderno / INBAL",
+    "licenseName": "Rights retained — public reproduction unavailable",
+    "licenseUrl": "https://inba.gob.mx/prensa/23566/el-museo-de-arte-moderno-presenta-las-dos-fridas-una-identidad-global",
+    "releaseClass": "restricted"
+  },
+  "ap141-migration-negro-panel-49::primary": {
+    "creatorOrInstitution": "Ron Cogswell / Flickr (photograph license only; underlying artwork rights retained)",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "releaseClass": "open"
+  },
+  "ap142-jungle::primary": {
+    "creatorOrInstitution": "Kent Baldner / Flickr (photograph license only; underlying artwork rights retained)",
+    "licenseName": "CC BY-NC-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+    "releaseClass": "noncommercial"
+  },
+  "ap143-dream-alameda-central::primary": {
+    "creatorOrInstitution": "Smarthistory / Museo Mural Diego Rivera / INBAL",
+    "licenseName": "Rights retained — public reproduction unavailable",
+    "licenseUrl": "https://smarthistory.org/rivera-dream-of-a-sunday-afternoon-in-alameda-central-park/",
+    "releaseClass": "restricted"
+  },
+  "ap144-fountain::primary": {
+    "creatorOrInstitution": "Stefan Powell (spDuchamp) / Flickr (photograph license only; underlying object rights retained)",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "releaseClass": "open"
+  },
+  "ap145-woman-i::primary": {
+    "creatorOrInstitution": "Steven Zucker / Flickr (photograph license only; underlying artwork rights retained)",
+    "licenseName": "CC BY-NC-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+    "releaseClass": "noncommercial"
+  },
+  "ap146-marilyn-diptych::primary": {
+    "creatorOrInstitution": "Tate",
+    "licenseName": "Rights retained — public reproduction unavailable",
+    "licenseUrl": "https://www.tate.org.uk/art/artworks/warhol-marilyn-diptych-t03093",
+    "releaseClass": "restricted"
+  },
+  "ap147-seagram-building::primary": {
+    "creatorOrInstitution": "Jo Baert / Wikimedia Commons",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open"
+  },
+  "ap148-narcissus-garden::primary": {
+    "creatorOrInstitution": "Victoria Miro / FIAC 2010",
+    "licenseName": "Rights retained — public reproduction unavailable",
+    "licenseUrl": "https://www.victoria-miro.com/exhibitions/411/",
+    "releaseClass": "restricted"
+  },
+  "ap149-bay::primary": {
+    "creatorOrInstitution": "Detroit Institute of Arts",
+    "licenseName": "Rights retained — public reproduction unavailable",
+    "licenseUrl": "https://dia.org/collection/bay/45380",
+    "releaseClass": "restricted"
+  },
+  "ap150-lipstick-caterpillar-tracks::primary": {
+    "creatorOrInstitution": "Yale University Art Gallery",
+    "licenseName": "Rights retained — public reproduction unavailable",
+    "licenseUrl": "https://artgallery.yale.edu/collections/objects/13727",
+    "releaseClass": "restricted"
+  },
+  "ap151-spiral-jetty::primary": {
+    "creatorOrInstitution": "Jacob Rak / Wikimedia Commons (photograph CC BY-SA 4.0; territorial artwork-status caveat)",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open"
+  },
+  "ap152-house-new-castle-county::exterior": {
+    "creatorOrInstitution": "Smarthistory / University of Pennsylvania Architectural Archives",
+    "licenseName": "Rights retained — public reproduction unavailable",
+    "licenseUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware",
+    "releaseClass": "restricted"
+  },
+  "ap152-house-new-castle-county::interior": {
+    "creatorOrInstitution": "Smarthistory / University of Pennsylvania Architectural Archives",
+    "licenseName": "Rights retained — public reproduction unavailable",
+    "licenseUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware",
+    "releaseClass": "restricted"
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "99": {
+    "id": "ap99-portrait-sor-juana",
+    "titleEn": "Portrait of Sor Juana Inés de la Cruz",
+    "region": "mexicoCaribbean",
+    "siteName": "Mexico City, New Spain (Mexico)",
+    "provenanceQualifier": null,
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "100": {
+    "id": "ap100-philosopher-lecture-orrery",
+    "titleEn": "A Philosopher Giving a Lecture on the Orrery",
+    "region": "britishIsles",
+    "siteName": "Derby, England",
+    "provenanceQualifier": null,
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "101": {
+    "id": "ap101-swing",
+    "titleEn": "The Swing",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "102": {
+    "id": "ap102-monticello",
+    "titleEn": "Monticello",
+    "region": "unitedStates",
+    "siteName": "Charlottesville, Virginia, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["exterior", "plan"]
+  },
+  "103": {
+    "id": "ap103-oath-horatii",
+    "titleEn": "The Oath of the Horatii",
+    "region": "southernEurope",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "104": {
+    "id": "ap104-george-washington",
+    "titleEn": "George Washington",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": "Modeled from life at Mount Vernon in 1785 and carved in Paris for installation at the Virginia State Capitol in Richmond.",
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "105": {
+    "id": "ap105-self-portrait-vigee-le-brun",
+    "titleEn": "Self-Portrait",
+    "region": "southernEurope",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "106": {
+    "id": "ap106-y-no-hai-remedio",
+    "titleEn": "Y no hai remedio (And There's Nothing to Be Done), from Los Desastres de la Guerra (The Disasters of War), plate 15",
+    "region": "southernEurope",
+    "siteName": "Spain",
+    "provenanceQualifier": "Made during the Peninsular War; the precise place where Goya produced this plate is not securely localized.",
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "107": {
+    "id": "ap107-grande-odalisque",
+    "titleEn": "La Grande Odalisque",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "108": {
+    "id": "ap108-liberty-leading-people",
+    "titleEn": "Liberty Leading the People",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "109": {
+    "id": "ap109-oxbow",
+    "titleEn": "View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm - The Oxbow",
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": "Painted in Cole's New York studio from sketches made at Mount Holyoke, Massachusetts.",
+    "traditionGroup": "enlightenmentRevolution",
+    "requiredViewIds": ["primary"]
+  },
+  "110": {
+    "id": "ap110-still-life-studio",
+    "titleEn": "Still Life in Studio",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["primary"]
+  },
+  "111": {
+    "id": "ap111-slave-ship",
+    "titleEn": "Slave Ship (Slavers Throwing Overboard the Dead and Dying, Typhoon Coming On)",
+    "region": "britishIsles",
+    "siteName": "London, England",
+    "provenanceQualifier": null,
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["primary"]
+  },
+  "112": {
+    "id": "ap112-palace-westminster",
+    "titleEn": "Palace of Westminster (Houses of Parliament)",
+    "region": "britishIsles",
+    "siteName": "London, England",
+    "provenanceQualifier": null,
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["exterior", "central-lobby", "westminster-hall"]
+  },
+  "113": {
+    "id": "ap113-stone-breakers",
+    "titleEn": "The Stone Breakers",
+    "region": "france",
+    "siteName": "Ornans, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["primary"]
+  },
+  "114": {
+    "id": "ap114-nadar-raising-photography",
+    "titleEn": "Nadar Raising Photography to the Height of Art",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["primary"]
+  },
+  "115": {
+    "id": "ap115-olympia",
+    "titleEn": "Olympia",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["primary"]
+  },
+  "116": {
+    "id": "ap116-saint-lazare-station",
+    "titleEn": "The Saint-Lazare Station",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["primary"]
+  },
+  "117": {
+    "id": "ap117-horse-motion",
+    "titleEn": "The Horse in Motion",
+    "region": "unitedStates",
+    "siteName": "Palo Alto, California, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["primary"]
+  },
+  "118": {
+    "id": "ap118-valley-mexico",
+    "titleEn": "The Valley of Mexico from the Hillside of Santa Isabel",
+    "region": "mexicoCaribbean",
+    "siteName": "Mexico City, Mexico",
+    "provenanceQualifier": "Painted from studies of the Valley of Mexico made at the hillside of Santa Isabel; the manifest maps Velasco's Mexico City creation context.",
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["primary"]
+  },
+  "119": {
+    "id": "ap119-burghers-calais",
+    "titleEn": "The Burghers of Calais",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": "Modeled in Rodin's Paris studio for the city of Calais; later casts exist at multiple sites.",
+    "traditionGroup": "realismIndustryPhotography",
+    "requiredViewIds": ["primary"]
+  },
+  "120": {
+    "id": "ap120-starry-night",
+    "titleEn": "The Starry Night",
+    "region": "france",
+    "siteName": "Saint-Rémy-de-Provence, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "121": {
+    "id": "ap121-coiffure",
+    "titleEn": "The Coiffure",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "122": {
+    "id": "ap122-scream",
+    "titleEn": "The Scream",
+    "region": "centralNorthernEurope",
+    "siteName": "Berlin, Germany",
+    "provenanceQualifier": "Painted while Munch was based in Berlin from a remembered experience and landscape near Kristiania (Oslo).",
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "123": {
+    "id": "ap123-where-do-we-come-from",
+    "titleEn": "Where Do We Come From? What Are We? Where Are We Going?",
+    "region": "pacific",
+    "siteName": "Punaauia, Tahiti, French Polynesia",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "124": {
+    "id": "ap124-carson-pirie-scott",
+    "titleEn": "Carson, Pirie, Scott and Company Building",
+    "region": "unitedStates",
+    "siteName": "Chicago, Illinois, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["exterior", "detail", "plan"]
+  },
+  "125": {
+    "id": "ap125-mont-sainte-victoire",
+    "titleEn": "Mont Sainte-Victoire",
+    "region": "france",
+    "siteName": "Aix-en-Provence, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "126": {
+    "id": "ap126-demoiselles-avignon",
+    "titleEn": "Les Demoiselles d'Avignon",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "127": {
+    "id": "ap127-steerage",
+    "titleEn": "The Steerage",
+    "region": "transatlantic",
+    "siteName": "North Atlantic Ocean, aboard SS Kaiser Wilhelm II",
+    "provenanceQualifier": "Photographed aboard the SS Kaiser Wilhelm II during Stieglitz's 1907 voyage from New York to Europe; the map anchor represents the transatlantic voyage rather than a fixed city.",
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "128": {
+    "id": "ap128-kiss-klimt",
+    "titleEn": "The Kiss",
+    "region": "centralNorthernEurope",
+    "siteName": "Vienna, Austria",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "129": {
+    "id": "ap129-kiss-brancusi",
+    "titleEn": "The Kiss",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": "Maps the Paris creation context of Brancusi's original 1907-1908 conception; the College Board reference image shows the 1916 version.",
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "130": {
+    "id": "ap130-portuguese",
+    "titleEn": "The Portuguese",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "131": {
+    "id": "ap131-goldfish",
+    "titleEn": "The Goldfish",
+    "region": "france",
+    "siteName": "Issy-les-Moulineaux, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "132": {
+    "id": "ap132-improvisation-28",
+    "titleEn": "Improvisation 28 (second version)",
+    "region": "centralNorthernEurope",
+    "siteName": "Munich, Germany",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "133": {
+    "id": "ap133-self-portrait-soldier",
+    "titleEn": "Self-Portrait as a Soldier",
+    "region": "centralNorthernEurope",
+    "siteName": "Berlin, Germany",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "134": {
+    "id": "ap134-memorial-sheet-karl-liebknecht",
+    "titleEn": "Memorial Sheet of Karl Liebknecht",
+    "region": "centralNorthernEurope",
+    "siteName": "Berlin, Germany",
+    "provenanceQualifier": null,
+    "traditionGroup": "postImpressionismEarlyModernism",
+    "requiredViewIds": ["primary"]
+  },
+  "135": {
+    "id": "ap135-villa-savoye",
+    "titleEn": "Villa Savoye",
+    "region": "france",
+    "siteName": "Poissy-sur-Seine, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["exterior", "interior-ramp"]
+  },
+  "136": {
+    "id": "ap136-composition-red-blue-yellow",
+    "titleEn": "Composition with Red, Blue and Yellow",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "137": {
+    "id": "ap137-first-five-year-plan",
+    "titleEn": "Illustration from The Results of the First Five-Year Plan",
+    "region": "russiaSoviet",
+    "siteName": "Moscow, Soviet Union (Russia)",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "138": {
+    "id": "ap138-object-dejeuner-fourrure",
+    "titleEn": "Object (Le Déjeuner en fourrure)",
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "139": {
+    "id": "ap139-fallingwater",
+    "titleEn": "Fallingwater",
+    "region": "unitedStates",
+    "siteName": "Mill Run, Pennsylvania, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["exterior", "living-room", "site-plan"]
+  },
+  "140": {
+    "id": "ap140-two-fridas",
+    "titleEn": "The Two Fridas",
+    "region": "mexicoCaribbean",
+    "siteName": "Mexico City, Mexico",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "141": {
+    "id": "ap141-migration-negro-panel-49",
+    "titleEn": "The Migration of the Negro, Panel no. 49",
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "142": {
+    "id": "ap142-jungle",
+    "titleEn": "The Jungle",
+    "region": "mexicoCaribbean",
+    "siteName": "Havana, Cuba",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "143": {
+    "id": "ap143-dream-alameda-central",
+    "titleEn": "Dream of a Sunday Afternoon in the Alameda Central Park",
+    "region": "mexicoCaribbean",
+    "siteName": "Mexico City, Mexico",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "144": {
+    "id": "ap144-fountain",
+    "titleEn": "Fountain",
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": "Maps the New York context of the lost 1917 original and the 1950 second version shown by College Board; multiple authorized replicas exist.",
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "145": {
+    "id": "ap145-woman-i",
+    "titleEn": "Woman, I",
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "146": {
+    "id": "ap146-marilyn-diptych",
+    "titleEn": "Marilyn Diptych",
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "147": {
+    "id": "ap147-seagram-building",
+    "titleEn": "Seagram Building",
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "148": {
+    "id": "ap148-narcissus-garden",
+    "titleEn": "Narcissus Garden",
+    "region": "southernEurope",
+    "siteName": "Venice, Italy",
+    "provenanceQualifier": "Maps Kusama's original 1966 Venice Biennale installation and performance; the College Board reference image documents a 2010 Paris installation.",
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "149": {
+    "id": "ap149-bay",
+    "titleEn": "The Bay",
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "150": {
+    "id": "ap150-lipstick-caterpillar-tracks",
+    "titleEn": "Lipstick (Ascending) on Caterpillar Tracks",
+    "region": "unitedStates",
+    "siteName": "New Haven, Connecticut, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "151": {
+    "id": "ap151-spiral-jetty",
+    "titleEn": "Spiral Jetty",
+    "region": "unitedStates",
+    "siteName": "Rozel Point, Great Salt Lake, Utah, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["primary"]
+  },
+  "152": {
+    "id": "ap152-house-new-castle-county",
+    "titleEn": "House in New Castle County",
+    "region": "unitedStates",
+    "siteName": "New Castle County, Delaware, U.S.",
+    "provenanceQualifier": "Private residence; the manifest uses the county-level location published by College Board.",
+    "traditionGroup": "avantGardeArchitecturePostwar",
+    "requiredViewIds": ["exterior", "interior"]
+  }
+}

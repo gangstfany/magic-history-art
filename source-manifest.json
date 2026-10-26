@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/gangstfany/magic-history",
+  "commit": "475615116516c5feab4b17daa308027d3431e4f1",
+  "sourceRef": "feature/ap-art-history-u6",
+  "originalHtmlSha256": "8841c84dc89c41e7785f82289ea82f7a4e3bf1ca0509ff635fd0315f0b0b36fd",
+  "workCount": 250,
+  "units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "excluded": "Uncommitted drafts and private media were not copied.",
+  "provenanceFix": "fe9737e provenanceQualifier ?? siteQualifier already present in 4756151."
+}

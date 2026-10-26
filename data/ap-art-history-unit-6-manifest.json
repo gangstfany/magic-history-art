@@ -1,0 +1,128 @@
+{
+  "167": {
+    "id": "ap167-great-zimbabwe",
+    "titleEn": "Conical tower and circular wall of Great Zimbabwe",
+    "region": "southernAfrica",
+    "siteName": "Great Zimbabwe, Masvingo Province, Zimbabwe",
+    "provenanceQualifier": null,
+    "traditionGroup": "African Architecture",
+    "requiredViewIds": ["conical-tower", "circular-wall"]
+  },
+  "168": {
+    "id": "ap168-great-mosque-djenne",
+    "titleEn": "Great Mosque of Djenné",
+    "region": "westAfrica",
+    "siteName": "Djenné, Mali",
+    "provenanceQualifier": null,
+    "traditionGroup": "African Architecture",
+    "requiredViewIds": ["mosque", "monday-market"]
+  },
+  "169": {
+    "id": "ap169-wall-plaque-obas-palace",
+    "titleEn": "Wall plaque, from Oba's palace",
+    "region": "westAfrica",
+    "siteName": "Benin City, Nigeria",
+    "provenanceQualifier": null,
+    "traditionGroup": "Royal & Court Arts",
+    "requiredViewIds": ["wall-plaque", "oba-context"]
+  },
+  "170": {
+    "id": "ap170-sika-dwa-kofi",
+    "titleEn": "Sika dwa kofi (Golden Stool)",
+    "region": "westAfrica",
+    "siteName": "Kumasi, Ghana",
+    "provenanceQualifier": null,
+    "traditionGroup": "Royal & Court Arts",
+    "requiredViewIds": ["golden-stool", "stool-context"]
+  },
+  "171": {
+    "id": "ap171-ndop-king-mishe",
+    "titleEn": "Ndop (portrait figure) of King Mishe miShyaang maMbul",
+    "region": "centralAfrica",
+    "siteName": "Mushenge, Democratic Republic of the Congo",
+    "provenanceQualifier": null,
+    "traditionGroup": "Royal & Court Arts",
+    "requiredViewIds": ["ndop", "ruler-context"]
+  },
+  "172": {
+    "id": "ap172-nkisi-nkondi",
+    "titleEn": "Power figure (Nkisi n'kondi)",
+    "region": "centralAfrica",
+    "siteName": "Kongo cultural region, Central Africa",
+    "provenanceQualifier": "The exact workshop and site are not securely documented; the map anchor represents the Kongo cultural region.",
+    "traditionGroup": "Power, Memory & Ancestors",
+    "requiredViewIds": ["primary"]
+  },
+  "173": {
+    "id": "ap173-female-pwo-mask",
+    "titleEn": "Female (Pwo) mask",
+    "region": "centralAfrica",
+    "siteName": "Chokwe cultural region, Angola and Democratic Republic of the Congo",
+    "provenanceQualifier": "The exact workshop and site are unknown; the map anchor represents the Chokwe cultural region.",
+    "traditionGroup": "Performance & Masquerade",
+    "requiredViewIds": ["primary"]
+  },
+  "174": {
+    "id": "ap174-portrait-mask-mblo",
+    "titleEn": "Portrait mask (Mblo)",
+    "region": "westAfrica",
+    "siteName": "Baule cultural region, Côte d'Ivoire",
+    "provenanceQualifier": "The exact maker and community site are not securely documented; the map anchor represents the Baule cultural region.",
+    "traditionGroup": "Performance & Masquerade",
+    "requiredViewIds": ["mask", "performance-context"]
+  },
+  "175": {
+    "id": "ap175-bundu-mask",
+    "titleEn": "Bundu mask",
+    "region": "westAfrica",
+    "siteName": "Sierra Leone and Liberia forest region",
+    "provenanceQualifier": "The exact maker and site are not securely documented; the map anchor represents the Sierra Leone and Liberia forest region.",
+    "traditionGroup": "Performance & Masquerade",
+    "requiredViewIds": ["mask", "performance-context"]
+  },
+  "176": {
+    "id": "ap176-ikenga",
+    "titleEn": "Ikenga (shrine figure)",
+    "region": "westAfrica",
+    "siteName": "Igbo cultural region, southeastern Nigeria",
+    "provenanceQualifier": "The exact maker and site are unknown; the map anchor represents the Igbo cultural region.",
+    "traditionGroup": "Power, Memory & Ancestors",
+    "requiredViewIds": ["primary"]
+  },
+  "177": {
+    "id": "ap177-lukasa-memory-board",
+    "titleEn": "Lukasa (memory board)",
+    "region": "centralAfrica",
+    "siteName": "Luba cultural region, Democratic Republic of the Congo",
+    "provenanceQualifier": "The exact maker and site are unknown; the map anchor represents the Luba cultural region.",
+    "traditionGroup": "Power, Memory & Ancestors",
+    "requiredViewIds": ["memory-board", "contextual"]
+  },
+  "178": {
+    "id": "ap178-aka-elephant-mask",
+    "titleEn": "Aka elephant mask",
+    "region": "centralAfrica",
+    "siteName": "Western Grassfields, Cameroon",
+    "provenanceQualifier": "The exact maker and site are not securely documented; the map anchor represents the Western Grassfields.",
+    "traditionGroup": "Performance & Masquerade",
+    "requiredViewIds": ["mask", "performance-context"]
+  },
+  "179": {
+    "id": "ap179-reliquary-figure-byeri",
+    "titleEn": "Reliquary figure (byeri)",
+    "region": "centralAfrica",
+    "siteName": "Fang cultural region, southern Cameroon",
+    "provenanceQualifier": "The exact maker and site are not securely documented; the map anchor represents the Fang cultural region.",
+    "traditionGroup": "Power, Memory & Ancestors",
+    "requiredViewIds": ["primary"]
+  },
+  "180": {
+    "id": "ap180-veranda-post-olowe",
+    "titleEn": "Veranda post of enthroned king and senior wife (Opo Ogoga)",
+    "region": "westAfrica",
+    "siteName": "Ise, Nigeria",
+    "provenanceQualifier": null,
+    "traditionGroup": "Royal & Court Arts",
+    "requiredViewIds": ["primary"]
+  }
+}

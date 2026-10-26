@@ -1,0 +1,242 @@
+{
+  "images": {
+    "ap213-nan-madol": [
+      {
+        "id": "basalt-enclosure-overview",
+        "label": "Elevated basalt enclosure with coast beyond / 海岸前玄武岩围墙俯瞰",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Elevated basalt enclosure with coast beyond / 海岸前玄武岩围墙俯瞰",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      },
+      {
+        "id": "canal-side-basalt-wall",
+        "label": "Prismatic basalt wall beside canal / 运河旁棱柱玄武岩墙",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Prismatic basalt wall beside canal / 运河旁棱柱玄武岩墙",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      }
+    ],
+    "ap214-moai-ahu": [
+      {
+        "id": "moai-and-pukao-on-ahu",
+        "label": "Moai with red pukao on ahu / 祭坛平台上的摩艾与红色石帽",
+        "imageUrl": "assets/art-history/u9/ap214-moai-and-pukao-on-ahu.webp",
+        "imageAlt": "Moai with red pukao on ahu / 祭坛平台上的摩艾与红色石帽",
+        "imageSourceName": "Wikimedia Commons; Torbenbrinker",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:AhuNauNau.jpg"
+      }
+    ],
+    "ap215-ahu-ula": [
+      {
+        "id": "complete-feather-cape",
+        "label": "Complete red/yellow crescent-patterned feather cape / 完整红黄新月纹羽毛披肩",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Complete red/yellow crescent-patterned feather cape / 完整红黄新月纹羽毛披肩",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      }
+    ],
+    "ap216-staff-god": [
+      {
+        "id": "wrapped-staff-god",
+        "label": "Complete surviving wrapped staff god / 完整存世包裹神杖",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Complete surviving wrapped staff god / 完整存世包裹神杖",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      },
+      {
+        "id": "carved-head-and-figures-detail",
+        "label": "Carved head, small figures and feather attachment / 雕刻头部、小人像与羽毛饰",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Carved head, small figures and feather attachment / 雕刻头部、小人像与羽毛饰",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      },
+      {
+        "id": "historical-context-engraving",
+        "label": "Gathered figures and buildings in historical engraving / 历史版画中的人群与建筑",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Gathered figures and buildings in historical engraving / 历史版画中的人群与建筑",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      }
+    ],
+    "ap217-female-deity": [
+      {
+        "id": "complete-wooden-deity",
+        "label": "Complete standing Nukuoro female deity / 完整立姿努库奥罗女神像",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Complete standing Nukuoro female deity / 完整立姿努库奥罗女神像",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      }
+    ],
+    "ap218-buk-mask": [
+      {
+        "id": "complete-turtle-shell-mask",
+        "label": "Buk mask with human face, frigatebird and feathers / 带人面、军舰鸟与羽冠的龟甲面具",
+        "imageUrl": "assets/art-history/u9/ap218-complete-turtle-shell-mask.webp",
+        "imageAlt": "Buk mask with human face, frigatebird and feathers / 带人面、军舰鸟与羽冠的龟甲面具",
+        "imageSourceName": "The Metropolitan Museum of Art; Mabuiag Island artist",
+        "imageSourceUrl": "https://www.metmuseum.org/art/collection/search/311950"
+      }
+    ],
+    "ap219-hiapo-tapa": [
+      {
+        "id": "complete-painted-barkcloth",
+        "label": "Complete rectangular painted hiapo / 完整矩形彩绘希阿波树皮布",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Complete rectangular painted hiapo / 完整矩形彩绘希阿波树皮布",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      }
+    ],
+    "ap220-tamati-waka-nene": [
+      {
+        "id": "complete-portrait",
+        "label": "Lindauer's complete 1890 portrait / 林道尔1890年完整肖像",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Lindauer's complete 1890 portrait / 林道尔1890年完整肖像",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279",
+        "mediaStatus": "Exact portrait identified; cultural reproduction guidance unresolved / 已确认指定肖像，文化再现指引尚未解决"
+      }
+    ],
+    "ap221-navigation-chart": [
+      {
+        "id": "complete-stick-chart",
+        "label": "Complete rectangular lattice navigation chart / 完整矩形格状导航图",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Complete rectangular lattice navigation chart / 完整矩形格状导航图",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      }
+    ],
+    "ap222-malagan-display-mask": [
+      {
+        "id": "malagan-mask",
+        "label": "Crested malagan mask / 带冠马拉甘面具",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Crested malagan mask / 带冠马拉甘面具",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      },
+      {
+        "id": "malagan-display",
+        "label": "Carved ensemble beneath thatched display shelter / 茅棚内马拉甘雕刻展示群",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Carved ensemble beneath thatched display shelter / 茅棚内马拉甘雕刻展示群",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      }
+    ],
+    "ap223-fijian-presentation": [
+      {
+        "id": "presentation-procession-documentation",
+        "label": "Historical procession carrying rolled mats / 携带卷席的历史进献队列",
+        "imageUrl": null,
+        "imageAlt": "Required view currently unavailable: Historical procession carrying rolled mats / 携带卷席的历史进献队列",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280",
+        "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+      }
+    ]
+  },
+  "credits": {
+    "ap213-nan-madol": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277"
+      }
+    ],
+    "ap214-moai-ahu": {
+      "creatorOrInstitution": "Torbenbrinker",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap215-ahu-ula": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277"
+    },
+    "ap216-staff-god": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
+      }
+    ],
+    "ap217-female-deity": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
+    },
+    "ap218-buk-mask": {
+      "creatorOrInstitution": "Mabuiag Island artist; The Metropolitan Museum of Art",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap219-hiapo-tapa": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279"
+    },
+    "ap220-tamati-waka-nene": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279"
+    },
+    "ap221-navigation-chart": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279"
+    },
+    "ap222-malagan-display-mask": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280"
+      }
+    ],
+    "ap223-fijian-presentation": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280"
+    }
+  }
+}

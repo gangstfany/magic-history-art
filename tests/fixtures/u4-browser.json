@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "ap99-portrait-sor-juana",
+    "apNumber": 99,
+    "titleEn": "Portrait of Sor Juana Inés de la Cruz",
+    "titleZh": "索尔·胡安娜肖像",
+    "unit": 4,
+    "region": "mexicoCaribbean",
+    "siteName": "Mexico City, New Spain (Mexico)",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sor%20Juana%20by%20Miguel%20Cabrera.png",
+        "imageAlt": "索尔·胡安娜肖像：被书籍环绕的修女学者；胸前椭圆形修女徽章",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sor%20Juana%20by%20Miguel%20Cabrera.png"
+      }
+    ]
+  },
+  {
+    "id": "ap100-philosopher-lecture-orrery",
+    "apNumber": 100,
+    "titleEn": "A Philosopher Giving a Lecture on the Orrery",
+    "titleZh": "哲学家讲解太阳系仪",
+    "unit": 4,
+    "region": "britishIsles",
+    "siteName": "Derby, England",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wright%20of%20Derby%2C%20The%20Orrery.jpg",
+        "imageAlt": "哲学家讲解太阳系仪：太阳系仪充当唯一光源；儿童面孔呈月相式明暗",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wright%20of%20Derby%2C%20The%20Orrery.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap101-swing",
+    "apNumber": 101,
+    "titleEn": "The Swing",
+    "titleZh": "秋千",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Swing%20%28P430%29.jpg",
+        "imageAlt": "秋千：空中飞出的粉色鞋；灌木中的年轻情人",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The%20Swing%20%28P430%29.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap102-monticello",
+    "apNumber": 102,
+    "titleEn": "Monticello",
+    "titleZh": "蒙蒂塞洛",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "Charlottesville, Virginia, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Monticello%202010-10-29.jpg",
+        "imageAlt": "蒙蒂塞洛：外部可见八角穹顶与柱廊正面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Monticello%202010-10-29.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://cdn.loc.gov/service/pnp/habshaer/va/va0000/va0059/sheet/00003v.jpg",
+        "imageAlt": "蒙蒂塞洛：平面图标出服务空间嵌入平台下方",
+        "imageSourceUrl": "https://www.loc.gov/resource/hhh.va0059.sheet/?sp=3"
+      }
+    ]
+  },
+  {
+    "id": "ap103-oath-horatii",
+    "apNumber": 103,
+    "titleEn": "The Oath of the Horatii",
+    "titleZh": "荷拉斯兄弟之誓",
+    "unit": 4,
+    "region": "southernEurope",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jacques-Louis%20David%2C%20Le%20Serment%20des%20Horaces.jpg",
+        "imageAlt": "荷拉斯兄弟之誓：三把剑位于构图焦点；男性直线与女性弧线对照",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jacques-Louis%20David%2C%20Le%20Serment%20des%20Horaces.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap104-george-washington",
+    "apNumber": 104,
+    "titleEn": "George Washington",
+    "titleZh": "乔治·华盛顿",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": "Modeled from life at Mount Vernon in 1785 and carved in Paris for installation at the Virginia State Capitol in Richmond.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jean-Antoine%20Houdon's%20George%20Washington.jpg",
+        "imageAlt": "乔治·华盛顿：按真人面模塑造的面容；十三根束棒与犁头",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jean-Antoine%20Houdon's%20George%20Washington.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap105-self-portrait-vigee-le-brun",
+    "apNumber": 105,
+    "titleEn": "Self-Portrait",
+    "titleZh": "自画像",
+    "unit": 4,
+    "region": "southernEurope",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Self-portrait%20in%20a%20Straw%20Hat%20by%20Elisabeth-Louise%20Vig%C3%A9e-Lebrun.jpg",
+        "imageAlt": "自画像：手持调色板正在作画；画布上王后轮廓",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Self-portrait%20in%20a%20Straw%20Hat%20by%20Elisabeth-Louise%20Vig%C3%A9e-Lebrun.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap106-y-no-hai-remedio",
+    "apNumber": 106,
+    "titleEn": "Y no hai remedio (And There's Nothing to Be Done), from Los Desastres de la Guerra (The Disasters of War), plate 15",
+    "titleZh": "没有办法",
+    "unit": 4,
+    "region": "southernEurope",
+    "siteName": "Spain",
+    "provenanceQualifier": "Made during the Peninsular War; the precise place where Goya produced this plate is not securely localized.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Plate%2015%20from%20%22The%20Disasters%20of%20War'%20%28Los%20Desastres%20de%20la%20Guerra%29-%20And%20there%20is%20no%20help%20%28Y%20no%20hai%20remedio%29%20MET%20270269.jpg",
+        "imageAlt": "没有办法：蒙眼白衣受刑者；右侧只露出枪管的行刑队",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Plate%2015%20from%20%22The%20Disasters%20of%20War'%20%28Los%20Desastres%20de%20la%20Guerra%29-%20And%20there%20is%20no%20help%20%28Y%20no%20hai%20remedio%29%20MET%20270269.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap107-grande-odalisque",
+    "apNumber": 107,
+    "titleEn": "La Grande Odalisque",
+    "titleZh": "大宫女",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/La%20grande%20odalisque%20-%20Jean-Auguste%20Dominique%20Ingres%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20RF%201158.jpg",
+        "imageAlt": "大宫女：异常拉长的背部；孔雀扇与水烟器",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:La%20grande%20odalisque%20-%20Jean-Auguste%20Dominique%20Ingres%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20RF%201158.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap108-liberty-leading-people",
+    "apNumber": 108,
+    "titleEn": "Liberty Leading the People",
+    "titleZh": "自由引导人民",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/La%20Libert%C3%A9%20guidant%20le%20peuple%20-%20Eug%C3%A8ne%20Delacroix%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20RF%20129%20-%20apr%C3%A8s%20restauration%202024.jpg",
+        "imageAlt": "自由引导人民：高举三色旗的自由女神；前景路障上的尸体",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:La%20Libert%C3%A9%20guidant%20le%20peuple%20-%20Eug%C3%A8ne%20Delacroix%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20RF%20129%20-%20apr%C3%A8s%20restauration%202024.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap109-oxbow",
+    "apNumber": 109,
+    "titleEn": "View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm - The Oxbow",
+    "titleZh": "牛轭湖",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": "Painted in Cole's New York studio from sketches made at Mount Holyoke, Massachusetts.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cole%20Thomas%20The%20Oxbow%20%28The%20Connecticut%20River%20near%20Northampton%201836%29.jpg",
+        "imageAlt": "牛轭湖：一半暴风一半晴朗的景观；山坡上带画架的微小自画像",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cole%20Thomas%20The%20Oxbow%20%28The%20Connecticut%20River%20near%20Northampton%201836%29.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap110-still-life-studio",
+    "apNumber": 110,
+    "titleEn": "Still Life in Studio",
+    "titleZh": "画室静物",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Daguerreotype%20Daguerre%20Atelier%201837.jpg",
+        "imageAlt": "画室静物：银版镜面上的单一正像；石膏像与褶皱织物静物",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Daguerreotype%20Daguerre%20Atelier%201837.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap111-slave-ship",
+    "apNumber": 111,
+    "titleEn": "Slave Ship (Slavers Throwing Overboard the Dead and Dying, Typhoon Coming On)",
+    "titleZh": "奴隶船",
+    "unit": 4,
+    "region": "britishIsles",
+    "siteName": "London, England",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Slave-ship.jpg",
+        "imageAlt": "奴隶船：血红落日与逼近台风；前景戴镣铐的肢体",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Slave-ship.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap112-palace-westminster",
+    "apNumber": 112,
+    "titleEn": "Palace of Westminster (Houses of Parliament)",
+    "titleZh": "威斯敏斯特宫",
+    "unit": 4,
+    "region": "britishIsles",
+    "siteName": "London, England",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Palace%20of%20Westminster%20as%20seen%20from%20Westminster%20Bridge.jpg",
+        "imageAlt": "威斯敏斯特宫：外部可见泰晤士河岸长立面与钟塔",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Palace%20of%20Westminster%20as%20seen%20from%20Westminster%20Bridge.jpg"
+      },
+      {
+        "id": "central-lobby",
+        "label": "Central Lobby",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Central%20hall%20Parliament%20QE1%2013.jpg",
+        "imageAlt": "威斯敏斯特宫：中央大厅八角空间、拱顶与通往上下两院的轴线",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Central%20hall%20Parliament%20QE1%2013.jpg"
+      },
+      {
+        "id": "westminster-hall",
+        "label": "Westminster Hall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Westminster%20Hall%20interior.jpg",
+        "imageAlt": "威斯敏斯特宫：威斯敏斯特厅宽阔中殿与木构锤梁屋顶",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Westminster%20Hall%20interior.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap113-stone-breakers",
+    "apNumber": 113,
+    "titleEn": "The Stone Breakers",
+    "titleZh": "碎石工",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Ornans, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gustave%20Courbet%20-%20The%20Stonebreakers%20-%20WGA05457.jpg",
+        "imageAlt": "碎石工：一老一少构成劳动循环；真人大小却看不见面孔",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gustave%20Courbet%20-%20The%20Stonebreakers%20-%20WGA05457.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap114-nadar-raising-photography",
+    "apNumber": 114,
+    "titleEn": "Nadar Raising Photography to the Height of Art",
+    "titleZh": "纳达尔把摄影提升到艺术高度",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nadar%20%C3%89levant%20la%20Photographie%20%C3%A0%20la%20Hauteur%20de%20l'Art%20MET%20MM8597.jpg",
+        "imageAlt": "纳达尔把摄影提升到艺术高度：写有PHOTOGRAPHIE NADAR的篮筐；城市屋顶反复出现摄影招牌",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nadar%20%C3%89levant%20la%20Photographie%20%C3%A0%20la%20Hauteur%20de%20l'Art%20MET%20MM8597.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap115-olympia",
+    "apNumber": 115,
+    "titleEn": "Olympia",
+    "titleZh": "奥林匹亚",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Edouard%20Manet%20-%20Olympia%20-%20Google%20Art%20ProjectFXD.jpg",
+        "imageAlt": "奥林匹亚：正面直视观者的裸体；床尾弓背黑猫",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Edouard%20Manet%20-%20Olympia%20-%20Google%20Art%20ProjectFXD.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap116-saint-lazare-station",
+    "apNumber": 116,
+    "titleEn": "The Saint-Lazare Station",
+    "titleZh": "圣拉扎尔火车站",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Claude%20Monet%20-%20The%20Saint-Lazare%20Station%20-%20Google%20Art%20Project.jpg",
+        "imageAlt": "圣拉扎尔火车站：玻璃铁棚下的蓝白蒸汽；迎面驶来的黑色机车",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20The%20Saint-Lazare%20Station%20-%20Google%20Art%20Project.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap117-horse-motion",
+    "apNumber": 117,
+    "titleEn": "The Horse in Motion",
+    "titleZh": "运动中的马",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "Palo Alto, California, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Horse%20in%20Motion.jpg",
+        "imageAlt": "运动中的马：连续排列的奔马影像；标尺背景与编号帧",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The%20Horse%20in%20Motion.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap118-valley-mexico",
+    "apNumber": 118,
+    "titleEn": "The Valley of Mexico from the Hillside of Santa Isabel",
+    "titleZh": "从圣伊莎贝尔山坡眺望墨西哥谷地",
+    "unit": 4,
+    "region": "mexicoCaribbean",
+    "siteName": "Mexico City, Mexico",
+    "provenanceQualifier": "Painted from studies of the Valley of Mexico made at the hillside of Santa Isabel; the manifest maps Velasco's Mexico City creation context.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jos%C3%A9%20Mar%C3%ADa%20Velasco%20-%20The%20Valley%20of%20Mexico%20from%20the%20Santa%20Isabel%20Mountain%20Range%20-%20Google%20Art%20Project.jpg",
+        "imageAlt": "从圣伊莎贝尔山坡眺望墨西哥谷地：波波卡特佩特与伊斯塔西瓦特尔火山；前景仙人掌和远处墨西哥城",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9%20Mar%C3%ADa%20Velasco%20-%20The%20Valley%20of%20Mexico%20from%20the%20Santa%20Isabel%20Mountain%20Range%20-%20Google%20Art%20Project.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap119-burghers-calais",
+    "apNumber": 119,
+    "titleEn": "The Burghers of Calais",
+    "titleZh": "加莱义民",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": "Modeled in Rodin's Paris studio for the city of Calais; later casts exist at multiple sites.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rodin%2C%20The%20Burghers%20of%20Calais.jpg",
+        "imageAlt": "加莱义民：六名人物没有单一主角；粗大手脚与绳索衣袍",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rodin%2C%20The%20Burghers%20of%20Calais.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap120-starry-night",
+    "apNumber": 120,
+    "titleEn": "The Starry Night",
+    "titleZh": "星月夜",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Saint-Rémy-de-Provence, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "imageAlt": "星月夜：旋转的蓝色夜空；火焰状柏树贯穿天地",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap121-coiffure",
+    "apNumber": 121,
+    "titleEn": "The Coiffure",
+    "titleZh": "梳妆",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mary_Cassatt%2C_The_Coiffure%2C_1890-1891%2C_NGA_5920.jpg",
+        "imageAlt": "梳妆：高视点俯瞰梳妆动作；裸露背部与镜面弧线",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_Cassatt,_The_Coiffure,_1890-1891,_NGA_5920.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap122-scream",
+    "apNumber": 122,
+    "titleEn": "The Scream",
+    "titleZh": "呐喊",
+    "unit": 4,
+    "region": "centralNorthernEurope",
+    "siteName": "Berlin, Germany",
+    "provenanceQualifier": "Painted while Munch was based in Berlin from a remembered experience and landscape near Kristiania (Oslo).",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Scream_by_Edvard_Munch%2C_1893_-_Nasjonalgalleriet.png",
+        "imageAlt": "呐喊：骷髅般捂耳的中心人物；血红天空和波浪形峡湾",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Scream_by_Edvard_Munch,_1893_-_Nasjonalgalleriet.png"
+      }
+    ]
+  },
+  {
+    "id": "ap123-where-do-we-come-from",
+    "apNumber": 123,
+    "titleEn": "Where Do We Come From? What Are We? Where Are We Going?",
+    "titleZh": "我们从哪里来？我们是谁？我们到哪里去？",
+    "unit": 4,
+    "region": "pacific",
+    "siteName": "Punaauia, Tahiti, French Polynesia",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Paul_Gauguin_-_D%27ou_venons-nous.jpg",
+        "imageAlt": "我们从哪里来？我们是谁？我们到哪里去？：右侧婴儿到左侧老妇的序列；中央高举双臂摘果者",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_D%27ou_venons-nous.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap124-carson-pirie-scott",
+    "apNumber": 124,
+    "titleEn": "Carson, Pirie, Scott and Company Building",
+    "titleZh": "卡森、皮里、斯科特公司大楼",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "Chicago, Illinois, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Carson%2C_Pirie%2C_Scott_and_Company_Building_%28Sullivan_Center%29%2C_Chicago%2C_Illinois_%289179422705%29.jpg",
+        "imageAlt": "卡森、皮里、斯科特公司大楼：外部可见圆角入口的绿色铸铁藤蔓",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Carson,_Pirie,_Scott_and_Company_Building_(Sullivan_Center),_Chicago,_Illinois_(9179422705).jpg"
+      },
+      {
+        "id": "detail",
+        "label": "Cast-Iron Detail",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Carson%2C_Pirie%2C_Scott_and_Company_Building_1_South_State_Street_entrance_closeup_1.jpg",
+        "imageAlt": "卡森、皮里、斯科特公司大楼：街角入口铸铁植物卷草纹与支撑构件细部",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Carson,_Pirie,_Scott_and_Company_Building_1_South_State_Street_entrance_closeup_1.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Schlesinger_and_Mayer_Department_Store%2C_1_South_State_Street_%281-19_South_State_Street_1-15_East_Madison_Street%29%2C_Chicago%2C_Cook_County%2C_IL_HABS_ILL%2C16-CHIG%2C65-_%28sheet_2_of_4%29.png",
+        "imageAlt": "卡森、皮里、斯科特公司大楼：平面图标出水平窗带包覆钢骨架",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Schlesinger_and_Mayer_Department_Store,_1_South_State_Street_(1-19_South_State_Street_1-15_East_Madison_Street),_Chicago,_Cook_County,_IL_HABS_ILL,16-CHIG,65-_(sheet_2_of_4).png"
+      }
+    ]
+  },
+  {
+    "id": "ap125-mont-sainte-victoire",
+    "apNumber": 125,
+    "titleEn": "Mont Sainte-Victoire",
+    "titleZh": "圣维克多山",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Aix-en-Provence, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Montagne_Sainte-Victoire%2C_par_Paul_C%C3%A9zanne_108.jpg",
+        "imageAlt": "圣维克多山：蓝灰色三角形山体；色块构成而非轮廓描绘空间",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Montagne_Sainte-Victoire,_par_Paul_C%C3%A9zanne_108.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap126-demoiselles-avignon",
+    "apNumber": 126,
+    "titleEn": "Les Demoiselles d'Avignon",
+    "titleZh": "亚维农少女",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://www.moma.org/media/W1siZiIsIjYxOTg4OCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=217eb07febfd139b",
+        "imageAlt": "亚维农少女：五人挤满没有深度的画面；右侧面具化棱角面孔",
+        "imageSourceUrl": "https://www.moma.org/collection/works/79766"
+      }
+    ]
+  },
+  {
+    "id": "ap127-steerage",
+    "apNumber": 127,
+    "titleEn": "The Steerage",
+    "titleZh": "统舱",
+    "unit": 4,
+    "region": "transatlantic",
+    "siteName": "North Atlantic Ocean, aboard SS Kaiser Wilhelm II",
+    "provenanceQualifier": "Photographed aboard the SS Kaiser Wilhelm II during Stieglitz's 1907 voyage from New York to Europe; the map anchor represents the transatlantic voyage rather than a fixed city.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
+        "imageAlt": "统舱：斜向白色舷梯；上下甲板的阶级分隔",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap128-kiss-klimt",
+    "apNumber": 128,
+    "titleEn": "The Kiss",
+    "titleZh": "吻",
+    "unit": 4,
+    "region": "centralNorthernEurope",
+    "siteName": "Vienna, Austria",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+        "imageAlt": "吻：包裹恋人的金色斗篷；男女图案分别偏矩形与圆形",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap129-kiss-brancusi",
+    "apNumber": 129,
+    "titleEn": "The Kiss",
+    "titleZh": "吻",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": "Maps the Paris creation context of Brancusi's original 1907-1908 conception; the College Board reference image shows the 1916 version.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://iiif.micr.io/maKTp/full/2000,/0/default.jpg",
+        "imageAlt": "吻：两只半眼合成完整注视；方石块中互锁的手臂",
+        "imageSourceUrl": "https://www.philamuseum.org/objects/51306"
+      }
+    ]
+  },
+  {
+    "id": "ap130-portuguese",
+    "apNumber": 130,
+    "titleEn": "The Portuguese",
+    "titleZh": "葡萄牙人",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://digital.lib.buffalo.edu/files/original/8f4d0614979c244854da2ede1de2c635.jpg",
+        "imageAlt": "葡萄牙人：模板字母BAL与数字；几乎融入背景的吉他手",
+        "imageSourceUrl": "https://digital.lib.buffalo.edu/items/show/31590"
+      }
+    ]
+  },
+  {
+    "id": "ap131-goldfish",
+    "apNumber": 131,
+    "titleEn": "The Goldfish",
+    "titleZh": "金鱼",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Issy-les-Moulineaux, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Goldfish_Matisse.jpg",
+        "imageAlt": "金鱼：鲜橙金鱼对比绿色植物；鱼缸同时从正面与上方观看",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Goldfish_Matisse.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap132-improvisation-28",
+    "apNumber": 132,
+    "titleEn": "Improvisation 28 (second version)",
+    "titleZh": "即兴28号（第二版）",
+    "unit": 4,
+    "region": "centralNorthernEurope",
+    "siteName": "Munich, Germany",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Aerrapc_Guggenheim_art_photo_%28178%29.png",
+        "imageAlt": "即兴28号（第二版）：交叉黑线像即兴乐谱；抽象色面中隐约出现山与洪水",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aerrapc_Guggenheim_art_photo_(178).png"
+      }
+    ]
+  },
+  {
+    "id": "ap133-self-portrait-soldier",
+    "apNumber": 133,
+    "titleEn": "Self-Portrait as a Soldier",
+    "titleZh": "士兵自画像",
+    "unit": 4,
+    "region": "centralNorthernEurope",
+    "siteName": "Berlin, Germany",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kirchner_-_Self_Portrait_as_a_Soldier_%281915%29.jpg",
+        "imageAlt": "士兵自画像：抬起的血红断手；军服画家与裸体模特并置",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kirchner_-_Self_Portrait_as_a_Soldier_(1915).jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap134-memorial-sheet-karl-liebknecht",
+    "apNumber": 134,
+    "titleEn": "Memorial Sheet of Karl Liebknecht",
+    "titleZh": "卡尔·李卜克内西纪念页",
+    "unit": 4,
+    "region": "centralNorthernEurope",
+    "siteName": "Berlin, Germany",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/K%C3%A4the_Kollwitz_Gedenkblatt_f%C3%BCr_Karl_Liebknecht_1920.jpg",
+        "imageAlt": "卡尔·李卜克内西纪念页：遗体上方弯曲的哀悼者群；粗犷木纹般黑白切割",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%A4the_Kollwitz_Gedenkblatt_f%C3%BCr_Karl_Liebknecht_1920.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap135-villa-savoye",
+    "apNumber": 135,
+    "titleEn": "Villa Savoye",
+    "titleZh": "萨伏伊别墅",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Poissy-sur-Seine, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/65100/65198v.jpg",
+        "imageAlt": "萨伏伊别墅：外部可见白色盒体由细柱抬起",
+        "imageSourceUrl": "https://www.loc.gov/item/2020714937/"
+      },
+      {
+        "id": "interior-ramp",
+        "label": "Interior Ramp",
+        "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppem/00600/00682v.jpg",
+        "imageAlt": "萨伏伊别墅：室内坡道、水平长窗与向屋顶花园展开的建筑漫游",
+        "imageSourceUrl": "https://www.loc.gov/item/2020714517/"
+      }
+    ]
+  },
+  {
+    "id": "ap136-composition-red-blue-yellow",
+    "apNumber": 136,
+    "titleEn": "Composition with Red, Blue and Yellow",
+    "titleZh": "红蓝黄构图",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg",
+        "imageAlt": "红蓝黄构图：三原色与黑白限定色谱；不对称网格延伸至画外",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap137-first-five-year-plan",
+    "apNumber": 137,
+    "titleEn": "Illustration from The Results of the First Five-Year Plan",
+    "titleZh": "《第一个五年计划的成果》插图",
+    "unit": 4,
+    "region": "russiaSoviet",
+    "siteName": "Moscow, Soviet Union (Russia)",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://www.moma.org/media/W1siZiIsIjMyODczMCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDE1MzZ4MTUzNlx1MDAzZSJdXQ.jpg?sha=c067b67684fdcd9f",
+        "imageAlt": "《第一个五年计划的成果》插图：巨大的数字5与CCCP字样；列宁头像连接扩音器和电塔",
+        "imageSourceUrl": "https://www.moma.org/collection/works/13934"
+      }
+    ]
+  },
+  {
+    "id": "ap138-object-dejeuner-fourrure",
+    "apNumber": 138,
+    "titleEn": "Object (Le Déjeuner en fourrure)",
+    "titleZh": "物体（皮毛早餐）",
+    "unit": 4,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://www.moma.org/media/W1siZiIsIjYxNDY5NyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=203e557b7d43cc8e",
+        "imageAlt": "物体（皮毛早餐）：整套杯碟勺覆盖毛皮；视觉柔软与饮用功能相冲突",
+        "imageSourceUrl": "https://www.moma.org/collection/works/80997"
+      }
+    ]
+  },
+  {
+    "id": "ap139-fallingwater",
+    "apNumber": 139,
+    "titleEn": "Fallingwater",
+    "titleZh": "流水别墅",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "Mill Run, Pennsylvania, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Fallingwater.JPG",
+        "imageAlt": "流水别墅：外部可见层叠混凝土悬挑越过瀑布",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater.JPG"
+      },
+      {
+        "id": "living-room",
+        "label": "Living Room",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Fallingwater_interior.JPG",
+        "imageAlt": "流水别墅：起居室石墙、低矮天花与转角玻璃共同框取林地",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater_interior.JPG"
+      },
+      {
+        "id": "site-plan",
+        "label": "Site Plan",
+        "imageUrl": "https://cdn.loc.gov/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00002v.jpg",
+        "imageAlt": "流水别墅：场地平面显示住宅横跨溪流与瀑布的关系",
+        "imageSourceUrl": "https://www.loc.gov/pictures/item/pa1690.sheet.00002a/"
+      }
+    ]
+  },
+  {
+    "id": "ap140-two-fridas",
+    "apNumber": 140,
+    "titleEn": "The Two Fridas",
+    "titleZh": "两个弗里达",
+    "unit": 4,
+    "region": "mexicoCaribbean",
+    "siteName": "Mexico City, Mexico",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": null,
+        "imageAlt": "两个弗里达：两位弗里达手牵手；连通心脏的红色血管",
+        "imageSourceUrl": "https://inba.gob.mx/prensa/23566/el-museo-de-arte-moderno-presenta-las-dos-fridas-una-identidad-global",
+        "mediaStatus": "rightsRestricted"
+      }
+    ]
+  },
+  {
+    "id": "ap141-migration-negro-panel-49",
+    "apNumber": 141,
+    "titleEn": "The Migration of the Negro, Panel no. 49",
+    "titleZh": "黑人迁徙，第49号画板",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://live.staticflickr.com/5333/29824123133_b283d2ff53_b.jpg",
+        "imageAlt": "黑人迁徙，第49号画板：黄色隔板分开黑白用餐者；文字说明与图像共同叙事",
+        "imageSourceUrl": "https://www.flickr.com/photos/ronc-photography/29824123133/"
+      }
+    ]
+  },
+  {
+    "id": "ap142-jungle",
+    "apNumber": 142,
+    "titleEn": "The Jungle",
+    "titleZh": "丛林",
+    "unit": 4,
+    "region": "mexicoCaribbean",
+    "siteName": "Havana, Cuba",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://live.staticflickr.com/7214/7188333645_cd92316917_b.jpg",
+        "imageAlt": "丛林：面具化人兽混合身体；像牢笼一样密集的甘蔗",
+        "imageSourceUrl": "https://www.flickr.com/photos/kebpix/7188333645/"
+      }
+    ]
+  },
+  {
+    "id": "ap143-dream-alameda-central",
+    "apNumber": 143,
+    "titleEn": "Dream of a Sunday Afternoon in the Alameda Central Park",
+    "titleZh": "阿拉梅达公园星期日下午之梦",
+    "unit": 4,
+    "region": "mexicoCaribbean",
+    "siteName": "Mexico City, Mexico",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": null,
+        "imageAlt": "阿拉梅达公园星期日下午之梦：中央卡特里娜骷髅盛装人物；少年里维拉与弗里达并列",
+        "imageSourceUrl": "https://smarthistory.org/rivera-dream-of-a-sunday-afternoon-in-alameda-central-park/",
+        "mediaStatus": "rightsRestricted"
+      }
+    ]
+  },
+  {
+    "id": "ap144-fountain",
+    "apNumber": 144,
+    "titleEn": "Fountain",
+    "titleZh": "泉",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": "Maps the New York context of the lost 1917 original and the 1950 second version shown by College Board; multiple authorized replicas exist.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://live.staticflickr.com/22/28365079_cdd32f04c0_o.jpg",
+        "imageAlt": "泉：倒置小便器与R. Mutt签名；1950复制品指向已遗失原作",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Duchamp_Fountain_(28365079).jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap145-woman-i",
+    "apNumber": 145,
+    "titleEn": "Woman, I",
+    "titleZh": "女人一号",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://live.staticflickr.com/65535/54354963606_53416caf0f_b.jpg",
+        "imageAlt": "女人一号：露齿笑与巨大的圆眼；身体被反复涂抹和重画",
+        "imageSourceUrl": "https://www.flickr.com/photos/profzucker/54354963606/"
+      }
+    ]
+  },
+  {
+    "id": "ap146-marilyn-diptych",
+    "apNumber": 146,
+    "titleEn": "Marilyn Diptych",
+    "titleZh": "玛丽莲双联画",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": null,
+        "imageAlt": "玛丽莲双联画：左彩色右黑白的双联结构；同一头像重复五十次",
+        "imageSourceUrl": "https://www.tate.org.uk/art/artworks/warhol-marilyn-diptych-t03093",
+        "mediaStatus": "rightsRestricted"
+      }
+    ]
+  },
+  {
+    "id": "ap147-seagram-building",
+    "apNumber": 147,
+    "titleEn": "Seagram Building",
+    "titleZh": "西格拉姆大厦",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Seagram_Building.jpg",
+        "imageAlt": "西格拉姆大厦：深色幕墙外露青铜竖梃；退让街道形成开放广场",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seagram_Building.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap148-narcissus-garden",
+    "apNumber": 148,
+    "titleEn": "Narcissus Garden",
+    "titleZh": "水仙花园",
+    "unit": 4,
+    "region": "southernEurope",
+    "siteName": "Venice, Italy",
+    "provenanceQualifier": "Maps Kusama's original 1966 Venice Biennale installation and performance; the College Board reference image documents a 2010 Paris installation.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": null,
+        "imageAlt": "水仙花园：密集银色镜球无限反射；艺术家现场售卖单个球体",
+        "imageSourceUrl": "https://www.victoria-miro.com/exhibitions/411/",
+        "mediaStatus": "rightsRestricted"
+      }
+    ]
+  },
+  {
+    "id": "ap149-bay",
+    "apNumber": 149,
+    "titleEn": "The Bay",
+    "titleZh": "海湾",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "New York City, New York, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": null,
+        "imageAlt": "海湾：大面积透明蓝色浸染；未覆盖的生画布边缘",
+        "imageSourceUrl": "https://dia.org/collection/bay/45380",
+        "mediaStatus": "rightsRestricted"
+      }
+    ]
+  },
+  {
+    "id": "ap150-lipstick-caterpillar-tracks",
+    "apNumber": 150,
+    "titleEn": "Lipstick (Ascending) on Caterpillar Tracks",
+    "titleZh": "履带上的口红（上升）",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "New Haven, Connecticut, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": null,
+        "imageAlt": "履带上的口红（上升）：红色巨型口红插在坦克履带上；可升降原型兼作演讲台",
+        "imageSourceUrl": "https://artgallery.yale.edu/collections/objects/13727",
+        "mediaStatus": "rightsRestricted"
+      }
+    ]
+  },
+  {
+    "id": "ap151-spiral-jetty",
+    "apNumber": 151,
+    "titleEn": "Spiral Jetty",
+    "titleZh": "螺旋防波堤",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "Rozel Point, Great Salt Lake, Utah, U.S.",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Overall",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/The_Spiral_Jetty.jpg",
+        "imageAlt": "螺旋防波堤：从岸边卷入湖中的巨型螺旋；水位变化使作品消失又重现",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Spiral_Jetty.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap152-house-new-castle-county",
+    "apNumber": 152,
+    "titleEn": "House in New Castle County",
+    "titleZh": "纽卡斯尔县住宅",
+    "unit": 4,
+    "region": "unitedStates",
+    "siteName": "New Castle County, Delaware, U.S.",
+    "provenanceQualifier": "Private residence; the manifest uses the county-level location published by College Board.",
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": null,
+        "imageAlt": "纽卡斯尔县住宅：外部可见裂开的古典山墙式正立面",
+        "imageSourceUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware",
+        "mediaStatus": "rightsRestricted"
+      },
+      {
+        "id": "interior",
+        "label": "Interior",
+        "imageUrl": null,
+        "imageAlt": "纽卡斯尔县住宅：室内可见室内楼梯与壁炉相互挤压",
+        "imageSourceUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware",
+        "mediaStatus": "rightsRestricted"
+      }
+    ]
+  }
+]
+

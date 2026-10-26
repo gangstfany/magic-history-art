@@ -1,0 +1,1619 @@
+{
+  "artworks": [
+    {
+      "id": "ap224-gates",
+      "apNumber": 224,
+      "unit": 10,
+      "titleEn": "The Gates",
+      "titleZh": "门",
+      "artistCulture": "Christo and Jeanne-Claude",
+      "culture": "Site-specific contemporary public art",
+      "date": "1979–2005 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Mixed-media installation",
+      "siteName": "Central Park, New York City, United States",
+      "region": "united-states",
+      "coordinates": {
+        "x": 471,
+        "y": 219
+      },
+      "traditionGroup": "Public Space & Memory",
+      "workType": "Temporary landscape installation",
+      "function": "以临时步行体验改变公众对公园的感知，不是纪念某一事件。 A temporary pedestrian experience reframed familiar park routes and invited public participation without commemorating a single historical event.",
+      "form": "橙色框架与垂布沿原有路径连续排列，风与行人改变观看节奏。 Saffron-colored rectangular frames and hanging fabric followed existing paths. Wind, winter light and moving pedestrians continually changed the appearance of the repeated structures.",
+      "content": "门构成入口与阈限，却没有唯一的起点或最佳视角；公园成为作品的一部分。 The gates proposed thresholds without one privileged entrance or viewpoint. Visitors passed beneath fabric canopies, making the designed landscape and bodily movement part of the work.",
+      "context": "方案始于1979，2005年短期实现；艺术家售卖准备作品自筹经费，公园并非未经改造的自然。 Conceived in 1979 and realized briefly in 2005, the project was financed through the artists' preparatory work rather than admission charges. Central Park is a designed landscape, not untouched wilderness.",
+      "recognitionAnchors": [
+        "saffron fabric 橙黄色垂布",
+        "repeated rectangular gates 连续矩形门框",
+        "winter park paths 冬季公园路径"
+      ],
+      "comparisonIds": [
+        "ap225-vietnam-veterans-memorial"
+      ],
+      "comparisonNotes": {
+        "ap225-vietnam-veterans-memorial": "同样依赖行人的移动；门以临时色彩庆祝公共空间，纪念墙以永久刻名承载哀悼。 Both depend on walking visitors; temporary colored gates animate public space, while the permanent inscribed wall organizes mourning."
+      },
+      "keywords": [
+        "ephemeral 短暂性",
+        "site-specific 特定场域",
+        "participation 参与"
+      ],
+      "images": [
+        {
+          "id": "park-aerial-overview",
+          "label": "Aerial overview of The Gates in Central Park / 中央公园《门》的空中全景",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Aerial overview of The Gates in Central Park / 中央公园《门》的空中全景",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=293",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        },
+        {
+          "id": "gates-pathway",
+          "label": "Orange gates along a pedestrian pathway / 步行道上的橙色门架",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Orange gates along a pedestrian pathway / 步行道上的橙色门架",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=293",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap225-vietnam-veterans-memorial",
+      "apNumber": 225,
+      "unit": 10,
+      "titleEn": "Vietnam Veterans Memorial",
+      "titleZh": "越战退伍军人纪念碑",
+      "artistCulture": "Maya Lin",
+      "culture": "Contemporary American commemorative design",
+      "date": "1982 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Granite",
+      "siteName": "National Mall, Washington, D.C., United States",
+      "region": "united-states",
+      "coordinates": {
+        "x": 458,
+        "y": 227
+      },
+      "traditionGroup": "Public Space & Memory",
+      "workType": "Public memorial",
+      "function": "为阵亡与失踪者提供个人哀悼和集体记忆场所，不用胜利英雄塑像叙述战争。 The memorial provides a place for individual mourning and collective remembrance of the dead and missing rather than narrating the war through victorious heroic figures.",
+      "form": "两段黑色花岗岩墙呈V形嵌入地面；路径下沉再上升，镜面让观看者与姓名重叠。 Two polished black granite arms form a V cut into the earth. Descending and ascending paths shape the encounter; reflective surfaces place visitors' images beside the incised names.",
+      "content": "姓名按伤亡时间组织，并在中心形成时间首尾相接；具体名字使抽象墙体具有个人意义。 Names arranged by the chronology of loss return to the center where the sequence begins and ends. Particular names give the abstract geometry an intimate human presence.",
+      "context": "林璎的匿名竞赛获选方案在身份揭晓后遭遇种族偏见与对抽象形式的反对；邻近传统雕像是后续回应。 Lin's anonymous competition design encountered racist hostility and criticism of abstraction after her identity became known. Later nearby figurative additions should not be confused with her original wall design.",
+      "recognitionAnchors": [
+        "V-shaped recessed wall 下沉V形墙",
+        "polished black granite 黑色镜面花岗岩",
+        "dense inscribed names 密集姓名"
+      ],
+      "comparisonIds": [
+        "ap224-gates"
+      ],
+      "comparisonNotes": {
+        "ap224-gates": "二者将步行转为观看方式；纪念碑向地下下降并聚焦姓名，门沿公园路径展开临时体验。 Both make walking a mode of viewing; the memorial descends into the earth and focuses on names, while the gates spread a temporary experience along park paths."
+      },
+      "keywords": [
+        "memory 记忆",
+        "chronology 时间序列",
+        "reflection 反射"
+      ],
+      "images": [
+        {
+          "id": "memorial-wall-overview",
+          "label": "Recessed memorial wall and approach / 下沉式纪念墙与步行入口",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Recessed memorial wall and approach / 下沉式纪念墙与步行入口",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=293",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        },
+        {
+          "id": "inscribed-names-and-reflections",
+          "label": "Inscribed names, visitor reflections and Washington Monument / 姓名铭文、访客倒影与华盛顿纪念碑",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Inscribed names, visitor reflections and Washington Monument / 姓名铭文、访客倒影与华盛顿纪念碑",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=293",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap226-horn-players",
+      "apNumber": 226,
+      "unit": 10,
+      "titleEn": "Horn Players",
+      "titleZh": "号角演奏者",
+      "artistCulture": "Jean-Michel Basquiat",
+      "culture": "African American and diasporic contemporary painting",
+      "date": "1983 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Acrylic and oil paintstick on three canvas panels",
+      "siteName": "United States (Basquiat's New York painting practice)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 471,
+        "y": 219
+      },
+      "traditionGroup": "Identity & Representation",
+      "workType": "Triptych painting",
+      "provenanceQualifier": "The artist's working context is used; the CED does not identify the precise studio. Los Angeles is the current collection, not the creation site.",
+      "function": "向爵士乐黑人创新者致敬，以文字和绘画对抗将黑人创造力边缘化的文化叙事。 The painting honors Black jazz innovators and gives their creativity prominence through an intentionally layered visual and verbal tribute.",
+      "form": "黑底三联画叠加粗线人像、白色涂抹与重复或划去的文字，节奏如即兴音乐。 Three dark panels carry schematic figures, white painted interruptions and repeated or crossed-out words. Uneven marks and abrupt shifts generate a visual rhythm comparable to musical improvisation.",
+      "content": "Charlie Parker与Dizzy Gillespie通过面孔、乐器和名字出现；ORNiTHOLOGY呼应Parker的Bird昵称与曲名。 Charlie Parker and Dizzy Gillespie appear through figures, instruments and verbal references. Ornithology invokes Parker's nickname Bird and his composition, making language part of the portrait.",
+      "context": "Basquiat将街头文字经验、黑人历史与艺术史放入画布；乱序不等于没有结构，三块面板仍是一件完整作品。 Basquiat brought street-based wordplay, Black cultural history and art-historical references into painting. Apparent disorder is organized through repetition; the triptych is one work and one official required image.",
+      "recognitionAnchors": [
+        "black triptych 黑底三联画",
+        "crossed-out words 划去文字",
+        "saxophone and jazz names 萨克斯与爵士姓名"
+      ],
+      "comparisonIds": [
+        "ap238-electronic-superhighway"
+      ],
+      "comparisonNotes": {
+        "ap238-electronic-superhighway": "二者以重复与信息叠加表现文化；Basquiat聚焦爵士人物，Paik用屏幕拼成国家传媒地图。 Both layer and repeat information; Basquiat focuses on jazz figures, whereas Paik assembles a national media landscape from screens."
+      },
+      "keywords": [
+        "jazz 爵士乐",
+        "wordplay 文字游戏",
+        "triptych 三联画"
+      ],
+      "images": [
+        {
+          "id": "complete-triptych",
+          "label": "Complete three-panel painting / 完整三联画",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete three-panel painting / 完整三联画",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=294",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap227-summer-trees",
+      "apNumber": 227,
+      "unit": 10,
+      "titleEn": "Summer Trees",
+      "titleZh": "夏日树木",
+      "artistCulture": "Song Su-nam",
+      "culture": "Korean modern ink painting; Sumukhwa",
+      "date": "1979 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Ink on paper",
+      "siteName": "South Korea (modern ink-painting context)",
+      "region": "korea",
+      "coordinates": {
+        "x": 1367,
+        "y": 238
+      },
+      "traditionGroup": "Abstraction & Landscape",
+      "workType": "Abstract ink landscape",
+      "provenanceQualifier": "Korean production tradition is established; an exact studio is not established by the CED. London is the current holding.",
+      "function": "以现代水墨探索韩国文化身份并延续文人艺术价值，不是对西方抽象绘画的简单模仿。 Modern ink practice renews literati values while addressing Korean cultural identity; the work is not merely an imitation of Western abstract painting.",
+      "form": "浓淡墨形成并列垂直宽笔触，湿纸渗化与较干墨痕共存，白色间隙形成浅空间。 Broad vertical strokes range from saturated black to diluted gray. Wet-paper bleeding and drier marks coexist, while narrow white intervals create a compressed suggestion of space.",
+      "content": "标题提示树群和自然；友谊与正直可作为文人传统的联想，但不是已证实的唯一象征。 The title directs the abstract bands toward trees and nature. Friendship and upright character are possible literati associations, not an established exclusive iconographic code.",
+      "context": "1979年作品先于1980年代水墨运动的组织化；战后分裂与西化压力使选择墨和纸具有文化意义。 The 1979 painting precedes the organized ink movement of the 1980s. Postwar division and Westernizing pressures made the choice of ink and paper culturally meaningful in South Korea.",
+      "recognitionAnchors": [
+        "broad vertical ink bands 宽垂直墨带",
+        "black-to-gray washes 黑灰墨色",
+        "white gaps 白色间隙"
+      ],
+      "comparisonIds": [
+        "ap234-earths-creation"
+      ],
+      "comparisonNotes": {
+        "ap234-earths-creation": "两者从特定土地与文化关系形成抽象；水墨的克制墨调区别于Kngwarreye的密集多彩点触。 Both ground abstraction in particular cultural relationships to landscape; restrained ink tones differ from Kngwarreye's dense, multicolored touches."
+      },
+      "keywords": [
+        "Sumukhwa 水墨画",
+        "literati 文人传统",
+        "ink wash 墨洗"
+      ],
+      "images": [
+        {
+          "id": "complete-ink-painting",
+          "label": "Complete ink-on-paper composition / 完整纸本水墨构图",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete ink-on-paper composition / 完整纸本水墨构图",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=294",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap228-androgyne-iii",
+      "apNumber": 228,
+      "unit": 10,
+      "titleEn": "Androgyne III",
+      "titleZh": "雌雄同体III",
+      "artistCulture": "Magdalena Abakanowicz",
+      "culture": "Polish postwar fiber sculpture",
+      "date": "1985 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Burlap, resin, wood, nails, and string",
+      "siteName": "Poland (Abakanowicz's working context)",
+      "region": "poland",
+      "coordinates": {
+        "x": 884,
+        "y": 169
+      },
+      "traditionGroup": "Body & Spirituality",
+      "workType": "Hollow figurative sculpture",
+      "provenanceQualifier": "The supplied chapter establishes the artist's continuing Polish practice; the precise fabrication workshop is not identified. New York is the current holding.",
+      "function": "借残缺匿名躯体引发对脆弱性、战争与去人性化的思考，不把性别设为唯一身份。 The anonymous fragment invites reflection on vulnerability, war and dehumanization while refusing to make gender the figure's defining identity.",
+      "form": "树脂固定的粗麻布构成空心无头躯干，皱褶类似皮肤与肌肉，木架作为支撑而非自然腿部。 Resin-stiffened burlap forms a hollow headless torso. Wrinkled surfaces suggest skin and muscle, while a rough wooden support supplies a structural base rather than anatomically modeled legs.",
+      "content": "缺失的头与肢体、空腔和粗糙表面让身体同时显得存在与被剥夺；无明确性征回应标题。 Absent limbs and head, the empty cavity and textured shell make the body simultaneously present and deprived. Reduced sexual characteristics connect to the title's androgyny.",
+      "context": "艺术家经历战争与战后波兰政治限制；传记支持创伤解读，但作品的开放性不等于某一具体受害者肖像。 The artist's wartime experiences and postwar Polish restrictions inform readings of trauma. Its ambiguity remains important: it is not a documented portrait of one particular victim.",
+      "recognitionAnchors": [
+        "headless burlap torso 无头麻布躯干",
+        "wrinkled hollow shell 皱褶空壳",
+        "rough wooden stretcher 粗木支架"
+      ],
+      "comparisonIds": [
+        "ap242-lying-wolf"
+      ],
+      "comparisonNotes": {
+        "ap242-lying-wolf": "两者以非理想化身体探索脆弱性；残缺空壳的孤立不同于女人与狼的亲密互相照料。 Both use nonidealized bodies to explore vulnerability; the isolated bodily husk contrasts with the woman and wolf's intimate mutual care."
+      },
+      "keywords": [
+        "fiber 纤维",
+        "androgyny 雌雄同体",
+        "vulnerability 脆弱性"
+      ],
+      "images": [
+        {
+          "id": "figure-and-wooden-support",
+          "label": "Headless torso on wooden support / 木制支架上的无头躯干",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Headless torso on wooden support / 木制支架上的无头躯干",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=294",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap229-book-from-sky",
+      "apNumber": 229,
+      "unit": 10,
+      "titleEn": "A Book from the Sky",
+      "titleZh": "天书",
+      "artistCulture": "Xu Bing",
+      "culture": "Chinese contemporary printmaking and language-based installation",
+      "date": "1987–1991 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Mixed-media installation",
+      "siteName": "Beijing, China (initial 1988 presentation)",
+      "region": "china",
+      "coordinates": {
+        "x": 1317,
+        "y": 223
+      },
+      "traditionGroup": "Language & Media",
+      "workType": "Printed-book and scroll installation",
+      "provenanceQualifier": "The initial completed section was shown at the National Art Museum of China in 1988; the finished installation was first shown at Tokyo Gallery in 1991. This anchor records the initial presentation, not every fabrication site or later installation.",
+      "function": "使识字者也无法阅读，以看似权威的文字质疑语言、知识与印刷信息的可信度。 An unreadable text confronts even literate readers with uncertainty and questions the authority of language, knowledge and printed information.",
+      "form": "仿汉字通过木活字印成书册与卷轴；地面、墙面和顶棚共同组成沉浸式文字空间。 Invented Chinese-looking characters were carved as wooden type and printed into books and scrolls. Floor, walls and ceiling envelop visitors in a highly ordered textual environment.",
+      "content": "字符具有汉字部件与排版外观却不传达常规词义；庄严的书籍形式与空缺的语义相冲突。 The characters borrow the visual structure of Chinese writing without ordinary lexical meaning. The dignity of traditional books conflicts with the absence of readable content.",
+      "context": "后毛泽东时代的知识输入与早年宣传文字经验提供背景；1988北京展出初段，1991东京呈现完成形态。 Post-Mao intellectual exchange and the artist's earlier experience of propaganda lettering supply context. An initial section appeared in Beijing in 1988; the finished form appeared at Tokyo Gallery in 1991.",
+      "recognitionAnchors": [
+        "books across floor 地面书海",
+        "billowing ceiling scrolls 顶棚卷轴",
+        "unreadable pseudo-characters 不可读仿字"
+      ],
+      "comparisonIds": [
+        "ap250-sunflower-seeds"
+      ],
+      "comparisonNotes": {
+        "ap250-sunflower-seeds": "二者依赖重复和手工劳动挑战统一表象；天书复制无词义字符，葵花籽让貌似相同的个体保留差异。 Both use repetition and labor to challenge apparent uniformity; the book repeats unreadable signs, while the seeds preserve individual differences within a seemingly identical mass."
+      },
+      "keywords": [
+        "movable type 活字",
+        "language 语言",
+        "authority 权威"
+      ],
+      "images": [
+        {
+          "id": "books-ceiling-and-wall-scrolls",
+          "label": "Floor books with ceiling and wall scrolls / 地面书籍及天花板、墙面卷轴",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Floor books with ceiling and wall scrolls / 地面书籍及天花板、墙面卷轴",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=294",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap230-pink-panther",
+      "apNumber": 230,
+      "unit": 10,
+      "titleEn": "Pink Panther",
+      "titleZh": "粉红豹",
+      "artistCulture": "Jeff Koons",
+      "culture": "Postmodern mass-culture appropriation; European artisan fabrication",
+      "date": "1988 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Glazed porcelain",
+      "siteName": "Europe (artisan fabrication; workshop unresolved)",
+      "region": "europe",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "traditionGroup": "Materials & Global Exchange",
+      "workType": "Porcelain figurative sculpture",
+      "provenanceQualifier": "MoMA identifies European artisan fabrication for the Banality series. A country or workshop for this edition is not established here; New York is an original 1988 exhibition context, not assumed fabrication.",
+      "function": "将商业玩偶与明星形象提升为昂贵艺术对象，挑动高雅趣味和kitsch的边界。 The sculpture elevates celebrity imagery and toy-like forms into a luxury art object, provoking debate over the boundary between cultivated taste and kitsch.",
+      "form": "光亮釉面、甜腻粉彩与放大的小摆件尺度形成精致却夸张的视觉效果。 Glossy glaze, sugary pastel colors and enlarged figurine scale produce a meticulously finished yet deliberately excessive object.",
+      "content": "仿Jayne Mansfield的金发女郎抱着粉红豹，性感明星与儿童卡通消费形象混合。 A blonde pin-up modeled on Jayne Mansfield embraces the Pink Panther. Sexualized celebrity and cartoon consumption overlap in a deliberately artificial pairing.",
+      "context": "属于1988年Banality系列，由欧洲工匠代制；现有证据未确定本件制作国家或工坊，纽约首展不能替代制作地点。 Part of the 1988 Banality series, the design was fabricated by European artisans. Evidence reviewed does not establish this edition's country or workshop; its New York exhibition context is not a fabrication location.",
+      "recognitionAnchors": [
+        "blonde pin-up 金发女郎",
+        "pink cartoon panther 粉红卡通豹",
+        "glossy pastel porcelain 光亮粉彩瓷"
+      ],
+      "comparisonIds": [
+        "ap250-sunflower-seeds"
+      ],
+      "comparisonNotes": {
+        "ap250-sunflower-seeds": "均由工匠制作瓷器并改变日常物件尺度；Koons将小摆件变为奢侈品，Ai以海量手工种子讨论个人与集体。 Both depend on artisan porcelain fabrication and altered everyday scale; Koons magnifies a figurine into luxury art, while Ai's vast field examines the individual and the collective."
+      },
+      "keywords": [
+        "kitsch 媚俗",
+        "Banality 平庸系列",
+        "fabrication 代制"
+      ],
+      "images": [
+        {
+          "id": "complete-porcelain-sculpture",
+          "label": "Complete porcelain figure holding Pink Panther / 抱粉红豹的完整瓷塑人物",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete porcelain figure holding Pink Panther / 抱粉红豹的完整瓷塑人物",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=295",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap231-untitled-228",
+      "apNumber": 231,
+      "unit": 10,
+      "titleEn": "Untitled #228, from the History Portraits series",
+      "titleZh": "无题#228",
+      "artistCulture": "Cindy Sherman",
+      "culture": "Postmodern staged photography and feminist representation",
+      "date": "1990 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Photograph",
+      "siteName": "United States (Sherman's photographic practice)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 364,
+        "y": 227
+      },
+      "traditionGroup": "Identity & Representation",
+      "workType": "Staged photographic tableau",
+      "provenanceQualifier": "This is a working-context anchor, not a claim to an exact photographic studio or to the biblical scene's location.",
+      "function": "以扮演和假道具拆解女性英雄形象及艺术史权威。 The staged image examines how art history constructs female heroism and pictorial authority through costume, performance and obvious fabrication.",
+      "form": "正面女性穿红蓝衣，布帘压缩背景；夸张妆容与假头破坏幻觉。 A frontal woman in red and blue occupies shallow space against textiles. Exaggerated makeup and an artificial severed head disrupt the illusion of historical reality.",
+      "content": "Sherman扮作Judith持Holofernes头和刀，并非日常自画像。 Sherman performs Judith carrying Holofernes' head and a knife. This is a constructed art-historical role, not a straightforward autobiographical self-portrait.",
+      "context": "History Portraits借古典构图但不复制唯一绘画；摄影能制造而非仅记录现实。 The History Portraits series borrows older conventions without reproducing only one painting. Photography here invents and exposes a narrative rather than simply recording reality.",
+      "recognitionAnchors": [
+        "red dress and blue sash 红裙蓝带",
+        "severed prop head 道具断头",
+        "frontal figure before textiles 布帘前人物"
+      ],
+      "comparisonIds": [
+        "ap244-swing-fragonard"
+      ],
+      "comparisonNotes": {
+        "ap244-swing-fragonard": "两者重制旧画角色；Sherman暴露摄影道具，Shonibare以无头人偶和贸易织物改写洛可可。 Both restage older roles; Sherman exposes photographic props, while Shonibare rewrites Rococo through a headless mannequin and globally traded textiles."
+      },
+      "keywords": [
+        "appropriation 挪用",
+        "Judith 朱迪斯",
+        "staging 摆拍"
+      ],
+      "images": [
+        {
+          "id": "complete-photograph",
+          "label": "Complete Judith photographic tableau / 完整朱迪思摄影场景",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete Judith photographic tableau / 完整朱迪思摄影场景",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=295",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap232-dancing-louvre",
+      "apNumber": 232,
+      "unit": 10,
+      "titleEn": "Dancing at the Louvre, from the series The French Collection, Part I; #1",
+      "titleZh": "在卢浮宫跳舞",
+      "artistCulture": "Faith Ringgold",
+      "culture": "African American story-quilting and feminist narrative",
+      "date": "1991 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Acrylic on canvas, tie-dyed, pieced fabric border",
+      "siteName": "United States (Ringgold's story-quilt practice)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 364,
+        "y": 227
+      },
+      "traditionGroup": "Identity & Representation",
+      "workType": "Painted story quilt",
+      "provenanceQualifier": "The Louvre is the imagined narrative setting, not an established workshop. The specific production studio is not fixed by the CED.",
+      "function": "让黑人女性在欧洲艺术正典中拥有行动位置，同时提升女性纺织技艺。 The quilt gives Black women narrative agency within the European canon and elevates textile practices associated with women's creative labor.",
+      "form": "中心画布由拼布和手写文字边框包围；平面人物与地板斜线组织空间。 A painted canvas is surrounded by pieced fabric and handwritten text. Flattened figures, diagonal floor lines and framed paintings organize the museum interior.",
+      "content": "虚构Willa Marie Simone故事让女性与孩子在Mona Lisa前跳舞，重新定义谁占据博物馆。 The fictional story of Willa Marie Simone places women and children dancing before the Mona Lisa, transforming who occupies and animates museum space.",
+      "context": "The French Collection并非真实游记；家庭缝纫传统与争取认可结合，不重复未经证实的秘密被子路线说。 The French Collection is fiction, not a literal travel diary. Family sewing traditions intersect with Black women's struggle for recognition; disputed quilt-code stories are not necessary to interpret this work.",
+      "recognitionAnchors": [
+        "Mona Lisa in background 背景蒙娜丽莎",
+        "dancing children 跳舞儿童",
+        "textile and text borders 织物文字边框"
+      ],
+      "comparisonIds": [
+        "ap243-darkytown-rebellion"
+      ],
+      "comparisonNotes": {
+        "ap243-darkytown-rebellion": "均挑战历史排除；Ringgold以欢乐叙述占据卢浮宫，Walker以暴力剪影面对种族观看。 Both challenge historical exclusion; Ringgold's joyful narrative claims the Louvre, while Walker's violent silhouettes confront racialized looking."
+      },
+      "keywords": [
+        "story quilt 故事被",
+        "canon 正典",
+        "agency 能动性"
+      ],
+      "images": [
+        {
+          "id": "complete-story-quilt",
+          "label": "Complete story quilt with text and fabric borders / 包含文字及布边的完整故事被",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete story quilt with text and fabric borders / 包含文字及布边的完整故事被",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=295",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap233-trade",
+      "apNumber": 233,
+      "unit": 10,
+      "titleEn": "Trade (Gifts for Trading Land with White People)",
+      "titleZh": "交易：与白人交换土地的礼物",
+      "artistCulture": "Jaune Quick-to-See Smith",
+      "culture": "Salish and Kootenai contemporary art; Indigenous critique",
+      "date": "1992 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Oil and mixed media on canvas",
+      "siteName": "United States (Quick-to-See Smith's artistic practice)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 364,
+        "y": 227
+      },
+      "traditionGroup": "Materials & Global Exchange",
+      "workType": "Mixed-media triptych and suspended objects",
+      "provenanceQualifier": "The artist's Salish Kootenai affiliation and Montana origin are not evidence of this work's precise studio; the current Norfolk collection is not the production site.",
+      "function": "把刻板纪念品反向提出交换土地，批判殖民占有与文化商品化。 The work ironically offers stereotyped souvenirs in return for land, exposing colonial dispossession and commodified Indigenous identities.",
+      "form": "三画布叠报纸和流淌颜料，独木舟轮廓横贯画面，上方悬挂纪念品。 Newspaper and dripping paint layer across three canvases. A canoe outline spans the painting, while toys and souvenirs hang on a line above it.",
+      "content": "独木舟连接贸易与迁徙；吉祥物商品是刻板化证据，也是讽刺交换筹码。 The canoe evokes travel and exchange. Commercial mascots and souvenirs provide evidence of stereotyping and serve as sarcastic bargaining objects.",
+      "context": "1992回应哥伦布五百周年；曼哈顿廉价购地传说作为意识形态神话而非可靠历史。 Created for the Columbus quincentenary, the painting contests celebratory colonial history. The cheap-purchase story about Manhattan is treated as an ideological myth, not secure historical fact.",
+      "recognitionAnchors": [
+        "canoe outline 独木舟轮廓",
+        "hanging souvenir line 悬挂纪念品",
+        "red layered triptych 红色三联画"
+      ],
+      "comparisonIds": [
+        "ap237-pisupo-lua-afe"
+      ],
+      "comparisonNotes": {
+        "ap237-pisupo-lua-afe": "均用消费物件批判殖民经济；Trade着重土地，Tuffery聚焦食物主权。 Both use consumer objects to critique colonial economies; Trade emphasizes land and stereotypes, while Tuffery addresses food sovereignty and environment."
+      },
+      "keywords": [
+        "dispossession 土地剥夺",
+        "commodification 商品化",
+        "collage 拼贴"
+      ],
+      "images": [
+        {
+          "id": "triptych-and-suspended-objects",
+          "label": "Three painted panels and suspended objects / 三幅绘画板与悬挂物",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Three painted panels and suspended objects / 三幅绘画板与悬挂物",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=295",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap234-earths-creation",
+      "apNumber": 234,
+      "unit": 10,
+      "titleEn": "Earth's Creation",
+      "titleZh": "大地的创造",
+      "artistCulture": "Emily Kame Kngwarreye",
+      "culture": "Anmatyerr; Aboriginal Australian contemporary painting",
+      "date": "1994 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Synthetic polymer paint on canvas",
+      "siteName": "Alhalkere / Utopia region, Central Australia",
+      "region": "australia",
+      "coordinates": {
+        "x": 1399,
+        "y": 499
+      },
+      "traditionGroup": "Abstraction & Landscape",
+      "workType": "Four-panel monumental painting",
+      "provenanceQualifier": "The anchor represents the artist's Anmatyerr country and working context, not a precise painting-site coordinate or later auction/collection.",
+      "function": "表达与Alhalkere土地、季节和祖传知识的关系，不只是形式装饰。 The painting expresses relationships with Alhalkere country, seasonal change and inherited knowledge rather than serving as purely formal decoration.",
+      "form": "四联横幅以密集点触和鲜艳蓝绿黄构成满幅节奏，没有单一地平线。 Four large panels carry dense touches and vivid blue, green and yellow passages in an all-over rhythm without a single landscape horizon.",
+      "content": "雨后green time的丰盛是主题；抽象外观不取消土地与仪式经验。 The flourishing green time after rain informs its color and abundance. Abstract appearance does not erase relationships to country and ceremonial experience.",
+      "context": "身体仪式绘画及蜡染转入画布；抽象表现主义比较不能替代Anmatyerr语境。 The artist moved from ceremonial body painting and batik into canvas practice. Abstract Expressionist comparisons can illuminate gesture but must not replace Anmatyerr context.",
+      "recognitionAnchors": [
+        "blue green yellow field 蓝绿黄场域",
+        "dense dotted gestures 密集点触",
+        "four joined panels 四联横幅"
+      ],
+      "comparisonIds": [
+        "ap227-summer-trees"
+      ],
+      "comparisonNotes": {
+        "ap227-summer-trees": "两者以非写实形式表达文化化自然；水墨纵带不同于多彩点触。 Both express culturally situated nature without illusionistic description; ink bands contrast with colored touches conveying seasonal abundance."
+      },
+      "keywords": [
+        "Country 土地关系",
+        "green time 雨后绿季",
+        "all-over 满幅构图"
+      ],
+      "images": [
+        {
+          "id": "complete-four-panel-painting",
+          "label": "Complete four-panel painting / 完整四联画",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete four-panel painting / 完整四联画",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=296",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap235-rebellious-silence",
+      "apNumber": 235,
+      "unit": 10,
+      "titleEn": "Rebellious Silence, from the Women of Allah series",
+      "titleZh": "反叛的沉默",
+      "artistCulture": "Shirin Neshat (artist); photograph by Cynthia Preston",
+      "culture": "Iranian diasporic contemporary art; feminist photographic inquiry",
+      "date": "1994 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Ink on photograph",
+      "siteName": "United States (Neshat and Preston's photographic production context)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 364,
+        "y": 227
+      },
+      "traditionGroup": "Identity & Representation",
+      "workType": "Inscribed photographic portrait",
+      "provenanceQualifier": "Neshat's Iranian identity and the photograph's political subject do not make Iran its production site. Exact studio location is unresolved; Cynthia Preston's photographic authorship must remain distinct.",
+      "function": "挑战对穆斯林女性的单一看法，让凝视、信仰、政治和暴力相互矛盾。 The image challenges singular views of Muslim women by placing gaze, faith, politics and violence in an unresolved relationship.",
+      "form": "黑白对称肖像被垂直枪管分脸，黑chador衬白背景，脸上写波斯语。 A nearly symmetrical black-and-white portrait is divided by a rifle barrel. A dark chador contrasts with white ground, and handwritten Persian text covers the face.",
+      "content": "文字取自Tahereh Saffarzadeh殉道诗歌，不是古兰经装饰；符号不能简化为赞成或反对。 Text drawn from Tahereh Saffarzadeh's poetry concerns martyrdom, not decorative Quranic transcription. Gun, veil and returned gaze resist simple endorsement or condemnation.",
+      "context": "回应伊朗革命后变化与离散；Neshat艺术家与Preston摄影者须分开，政治主题不证明伊朗制作。 The series responds to post-revolutionary Iran and diaspora. Neshat's artistic authorship and Preston's photographic authorship remain distinct; subject matter does not establish Iranian production.",
+      "recognitionAnchors": [
+        "rifle bisecting face 枪管分脸",
+        "Persian script on skin 波斯语文字",
+        "black chador 黑罩袍"
+      ],
+      "comparisonIds": [
+        "ap231-untitled-228"
+      ],
+      "comparisonNotes": {
+        "ap231-untitled-228": "都以表演肖像批判女性再现；Sherman暴露假道具，Neshat用文字与政治符号维持矛盾。 Both interrogate female representation through performed portraiture; Sherman exposes props, while Neshat sustains contradiction through writing and political symbols."
+      },
+      "keywords": [
+        "diaspora 离散",
+        "gaze 凝视",
+        "Persian poetry 波斯诗歌"
+      ],
+      "images": [
+        {
+          "id": "complete-inscribed-photograph",
+          "label": "Complete inscribed portrait with rifle / 带铭文及步枪的完整肖像",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete inscribed portrait with rifle / 带铭文及步枪的完整肖像",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=296",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap236-barberia",
+      "apNumber": 236,
+      "unit": 10,
+      "titleEn": "En la Barberia no se Llora (No Crying Allowed in the Barbershop)",
+      "titleZh": "理发店里不许哭",
+      "artistCulture": "Pepón Osorio",
+      "culture": "Puerto Rican diaspora; community-based contemporary installation",
+      "date": "1994 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Mixed-media installation",
+      "siteName": "Park Street, Hartford, Connecticut, United States",
+      "region": "united-states",
+      "coordinates": {
+        "x": 477,
+        "y": 214
+      },
+      "traditionGroup": "Identity & Representation",
+      "workType": "Community-based barbershop installation",
+      "provenanceQualifier": "The initial community presentation was commissioned by Real Art Ways; Puerto Rico is the artist's origin and later collection context, not this original Hartford presentation.",
+      "function": "让社区讨论男性气概与情感压抑，艺术参与不只发生在博物馆。 The installation opens community discussion of masculinity and emotional suppression, extending artistic participation beyond conventional museum audiences.",
+      "form": "理发椅、镜子、照片和塑料花密集充满空间，视频与装饰有意过量。 Barber chairs, mirrors, photographs and artificial flowers densely fill the setting. Video and accumulated ornament produce deliberate visual excess.",
+      "content": "男性象征与哭泣视频挑战禁令；物件同时显示文化自豪与社会角色压力。 Masculine symbols and videos of crying men challenge the title's prohibition. Objects convey cultural pride and the pressure of prescribed social roles.",
+      "context": "Real Art Ways委托并与Hartford Park Street居民合作；Puerto Rico童年记忆不是原始展示地点。 Commissioned by Real Art Ways and developed with Hartford's Park Street residents, the work privileges community encounter. Puerto Rican childhood memories are not its original exhibition location.",
+      "recognitionAnchors": [
+        "decorated barber chair 装饰理发椅",
+        "dense wall portraits 密集肖像",
+        "roses and ornaments 玫瑰饰物"
+      ],
+      "comparisonIds": [
+        "ap232-dancing-louvre"
+      ],
+      "comparisonNotes": {
+        "ap232-dancing-louvre": "都将日常技艺转为批判；故事被占据博物馆，社区理发装置讨论情感。 Both mobilize everyday practices critically; the story quilt claims museum space, while the community barbershop installation examines masculine emotion."
+      },
+      "keywords": [
+        "machismo 男性气概",
+        "community 社区",
+        "chucherías 小饰物"
+      ],
+      "images": [
+        {
+          "id": "barbershop-installation-detail",
+          "label": "Decorated barber chair and wall installation detail / 装饰理发椅与墙面装置局部",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Decorated barber chair and wall installation detail / 装饰理发椅与墙面装置局部",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=296",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap237-pisupo-lua-afe",
+      "apNumber": 237,
+      "unit": 10,
+      "titleEn": "Pisupo Lua Afe (Corned Beef 2000)",
+      "titleZh": "罐头牛肉2000",
+      "artistCulture": "Michel Tuffery",
+      "culture": "Aotearoa New Zealand Pacific art; Samoan, Cook Islands and Tahitian connections",
+      "date": "1994 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Mixed media",
+      "siteName": "New Zealand (Tuffery's Pacific art practice)",
+      "region": "new-zealand",
+      "coordinates": {
+        "x": 1573,
+        "y": 582
+      },
+      "traditionGroup": "Materials & Global Exchange",
+      "workType": "Can-built bull sculpture",
+      "provenanceQualifier": "This anchors the artist's New Zealand production context, not Samoa merely from the title or ancestry. A precise workshop is not established here.",
+      "function": "以牛引导思考进口食品、废物与Pacific食物主权，不只是趣味雕塑。 The bull prompts questions about imported food, waste and Pacific food sovereignty rather than serving only as an entertaining sculpture.",
+      "form": "压平牛肉罐铆接成近实物大牛，彩色标签和重叠金属构成鳞片皮肤。 Flattened corned-beef cans are riveted into a roughly life-size bull. Colorful labels and overlapping metal units form a hard, scale-like skin.",
+      "content": "牛由装过牛肉的罐构成，动物与包装循环相连；pisupo联系Pacific食品礼物。 Containers of processed beef make up the animal's body, connecting livestock and packaging. Pisupo invokes canned-food consumption and ceremonial exchange.",
+      "context": "New Zealand Pacific实践讨论殖民贸易与环境；标题2000不是CED制作日期1994。 Tuffery's New Zealand Pacific practice addresses colonial trade and environmental change. The title's 2000 does not replace the CED's 1994 making date.",
+      "recognitionAnchors": [
+        "bull profile 牛侧面",
+        "bright can labels 鲜艳罐标签",
+        "riveted metal 铆接金属"
+      ],
+      "comparisonIds": [
+        "ap233-trade"
+      ],
+      "comparisonNotes": {
+        "ap233-trade": "均将消费物件转政治提问；土地交易与食品生态代价相互对照。 Both turn consumer objects into political questions, contrasting land bargaining with the ecological costs of food trade."
+      },
+      "keywords": [
+        "food sovereignty 食物主权",
+        "upcycling 升级再用",
+        "Pacific exchange 太平洋交换"
+      ],
+      "images": [
+        {
+          "id": "complete-tinned-bull",
+          "label": "Complete bull made of tins / 完整罐头牛雕塑",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete bull made of tins / 完整罐头牛雕塑",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=296",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap238-electronic-superhighway",
+      "apNumber": 238,
+      "unit": 10,
+      "titleEn": "Electronic Superhighway",
+      "titleZh": "电子高速公路",
+      "artistCulture": "Nam June Paik",
+      "culture": "Transnational video art; Korean-born American media practice",
+      "date": "1995 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Mixed-media installation (49-channel closed-circuit video installation, neon, steel, and electronic components)",
+      "siteName": "United States (Paik's video-art production context)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 364,
+        "y": 227
+      },
+      "traditionGroup": "Language & Media",
+      "workType": "Neon and multichannel video installation",
+      "provenanceQualifier": "The map depicts the United States; the present Smithsonian installation in Washington is not asserted as the original 1995 fabrication workshop. Korean birthplace is not its production anchor.",
+      "function": "反思美国被电视、信息和国家神话连接，同时让信息过载可感。 The installation examines a United States linked by television, information and national myths while making media overload palpable.",
+      "form": "电视堆成地图，彩色霓虹勾州界，多个视频同步播放并非一个统一节目。 Banks of televisions form a map with colored neon state boundaries. Numerous moving images play simultaneously rather than creating one coherent broadcast.",
+      "content": "Kansas的Wizard of Oz等影像关联地方神话，电子网络隐喻道路网。 Regional videos, including Kansas and The Wizard of Oz, invoke local popular mythology. Electronic circulation becomes an analogy for the highway network.",
+      "context": "Paik重组电视为艺术；选件是1995地图，不是1993先例或讲义1996日期。 Paik treated television as an artistic medium that could be reorganized. The selected object is the 1995 map, not its 1993 antecedent or the deck's 1996 date.",
+      "recognitionAnchors": [
+        "neon state outlines 霓虹州界",
+        "stacked TV screens 层叠电视",
+        "United States map 美国地图"
+      ],
+      "comparisonIds": [
+        "ap226-horn-players"
+      ],
+      "comparisonNotes": {
+        "ap226-horn-players": "均密集并置大众文化；爵士人物的文字节奏与国家传媒空间体验不同。 Both juxtapose popular culture densely; painted jazz figures generate verbal rhythm, while the media map creates a national spatial experience."
+      },
+      "keywords": [
+        "video art 录像艺术",
+        "information overload 信息过载",
+        "neon 霓虹"
+      ],
+      "images": [
+        {
+          "id": "complete-neon-video-map",
+          "label": "Complete illuminated neon and video map / 完整发光霓虹录像地图",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete illuminated neon and video map / 完整发光霓虹录像地图",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=297",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap239-crossing",
+      "apNumber": 239,
+      "unit": 10,
+      "titleEn": "The Crossing",
+      "titleZh": "穿越",
+      "artistCulture": "Bill Viola",
+      "culture": "Contemporary video art; cross-tradition spiritual inquiry",
+      "date": "1996 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Video/sound installation",
+      "siteName": "Savannah College of Art and Design, Savannah, Georgia, United States",
+      "region": "united-states",
+      "coordinates": {
+        "x": 440,
+        "y": 257
+      },
+      "traditionGroup": "Body & Spirituality",
+      "workType": "Two-sided projected video installation",
+      "provenanceQualifier": "SCAD states that it co-commissioned the work in 1996 and hosted its premiere. This is an original presentation anchor, not a claim that filming occurred in Savannah.",
+      "function": "以慢动作和音响引发对消逝、转化与超越的冥想，不演示唯一教义。 Slow motion and immersive sound encourage contemplation of disappearance, transformation and transcendence rather than illustrating one fixed doctrine.",
+      "form": "双面屏同步水火序列，黑背景与扩大身体尺度延长小动作。 Opposite sides of a large screen show water and fire sequences simultaneously. Dark ground, enlarged scale and slowed playback extend perception of small movements.",
+      "content": "男子接近后被水或火吞没并消失；官方必看图是水瀑，火不是第二官方图。 An approaching man is engulfed by water or fire before disappearing. These elements suggest destruction and renewal; the required official image is the water still, not an additional fire view.",
+      "context": "SCAD1996共同委托和首演；Savannah是原始展示，不是拍摄地点证据。 SCAD co-commissioned the work in 1996 and hosted its premiere. Savannah anchors original presentation, not established filming; spiritual associations do not prove a specific liturgical function.",
+      "recognitionAnchors": [
+        "figure under deluge 水瀑中人物",
+        "dark background 黑背景",
+        "slow-motion projection 慢动作投影"
+      ],
+      "comparisonIds": [
+        "ap241-pure-land"
+      ],
+      "comparisonNotes": {
+        "ap241-pure-land": "都以技术探索灵性；Viola延展元素变化的时间，Mori叠合宗教图像和未来照片。 Both join technology and spirituality; Viola expands temporal elemental change, while Mori combines religious and futuristic imagery in a photograph."
+      },
+      "keywords": [
+        "slow motion 慢动作",
+        "transformation 转化",
+        "sound installation 声音装置"
+      ],
+      "images": [
+        {
+          "id": "water-deluge-video-still",
+          "label": "Water-deluge sequence video still / 水流倾泻片段的录像静帧",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Water-deluge sequence video still / 水流倾泻片段的录像静帧",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=297",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap240-guggenheim-bilbao",
+      "apNumber": 240,
+      "unit": 10,
+      "titleEn": "Guggenheim Museum Bilbao",
+      "titleZh": "毕尔巴鄂古根海姆博物馆",
+      "artistCulture": "Frank Gehry (architect)",
+      "culture": "Global contemporary museum architecture; Basque urban redevelopment",
+      "date": "1997 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Titanium, glass, and limestone",
+      "siteName": "Bilbao, Basque Country, Spain",
+      "region": "spain",
+      "coordinates": {
+        "x": 787,
+        "y": 208
+      },
+      "traditionGroup": "Public Space & Memory",
+      "workType": "Art museum architecture",
+      "function": "展示现代艺术并作城市更新地标，不能称一栋建筑独自拯救经济。 The museum houses modern art and acts as an urban-renewal landmark; its tourism role does not mean one building alone transformed the economy.",
+      "form": "曲面钛板与石灰石体块围绕玻璃钢中庭，规则与不规则展厅并存。 Curved titanium and limestone volumes cluster around a glass-and-steel atrium. Conventional and irregular galleries coexist within the sculptural envelope.",
+      "content": "水岸外观、中庭和场地平面说明建筑如何组织观看与城市联系。 The riverside exterior, atrium and site plan together reveal how the sculptural building organizes viewing and connects with its urban setting.",
+      "context": "Basque政府更新与Guggenheim扩展结合，数字设计支持复杂曲面；Bilbao是真实原址。 Basque redevelopment ambitions intersected with Guggenheim expansion. Digital design supported complex curved construction, and Bilbao is the actual architectural site.",
+      "recognitionAnchors": [
+        "curving titanium shell 曲面钛壳",
+        "tall glazed atrium 高玻璃中庭",
+        "riverside site plan 水岸平面"
+      ],
+      "comparisonIds": [
+        "ap249-maxxi"
+      ],
+      "comparisonNotes": {
+        "ap249-maxxi": "都把博物馆动线变成体验；Bilbao围绕中庭聚集，MAXXI以带状空间多向流动。 Both make circulation an architectural experience; Bilbao clusters spaces around an atrium, whereas MAXXI develops multidirectional movement through spatial ribbons."
+      },
+      "keywords": [
+        "deconstructivism 解构主义",
+        "atrium 中庭",
+        "urban renewal 城市更新"
+      ],
+      "images": [
+        {
+          "id": "riverside-exterior",
+          "label": "Titanium museum exterior beside the river / 河畔钛金属博物馆外观",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Titanium museum exterior beside the river / 河畔钛金属博物馆外观",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        },
+        {
+          "id": "atrium-interior",
+          "label": "Vertically framed atrium interior / 竖向取景的中庭内部",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Vertically framed atrium interior / 竖向取景的中庭内部",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        },
+        {
+          "id": "museum-site-plan",
+          "label": "Architectural museum site plan / 博物馆建筑总平面图",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Architectural museum site plan / 博物馆建筑总平面图",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap241-pure-land",
+      "apNumber": 241,
+      "unit": 10,
+      "titleEn": "Pure Land",
+      "titleZh": "净土",
+      "artistCulture": "Mariko Mori",
+      "culture": "Japanese transnational contemporary photography; Buddhist and futuristic imagery",
+      "date": "1998 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Color photograph on glass",
+      "siteName": "Transnational photographic production (exact creation site unresolved)",
+      "region": "transnational",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "traditionGroup": "Body & Spirituality",
+      "workType": "Digitally constructed photographic tableau",
+      "provenanceQualifier": "The image incorporates a Dead Sea landscape and Japanese religious imagery, but neither subject proves production location. Artist birthplace and the Los Angeles collection are not used as creation sites; geography requires further work-specific evidence before a precise map marker.",
+      "function": "让观看者在技术构成的理想世界中思考精神超越，不是实际寺院供奉像。 The photograph offers a technologically constructed ideal world for contemplating spiritual transformation, rather than functioning as a documented temple cult image.",
+      "form": "粉金色水天与低地平线中，中心人物立于莲花，六个外星音乐者浮于云上。 A low horizon joins pink-gold water and sky. A central costumed figure floats above a lotus while six alien musicians hover on cloud-like forms.",
+      "content": "Mori扮演结合Kichijoten和Amida迎接图像的角色，莲花和手印将传统与未来连接。 Mori performs a figure combining associations with Kichijoten and Amida's welcoming imagery. Lotus and gesture bridge religious symbols and futuristic visualization.",
+      "context": "与Nirvana视频相关但官方对象是玻璃照片；Dead Sea是图中景观，不证明整件制作或首展地点。 Related to the video Nirvana, the selected object is a photograph on glass. Dead Sea landscape imagery does not establish the complete work's production or first-presentation site, which remains unresolved.",
+      "recognitionAnchors": [
+        "lotus-centered figure 莲花中心人物",
+        "six alien musicians 六个外星乐者",
+        "pink-gold landscape 粉金景观"
+      ],
+      "comparisonIds": [
+        "ap239-crossing"
+      ],
+      "comparisonNotes": {
+        "ap239-crossing": "两者使用技术探索精神经验；Mori凝结虚构净土，Viola延展水火吞没与消失。 Both use technology to explore spiritual experience; Mori freezes a constructed paradise, while Viola prolongs elemental engulfment and disappearance."
+      },
+      "keywords": [
+        "Pure Land 净土",
+        "digital tableau 数字场景",
+        "lotus 莲花"
+      ],
+      "images": [
+        {
+          "id": "complete-photograph-on-glass",
+          "label": "Complete landscape, lotus and attendants photograph / 完整风景、莲花与随从摄影构图",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete landscape, lotus and attendants photograph / 完整风景、莲花与随从摄影构图",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=299",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap242-lying-wolf",
+      "apNumber": 242,
+      "unit": 10,
+      "titleEn": "Lying with the Wolf",
+      "titleZh": "与狼同卧",
+      "artistCulture": "Kiki Smith",
+      "culture": "Contemporary American feminist figuration and mythic narrative",
+      "date": "2001 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Ink and pencil on paper",
+      "siteName": "United States (Kiki Smith's drawing practice)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 364,
+        "y": 227
+      },
+      "traditionGroup": "Body & Spirituality",
+      "workType": "Large figurative drawing",
+      "provenanceQualifier": "The broad working context is used; an exact studio is not established. Paris is the collection context, not proof of production.",
+      "function": "重新想象女性与动物关系，将捕食恐惧转为相互照料并质疑权力二元。 The drawing reimagines relations between women and animals, turning expectations of predation into mutual care and questioning hierarchical binaries.",
+      "form": "大幅皱纸上细线与墨色表现卧女抱狼，背景留空，身体交叠形成亲密轮廓。 Fine lines and ink on a large wrinkled sheet describe a reclining woman embracing a wolf. Open ground and overlapping bodies emphasize intimate physical contact.",
+      "content": "小红帽和Saint Geneviève等共享故事相互联想，但画面不应指定为唯一情节的直译。 Associations with Little Red Riding Hood and Saint Geneviève converge, but the image should not be treated as a literal illustration of one exclusive episode.",
+      "context": "Smith从脆弱身体探索扩展到自然与神话，女性主义解读强调伴侣平等；Paris收藏不是制作地。 Smith extended her investigation of bodily vulnerability toward nature and myth. Feminist readings emphasize companionship rather than domination; Paris collection history does not establish creation geography.",
+      "recognitionAnchors": [
+        "woman embracing wolf 女人抱狼",
+        "large wrinkled paper 大幅皱纸",
+        "delicate contour drawing 细轮廓"
+      ],
+      "comparisonIds": [
+        "ap228-androgyne-iii"
+      ],
+      "comparisonNotes": {
+        "ap228-androgyne-iii": "均拒绝理想化身体；麻布残躯孤立脆弱，女人与狼以拥抱形成互相照料。 Both reject idealized bodies; the isolated burlap fragment conveys deprivation, while woman and wolf establish mutual care through embrace."
+      },
+      "keywords": [
+        "companionship 伴侣关系",
+        "myth 神话",
+        "figuration 具象"
+      ],
+      "images": [
+        {
+          "id": "complete-woman-and-wolf-drawing",
+          "label": "Complete woman and wolf drawing / 完整女人与狼绘画",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete woman and wolf drawing / 完整女人与狼绘画",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=299",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap243-darkytown-rebellion",
+      "apNumber": 243,
+      "unit": 10,
+      "titleEn": "Darkytown Rebellion",
+      "titleZh": "黑镇叛乱",
+      "artistCulture": "Kara Walker",
+      "culture": "African American contemporary art; racialized historical imagery",
+      "date": "2001 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Cut paper and projection on wall",
+      "siteName": "United States (Walker's production context; original venue unresolved)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 364,
+        "y": 227
+      },
+      "traditionGroup": "Identity & Representation",
+      "workType": "Silhouette and projected-light installation",
+      "provenanceQualifier": "The original 2001 presentation venue is not established by the CED or supplied chapter. Luxembourg is a later collection/install context, not silently treated as the original site; no exact map marker should be inferred from this broad context.",
+      "function": "暴露种族刻板印象与历史暴力，让观众意识到自己的观看也会参与分类。 The installation exposes racial stereotypes and historical violence while making viewers aware of their own role in categorizing bodies.",
+      "form": "黑剪影覆盖墙角，彩色光投射其间；进入光束的观众影子也融入场景。 Black cut-paper silhouettes spread across a corner while colored light washes across them. Visitors entering the projection cast shadows into the scene.",
+      "content": "轮廓暗示肢解、压迫和抵抗却遮蔽细节；标题叛乱并非特定真实事件的档案记录。 Outlines suggest mutilation, oppression and resistance while withholding clarifying detail. The rebellion is a visual invention, not an archival record of one securely identified event.",
+      "context": "Walker改写十九世纪Darkytown图像并揭露历史抹除；2001原始展址未知，Luxembourg是后来的收藏背景。 Walker reworks nineteenth-century Darkytown imagery to address erasure and stereotypes. The original 2001 venue remains unresolved; Luxembourg supplies later collection context, not an established first site.",
+      "recognitionAnchors": [
+        "black full-body silhouettes 黑全身剪影",
+        "colored light on corner 墙角彩光",
+        "projector and visitor shadows 投影及观众影"
+      ],
+      "comparisonIds": [
+        "ap232-dancing-louvre"
+      ],
+      "comparisonNotes": {
+        "ap232-dancing-louvre": "同样改写黑人再现；Ringgold以欢舞主张进入正典，Walker以不安与暴力追问历史观看。 Both rewrite Black representation; Ringgold claims entry into the canon through joyful dance, while Walker uses discomfort and violence to question historical looking."
+      },
+      "keywords": [
+        "silhouette 剪影",
+        "stereotype 刻板印象",
+        "historical erasure 历史抹除"
+      ],
+      "images": [
+        {
+          "id": "silhouettes-and-color-projection",
+          "label": "Corner-room silhouettes, colored projection and projector / 墙角剪影、彩色投影及投影机",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Corner-room silhouettes, colored projection and projector / 墙角剪影、彩色投影及投影机",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=299",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap244-swing-fragonard",
+      "apNumber": 244,
+      "unit": 10,
+      "titleEn": "The Swing (after Fragonard)",
+      "titleZh": "秋千：仿Fragonard",
+      "artistCulture": "Yinka Shonibare",
+      "culture": "British-Nigerian contemporary art; postcolonial appropriation",
+      "date": "2001 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Mixed-media installation",
+      "siteName": "United Kingdom (Shonibare's working context)",
+      "region": "united-kingdom",
+      "coordinates": {
+        "x": 799,
+        "y": 171
+      },
+      "traditionGroup": "Identity & Representation",
+      "workType": "Sculptural tableau",
+      "provenanceQualifier": "London-based production context is used, not Nigerian ancestry or the 18th-century French source painting; Tate holding does not by itself establish the original installation venue.",
+      "function": "通过贵族休闲追问殖民财富、阶级和文化真实性，欢乐外观掩盖严肃问题。 Aristocratic leisure becomes a vehicle for questioning colonial wealth, class and cultural authenticity beneath an apparently playful surface.",
+      "form": "无头真人大小人偶坐秋千，穿Dutch wax布制十八世纪裙装，鞋悬空、树枝围绕。 A headless life-size mannequin sits on a swing wearing an eighteenth-century-style dress made from Dutch wax fabric, with an airborne shoe and surrounding branches.",
+      "content": "取自Fragonard姿势但移除男性角色；无头可联想革命，跨文化布料拒绝纯粹身份。 The pose cites Fragonard while removing male participants. Headlessness invites revolutionary associations, and globally entangled fabric unsettles supposedly pure cultural identity.",
+      "context": "Dutch wax联系Indonesian batik、欧洲制造和West African使用；并非天然代表单一非洲本质。 Dutch wax connects Indonesian batik, European manufacture and West African adoption. Its history prevents reading the material as an uncomplicated essence of African identity.",
+      "recognitionAnchors": [
+        "headless swing figure 无头秋千人偶",
+        "Dutch wax gown 蜡染印花裙",
+        "airborne slipper 飞鞋"
+      ],
+      "comparisonIds": [
+        "ap231-untitled-228"
+      ],
+      "comparisonNotes": {
+        "ap231-untitled-228": "都挪用艺术史女性形象；Sherman摄影中的假头与Shonibare无头人偶各自拆解再现。 Both appropriate art-historical women; Sherman's photographic prop head and Shonibare's headless mannequin expose different forms of constructed representation."
+      },
+      "keywords": [
+        "Rococo 洛可可",
+        "hybridity 混杂性",
+        "colonial trade 殖民贸易"
+      ],
+      "images": [
+        {
+          "id": "headless-mannequin-swing-installation",
+          "label": "Headless mannequin, swing, greenery and airborne shoe / 无头人体模型、秋千、绿植与空中鞋子",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Headless mannequin, swing, greenery and airborne shoe / 无头人体模型、秋千、绿植与空中鞋子",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=299",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap245-old-mans-cloth",
+      "apNumber": 245,
+      "unit": 10,
+      "titleEn": "Old Man's Cloth",
+      "titleZh": "老人的布",
+      "artistCulture": "El Anatsui",
+      "culture": "Ghanaian-Nigerian contemporary sculpture; West African textile and exchange references",
+      "date": "2003 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Aluminum and copper wire",
+      "siteName": "Nsukka, Nigeria (El Anatsui's workshop context)",
+      "region": "nigeria",
+      "coordinates": {
+        "x": 833,
+        "y": 370
+      },
+      "traditionGroup": "Materials & Global Exchange",
+      "workType": "Flexible metal wall hanging",
+      "provenanceQualifier": "The supplied chapter establishes Nsukka artistic practice, not Ghana merely from birthplace or Gainesville from current holding. Exact fabrication address is not asserted.",
+      "function": "把废弃酒瓶金属转为贵重织物般表面，讨论消费、劳动与交换历史。 Discarded liquor-bottle metal becomes a precious textile-like surface that invites reflection on consumption, collective labor and histories of exchange.",
+      "form": "瓶盖与瓶颈铝片以铜丝联结成柔性大面，金红色条带、褶皱和下垂边缘形成雕塑体积。 Aluminum bottle components joined by copper wire create a flexible surface. Gold-red bands, folds and an uneven hanging edge generate sculptural volume rather than a flat woven textile.",
+      "content": "看似布料却由金属组成，Kente与祖先酒祭可作为关联，物件此前使用历史进入新作品。 The hanging resembles cloth but consists of metal. Kente and libation provide contextual associations, while the components' previous use carries material histories into the work.",
+      "context": "Nsukka实践与工坊合作是宽泛语境；教材标题章实际示范其他作品，不能换掉2003选件；悬挂可随安装调整。 Nsukka practice and workshop collaboration provide broad context. The textbook chapter illustrates other Anatsui works, which cannot replace the selected 2003 object; the flexible hanging can change configuration with installation. Harn馆藏记录将作品来源地列为Ghana（加纳），与Nsukka工作语境锚点存在差异；确切制作地点仍未解决，Nsukka仅表示较广的艺术家工作语境。 The Harn collection record lists Ghana as the object's place of origin, differing from the Nsukka working-context anchor. The exact fabrication location remains unresolved; Nsukka denotes the artist's broader working context, not a verified fabrication site.",
+      "recognitionAnchors": [
+        "gold-red metallic hanging 金红金属悬挂",
+        "linked bottle fragments 相连瓶片",
+        "draped folds 下垂褶皱"
+      ],
+      "comparisonIds": [
+        "ap250-sunflower-seeds"
+      ],
+      "comparisonNotes": {
+        "ap250-sunflower-seeds": "都呈现大规模协作劳动；金属废料的可变悬挂与瓷种子的铺地形成不同观看。 Both foreground large-scale collaborative labor; flexible suspended metal refuse contrasts with a floor field of individually crafted porcelain seeds."
+      },
+      "keywords": [
+        "assemblage 集合",
+        "bottle caps 瓶盖",
+        "flexibility 柔性"
+      ],
+      "images": [
+        {
+          "id": "complete-bottle-cap-hanging",
+          "label": "Complete draped bottle-cap wall hanging / 完整垂挂瓶盖壁饰",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete draped bottle-cap wall hanging / 完整垂挂瓶盖壁饰",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=300",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap246-stadia-ii",
+      "apNumber": 246,
+      "unit": 10,
+      "titleEn": "Stadia II",
+      "titleZh": "体育场II",
+      "artistCulture": "Julie Mehretu",
+      "culture": "Ethiopian-American contemporary abstraction; global urban and political imagery",
+      "date": "2004 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Ink and acrylic on canvas",
+      "siteName": "United States (Mehretu's painting practice)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 364,
+        "y": 227
+      },
+      "traditionGroup": "Abstraction & Landscape",
+      "workType": "Layered abstract painting",
+      "provenanceQualifier": "Ethiopian birthplace and Pittsburgh collection do not prove production location. A precise studio is not established in the bounded sources reviewed.",
+      "function": "以抽象探索集体聚集、国家认同和全球运动的能量与矛盾。 The painting explores the energy and tensions of collective gathering, nationalism and global movement through abstraction.",
+      "form": "建筑式线网被透明层、漂浮几何图形和细小动态记号叠加，中心空间如竞技场。 Architectural line networks are overlaid by transparent layers, floating geometric forms and small energetic marks. A central opening suggests an arena without resolving into one literal building.",
+      "content": "旗帜、标志与人群痕迹的联想令庆祝和冲突共存，不必把每个色块认作确定国旗。 Associations with flags, logos and crowd traces allow celebration and conflict to coexist. Individual colored fragments need not be assigned definitive national identities.",
+      "context": "吸收Constructivist与Bauhaus抽象遗产并回应全球流动；Ethiopian出生和Pittsburgh收藏均不证明本件制作地。 The work reconsiders Constructivist and Bauhaus abstraction amid global flows. Ethiopian birthplace and Pittsburgh collection history do not establish this painting's creation site.",
+      "recognitionAnchors": [
+        "stadium-like line scaffold 体育场线架",
+        "floating flag-like fragments 漂浮旗状片",
+        "dense gestural marks 密集动态线"
+      ],
+      "comparisonIds": [
+        "ap234-earths-creation"
+      ],
+      "comparisonNotes": {
+        "ap234-earths-creation": "都是满幅大尺度抽象；Mehretu叠建筑与政治标记，Kngwarreye以点触表达土地季节。 Both develop large-scale all-over abstraction; Mehretu layers architectural and political signs, while Kngwarreye's gestures express country and seasons."
+      },
+      "keywords": [
+        "layering 叠层",
+        "nationalism 国家主义",
+        "urban networks 城市网络"
+      ],
+      "images": [
+        {
+          "id": "complete-painting",
+          "label": "Complete Stadia II painting / 完整《体育场II》绘画",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete Stadia II painting / 完整《体育场II》绘画",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=300",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap247-preying-mantra",
+      "apNumber": 247,
+      "unit": 10,
+      "titleEn": "Preying Mantra",
+      "titleZh": "捕食咒语",
+      "artistCulture": "Wangechi Mutu",
+      "culture": "Kenyan diasporic contemporary collage; feminist and postcolonial inquiry",
+      "date": "2006 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Mixed media on Mylar",
+      "siteName": "United States (Mutu's collage practice)",
+      "region": "united-states",
+      "coordinates": {
+        "x": 364,
+        "y": 227
+      },
+      "traditionGroup": "Body & Spirituality",
+      "workType": "Hybrid figurative collage",
+      "provenanceQualifier": "Kenyan birthplace and the represented hybrid body do not establish a Kenyan production site. The exact studio is not fixed by the CED.",
+      "function": "通过女性混合身体质疑殖民性、色情化和种族审美，拒绝被动的单一身份。 A hybrid female body questions colonial exoticism, sexualization and racialized beauty while refusing a passive, singular identity.",
+      "form": "斑驳人物屈腿卧于几何布纹，植物包围；拼贴边界让身体似人、动物与植物混合。 A mottled figure reclines with bent legs on geometric patterned fabric amid vegetation. Collaged boundaries make the body appear simultaneously human, animal and plant-like.",
+      "content": "绿蛇、树和螳螂联想交织，preying与praying双关让危险与被凝视的脆弱共存。 A green snake, tree and mantis associations overlap. The title's play on preying and praying keeps danger and vulnerability to the viewer's gaze in tension.",
+      "context": "大众杂志与医学等图像来源被重组；Kenyan出生不能代替制作地，混杂身体不是传统民族类型标本。 Images associated with mass media and bodily classification are recombined. Kenyan birth does not substitute for creation geography, and the hybrid body is not a specimen of a traditional ethnic type.",
+      "recognitionAnchors": [
+        "mottled reclining hybrid 斑驳混合卧像",
+        "bent mantis-like legs 螳螂式屈腿",
+        "green snake and patterned cloth 绿蛇花布"
+      ],
+      "comparisonIds": [
+        "ap242-lying-wolf"
+      ],
+      "comparisonNotes": {
+        "ap242-lying-wolf": "两者重写女性与动物联系；Smith强调相伴照料，Mutu混合身体使捕食与被观看同时存在。 Both rewrite female-animal relationships; Smith emphasizes caring companionship, while Mutu's hybrid sustains simultaneous predation and vulnerability to looking."
+      },
+      "keywords": [
+        "hybridity 混杂性",
+        "Mylar 聚酯薄膜",
+        "exoticism 异国情调"
+      ],
+      "images": [
+        {
+          "id": "complete-mylar-collage",
+          "label": "Complete hybrid-figure Mylar collage / 完整聚酯薄膜混合人物拼贴",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete hybrid-figure Mylar collage / 完整聚酯薄膜混合人物拼贴",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=300",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap248-shibboleth",
+      "apNumber": 248,
+      "unit": 10,
+      "titleEn": "Shibboleth",
+      "titleZh": "示播列",
+      "artistCulture": "Doris Salcedo",
+      "culture": "Colombian contemporary conceptual art; migration and exclusion",
+      "date": "2007–2008 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Installation",
+      "siteName": "Turbine Hall, Tate Modern, London, United Kingdom",
+      "region": "united-kingdom",
+      "coordinates": {
+        "x": 800,
+        "y": 171
+      },
+      "traditionGroup": "Public Space & Memory",
+      "workType": "Architectural floor intervention",
+      "provenanceQualifier": "The commissioned 2007-2008 London presentation is the anchor, not the artist's Colombian birthplace; fabrication and installation are distinct stages.",
+      "function": "以制度空间裂缝讨论种族排斥、边界与移民经验，迫使观众改变身体与视角。 A fissure in institutional space addresses racial exclusion, borders and immigrant experience, making visitors adjust their bodies and viewing positions.",
+      "form": "长裂缝穿过Turbine Hall混凝土地面，深浅宽窄变化，内部金属网联系边界。 A long fissure crosses the Turbine Hall concrete floor, varying in width and depth. Embedded mesh invokes barriers, and visitors' bodies establish scale.",
+      "content": "标题指辨别内部人与外部人的口令；负空间使平常忽略的制度分隔可见。 The title names a password or marker that separates insiders from outsiders. Negative space makes ordinarily overlooked institutional divisions physically apparent.",
+      "context": "2007–2008Tate委托；封合后留痕是历史不能完全抹除的关联，不称为地震自然破坏。 Commissioned for Tate in 2007–2008, the deliberate intervention was later filled, leaving a trace associated with histories that cannot simply be erased. It was not accidental earthquake damage.",
+      "recognitionAnchors": [
+        "floor fissure 地面裂缝",
+        "visitors beside crack 裂缝旁观众",
+        "long irregular line 不规则长线"
+      ],
+      "comparisonIds": [
+        "ap225-vietnam-veterans-memorial"
+      ],
+      "comparisonNotes": {
+        "ap225-vietnam-veterans-memorial": "均以地面切入和身体移动组织记忆；Lin刻写个体姓名，Salcedo以无名裂缝讨论制度排斥。 Both use an incision into ground and bodily movement; Lin inscribes individual names, while Salcedo's unnamed fissure addresses institutional exclusion."
+      },
+      "keywords": [
+        "exclusion 排斥",
+        "negative space 负空间",
+        "intervention 介入"
+      ],
+      "images": [
+        {
+          "id": "floor-fissure-and-visitors",
+          "label": "Turbine Hall floor fissure with visitors / 涡轮大厅地面裂隙及访客",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Turbine Hall floor fissure with visitors / 涡轮大厅地面裂隙及访客",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=300",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap249-maxxi",
+      "apNumber": 249,
+      "unit": 10,
+      "titleEn": "MAXXI National Museum of XXI Century Arts",
+      "titleZh": "MAXXI二十一世纪艺术国家博物馆",
+      "artistCulture": "Zaha Hadid (architect)",
+      "culture": "Global contemporary architecture; Italian museum context",
+      "date": "2009 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Glass, steel, and cement",
+      "siteName": "Rome, Italy",
+      "region": "italy",
+      "coordinates": {
+        "x": 855,
+        "y": 214
+      },
+      "traditionGroup": "Public Space & Memory",
+      "workType": "Museum architecture",
+      "function": "为艺术与建筑展示创造灵活动线，并在历史城市中提出新的公共文化空间。 The museum creates flexible circulation for art and architecture while proposing a new public cultural space within a historically layered city.",
+      "form": "混凝土带状体量弯曲交叉，悬挑玻璃端部与黑色楼梯形成方向变化，顶光沿梁扩散。 Curving concrete volumes intersect in ribbon-like paths. Cantilevered glazed ends and black stairs redirect movement, while roof lighting follows linear structural elements.",
+      "content": "建筑不是古典立面盒子；交织楼梯与展厅让移动成为内容，外观和内部须共同识别。 The building rejects the classical museum as a static façade and box. Interwoven stairs and galleries make circulation part of its content; exterior and interior are complementary required views.",
+      "context": "CED采用2009日期，博物馆2010开放需区分；Rome原址与Hadid的Iraqi出生和英国实践不是同一地理层。 The CED uses 2009, distinct from the museum's public opening in 2010. The Roman site must be separated from Hadid's Iraqi birth and British professional context.",
+      "recognitionAnchors": [
+        "curving concrete ribbons 曲面混凝土带",
+        "cantilevered glazed end 悬挑玻璃端",
+        "black interwoven stairs 黑色交织楼梯"
+      ],
+      "comparisonIds": [
+        "ap240-guggenheim-bilbao"
+      ],
+      "comparisonNotes": {
+        "ap240-guggenheim-bilbao": "同为当代博物馆地标；MAXXI以分叉流线组织，Bilbao以中心中庭和曲面体块聚合。 Both are contemporary museum landmarks; MAXXI organizes branching flows, while Bilbao gathers curved volumes around a central atrium."
+      },
+      "keywords": [
+        "circulation 动线",
+        "cantilever 悬挑",
+        "spatial ribbons 空间带"
+      ],
+      "images": [
+        {
+          "id": "museum-exterior",
+          "label": "Museum exterior with projecting upper volume / 上层体块悬挑的博物馆外观",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Museum exterior with projecting upper volume / 上层体块悬挑的博物馆外观",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=301",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        },
+        {
+          "id": "interior-stairs-and-gallery",
+          "label": "Interior circulation stairs and gallery / 内部交通楼梯与展厅",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Interior circulation stairs and gallery / 内部交通楼梯与展厅",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=301",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap250-sunflower-seeds",
+      "apNumber": 250,
+      "unit": 10,
+      "titleEn": "Kui Hua Zi (Sunflower Seeds)",
+      "titleZh": "葵花籽",
+      "artistCulture": "Ai Weiwei",
+      "culture": "Chinese contemporary conceptual art; Jingdezhen porcelain and global labor",
+      "date": "2010–2011 C.E.",
+      "period": "Global Contemporary, 1980 C.E. to present",
+      "medium": "Sculpted and painted porcelain",
+      "siteName": "Turbine Hall, Tate Modern, London, United Kingdom",
+      "region": "united-kingdom",
+      "coordinates": {
+        "x": 800,
+        "y": 171
+      },
+      "traditionGroup": "Materials & Global Exchange",
+      "workType": "Porcelain seed-field installation",
+      "provenanceQualifier": "The required 2010-2011 installation is anchored to its original London presentation. Porcelain seeds were made and painted in Jingdezhen, China; this production geography must remain visible rather than being replaced by the presentation anchor.",
+      "function": "借海量手工瓷籽质疑大量生产、个人与集体及全球消费劳动关系。 A vast field of handmade porcelain seeds questions mass production, relations between individual and collective, and the labor behind global consumption.",
+      "form": "逼真的灰白黑瓷籽铺满Turbine Hall地面，远观统一，近看笔绘差别；必看为原始种子场。 Realistic gray-white-black porcelain husks cover the Turbine Hall floor. Distant uniformity gives way to hand-painted differences close up; the required view is the original seed field.",
+      "content": "葵花联系Mao为太阳的宣传和分享零食的记忆；材料不是可食用真实种子。 Sunflowers evoke propaganda representing Mao as the sun and memories of shared snacks. The objects are porcelain, not edible actual seeds.",
+      "context": "London是2010–2011原始展示，Jingdezhen是手工塑绘生产；初期可走入后因瓷尘限制接触，不能称全展始终互动。 London is the original 2010–2011 presentation site and Jingdezhen the fabrication context. Early walk-in interaction was restricted because of porcelain dust, so unrestricted participation did not persist throughout the exhibition.",
+      "recognitionAnchors": [
+        "vast gray seed field 大片灰色种子",
+        "Turbine Hall industrial space 工业大厅",
+        "hand-painted porcelain husks 手绘瓷壳"
+      ],
+      "comparisonIds": [
+        "ap245-old-mans-cloth"
+      ],
+      "comparisonNotes": {
+        "ap245-old-mans-cloth": "都由大量小单元与协作劳动成大作品；Ai铺地瓷籽，Anatsui将消费废金属悬挂并改变褶皱。 Both assemble small units through collaborative labor; Ai spreads porcelain seeds on the floor, while Anatsui suspends consumer metal refuse in changeable folds."
+      },
+      "keywords": [
+        "porcelain 瓷",
+        "collective labor 集体劳动",
+        "individuality 个体性"
+      ],
+      "images": [
+        {
+          "id": "turbine-hall-seed-field",
+          "label": "Low view across seed field inside Turbine Hall / 涡轮大厅内低视角葵花籽地面",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Low view across seed field inside Turbine Hall / 涡轮大厅内低视角葵花籽地面",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=301",
+          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+        }
+      ]
+    }
+  ],
+  "imageCredits": {
+    "ap224-gates": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=293"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=293"
+      }
+    ],
+    "ap225-vietnam-veterans-memorial": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=293"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=293"
+      }
+    ],
+    "ap226-horn-players": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=294"
+    },
+    "ap227-summer-trees": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=294"
+    },
+    "ap228-androgyne-iii": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=294"
+    },
+    "ap229-book-from-sky": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=294"
+    },
+    "ap230-pink-panther": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=295"
+    },
+    "ap231-untitled-228": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=295"
+    },
+    "ap232-dancing-louvre": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=295"
+    },
+    "ap233-trade": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=295"
+    },
+    "ap234-earths-creation": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=296"
+    },
+    "ap235-rebellious-silence": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=296"
+    },
+    "ap236-barberia": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=296"
+    },
+    "ap237-pisupo-lua-afe": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=296"
+    },
+    "ap238-electronic-superhighway": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=297"
+    },
+    "ap239-crossing": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=297"
+    },
+    "ap240-guggenheim-bilbao": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298"
+      }
+    ],
+    "ap241-pure-land": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=299"
+    },
+    "ap242-lying-wolf": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=299"
+    },
+    "ap243-darkytown-rebellion": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=299"
+    },
+    "ap244-swing-fragonard": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=299"
+    },
+    "ap245-old-mans-cloth": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=300"
+    },
+    "ap246-stadia-ii": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=300"
+    },
+    "ap247-preying-mantra": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=300"
+    },
+    "ap248-shibboleth": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=300"
+    },
+    "ap249-maxxi": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=301"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=301"
+      }
+    ],
+    "ap250-sunflower-seeds": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=301"
+    }
+  }
+}

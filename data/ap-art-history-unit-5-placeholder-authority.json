@@ -1,0 +1,47 @@
+{
+  "ap153-chavin-huantar::relief-sculpture": {
+    "imageSourceName": "College Board CED / Corbis",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf",
+    "rightsNote": "The public build preserves identity and source information without reproducing an image for which portable public permission was not verified."
+  },
+  "ap155-yaxchilan::structure-40": {
+    "imageSourceName": "Peabody Museum of Archaeology and Ethnology",
+    "imageSourceUrl": "https://collections.peabody.harvard.edu/objects/details/751742",
+    "rightsNote": "The public build preserves identity and source information without reproducing an image for which portable public permission was not verified."
+  },
+  "ap157-templo-mayor::reconstruction": {
+    "imageSourceName": "Museo del Templo Mayor model / Wikimedia Commons source page",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Templo_Mayor_Tenochtitlan.jpg",
+    "rightsNote": "The public build preserves identity and source information without reproducing an image for which portable public permission was not verified."
+  },
+  "ap160-maize-cobs::primary": {
+    "imageSourceName": "Ethnologisches Museum, Staatliche Museen zu Berlin",
+    "imageSourceUrl": "https://doi.org/10.4000/bifea.8301",
+    "rightsNote": "The public build preserves identity and source information without reproducing an image for which portable public permission was not verified."
+  },
+  "ap163-bandolier-bag::primary": {
+    "imageSourceName": "National Museum of the American Indian",
+    "imageSourceUrl": "https://www.si.edu/object/shoulder-bagbandolier-bag%3ANMAI_227689",
+    "rightsNote": "The public build preserves identity and source information without reproducing an image for which portable public permission was not verified."
+  },
+  "ap164-transformation-mask::closed": {
+    "imageSourceName": "Musée du quai Branly–Jacques Chirac",
+    "imageSourceUrl": "https://www.amisquaibranly.fr/wp-content/uploads/2024/10/20241014_cls-restaurations_masque-a-transformation.pdf",
+    "rightsNote": "The public build preserves identity and source information without reproducing an image for which portable public permission was not verified."
+  },
+  "ap164-transformation-mask::open": {
+    "imageSourceName": "Musée du quai Branly–Jacques Chirac",
+    "imageSourceUrl": "https://www.amisquaibranly.fr/wp-content/uploads/2024/10/20241014_cls-restaurations_masque-a-transformation.pdf",
+    "rightsNote": "The public build preserves identity and source information without reproducing an image for which portable public permission was not verified."
+  },
+  "ap165-painted-elk-hide::primary": {
+    "imageSourceName": "School for Advanced Research",
+    "imageSourceUrl": "https://emuseum.sarsf.org/objects/1568/untitled",
+    "rightsNote": "The public build preserves identity and source information without reproducing an image for which portable public permission was not verified."
+  },
+  "ap166-black-on-black-vessel::primary": {
+    "imageSourceName": "Barbara Gonzales family-provided photograph (College Board CED)",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf",
+    "rightsNote": "The public build preserves identity and source information without reproducing an image for which portable public permission was not verified."
+  }
+}

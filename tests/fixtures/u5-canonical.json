@@ -1,0 +1,564 @@
+{
+  "artworks": [
+    {
+      "id": "ap153-chavin-huantar",
+      "apNumber": 153,
+      "unit": 5,
+      "region": "centralAndes",
+      "culture": "Chavín religious and artistic tradition",
+      "traditionGroup": "Ancient Central Andes",
+      "period": "Early Horizon Andes",
+      "titleEn": "Chavín de Huántar",
+      "titleZh": "查文德瓦塔尔",
+      "artistCulture": "Chavín communities and specialist makers",
+      "siteName": "Chavín de Huántar, Ancash, Peru",
+      "coordinates": { "x": 470, "y": 500 },
+      "date": "900–200 B.C.E.",
+      "medium": "Stone architecture and sculpture; hammered gold-alloy ornament",
+      "workType": "Ceremonial complex and ritual objects",
+      "function": "作为跨区域朝圣与仪式聚集中心，借助建筑、声音和神圣图像组织宗教经验",
+      "form": "阶段式石建筑、内部回廊与下沉广场围绕中心轴线；雕像以犬齿、蛇和猛禽特征复合人形",
+      "content": "Lanzón石碑、广场浮雕与黄金鼻饰都呈现人、猫科动物、蛇与植物的混合形象",
+      "context": "位于安第斯交通节点，它把沿海与高地物资、图像和仪式传统汇聚于一处；具体神圣含义仍是考古解读",
+      "recognitionAnchors": ["Lanzón长矛形石碑隐于回廊交汇处", "下沉圆形广场与石墙浮雕", "黄金鼻饰展开为对称猫科面孔"],
+      "comparisonIds": ["ap12-white-temple-ziggurat"],
+      "comparisonNotes": { "ap12-white-temple-ziggurat": "比较两者如何以高台、轴线和受限动线构造仪式权威；查文更强调内部回廊与多感官经验。" },
+      "keywords": ["Chavín", "Lanzón", "下沉广场", "朝圣中心"],
+      "images": [
+        { "id": "plan", "label": "Site plan", "imageUrl": "assets/art-history/u5/ap153-plan.webp", "imageAlt": "查文德瓦塔尔平面图：神庙体量、内部回廊与圆形和方形广场的轴线关系", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Plano-chavin.jpg" },
+        { "id": "lanzon-stela", "label": "Lanzón stela", "imageUrl": "assets/art-history/u5/ap153-lanzon-stela.webp", "imageAlt": "Lanzón石碑：窄长花岗岩神像上可见獠牙、蛇发和上下翻转的轮廓", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:El_Lanz%C3%B3n.jpg" },
+        { "id": "relief-sculpture", "label": "Relief sculpture", "imageUrl": null, "imageAlt": "查文浮雕石板：线刻人兽复合轮廓中可见牙齿、蛇形纹样与层叠对称线条", "imageSourceName": "College Board CED / Corbis", "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf", "mediaStatus": "rightsRestricted" },
+        { "id": "nose-ornament", "label": "Nose ornament", "imageUrl": "assets/art-history/u5/ap153-nose-ornament.webp", "imageAlt": "查文式黄金鼻饰：薄金片打造的对称猫科脸与外展犬齿", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Clevelandart_1958.183.jpg" }
+      ]
+    },
+    {
+      "id": "ap154-mesa-verde",
+      "apNumber": 154,
+      "unit": 5,
+      "region": "ancestralPueblo",
+      "culture": "Ancestral Pueblo peoples",
+      "traditionGroup": "Ancient North America",
+      "period": "Ancestral Pueblo period",
+      "titleEn": "Mesa Verde cliff dwellings",
+      "titleZh": "梅萨维德崖居",
+      "artistCulture": "Ancestral Pueblo builders",
+      "siteName": "Mesa Verde, Colorado, U.S.",
+      "coordinates": { "x": 300, "y": 300 },
+      "date": "450–1300 C.E.",
+      "medium": "Sandstone, mortar, plaster, and wood",
+      "workType": "Cliff settlement",
+      "function": "在岩棚下集中居住、储藏、工作与社群仪式",
+      "form": "石砌多层房间与圆形下沉式 kiva 紧密嵌入崖壁凹处",
+      "content": "崖宫由住屋、塔、储藏空间和仪式房间构成，梯子和通道连接不同层级",
+      "context": "是当代普韦布洛社群的祖先遗址，不应被描述为消失文化；十三世纪后人群向南迁徙并保持文化连续性",
+      "recognitionAnchors": ["巨大岩棚下的多层砂岩建筑", "庭院中多个圆形下沉式 kiva"],
+      "comparisonIds": ["ap139-fallingwater"],
+      "comparisonNotes": { "ap139-fallingwater": "比较两者的建筑形式如何顺应岩层地形；崖居是持续社群生活系统，落水山庄则是现代私人住宅。" },
+      "keywords": ["Ancestral Pueblo", "Mesa Verde", "kiva", "祖先普韦布洛"],
+      "images": [
+        { "id": "cliff-dwellings", "label": "Cliff Palace", "imageUrl": "assets/art-history/u5/ap154-cliff-dwellings.webp", "imageAlt": "梅萨维德崖宫：砂岩墙、方塔和圆形 kiva 密集分布在深色岩棚下", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mesa_Verde_National_Park_-_Cliff_Palace.jpg" }
+      ]
+    },
+    {
+      "id": "ap155-yaxchilan",
+      "apNumber": 155,
+      "unit": 5,
+      "region": "mesoamerica",
+      "culture": "Late Classic Maya",
+      "traditionGroup": "Ancient Mesoamerica",
+      "period": "Late Classic Maya",
+      "titleEn": "Yaxchilán",
+      "titleZh": "雅什奇兰",
+      "artistCulture": "Maya architects, sculptors, rulers, and ritual participants",
+      "siteName": "Yaxchilán, Chiapas, Mexico",
+      "coordinates": { "x": 355, "y": 410 },
+      "date": "725 C.E.",
+      "medium": "Limestone architecture and relief sculpture",
+      "workType": "Royal ceremonial center",
+      "function": "以神庙、纪念碑和门楣记录王室仪式，建构统治者的神圣权威与王朝记忆",
+      "form": "阶梯通向高处神庙，屋顶梳墙强化城市天际线；石门楣以低浮雕和象形文字展开叙事",
+      "content": "结构 23 的 25 号门楣表现 Lady K’abal Xook 流血仪式后所见的幻视蛇与祖先战士",
+      "context": "七至八世纪的乌苏马西塔河政治网络中，统治者借公共建筑、王室女性的仪式行动和文字日期申明正统性",
+      "recognitionAnchors": ["结构 33 高台阶梯与穿孔屋顶梳墙", "25 号门楣中从幻视蛇口出现的人物", "石刻象形文字围绕王室仪式场景"],
+      "comparisonIds": ["ap81-codex-mendoza-frontispiece"],
+      "comparisonNotes": { "ap81-codex-mendoza-frontispiece": "比较两者如何结合图像与文字申明政治权力；雅什奇兰把记录刻入仪式建筑，《门多萨手抄本》则面向殖民语境中的读者。" },
+      "keywords": ["Yaxchilán", "Lady K’abal Xook", "vision serpent", "玛雅门楣"],
+      "images": [
+        { "id": "structure-40", "label": "Structure 40", "imageUrl": null, "imageAlt": "雅什奇兰结构 40：清理植被后的阶梯、台基和神庙外墙的档案视图", "imageSourceName": "Peabody Museum of Archaeology and Ethnology", "imageSourceUrl": "https://collections.peabody.harvard.edu/objects/details/751742", "mediaStatus": "rightsRestricted" },
+        { "id": "lintel-25-structure-23", "label": "Lintel 25, Structure 23", "imageUrl": "assets/art-history/u5/ap155-lintel-25-structure-23.webp", "imageAlt": "雅什奇兰 25 号门楣：下方跪姿女性与上方幻视蛇口中现身的祖先战士", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yaxchilan_(Maya)_Lintel_25_Depicting_Appearance_of_Way_from_Jaws_of_Vision_Serpent_(9817557966).jpg" },
+        { "id": "structure-33", "label": "Structure 33", "imageUrl": "assets/art-history/u5/ap155-structure-33.webp", "imageAlt": "雅什奇兰结构 33：宽阔中央阶梯上方的神庙墙体与长方形屋顶梳墙", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yaxchilan,_Structure_33_(14366382395).jpg" }
+      ]
+    },
+    {
+      "id": "ap156-great-serpent-mound",
+      "apNumber": 156,
+      "unit": 5,
+      "region": "easternWoodlands",
+      "culture": "Eastern Woodlands Indigenous ancestors; Adena- and Fort Ancient-period proposals remain debated",
+      "traditionGroup": "Ancient North America",
+      "period": "Woodland / Late Precontact dating debated",
+      "titleEn": "Great Serpent Mound",
+      "titleZh": "大蛇丘",
+      "artistCulture": "Indigenous Eastern Woodlands earthwork builders",
+      "siteName": "Adams County, Ohio, U.S.",
+      "coordinates": { "x": 430, "y": 270 },
+      "date": "c. 1070 C.E. in the CED; proposals range from c. 300 B.C.E. to c. 1100 C.E.",
+      "medium": "Earthwork",
+      "workType": "Effigy mound",
+      "function": "在地景中建立社群和仪式标记；具体用途与意义应保持为解读而非定论",
+      "form": "低矮蜿蜒的土筑轮廓沿山脊延展，头部面向椭圆土形，尾部卷曲成螺旋",
+      "content": "一条巨大蛇形在高地草地上连续起伏，不包含已确认的墓葬结构",
+      "context": "年代与作者归属仍有很大争议：研究者提出约公元前 300 年的 Adena 时期和约公元 1100 年的 Fort Ancient 时期等方案；当代美国印第安社群将其视为应被尊重的神圣场所",
+      "recognitionAnchors": ["蜿蜒的蛇身与紧密盘卷的尾部", "蛇头前方的椭圆形土筑"],
+      "comparisonIds": ["ap151-spiral-jetty"],
+      "comparisonNotes": { "ap151-spiral-jetty": "比较两者如何以大尺度土石改变地景形式；大蛇丘源于持续的原住民神圣地景，《螺旋防波堤》则属二十世纪地景艺术。" },
+      "keywords": ["Great Serpent Mound", "Fort Ancient", "effigy mound", "神圣地景"],
+      "images": [
+        { "id": "earthwork", "label": "Earthwork", "imageUrl": "assets/art-history/u5/ap156-earthwork.webp", "imageAlt": "大蛇丘：从地景中可读出蜿蜒蛇身、椭圆形头部标记与盘卷尾部", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Serpent_Mound_(aerial_view).jpg" }
+      ]
+    },
+    {
+      "id": "ap157-templo-mayor",
+      "apNumber": 157,
+      "unit": 5,
+      "region": "mesoamerica",
+      "culture": "Mexica (Aztec)",
+      "traditionGroup": "Ancient Mesoamerica",
+      "period": "Late Postclassic Mesoamerica",
+      "titleEn": "Templo Mayor (Main Temple)",
+      "titleZh": "大神庙",
+      "artistCulture": "Mexica architects, sculptors, and featherworkers",
+      "siteName": "Tenochtitlan (Mexico City), Mexico",
+      "coordinates": { "x": 360, "y": 390 },
+      "date": "1375–1520 C.E.",
+      "medium": "Stone architecture and sculpture; volcanic stone; jadeite",
+      "workType": "Temple precinct and ritual sculpture",
+      "function": "作为特诺奇蒂特兰的宗教和政治中心，以节庆、供奉与仪式维系宇宙秩序和国家权力",
+      "form": "双神庙立于高大阶梯金字塔顶部；圆形浮雕、多环同心构图和打磨玉面具构成不同仪式物",
+      "content": "Coyolxauhqui 石刻表现被肢解的月亮女神；太阳石以日轮、时间符号和宇宙纪元形象组织圆形画面",
+      "context": "神庙经历多次扩建，供奉雨神 Tlaloc 与战争—太阳神 Huitzilopochtli；地基中的一件古老 Olmec 式面具显示 Mexica 对更早米索美洲传统的征用",
+      "recognitionAnchors": ["通往 Tlaloc 与 Huitzilopochtli 双神庙的并列阶梯", "Coyolxauhqui 圆盘上被肢解的女神", "太阳石中心脸部与多层同心符号"],
+      "comparisonIds": ["ap12-white-temple-ziggurat"],
+      "comparisonNotes": { "ap12-white-temple-ziggurat": "比较两者的高台神庙形式如何将仪式、城市和国家权力联系起来；大神庙的双神庙与周期性扩建对应 Mexica 的宇宙政治。" },
+      "keywords": ["Mexica", "Templo Mayor", "Coyolxauhqui", "Piedra del Sol", "大神庙"],
+      "images": [
+        { "id": "reconstruction", "label": "Reconstruction model", "imageUrl": null, "imageAlt": "特诺奇蒂特兰大神庙复原模型：宽阔双阶梯通往顶部两座并列神庙", "imageSourceName": "Museo del Templo Mayor model / Wikimedia Commons source page", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Templo_Mayor_Tenochtitlan.jpg", "mediaStatus": "rightsRestricted" },
+        { "id": "coyolxauhqui-stone", "label": "Coyolxauhqui Stone", "imageUrl": "assets/art-history/u5/ap157-coyolxauhqui-stone.webp", "imageAlt": "Coyolxauhqui 石：圆形浮雕中被肢解的女神佩戴精细头饰、耳饰和蛇形束带", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stone_of_Coyolxauhqui_-_Templo_Mayor_-_Mexico_2024.jpg" },
+        { "id": "calendar-stone", "label": "Stone of the Sun", "imageUrl": "assets/art-history/u5/ap157-calendar-stone.webp", "imageAlt": "太阳石：中心面孔外围以同心环排列日期符号、光芒与相向蛇身", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aztec_Sun_Stone.JPG" },
+        { "id": "olmec-style-mask", "label": "Olmec-style mask", "imageUrl": "assets/art-history/u5/ap157-olmec-style-mask.webp", "imageAlt": "供奉坑 20 的 Olmec 式面具：打磨绿石上的宽嘴、杏仁形眼与头顶凹缘", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Olmec_Mask_from_Offering_20_(9781596615).jpg" }
+      ]
+    },
+    {
+      "id": "ap158-ruler-feather-headdress",
+      "apNumber": 158,
+      "unit": 5,
+      "region": "mesoamerica",
+      "culture": "Mexica featherwork tradition",
+      "traditionGroup": "Ancient Mesoamerica",
+      "period": "Late Postclassic Mesoamerica",
+      "titleEn": "Ruler's feather headdress (probably of Motecuhzoma II)",
+      "titleZh": "统治者羽冠（传统上与莫克特苏马二世相关）",
+      "artistCulture": "Mexica amanteca featherworkers; original ownership uncertain",
+      "siteName": "Mexica realm, Central Mexico",
+      "coordinates": { "x": 355, "y": 385 },
+      "date": "1428–1520 C.E.",
+      "medium": "Quetzal and cotinga feathers, gold, plant fiber, wood, leather, and paper",
+      "workType": "Featherwork regalia",
+      "function": "可能作为高等级礼仪羽饰展示权威、贡赋网络与专业羽毛工艺，但原始佩戴者和用途未获证实",
+      "form": "数百枚翠绿长羽组成巨大半圆轮廓，内层蓝羽与金片构成放射式边带",
+      "content": "羽毛的稀有色彩和广阔尺度指向专业 amanteca 作坊、跨地区物资流通与精英礼仪",
+      "context": "维也纳藏品传统上被称为莫克特苏马二世的羽冠，但博物馆明确指出这一归属、制作者和离开墨西哥的过程都不确定；其归还争议仍在继续",
+      "recognitionAnchors": ["巨大半圆形绿色凤尾绿咬鹃长羽", "内侧蓝色羽毛与金片形成同心边带"],
+      "comparisonIds": ["ap43-augustus-prima-porta"],
+      "comparisonNotes": { "ap43-augustus-prima-porta": "比较礼仪服饰与人物形式如何建构统治权力；羽冠以稀有材料和动态尺度显示地位，奥古斯都像则以理想化身体和胸甲叙事塑造皇权。" },
+      "keywords": ["Mexica", "amanteca", "quetzal feathers", "羽毛工艺", "归还争议"],
+      "images": [
+        { "id": "primary", "label": "Overall", "imageUrl": "assets/art-history/u5/ap158-primary.webp", "imageAlt": "墨西卡羽冠：密集翠绿长羽向外展成半圆，根部环绕蓝羽与金片边带", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Moctezuma%27s_feather_headdress,_ca._1515,_Mexico;_Weltmuseum,_Vienna_(3).jpg" }
+      ],
+      "provenanceQualifier": "Traditionally associated with Motecuhzoma II; exact maker and original ownership remain uncertain."
+    },
+    {
+      "id": "ap159-city-cusco",
+      "apNumber": 159,
+      "unit": 5,
+      "region": "centralAndes",
+      "culture": "Inka and later Spanish colonial Cusco",
+      "traditionGroup": "Ancient Central Andes",
+      "period": "Late Horizon Andes and Spanish colonial period",
+      "titleEn": "City of Cusco, including Qorikancha, Santo Domingo, and Walls at Saqsa Waman",
+      "titleZh": "库斯科城：科里坎查、圣多明我与萨克萨瓦曼城墙",
+      "artistCulture": "Inka stonemasons and Spanish colonial builders",
+      "siteName": "Cusco, Peru",
+      "coordinates": { "x": 480, "y": 505 },
+      "date": "c. 1440 C.E.; convent 1550–1650 C.E.",
+      "medium": "Andesite and diorite masonry; later colonial construction",
+      "workType": "Imperial city and sacred architectural complex",
+      "function": "作为 Inka 帝国的政治、宗教和道路中心；殖民时期的教堂与修道院改写并占用原有神圣空间",
+      "form": "精确切割的多边形石块不用砂浆紧密咬合；Qorikancha 曲墙与殖民教堂叠加，Saqsaywaman 墙体以巨石形成折线",
+      "content": "历史平面图标出 Inka 遗构与殖民城市的重叠；不应将美洲狮形城市布局解释作为无争议事实",
+      "context": "Inka 统治者将库斯科视为帝国中心，道路和 ceque 神圣路线把它与广阔安第斯区域相连；西班牙人在 Inka 基础上建设殖民城市，震灾后两种建筑系统的差异尤为明显",
+      "recognitionAnchors": ["Qorikancha 曲线 Inka 石墙上方的圣多明我修道院", "Saqsaywaman 之字形多边形巨石墙", "不用砂浆仍紧密嵌合的石材接缝"],
+      "comparisonIds": ["ap52-hagia-sophia"],
+      "comparisonNotes": { "ap52-hagia-sophia": "比较征服后新政权如何占用并重释既有神圣建筑；库斯科的殖民结构直接叠加在 Inka 石墙上，圣索菲亚则通过功能与陈设变化转换宗教身份。" },
+      "keywords": ["Cusco", "Qorikancha", "Saqsaywaman", "Inka masonry", "殖民叠加"],
+      "images": [
+        { "id": "city-plan", "label": "Historical city plan", "imageUrl": "assets/art-history/u5/ap159-city-plan.webp", "imageAlt": "库斯科历史平面图：红色 Inka 遗构线条与深色殖民和当时街区在山谷中重叠", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:A_plan_of_ancinet_Cuzco,_Peru_Wellcome_L0042062.jpg" },
+        { "id": "qorikancha-santo-domingo", "label": "Qorikancha and Santo Domingo", "imageUrl": "assets/art-history/u5/ap159-qorikancha-santo-domingo.webp", "imageAlt": "科里坎查与圣多明我：精砌深色 Inka 曲墙支撑上方拱廊和钟楼殖民建筑", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Coricancha_-_Iglesia_y_convento_de_Santo_Domingo_del_Cuzco,_Peru.jpg" },
+        { "id": "saqsa-waman-walls", "label": "Saqsaywaman walls", "imageUrl": "assets/art-history/u5/ap159-saqsa-waman-walls.webp", "imageAlt": "萨克萨瓦曼墙体：不规则多边形巨石被精确切削，在折线墙面中无缝咬合", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Walls_at_Sacsayhuaman.jpg" }
+      ]
+    },
+    {
+      "id": "ap160-maize-cobs",
+      "apNumber": 160,
+      "unit": 5,
+      "region": "centralAndes",
+      "culture": "Inka metalwork tradition; object authenticity under scholarly review",
+      "traditionGroup": "Ancient Central Andes",
+      "period": "Late Horizon Andes",
+      "titleEn": "Maize cobs",
+      "titleZh": "玉米穗",
+      "artistCulture": "Attributed to Inka metalworkers",
+      "siteName": "Inka realm, Central Andes",
+      "coordinates": { "x": 480, "y": 505 },
+      "date": "c. 1440–1533 C.E. (attribution under review)",
+      "medium": "Sheet metal and repousé metal alloys",
+      "workType": "Ritual metalwork",
+      "function": "传统上被解释为在帝国仪式语境中象征农业丰产、神圣景观和 Inka 国家资源控制",
+      "form": "金属薄片经锤揲和凸雕形成接近真实尺度的玉米粒、苞叶与穗轴",
+      "content": "三枚金属玉米穗以不同成熟阶段的颗粒和层叠苞叶再现主要作物",
+      "context": "该组合二十世纪进入柏林市场，精确出土地和生产地不明；新的材料研究对其古代断代和现代修改提出问题，因此页面将 Inka 归属明确标为待审视",
+      "recognitionAnchors": ["金属薄片凸雕出的密集玉米粒", "层叠尖形苞叶包围穗轴"],
+      "comparisonIds": ["ap153-chavin-huantar"],
+      "comparisonNotes": { "ap153-chavin-huantar": "比较安第斯精英工艺如何以金属材料联系仪式与自然力量；查文鼻饰通过复合动物形象改造佩戴者，玉米穗则模拟作物的丰饶形式。" },
+      "keywords": ["Inka", "repoussé", "maize", "金属玉米", "真伪研究"],
+      "images": [
+        { "id": "primary", "label": "Overall", "imageUrl": null, "imageAlt": "Inka 归属的金属玉米穗：三枚中空穗体展示凸雕颗粒与层叠苞叶", "imageSourceName": "Ethnologisches Museum, Staatliche Museen zu Berlin", "imageSourceUrl": "https://doi.org/10.4000/bifea.8301", "mediaStatus": "rightsRestricted" }
+      ],
+      "provenanceQualifier": "Exact excavation and production location is not securely documented; map placement represents the Inka Central Andes."
+    },
+    {
+      "id": "ap161-machu-picchu",
+      "apNumber": 161,
+      "unit": 5,
+      "region": "centralAndes",
+      "culture": "Inka",
+      "traditionGroup": "Ancient Central Andes",
+      "period": "Late Horizon Andes",
+      "titleEn": "City of Machu Picchu",
+      "titleZh": "马丘比丘城",
+      "artistCulture": "Inka architects, stonemasons, and agricultural engineers",
+      "siteName": "Machu Picchu, Cusco Region, Peru",
+      "coordinates": { "x": 485, "y": 510 },
+      "date": "c. 1450–1540 C.E.",
+      "medium": "Granite architecture and carved living rock",
+      "workType": "Mountain llaqta and ritual landscape",
+      "function": "作为山地 llaqta 组织住居、农业、仪式与国家管理；王家庄园说法常见但应保持为学术解读",
+      "form": "花岗岩建筑、层叠梯田、排水系统与天然岩体沿高山山脊协调布置",
+      "content": "弯曲的太阳神庙墙包绕岩石，Intihuatana 从整块岩体切出阶梯、平面和立柱",
+      "context": "此地在当地社群中持续被知晓，不应被称为被“发现”的失落城市；其与 Pachacuti 及皇家庄园的联系常被提出，但并非所有功能都已定论",
+      "recognitionAnchors": ["梯田与城区在瓦纳比丘峰前层叠", "太阳神庙弯墙环绕天然巨石", "Intihuatana 顶部立柱从整体岩石切出"],
+      "comparisonIds": ["ap139-fallingwater"],
+      "comparisonNotes": { "ap139-fallingwater": "比较两者的形式如何与岩石、水和高差整合；马丘比丘是广阔的城市—农业—仪式系统，落水山庄是现代住宅对自然地形的建筑回应。" },
+      "keywords": ["Machupicchu", "llaqta", "Intihuatana", "太阳神庙", "活的岩石"],
+      "images": [
+        { "id": "city", "label": "City overview", "imageUrl": "assets/art-history/u5/ap161-city.webp", "imageAlt": "马丘比丘全景：城区石墙和阶田沿山脊展开，背后耸立瓦纳比丘峰", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Per%C3%BA,_2015-07-30,_DD_40.JPG" },
+        { "id": "observatory", "label": "Temple of the Sun / Torreón", "imageUrl": "assets/art-history/u5/ap161-observatory.webp", "imageAlt": "太阳神庙或塔楼：弯曲精砌石墙带有梯形窗口，墙体环绕底部天然巨石", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_the_Sun_at_Machu_Picchu.jpg" },
+        { "id": "intihuatana-stone", "label": "Intihuatana stone", "imageUrl": "assets/art-history/u5/ap161-intihuatana-stone.webp", "imageAlt": "Intihuatana 石：多层阶面向上收拢为棱角分明的短立柱，四周环绕山景", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Peru_-_Machu_Picchu_123_-_Intihuatana_(7181950605).jpg" }
+      ]
+    },
+    {
+      "id": "ap162-all-toqapu-tunic",
+      "apNumber": 162,
+      "unit": 5,
+      "region": "centralAndes",
+      "culture": "Inka qompi textile tradition",
+      "traditionGroup": "Ancient Central Andes",
+      "period": "Late Horizon Andes",
+      "titleEn": "All-T'oqapu tunic",
+      "titleZh": "全托卡普长袍",
+      "artistCulture": "Unknown Inka specialist weaver",
+      "siteName": "Inka realm, Central Andes",
+      "coordinates": { "x": 480, "y": 505 },
+      "date": "1450–1540 C.E.",
+      "medium": "Camelid fiber and cotton",
+      "workType": "Elite tapestry-woven tunic",
+      "function": "以极细 qompi 织物、多样 t’oqapu 单元和受控精英服饰显示高地位与帝国权力",
+      "form": "长方形织片在中心留领口后对折缝合，表面几乎完全被彩色方格几何单元覆盖",
+      "content": "每个 t’oqapu 方格使用阶梯、棋盘、对角线和动植物抽象图案，其组合与身份和国家等级相关",
+      "context": "专业纺织者在帝国系统中生产精细织物；一些研究者将本作与统治者服饰联系，但不应将 t’oqapu 教成已被完全破译的固定文字系统",
+      "recognitionAnchors": ["全表面排列大量不重复 t’oqapu 彩色方格", "直线领口与长方形织片对折结构"],
+      "comparisonIds": ["ap163-bandolier-bag"],
+      "comparisonNotes": { "ap163-bandolier-bag": "比较两件纤维和珠饰服饰如何以几何表面组织表达身份；Inka 长袍联系帝国精英等级，Lenape 肩带包在持续社群场合中显示文化身份。" },
+      "keywords": ["Inka", "t’oqapu", "qompi", "挂毯织造", "精英服饰"],
+      "images": [
+        { "id": "primary", "label": "Overall", "imageUrl": "assets/art-history/u5/ap162-primary.webp", "imageAlt": "全托卡普长袍：长方形衣身密布彩色几何方格，中心上缘留有直线领口", "imageSourceName": "Wikimedia Commons", "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tupa-inca-tunic.png" }
+      ],
+      "provenanceQualifier": "Exact production location is unknown; map placement represents the Inka imperial heartland."
+    },
+    {
+      "id": "ap163-bandolier-bag",
+      "apNumber": 163,
+      "unit": 5,
+      "region": "easternWoodlands",
+      "culture": "Lenape (Delaware) beadwork tradition",
+      "traditionGroup": "Native North America",
+      "period": "Nineteenth-century Native North America",
+      "titleEn": "Bandolier bag",
+      "titleZh": "肩带包",
+      "artistCulture": "Unknown Lenape/Delaware maker",
+      "siteName": "Lenape homelands, northeastern North America",
+      "coordinates": { "x": 420, "y": 280 },
+      "date": "c. 1850 C.E.",
+      "medium": "Hide, cotton cloth, silk ribbon, glass beads, metal cones, and wool yarn",
+      "workType": "Beaded shoulder bag / Pëntahsënakàn",
+      "function": "作为男子在重要社交和政治场合穿戴的盛装组成，显示 Lenape 身份、美学知识与社群延续",
+      "form": "宽长肩带连接方形包体和下垂襟片，覆盖珠绣曲线、叶形和对称几何边带",
+      "content": "不对称肩带图案、多色玻璃珠花叶与缎带应用将外来材料转化为 Lenape 视觉语汇",
+      "context": "当代 Lenape 文化领袖和机构将此类包与强迫迁徙、藏品历史和今日艺术复兴同时讨论；它不是普通装饰钱包，也不应把活的文化写成过去式",
+      "recognitionAnchors": ["从肩部斜挂至髋部的宽长珠饰肩带", "方形包体下垂着带曲线花叶珠绣的大型襟片"],
+      "comparisonIds": ["ap162-all-toqapu-tunic"],
+      "comparisonNotes": { "ap162-all-toqapu-tunic": "比较两者的材料与精密表面图案如何传达社会身份；肩带包以跨文化流通的玻璃珠维持 Lenape 视觉传统，长袍以高密度织造服务 Inka 等级体系。" },
+      "keywords": ["Lenape", "Delaware", "Pëntahsënakàn", "珠绣肩带包", "文化延续"],
+      "images": [
+        { "id": "primary", "label": "Overall", "imageUrl": null, "imageAlt": "Lenape 肩带包：宽长肩带连接方包与下垂襟片，多色珠绣组成曲线花叶和几何边带", "imageSourceName": "National Museum of the American Indian", "imageSourceUrl": "https://www.si.edu/object/shoulder-bagbandolier-bag%3ANMAI_227689", "mediaStatus": "rightsRestricted" }
+      ],
+      "provenanceQualifier": "Portable work; exact maker and place of production are not securely documented."
+    },
+    {
+      "id": "ap164-transformation-mask",
+      "apNumber": 164,
+      "unit": 5,
+      "region": "northwestCoast",
+      "culture": "Kwakwa̱ka̱ʼwakw ceremonial carving tradition",
+      "traditionGroup": "Native North America",
+      "period": "Nineteenth-century Northwest Coast",
+      "titleEn": "Transformation mask",
+      "titleZh": "变形面具",
+      "artistCulture": "Unknown Kwakwa̱ka̱ʼwakw artist",
+      "siteName": "Kwakwaka'wakw territories, British Columbia, Canada",
+      "coordinates": { "x": 255, "y": 220 },
+      "date": "Late 19th century C.E.",
+      "medium": "Wood, paint, graphite, cedar, cloth, cord, plant fiber, and metal",
+      "workType": "Articulated ceremonial mask",
+      "function": "在冬季 tsetsèqa 仪式的歌舞和继承权利中呈现变形，与家族历史、权利和社群知识相联；不在公共来源之外推断限制性仪式细节",
+      "form": "绳索和铰链使鸟形外壳向四周展开，显露中央人面；黑、红、白色强调对称轮廓",
+      "content": "闭合时是乌鸦长喙外形，打开后鸟翼展为四片彩绘板，中心出现人脸",
+      "context": "此类面具不是脱离表演的静态博物馆物品；U’mista 文化中心记录了在 Potlatch Ban 期间被没收的面具、歌舞和礼器如何在社群中归还并继续承载历史",
+      "recognitionAnchors": ["闭合时向前突出的乌鸦长喙", "展开后四片彩绘板环绕中央人面", "操作绳索与铰链将一个形态转换为另一个形态"],
+      "comparisonIds": ["ap77-isenheim-altarpiece"],
+      "comparisonNotes": { "ap77-isenheim-altarpiece": "比较可开合结构如何让图像随仪式时刻改变；变形面具在舞蹈中以机械动作转换身份，伊塞海姆祭坛画通过翼板层次配合基督教节期和疗愈语境。" },
+      "keywords": ["Kwakwa̱ka̱ʼwakw", "transformation mask", "tsetsèqa", "变形面具", "文化归还"],
+      "images": [
+        { "id": "closed", "label": "Closed state", "imageUrl": null, "imageAlt": "Kwakwa̱ka̱ʼwakw 变形面具闭合状态：黑红白彩绘乌鸦外壳形成前伸长喙和圆眼", "imageSourceName": "Musée du quai Branly–Jacques Chirac", "imageSourceUrl": "https://www.amisquaibranly.fr/wp-content/uploads/2024/10/20241014_cls-restaurations_masque-a-transformation.pdf", "mediaStatus": "rightsRestricted" },
+        { "id": "open", "label": "Open state", "imageUrl": null, "imageAlt": "Kwakwa̱ka̱ʼwakw 变形面具打开状态：四片彩绘翼板向外翻展，显露中央红唇人面", "imageSourceName": "Musée du quai Branly–Jacques Chirac", "imageSourceUrl": "https://www.amisquaibranly.fr/wp-content/uploads/2024/10/20241014_cls-restaurations_masque-a-transformation.pdf", "mediaStatus": "rightsRestricted" }
+      ],
+      "provenanceQualifier": "Portable ceremonial object; the regional anchor does not claim a precise village of manufacture."
+    },
+    {
+      "id": "ap165-painted-elk-hide",
+      "apNumber": 165,
+      "unit": 5,
+      "region": "plainsGreatBasin",
+      "culture": "Eastern Shoshone narrative painting tradition",
+      "traditionGroup": "Native North America",
+      "period": "Reservation-period Great Basin and Plains",
+      "titleEn": "Painted elk hide",
+      "titleZh": "彩绘麋鹿皮",
+      "artistCulture": "Katsikodi, recorded in the CED as Cotsiogo (Cadzi Cody), Eastern Shoshone",
+      "siteName": "Wind River Reservation, Wyoming, U.S.",
+      "coordinates": { "x": 330, "y": 285 },
+      "date": "c. 1890–1900 C.E. (SAR catalog: c. 1890)",
+      "medium": "Painted elk hide",
+      "workType": "Narrative hide painting",
+      "function": "以可携带的绘画记录狩猎、马匹与社群聚集，并在保留地时期的市场与自我表述之间运作",
+      "form": "浅色麋鹿皮上以平面轮廓、侧面人马和环形分布组织多个叙事场景",
+      "content": "野牛狩猎、骑马人物、猎手和中央两座 tipi 构成不同时间的并列行动；中央是否具体表现太阳舞应标为解读",
+      "context": "东部索什尼社群在风河保留地应对强迫定居与旅游市场；学习记录同时保留 College Board 常见姓名 Cotsiogo，并优先呈现馆藏当前名称 Katsikodi",
+      "recognitionAnchors": ["骑马猎手和野牛以平面侧面轮廓分布", "中央两座锥形 tipi 被多个小型场景环绕"],
+      "comparisonIds": ["ap117-horse-motion"],
+      "comparisonNotes": { "ap117-horse-motion": "比较两者如何表现马匹和动作；麋鹿皮用多场景并列传达社群历史，穆里奇的连续摄影以分格时间分析单一奔跑动作。" },
+      "keywords": ["Eastern Shoshone", "Katsikodi", "Cotsiogo", "麋鹿皮叙事", "马与野牛"],
+      "images": [
+        { "id": "primary", "label": "Overall", "imageUrl": null, "imageAlt": "彩绘麋鹿皮：展开的浅色皮革上分布骑马猎手、野牛与中央两座 tipi", "imageSourceName": "School for Advanced Research", "imageSourceUrl": "https://emuseum.sarsf.org/objects/1568/untitled", "mediaStatus": "rightsRestricted" }
+      ],
+      "provenanceQualifier": "Attributed to Cotsiogo (Cadzi Cody), Eastern Shoshone; map placement represents the documented community context."
+    },
+    {
+      "id": "ap166-black-on-black-vessel",
+      "apNumber": 166,
+      "unit": 5,
+      "region": "ancestralPueblo",
+      "culture": "Pueblo de San Ildefonso (Tewa) pottery tradition",
+      "traditionGroup": "Native North America",
+      "period": "Twentieth-century Native North America",
+      "titleEn": "Black-on-black ceramic vessel",
+      "titleZh": "黑上黑陶器",
+      "artistCulture": "Maria Martínez and Julian Martínez, Pueblo de San Ildefonso",
+      "siteName": "San Ildefonso Pueblo, New Mexico, U.S.",
+      "coordinates": { "x": 335, "y": 320 },
+      "date": "Mid-20th century C.E.",
+      "medium": "Blackware ceramic",
+      "workType": "Collaborative pottery vessel",
+      "function": "作为艺术品和市场陶器承载家族合作、Pueblo 制陶知识和社群经济与文化延续",
+      "form": "Maria 手工盘筑、刮磨并打磨光滑器壁，Julian 以哑光泥浆绘制几何图案，还原焰烧使整体变黑",
+      "content": "光亮黑色底面与哑光黑色带状和阶梯纹样产生仅由反光差异显现的图案",
+      "context": "Maria 与 Julian 在深厚 Pueblo 制陶传统中发展出黑上黑工艺，并与家族和社群共同延续；这是创新与市场交往的产物，不应被简化为未改变的考古复制或“旅游艺术”",
+      "recognitionAnchors": ["磨光黑色器面上以哑光黑图案形成反差", "低矮圆肩器身与小开口构成简洁轮廓"],
+      "comparisonIds": ["ap33-niobides-krater"],
+      "comparisonNotes": { "ap33-niobides-krater": "比较两种陶器表面处理如何使黑色成为图像结构；黑上黑器依靠光滑与哑光质地对比，尼奥比德斯双耳罐则以红像技法叙述神话。" },
+      "keywords": ["Pueblo de San Ildefonso", "Maria Martínez", "Julian Martínez", "black-on-black", "还原焰烧"],
+      "images": [
+        { "id": "primary", "label": "Overall", "imageUrl": null, "imageAlt": "黑上黑陶器：低矮圆肩容器的磨光黑面上，哑光黑色几何带绕器肩环行展开", "imageSourceName": "Barbara Gonzales family-provided photograph (College Board CED)", "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf", "mediaStatus": "rightsRestricted" }
+      ]
+    }
+  ],
+  "credits": {
+  "ap153-chavin-huantar": [
+    {
+      "creatorOrInstitution": "Simon chara / Wikimedia Commons",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "creatorOrInstitution": "Frenchguy / Wikimedia Commons",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "creatorOrInstitution": "Charles & Josette Lenars / Corbis",
+      "licenseName": "Rights-managed; no portable public image permission verified",
+      "licenseUrl": "https://www.gettyimages.com/eula"
+    },
+    {
+      "creatorOrInstitution": "Cleveland Museum of Art / Gary Kirchenbauer",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "ap154-mesa-verde": {
+    "creatorOrInstitution": "MPSharwood / Wikimedia Commons",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "ap155-yaxchilan": [
+    {
+      "creatorOrInstitution": "Ian Graham / Peabody Museum of Archaeology and Ethnology",
+      "licenseName": "Limited personal and educational use; no portable public release verified",
+      "licenseUrl": "https://peabody.harvard.edu/terms-use"
+    },
+    {
+      "creatorOrInstitution": "Gary Todd / Wikimedia Commons",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "creatorOrInstitution": "Arian Zwegers / Wikimedia Commons",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  ],
+  "ap156-great-serpent-mound": {
+    "creatorOrInstitution": "Timothy A. Price and Nichole I.; edited by Locutus Borg / Wikimedia Commons",
+    "licenseName": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
+  },
+  "ap157-templo-mayor": [
+    {
+      "creatorOrInstitution": "Museo del Templo Mayor model; photograph by s shepherd (schizoform)",
+      "licenseName": "Photograph CC BY 2.0; modern model rights not verified for portable release",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Templo_Mayor_Tenochtitlan.jpg"
+    },
+    {
+      "creatorOrInstitution": "José Luiz Bernardes Ribeiro / Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "creatorOrInstitution": "NeetaG / Wikimedia Commons",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "creatorOrInstitution": "Gary Todd / Wikimedia Commons",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "ap158-ruler-feather-headdress": {
+    "creatorOrInstitution": "Richard Mortel / Wikimedia Commons; original Mexica headdress, Weltmuseum Wien",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "ap159-city-cusco": [
+    {
+      "creatorOrInstitution": "Wellcome Library / Clements Robert Markham",
+      "licenseName": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "creatorOrInstitution": "Miguel Francisco Rueda Ñañez / Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "creatorOrInstitution": "Bcasterline / Wikimedia Commons",
+      "licenseName": "Public domain — author release",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walls_at_Sacsayhuaman.jpg"
+    }
+  ],
+  "ap160-maize-cobs": {
+    "creatorOrInstitution": "Claudia Obrocki / bpk / Ethnologisches Museum, Staatliche Museen zu Berlin",
+    "licenseName": "Rights-managed institutional photograph; no portable public permission verified",
+    "licenseUrl": "https://doi.org/10.4000/bifea.8301"
+  },
+  "ap161-machu-picchu": [
+    {
+      "creatorOrInstitution": "Diego Delso, delso.photo / Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "creatorOrInstitution": "Cédric Liénart / Wikimedia Commons",
+      "licenseName": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+    },
+    {
+      "creatorOrInstitution": "McKay Savage / Wikimedia Commons",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  ],
+  "ap162-all-toqapu-tunic": {
+    "creatorOrInstitution": "Unknown Inka weaver / Dumbarton Oaks / Wikimedia Commons",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "ap163-bandolier-bag": {
+    "creatorOrInstitution": "Unknown Lenape/Delaware maker / National Museum of the American Indian",
+    "licenseName": "Usage Conditions Apply; publication permission required",
+    "licenseUrl": "https://www.si.edu/object/shoulder-bagbandolier-bag%3ANMAI_227689"
+  },
+  "ap164-transformation-mask": [
+    {
+      "creatorOrInstitution": "Unknown Kwakwa̱ka̱ʼwakw artist / Musée du quai Branly–Jacques Chirac",
+      "licenseName": "Museum image rights and community cultural permission not cleared",
+      "licenseUrl": "https://www.amisquaibranly.fr/wp-content/uploads/2024/10/20241014_cls-restaurations_masque-a-transformation.pdf"
+    },
+    {
+      "creatorOrInstitution": "Unknown Kwakwa̱ka̱ʼwakw artist / Musée du quai Branly–Jacques Chirac",
+      "licenseName": "Museum image rights; inherited family and clan authority not cleared",
+      "licenseUrl": "https://www.amisquaibranly.fr/wp-content/uploads/2024/10/20241014_cls-restaurations_masque-a-transformation.pdf"
+    }
+  ],
+  "ap165-painted-elk-hide": {
+    "creatorOrInstitution": "Katsikodi; photograph by Addison Doty / School for Advanced Research",
+    "licenseName": "Copyright School for Advanced Research; no portable permission verified",
+    "licenseUrl": "https://emuseum.sarsf.org/objects/1568/untitled"
+  },
+  "ap166-black-on-black-vessel": {
+    "creatorOrInstitution": "Maria Martínez and Julian Martínez; photograph © Barbara Gonzales",
+    "licenseName": "All rights reserved; no portable public permission verified",
+    "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf"
+  }
+}
+}

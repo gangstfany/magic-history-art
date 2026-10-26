@@ -1,0 +1,513 @@
+{
+  "48": {
+    "id": "ap48-catacomb-priscilla",
+    "titleEn": "Catacomb of Priscilla",
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "requiredViewIds": [
+      "greek-chapel",
+      "orant-fresco",
+      "good-shepherd-fresco"
+    ]
+  },
+  "49": {
+    "id": "ap49-santa-sabina",
+    "titleEn": "Santa Sabina",
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "requiredViewIds": [
+      "exterior",
+      "interior",
+      "plan"
+    ]
+  },
+  "50": {
+    "id": "ap50-vienna-genesis",
+    "titleEn": "Rebecca and Eliezer at the Well and Jacob Wrestling the Angel, from the Vienna Genesis",
+    "region": "easternMediterranean",
+    "siteName": "Syria or Palestine",
+    "requiredViewIds": [
+      "rebecca-eliezer",
+      "jacob-wrestling-angel"
+    ]
+  },
+  "51": {
+    "id": "ap51-san-vitale",
+    "titleEn": "San Vitale",
+    "region": "italyVatican",
+    "siteName": "Ravenna, Italy",
+    "requiredViewIds": [
+      "exterior",
+      "interior",
+      "justinian-panel",
+      "theodora-panel",
+      "plan"
+    ]
+  },
+  "52": {
+    "id": "ap52-hagia-sophia",
+    "titleEn": "Hagia Sophia",
+    "region": "easternMediterranean",
+    "siteName": "Constantinople (Istanbul), Turkey",
+    "requiredViewIds": [
+      "exterior",
+      "interior",
+      "plan"
+    ]
+  },
+  "53": {
+    "id": "ap53-merovingian-fibulae",
+    "titleEn": "Merovingian looped fibulae",
+    "region": "france",
+    "siteName": "Early medieval Europe",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "54": {
+    "id": "ap54-virgin-theotokos-saints",
+    "titleEn": "Virgin (Theotokos) and Child between Saints Theodore and George",
+    "region": "easternMediterranean",
+    "siteName": "Mount Sinai, Egypt",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "55": {
+    "id": "ap55-lindisfarne-gospels",
+    "titleEn": "Lindisfarne Gospels: St. Matthew, cross-carpet page; St. Luke portrait page; St. Luke incipit page",
+    "region": "britishIsles",
+    "siteName": "Northumbria, England",
+    "requiredViewIds": [
+      "st-matthew-cross-carpet",
+      "st-luke-portrait",
+      "st-luke-incipit"
+    ]
+  },
+  "56": {
+    "id": "ap56-great-mosque-cordoba",
+    "titleEn": "Great Mosque",
+    "region": "iberianPeninsula",
+    "siteName": "Córdoba, Spain",
+    "requiredViewIds": [
+      "exterior",
+      "hypostyle-hall",
+      "mihrab-detail",
+      "double-tier-arches",
+      "plan"
+    ]
+  },
+  "57": {
+    "id": "ap57-pyxis-al-mughira",
+    "titleEn": "Pyxis of al-Mughira",
+    "region": "iberianPeninsula",
+    "siteName": "Madinat al-Zahra, Spain",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "58": {
+    "id": "ap58-church-sainte-foy",
+    "titleEn": "Church of Sainte-Foy",
+    "region": "france",
+    "siteName": "Conques, France",
+    "requiredViewIds": [
+      "exterior",
+      "last-judgment-tympanum",
+      "interior",
+      "reliquary"
+    ]
+  },
+  "59": {
+    "id": "ap59-bayeux-tapestry",
+    "titleEn": "Bayeux Tapestry",
+    "region": "britishIsles",
+    "siteName": "England or Normandy",
+    "requiredViewIds": [
+      "narrative-overview",
+      "narrative-detail"
+    ]
+  },
+  "60": {
+    "id": "ap60-chartres-cathedral",
+    "titleEn": "Chartres Cathedral",
+    "region": "france",
+    "siteName": "Chartres, France",
+    "requiredViewIds": [
+      "west-facade",
+      "nave",
+      "plan",
+      "royal-portal",
+      "rose-window",
+      "stained-glass"
+    ]
+  },
+  "61": {
+    "id": "ap61-bibles-moralisees",
+    "titleEn": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées",
+    "region": "france",
+    "siteName": "Paris, France",
+    "requiredViewIds": [
+      "dedication-page",
+      "apocalypse-scenes"
+    ]
+  },
+  "62": {
+    "id": "ap62-rottgen-pieta",
+    "titleEn": "Röttgen Pietà",
+    "region": "centralEurope",
+    "siteName": "Rhineland, Germany",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "63": {
+    "id": "ap63-arena-scrovegni-chapel",
+    "titleEn": "Arena (Scrovegni) Chapel, including Lamentation",
+    "region": "italyVatican",
+    "siteName": "Padua, Italy",
+    "requiredViewIds": [
+      "chapel-interior",
+      "lamentation",
+      "chapel-exterior"
+    ]
+  },
+  "64": {
+    "id": "ap64-golden-haggadah",
+    "titleEn": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, and Preparation for Passover)",
+    "region": "iberianPeninsula",
+    "siteName": "Barcelona, Spain",
+    "requiredViewIds": [
+      "plagues-egypt",
+      "scenes-liberation",
+      "preparation-passover"
+    ]
+  },
+  "65": {
+    "id": "ap65-alhambra",
+    "titleEn": "Alhambra",
+    "region": "iberianPeninsula",
+    "siteName": "Granada, Spain",
+    "requiredViewIds": [
+      "exterior",
+      "court-lions",
+      "hall-sisters",
+      "plan"
+    ]
+  },
+  "66": {
+    "id": "ap66-merode-altarpiece",
+    "titleEn": "Annunciation Triptych (Merode Altarpiece)",
+    "region": "lowCountries",
+    "siteName": "Tournai, present-day Belgium",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "67": {
+    "id": "ap67-pazzi-chapel",
+    "titleEn": "Pazzi Chapel",
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "requiredViewIds": [
+      "exterior",
+      "interior"
+    ]
+  },
+  "68": {
+    "id": "ap68-arnolfini-portrait",
+    "titleEn": "The Arnolfini Portrait",
+    "region": "lowCountries",
+    "siteName": "Flanders, present-day Belgium",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "69": {
+    "id": "ap69-donatello-david",
+    "titleEn": "David",
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "70": {
+    "id": "ap70-palazzo-rucellai",
+    "titleEn": "Palazzo Rucellai",
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "71": {
+    "id": "ap71-madonna-child-two-angels",
+    "titleEn": "Madonna and Child with Two Angels",
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "72": {
+    "id": "ap72-birth-venus",
+    "titleEn": "Birth of Venus",
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "73": {
+    "id": "ap73-last-supper",
+    "titleEn": "Last Supper",
+    "region": "italyVatican",
+    "siteName": "Milan, Italy",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "74": {
+    "id": "ap74-adam-eve-durer",
+    "titleEn": "Adam and Eve",
+    "region": "centralEurope",
+    "siteName": "Nuremberg, Germany",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "75": {
+    "id": "ap75-sistine-chapel-frescoes",
+    "titleEn": "Sistine Chapel ceiling and altar wall frescoes",
+    "region": "italyVatican",
+    "siteName": "Vatican City",
+    "requiredViewIds": [
+      "ceiling-overview",
+      "delphic-sibyl",
+      "the-flood",
+      "last-judgment"
+    ]
+  },
+  "76": {
+    "id": "ap76-school-athens",
+    "titleEn": "School of Athens",
+    "region": "italyVatican",
+    "siteName": "Vatican City",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "77": {
+    "id": "ap77-isenheim-altarpiece",
+    "titleEn": "Isenheim altarpiece",
+    "region": "centralEurope",
+    "siteName": "Isenheim, Alsace",
+    "requiredViewIds": [
+      "closed-state",
+      "open-state"
+    ]
+  },
+  "78": {
+    "id": "ap78-entombment-christ-pontormo",
+    "titleEn": "Entombment of Christ",
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "79": {
+    "id": "ap79-allegory-law-grace",
+    "titleEn": "Allegory of Law and Grace",
+    "region": "centralEurope",
+    "siteName": "Wittenberg, Germany",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "80": {
+    "id": "ap80-venus-urbino",
+    "titleEn": "Venus of Urbino",
+    "region": "italyVatican",
+    "siteName": "Venice, Italy",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "81": {
+    "id": "ap81-codex-mendoza-frontispiece",
+    "titleEn": "Frontispiece of the Codex Mendoza",
+    "region": "colonialAmericas",
+    "siteName": "Tenochtitlan (Mexico City), New Spain",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "82": {
+    "id": "ap82-il-gesu",
+    "titleEn": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco",
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "requiredViewIds": [
+      "facade",
+      "nave",
+      "triumph-name-jesus"
+    ]
+  },
+  "83": {
+    "id": "ap83-hunters-snow",
+    "titleEn": "Hunters in the Snow",
+    "region": "lowCountries",
+    "siteName": "Antwerp, present-day Belgium",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "84": {
+    "id": "ap84-mosque-selim-ii",
+    "titleEn": "Mosque of Selim II",
+    "region": "easternMediterranean",
+    "siteName": "Edirne, Turkey",
+    "requiredViewIds": [
+      "exterior",
+      "interior",
+      "plan"
+    ]
+  },
+  "85": {
+    "id": "ap85-calling-saint-matthew",
+    "titleEn": "Calling of Saint Matthew",
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "86": {
+    "id": "ap86-henri-iv-marie-medici",
+    "titleEn": "Henri IV Receives the Portrait of Marie de’ Medici, from the Marie de’ Medici Cycle",
+    "region": "lowCountries",
+    "siteName": "Antwerp, Southern Netherlands",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "87": {
+    "id": "ap87-self-portrait-saskia",
+    "titleEn": "Self-Portrait with Saskia",
+    "region": "lowCountries",
+    "siteName": "Amsterdam, Netherlands",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "88": {
+    "id": "ap88-san-carlo-quattro-fontane",
+    "titleEn": "San Carlo alle Quattro Fontane",
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "requiredViewIds": [
+      "facade",
+      "interior",
+      "plan"
+    ]
+  },
+  "89": {
+    "id": "ap89-ecstasy-saint-teresa",
+    "titleEn": "Ecstasy of Saint Teresa",
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "requiredViewIds": [
+      "church-interior",
+      "cornaro-chapel",
+      "ecstasy-saint-teresa"
+    ]
+  },
+  "90": {
+    "id": "ap90-angel-arquebus",
+    "titleEn": "Angel with Arquebus, Asiel Timor Dei",
+    "region": "colonialAmericas",
+    "siteName": "Calamarca, present-day Bolivia",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "91": {
+    "id": "ap91-las-meninas",
+    "titleEn": "Las Meninas",
+    "region": "iberianPeninsula",
+    "siteName": "Madrid, Spain",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "92": {
+    "id": "ap92-woman-holding-balance",
+    "titleEn": "Woman Holding a Balance",
+    "region": "lowCountries",
+    "siteName": "Delft, Netherlands",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "93": {
+    "id": "ap93-palace-versailles",
+    "titleEn": "The Palace at Versailles",
+    "region": "france",
+    "siteName": "Versailles, France",
+    "requiredViewIds": [
+      "aerial-overview",
+      "facade",
+      "courtyard",
+      "hall-mirrors",
+      "gardens"
+    ]
+  },
+  "94": {
+    "id": "ap94-screen-siege-belgrade",
+    "titleEn": "Screen with the Siege of Belgrade and hunting scene",
+    "region": "colonialAmericas",
+    "siteName": "Mexico City, New Spain",
+    "requiredViewIds": [
+      "siege-belgrade-front",
+      "hunting-scene-reverse"
+    ]
+  },
+  "95": {
+    "id": "ap95-virgin-guadalupe",
+    "titleEn": "The Virgin of Guadalupe (Virgen de Guadalupe)",
+    "region": "colonialAmericas",
+    "siteName": "Mexico City, New Spain",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "96": {
+    "id": "ap96-fruit-insects",
+    "titleEn": "Fruit and Insects",
+    "region": "lowCountries",
+    "siteName": "Amsterdam, Netherlands",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "97": {
+    "id": "ap97-spaniard-indian-mestizo",
+    "titleEn": "Spaniard and Indian Produce a Mestizo",
+    "region": "colonialAmericas",
+    "siteName": "Mexico City, New Spain",
+    "requiredViewIds": [
+      "primary"
+    ]
+  },
+  "98": {
+    "id": "ap98-tete-a-tete",
+    "titleEn": "The Tête à Tête, from Marriage à la Mode",
+    "region": "britishIsles",
+    "siteName": "London, England",
+    "requiredViewIds": [
+      "primary"
+    ]
+  }
+}

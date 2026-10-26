@@ -1,0 +1,301 @@
+{
+  "images": {
+    "ap181-petra": [
+      {
+        "id": "petra-context",
+        "label": "Petra context / 佩特拉遗址环境",
+        "imageUrl": "assets/art-history/u7/ap181-petra-context.webp",
+        "imageAlt": "Petra Royal Tombs cut into a sandstone cliff above the colonnaded street / 佩特拉砂岩崖壁上的皇家陵墓与下方柱廊街",
+        "imageSourceName": "Wikimedia Commons; Clem23",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Tombs_%26_colonnaded_street_Petra.jpg"
+      },
+      {
+        "id": "treasury",
+        "label": "Treasury facade / 宝库立面",
+        "imageUrl": "assets/art-history/u7/ap181-treasury.webp",
+        "imageAlt": "Full Treasury facade with two tiers of rock-cut Corinthian columns, pediments and central tholos / 宝库完整立面，含两层岩凿科林斯柱、山花与中央圆亭",
+        "imageSourceName": "Wikimedia Commons; Bernard Gagnon",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Khazneh.jpg"
+      },
+      {
+        "id": "great-temple",
+        "label": "Great Temple / 大神庙",
+        "imageUrl": "assets/art-history/u7/ap181-great-temple.webp",
+        "imageAlt": "Great Temple terraces, broad steps, colonnades and excavated upper platform at Petra / 佩特拉大神庙的台地、宽阶梯、柱廊与上层遗址",
+        "imageSourceName": "Wikimedia Commons; Bernard Gagnon",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Temple_of_Petra_02.jpg"
+      }
+    ],
+    "ap182-bamiyan-buddha": [
+      {
+        "id": "buddha-front",
+        "label": "Historic Buddha front / 大佛历史正面",
+        "imageUrl": "assets/art-history/u7/ap182-buddha-front.webp",
+        "imageAlt": "Intact standing Bamiyan Buddha in its cliff niche in 1961, before destruction in 2001 / 1961年崖龛中的完整巴米扬立佛，摄于2001年毁坏前",
+        "imageSourceName": "Wikimedia Commons; František Řiháček",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Buddhas_of_Bamiyan_D39.jpg"
+      },
+      {
+        "id": "buddha-context",
+        "label": "Historic Buddha valley context / 大佛历史山谷环境",
+        "imageUrl": "assets/art-history/u7/ap182-buddha-context.webp",
+        "imageAlt": "Intact Bamiyan Buddha viewed across the valley, with cliff caves, fields and foreground people in 1961 / 1961年隔山谷所见完整巴米扬大佛，周围有崖洞、田地与前景人物",
+        "imageSourceName": "Wikimedia Commons; František Řiháček",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Buddhas_of_Bamiyan_D41.jpg"
+      }
+    ],
+    "ap183-kaaba": [
+      {
+        "id": "circumambulation",
+        "label": "Circumambulation / 绕行礼拜",
+        "imageUrl": "assets/art-history/u7/ap183-circumambulation.webp",
+        "imageAlt": "Elevated view of the Kaaba roof and black cubic exterior encircled by dense Hajj pilgrims / 俯视克尔白屋顶与黑色方形外墙，密集朝觐者环绕",
+        "imageSourceName": "Wikimedia Commons; Adli Wahid",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Kaaba_during_Hajj.jpg"
+      },
+      {
+        "id": "exterior",
+        "label": "Kaaba exterior / 克尔白外观",
+        "imageUrl": "assets/art-history/u7/ap183-exterior.webp",
+        "imageAlt": "Kaaba close exterior showing black kiswah, gold calligraphy band and gold door above pilgrims / 克尔白近景，黑色覆布、金色书法带与朝觐者上方的金门",
+        "imageSourceName": "Wikimedia Commons; Benjamin Richter",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kaaba.jpg"
+      },
+      {
+        "id": "gathering-context",
+        "label": "Gathering at the Kaaba / 克尔白聚集环境",
+        "imageUrl": "assets/art-history/u7/ap183-gathering-context.webp",
+        "imageAlt": "Aerial view of the Kaaba and crowded al-Haram precinct within Mecca, beside towers under construction / 麦加克尔白与聚集人群的禁寺建筑群航拍，旁有在建高塔",
+        "imageSourceName": "Wikimedia Commons; Fadi El Benni / Al Jazeera English",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Abraj_Al_Bait_Under_Construction.jpg"
+      }
+    ],
+    "ap184-jowo-rinpoche": [
+      {
+        "id": "primary",
+        "label": "Jowo Rinpoche / 觉沃仁波切",
+        "imageUrl": "assets/art-history/u7/ap184-primary.webp",
+        "imageAlt": "Crowned gilded Jowo Rinpoche in the Jokhang, framed by an ornate throne and offering bowls / 大昭寺中戴冠镀金觉沃佛像，周围有华丽佛座与供碗",
+        "imageSourceName": "Wikimedia Commons; LBM1948",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lhasa%2C_Jokhang_1999_20.jpg"
+      }
+    ],
+    "ap185-dome-of-rock": [
+      {
+        "id": "exterior",
+        "label": "Dome of the Rock exterior / 岩石圆顶外观",
+        "imageUrl": "assets/art-history/u7/ap185-exterior.webp",
+        "imageAlt": "Frontal Dome of the Rock exterior with gilded dome above tiled octagonal walls and arched entrance / 岩石圆顶正面，金色圆顶位于瓷砖八角墙体与拱门入口上方",
+        "imageSourceName": "Wikimedia Commons; Imhotep tep",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%B4me_du_Rocher%2C_J%C3%A9rusalem.jpg"
+      },
+      {
+        "id": "interior",
+        "label": "Dome of the Rock interior / 岩石圆顶内部",
+        "imageUrl": null,
+        "imageAlt": "Required interior view: sacred rock below the mosaic drum, windows and striped arcades; image withheld / 指定内部视图：圣石位于马赛克鼓座、窗户与条纹拱廊下方；图像暂缺",
+        "imageSourceName": "College Board West and Central Asia image set; Erich Lessing / Art Resource, NY",
+        "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=6",
+        "mediaStatus": "Image withheld — exact-view open rights not verified / 指定视图开放权限尚未核实"
+      }
+    ],
+    "ap186-great-mosque-isfahan": [
+      {
+        "id": "iwan",
+        "label": "South iwan / 南侧伊万",
+        "imageUrl": "assets/art-history/u7/ap186-iwan.webp",
+        "imageAlt": "Masjid-e Jameh south iwan with paired slender minarets, muqarnas vault and flanking courtyard arcades / 聚礼清真寺南伊万，双细长宣礼塔、钟乳拱顶与两侧庭院拱廊",
+        "imageSourceName": "Wikimedia Commons; Bernard Gagnon",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jameh_Mosque_of_Isfahan_-_Southern_Iwan.jpg"
+      },
+      {
+        "id": "iwan-detail",
+        "label": "Iwan vault detail / 伊万拱顶细节",
+        "imageUrl": null,
+        "imageAlt": "Required south-iwan detail: muqarnas vault, geometric panels and central window; image withheld / 指定南伊万细节：钟乳拱顶、几何面板与中央窗；图像暂缺",
+        "imageSourceName": "College Board West and Central Asia image set; EmmePi Travel / Alamy",
+        "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=7",
+        "mediaStatus": "Image withheld — exact-view open rights not verified / 指定视图开放权限尚未核实"
+      },
+      {
+        "id": "courtyard",
+        "label": "Courtyard / 庭院",
+        "imageUrl": "assets/art-history/u7/ap186-courtyard.webp",
+        "imageAlt": "Masjid-e Jameh courtyard with scalloped pool, south iwan and surrounding arcades / 聚礼清真寺庭院，含花瓣形水池、南伊万与周围拱廊",
+        "imageSourceName": "Wikimedia Commons; Alex O. Holcombe",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jam%C3%A9_Mosque_Esfahan_courtyard.jpg"
+      },
+      {
+        "id": "mihrab",
+        "label": "Öljaitü mihrab / 完者都米哈拉布",
+        "imageUrl": "assets/art-history/u7/ap186-mihrab.webp",
+        "imageAlt": "Öljaitü stucco mihrab with carved Arabic calligraphy, pointed niches and adjacent wooden minbars / 完者都灰泥米哈拉布，含阿拉伯书法雕刻、尖拱龛与旁侧木质讲坛",
+        "imageSourceName": "Wikimedia Commons; Amir Pashaei",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Oljaytu_mihrab.jpg"
+      }
+    ],
+    "ap187-quran-folio": [
+      {
+        "id": "primary",
+        "label": "Qur’an folio / 《古兰经》书页",
+        "imageUrl": "assets/art-history/u7/ap187-primary.webp",
+        "imageAlt": "Morgan Qur’an folio M.712 f.19v with dark Kufic lines, red dots and gold sura heading / 摩根M.712第19叶背面《古兰经》书页，深色库法体、红点与金色章标题",
+        "imageSourceName": "Wikimedia Commons; Unknown artist / The Morgan Library & Museum",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Folio_from_a_Qur'an_(MS_M.712%2C_f._19v).jpg"
+      }
+    ],
+    "ap188-basin-saint-louis": [
+      {
+        "id": "primary",
+        "label": "Baptistère de St. Louis / 圣路易洗礼盆",
+        "imageUrl": "assets/art-history/u7/ap188-primary.webp",
+        "imageAlt": "Complete Saint Louis basin with flared rim, exterior figural roundels and decorated interior / 完整圣路易洗礼盆，外展盆沿、外侧人物圆章与内壁装饰",
+        "imageSourceName": "Wikimedia Commons; Captainm; derivative by Poke2001",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Baptist%C3%A8re_de_saint_Louis.png"
+      }
+    ],
+    "ap189-bahram-gur-karg": [
+      {
+        "id": "primary",
+        "label": "Bahram Gur Fights the Karg / 巴赫拉姆·古尔大战角狼",
+        "imageUrl": null,
+        "imageAlt": "Required Harvard folio: red-robed Bahram Gur on horseback over the horned wolf, with text above and below; image withheld / 指定哈佛书页：红衣巴赫拉姆骑马位于角狼上方，上下有文字；图像暂缺",
+        "imageSourceName": "College Board West and Central Asia image set; Harvard Art Museums / Arthur M. Sackler Museum",
+        "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=8",
+        "mediaStatus": "Image withheld — exact-view open rights not verified / 指定视图开放权限尚未核实"
+      }
+    ],
+    "ap190-court-gayumars": [
+      {
+        "id": "primary",
+        "label": "The Court of Gayumars / 盖尤马尔斯的宫廷",
+        "imageUrl": "assets/art-history/u7/ap190-primary.webp",
+        "imageAlt": "Full Gayumars folio with enthroned king amid rocky landscape and courtiers, text panels and gold margins / 完整盖尤马尔斯书页，王者坐于岩景与廷臣之间，保留文字栏及金色页边",
+        "imageSourceName": "Wikimedia Commons; Sultan Muhammad (attributed); reproduction uploader Евгений Ардаев",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Court_of_Gayumars.jpg"
+      }
+    ],
+    "ap191-ardabil-carpet": [
+      {
+        "id": "primary",
+        "label": "The Ardabil Carpet / 阿尔达比勒地毯",
+        "imageUrl": "assets/art-history/u7/ap191-primary.webp",
+        "imageAlt": "Full larger V&A Ardabil carpet with floral medallion, unequal pendant lamps and multiple borders / V&A馆藏较大阿尔达比勒地毯全图，含花卉中心章、大小不同的垂灯与多重边框",
+        "imageSourceName": "Wikimedia Commons; Victoria and Albert Museum / Google Art Project; Maqsud of Kashan",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Ardabil_Carpet_-_Google_Art_Project.jpg"
+      }
+    ]
+  },
+  "credits": {
+    "ap181-petra": [
+      {
+        "creatorOrInstitution": "Clem23",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Bernard Gagnon",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Bernard Gagnon",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "ap182-bamiyan-buddha": [
+      {
+        "creatorOrInstitution": "František Řiháček",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "František Řiháček",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "ap183-kaaba": [
+      {
+        "creatorOrInstitution": "Adli Wahid",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "creatorOrInstitution": "Benjamin Richter",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "creatorOrInstitution": "Fadi El Benni / Al Jazeera English",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+      }
+    ],
+    "ap184-jowo-rinpoche": {
+      "creatorOrInstitution": "LBM1948",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap185-dome-of-rock": [
+      {
+        "creatorOrInstitution": "Imhotep tep",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Erich Lessing / Art Resource, NY",
+        "licenseName": "Restricted; no eligible matching public image permission verified",
+        "licenseUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=6"
+      }
+    ],
+    "ap186-great-mosque-isfahan": [
+      {
+        "creatorOrInstitution": "Bernard Gagnon",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "creatorOrInstitution": "EmmePi Travel / Alamy",
+        "licenseName": "Restricted; no eligible matching public image permission verified",
+        "licenseUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=7"
+      },
+      {
+        "creatorOrInstitution": "Alex O. Holcombe",
+        "licenseName": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/"
+      },
+      {
+        "creatorOrInstitution": "Amir Pashaei",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ],
+    "ap187-quran-folio": {
+      "creatorOrInstitution": "Unknown artist / The Morgan Library & Museum",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap188-basin-saint-louis": {
+      "creatorOrInstitution": "Captainm; derivative by Poke2001",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap189-bahram-gur-karg": {
+      "creatorOrInstitution": "Harvard Art Museums / Arthur M. Sackler Museum",
+      "licenseName": "Restricted; no eligible matching public image permission verified",
+      "licenseUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=8"
+    },
+    "ap190-court-gayumars": {
+      "creatorOrInstitution": "Sultan Muhammad (attributed); reproduction uploader Евгений Ардаев",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap191-ardabil-carpet": {
+      "creatorOrInstitution": "Victoria and Albert Museum / Google Art Project; Maqsud of Kashan",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  }
+}

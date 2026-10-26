@@ -1,0 +1,29 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync,readdirSync} from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+import {assertNoAbsolutePrivatePaths,assertNoRestrictedAssetUrls} from '../scripts/verify-art-history-private-leaks.mjs';
+const root=fileURLToPath(new URL('../',import.meta.url));
+test('public release includes complete artwork payload and excludes other repositories/private media',()=>{
+ execFileSync('python3',['scripts/build.py'],{cwd:root});
+ const output=path.join(root,'_site');
+ const html=readFileSync(path.join(output,'art-history-map.html'),'utf8');
+ const artworks=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
+ assert.equal(artworks.length,250);assert.deepEqual([...new Set(artworks.map(w=>w.unit))].sort((a,b)=>a-b),[1,2,3,4,5,6,7,8,9,10]);
+ assert.match(html,/<script type="module" src="module-bridge.mjs"><\/script>/);
+ for(const file of ['.private-media','world-map.html','assets/auth','tests','scripts','.git'])assert.ok(!existsSync(path.join(output,file)),file);
+ assert.ok(existsSync(path.join(output,'.nojekyll')));
+ const entries=[];
+ function walk(directory){for(const name of readdirSync(directory,{withFileTypes:true})){const entry=path.join(directory,name.name);if(name.isDirectory())walk(entry);else if(/\.(html|mjs|css|json)$/.test(name.name))entries.push({path:path.relative(output,entry),text:readFileSync(entry,'utf8')});}}
+ walk(output);assertNoAbsolutePrivatePaths(entries);assertNoRestrictedAssetUrls(entries);
+ const local=html.match(/assets\/art-history\/[a-zA-Z0-9/_-]+\.webp/g)||[];
+ assert.ok(local.length>70);for(const asset of local)assert.ok(existsSync(path.join(output,asset)),asset);
+});
+test('module extraction preserves the entire approved committed artwork page',()=>{
+ const manifest=JSON.parse(readFileSync(path.join(root,'source-manifest.json'),'utf8'));
+ const html=readFileSync(path.join(root,'art-history-map.html'),'utf8').replace('  <script type="module" src="module-bridge.mjs"></script>\n','');
+ const {createHash}=process.getBuiltinModule('node:crypto');
+ assert.equal(createHash('sha256').update(html).digest('hex'),manifest.originalHtmlSha256);
+});

@@ -1,0 +1,77 @@
+{
+  "ap169-wall-plaque-obas-palace::oba-context": {
+    "imageSourceName": "College Board Africa image set; Werner Forman / Art Resource",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=5",
+    "rightsNote": "Exact 1964 Oba contextual scene, Werner Forman / Art Resource; rights-managed photograph, no portable open grant verified."
+  },
+  "ap170-sika-dwa-kofi::golden-stool": {
+    "imageSourceName": "College Board Africa image set; Marc Deville / Gamma-Rapho / Getty Images",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=5",
+    "rightsNote": "Exact Golden Stool photograph credited to Marc Deville / Getty Images; rights-managed, not an open-license image."
+  },
+  "ap170-sika-dwa-kofi::stool-context": {
+    "imageSourceName": "College Board Africa image set; Marc Deville / Gamma-Rapho / Getty Images",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=5",
+    "rightsNote": "Exact Asante Golden Stool contextual scene, Marc Deville / Getty Images; no portable open permission verified."
+  },
+  "ap171-ndop-king-mishe::ruler-context": {
+    "imageSourceName": "College Board Africa image set; Eliot Elisofon / Smithsonian National Museum of African Art",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=6",
+    "rightsNote": "Exact 1971 Kuba ruler scene is Eliot Elisofon archive EECL2137; permission is required. EECL2170 is a different frame and cannot substitute."
+  },
+  "ap172-nkisi-nkondi::primary": {
+    "imageSourceName": "College Board Africa image set; Detroit Institute of Arts / Bridgeman Art Library",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=6",
+    "rightsNote": "Exact Detroit Institute of Arts Nail Figure, accession 76.79, object 51144 (https://dia.org/collection/nail-figure/51144). A downloadable TIFF and blank copyright field do not constitute an open license."
+  },
+  "ap173-female-pwo-mask::primary": {
+    "imageSourceName": "College Board Africa image set; Franko Khoury / Smithsonian National Museum of African Art",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=7",
+    "rightsNote": "Exact Smithsonian Female (Pwo) mask, accession 85-15-20 (https://www.si.edu/object/nmafa_85-15-20); Usage Conditions Apply, with no portable open image grant verified."
+  },
+  "ap174-portrait-mask-mblo::mask": {
+    "imageSourceName": "College Board Africa image set; Jerry L. Thompson",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=7",
+    "rightsNote": "Exact Moya Yanso portrait mask by Owie Kimou, Jerry L. Thompson photograph; no open grant verified for this required object image."
+  },
+  "ap174-portrait-mask-mblo::performance-context": {
+    "imageSourceName": "College Board Africa image set; photographer not named in CED",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=7",
+    "rightsNote": "Exact 1971 scene of Moya Yanso and her stepson holding her portrait mask; no portable open grant verified for this frame."
+  },
+  "ap175-bundu-mask::mask": {
+    "imageSourceName": "College Board Africa image set; Schomburg Center, NYPL / Art Resource",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=8",
+    "rightsNote": "Exact CED Bundu mask attributed to NYPL / Schomburg Center / Art Resource remains unresolved at object-image level; no open-license image verified. Other sowei masks are not substitutes."
+  },
+  "ap175-bundu-mask::performance-context": {
+    "imageSourceName": "College Board Africa image set; William Siegmann Estate / Edward DeCarbo, Executor",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=8",
+    "rightsNote": "Exact Sande masquerade photograph credited to William Siegmann Estate / Edward DeCarbo; copyrighted photograph, no open grant verified."
+  },
+  "ap176-ikenga::primary": {
+    "imageSourceName": "College Board Africa image set; Werner Forman / Art Resource",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=8",
+    "rightsNote": "Exact Ikenga shrine figure image credited to Werner Forman / Art Resource; no portable open license verified, other Ikenga figures cannot substitute."
+  },
+  "ap177-lukasa-memory-board::memory-board": {
+    "imageSourceName": "College Board Africa image set; Heini Schneebeli / Bridgeman Art Library",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=9",
+    "rightsNote": "Exact lukasa board image credited to Heini Schneebeli / Bridgeman Art Library; no open grant verified for this board and photograph."
+  },
+  "ap177-lukasa-memory-board::contextual": {
+    "imageSourceName": "College Board Africa image set; Mary Nooter Roberts",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=9",
+    "rightsNote": "Exact contextual lukasa memory-practice photograph credited to Mary Nooter Roberts; no portable open permission verified."
+  },
+  "ap178-aka-elephant-mask::mask": {
+    "imageSourceName": "College Board Africa image set; Metropolitan Museum of Art / Art Resource",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=9",
+    "rightsNote": "Exact Met elephant mask, accession 2001.758.1, object 318954 (https://www.metmuseum.org/art/collection/search/318954); image explicitly not downloadable and not marked public domain. Other elephant masks cannot substitute."
+  },
+  "ap178-aka-elephant-mask::performance-context": {
+    "imageSourceName": "College Board Africa image set; George Holton / Photo Researchers / Getty Images",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=9",
+    "rightsNote": "Exact Bamileke elephant masquerade scene credited to George Holton / Photo Researchers / Getty Images; commercial rights-managed photograph, no open grant verified."
+  }
+}

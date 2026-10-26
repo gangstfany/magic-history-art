@@ -1,0 +1,422 @@
+{
+  "artworks": [
+    {
+      "id": "ap1-apollo-11-stones",
+      "apNumber": 1,
+      "titleEn": "Apollo 11 stones",
+      "titleZh": "阿波罗11号洞石板",
+      "unit": 1,
+      "culture": "prehistoricNamibia",
+      "region": "africa",
+      "period": "Global Prehistory",
+      "date": "c. 25,500–25,300 B.C.E.",
+      "artistCulture": "Unknown prehistoric makers in present-day Namibia",
+      "siteName": "Apollo 11 Cave, Namibia",
+      "coordinates": { "x": 875, "y": 500 },
+      "medium": "Charcoal on stone",
+      "workType": "portable rock art",
+      "function": "可能用于随身携带的图像交流、仪式或群体记忆；具体用途尚无定论",
+      "form": "小型石片以木炭描绘动物轮廓，概括身体并强调可辨识的角、腿和躯干",
+      "content": "石片呈现一只难以确定物种的四足动物，常被描述为猫科或类似斑马的动物",
+      "context": "发现于纳米比亚阿波罗11号洞穴，是非洲现存最早的具象图像证据之一，也说明图像可脱离洞壁移动",
+      "recognitionAnchors": [
+        "木炭绘于可移动的小石片",
+        "概括而可辨识的四足动物轮廓",
+        "纳米比亚阿波罗11号洞穴出土"
+      ],
+      "comparisonIds": ["ap2-great-hall-bulls", "ap4-running-horned-woman"],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Apollo-11-cave-stone-zebra.jpg",
+      "imageAlt": "阿波罗11号洞石板上以木炭描绘的四足动物",
+      "imageSourceName": "Wikimedia Commons / Apollo 11 Cave, Namibia",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Apollo-11-cave-stone-zebra.jpg",
+      "keywords": ["Apollo 11 stones", "阿波罗11号洞", "charcoal 木炭", "portable rock art 便携岩画", "Namibia 纳米比亚"]
+    },
+    {
+      "id": "ap2-great-hall-bulls",
+      "apNumber": 2,
+      "titleEn": "Great Hall of the Bulls",
+      "titleZh": "公牛大厅",
+      "unit": 1,
+      "culture": "paleolithicEurope",
+      "region": "europe",
+      "period": "Paleolithic Europe",
+      "date": "15,000–13,000 B.C.E.",
+      "artistCulture": "Paleolithic communities in present-day France",
+      "siteName": "Lascaux, France",
+      "coordinates": { "x": 829, "y": 246 },
+      "medium": "Rock painting",
+      "workType": "cave painting",
+      "function": "可能服务于仪式、狩猎观念、叙事或群体记忆；洞穴深处的用途仍属推测",
+      "form": "大型动物沿不规则洞壁展开，以轮廓、色块、重叠和扭转透视表现不同侧面特征",
+      "content": "野牛、马、鹿与神秘独角兽般动物构成连续兽群，人类形象极少",
+      "context": "旧石器时代创作者利用洞壁凸起和幽暗空间组织图像；原洞因保护关闭，常见照片来自拉斯科二号复制洞",
+      "recognitionAnchors": [
+        "巨型黑色公牛与成群马鹿",
+        "动物采用扭转透视并沿洞壁重叠",
+        "拉斯科洞穴深处的大尺度岩画"
+      ],
+      "comparisonIds": ["ap1-apollo-11-stones", "ap4-running-horned-woman", "ap24-last-judgment-of-hunefer"],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peinture_Grotte_de_Lascaux.jpg",
+      "imageAlt": "拉斯科洞穴公牛大厅中重叠排列的牛、马与鹿",
+      "imageSourceName": "Wikimedia Commons / Lascaux II",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Peinture_Grotte_de_Lascaux.jpg",
+      "keywords": ["Great Hall of the Bulls", "公牛大厅", "Lascaux 拉斯科", "cave painting 洞穴壁画", "twisted perspective 扭转透视"]
+    },
+    {
+      "id": "ap3-camelid-sacrum-canine",
+      "apNumber": 3,
+      "titleEn": "Camelid sacrum in the shape of a canine",
+      "titleZh": "犬形骆驼科动物骶骨",
+      "unit": 1,
+      "culture": "prehistoricCentralMexico",
+      "region": "americas",
+      "period": "Prehistoric Americas",
+      "date": "14,000–7000 B.C.E.",
+      "artistCulture": "Unknown prehistoric makers in central Mexico",
+      "siteName": "Tequixquiac, central Mexico",
+      "coordinates": { "x": 405, "y": 380 },
+      "medium": "Bone",
+      "workType": "carved bone",
+      "function": "可能具有仪式、护符或物种转化意义；因考古语境有限，功能不能确定",
+      "form": "创作者顺应骶骨天然孔洞与轮廓进行少量切削，使骨骼形态转化为犬科动物头部",
+      "content": "两个骨孔成为眼睛，长形骨体被读取为口鼻部，形成兼具自然与人工形态的动物头像",
+      "context": "作品来自墨西哥中部特基斯基亚克，体现史前创作者从现成骨骼形状中识别并强化形象",
+      "recognitionAnchors": [
+        "骶骨天然双孔被用作眼睛",
+        "最少雕刻形成犬科动物头部",
+        "自然骨形与人工图像相互转换"
+      ],
+      "comparisonIds": ["ap9-ambum-stone", "ap10-tlatilco-female-figurine"],
+      "imageUrl": "https://smarthistory.org/wp-content/uploads/2016/03/camelid.jpg",
+      "imageAlt": "马里亚诺·巴尔塞纳绘制的犬形骆驼科动物骶骨图",
+      "imageSourceName": "Smarthistory–LibreTexts",
+      "imageSourceUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_XIa_-_The_Americas_before_1500/03%3A_Mesoamerica/3.01%3A_A_beginner%27s_guide_to_Mesoamerica/3.1.04%3A_Camelid_sacrum_in_the_shape_of_a_canine",
+      "keywords": ["camelid sacrum", "犬形骶骨", "Tequixquiac 特基斯基亚克", "bone carving 骨雕", "found form 天然形态"]
+    },
+    {
+      "id": "ap4-running-horned-woman",
+      "apNumber": 4,
+      "titleEn": "Running horned woman",
+      "titleZh": "奔跑的有角女性",
+      "unit": 1,
+      "culture": "saharanPrehistory",
+      "region": "africa",
+      "period": "Saharan Prehistory",
+      "date": "6000–4000 B.C.E.",
+      "artistCulture": "Prehistoric communities of Tassili n’Ajjer",
+      "siteName": "Tassili n'Ajjer, Algeria",
+      "coordinates": { "x": 850, "y": 360 },
+      "medium": "Pigment on rock",
+      "workType": "rock painting",
+      "function": "可能记录仪式舞蹈、神圣人物或群体信仰；有角身份与动作含义仍不确定",
+      "form": "巨大正面女性以白色轮廓、点纹身体和外张四肢构成，弯角与飘动饰带强化运动感",
+      "content": "有角女性似在奔跑或舞蹈，身体装饰与周围较小人物暗示仪式性等级差异",
+      "context": "撒哈拉尚较湿润时期的塔西利岩画保存了当地社会、环境与仪式图像，后由现代考察者记录",
+      "recognitionAnchors": [
+        "正面展开的巨大有角女性",
+        "身体密布白色点纹并带飘动饰带",
+        "利用岩壁尺度表现仪式性运动"
+      ],
+      "comparisonIds": ["ap1-apollo-11-stones", "ap2-great-hall-bulls", "ap24-last-judgment-of-hunefer"],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Running_Horned_Woman%2C_6%2C000%E2%80%934%2C000_B.C.E.%2C_pigment_on_rock%2C_Tassili_n%E2%80%99Ajjer%2C_Algeria.jpg",
+      "imageAlt": "塔西利岩壁上有弯角、点纹身体和飘动饰带的奔跑女性",
+      "imageSourceName": "Wikimedia Commons / Smarthistory",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Running_Horned_Woman,_6,000%E2%80%934,000_B.C.E.,_pigment_on_rock,_Tassili_n%E2%80%99Ajjer,_Algeria.jpg",
+      "keywords": ["Running horned woman", "奔跑的有角女性", "Tassili n’Ajjer 塔西利", "pigment on rock 岩画", "Sahara 撒哈拉"]
+    },
+    {
+      "id": "ap5-beaker-ibex-motifs",
+      "apNumber": 5,
+      "titleEn": "Beaker with ibex motifs",
+      "titleZh": "羱羊纹饰杯",
+      "unit": 1,
+      "culture": "prehistoricSusa",
+      "region": "middleEast",
+      "period": "Prehistoric Susa",
+      "date": "4200–3500 B.C.E.",
+      "artistCulture": "Potters of early Susa in present-day Iran",
+      "siteName": "Susa, Iran",
+      "coordinates": { "x": 1018, "y": 333 },
+      "medium": "Painted terra cotta",
+      "workType": "painted vessel",
+      "function": "作为墓葬随葬容器并可能盛放食物或液体，同时以精制图案表达共同视觉传统",
+      "form": "高而薄的陶杯以水平带状分区组织几何纹样，夸张羱羊角形成近乎圆形的主图案",
+      "content": "中央羱羊、犬科动物与长颈鸟被高度抽象化，身体部位转化为弧线、三角形和重复节奏",
+      "context": "苏萨墓地出土的彩陶显示定居农业社会已发展专业制陶、动物象征与跨区域视觉交流",
+      "recognitionAnchors": [
+        "巨大环形羱羊角支配器身",
+        "动物被几何化并置于水平纹带",
+        "苏萨墓葬出土的高足彩陶杯"
+      ],
+      "comparisonIds": ["ap7-jade-cong", "ap16-standard-of-ur"],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bushel_ibex_Louvre_Sb14276.jpg",
+      "imageAlt": "苏萨彩陶杯上几何化羱羊、犬与长颈鸟纹饰",
+      "imageSourceName": "Wikimedia Commons / Louvre Museum",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bushel_ibex_Louvre_Sb14276.jpg",
+      "keywords": ["Beaker with ibex motifs", "羱羊纹饰杯", "Susa 苏萨", "painted terra cotta 彩陶", "geometric animal 动物几何化"]
+    },
+    {
+      "id": "ap6-anthropomorphic-stele",
+      "apNumber": 6,
+      "titleEn": "Anthropomorphic stele",
+      "titleZh": "人形石碑",
+      "unit": 1,
+      "culture": "arabianPrehistory",
+      "region": "middleEast",
+      "period": "Arabian Prehistory",
+      "date": "Fourth millennium B.C.E.",
+      "artistCulture": "Unknown prehistoric makers of the Arabian Peninsula",
+      "siteName": "Arabian Peninsula",
+      "siteQualifier": "College Board provides a broad regional provenance; marker location is approximate",
+      "coordinates": { "x": 1010, "y": 410 },
+      "medium": "Sandstone",
+      "workType": "anthropomorphic stele",
+      "function": "可能作为墓葬标记、祖先纪念或身份象征；原始设置与具体用途尚不确定",
+      "form": "扁平砂岩板以浅浮雕和刻线概括梯形头、方肩、面部、项链与腰带武器",
+      "content": "正面人物具有紧邻双眼、长鼻、交叉项链和双刃匕首，身体被压缩成符号化图式",
+      "context": "阿拉伯半岛多地发现相似人形石碑，说明第四千纪群体共享可移动的纪念性人物图像传统",
+      "recognitionAnchors": [
+        "梯形头与方形肩部",
+        "交叉项链和腰带双刃匕首",
+        "浅刻正面人形砂岩板"
+      ],
+      "comparisonIds": ["ap7-jade-cong", "ap14-statues-votive-figures"],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pergamon-Museum_-_Anthropomorphe_Stele_1.jpg",
+      "imageAlt": "阿拉伯半岛人形石碑的梯形头、项链与腰带匕首",
+      "imageSourceName": "Wikimedia Commons / National Museum, Riyadh",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pergamon-Museum_-_Anthropomorphe_Stele_1.jpg",
+      "keywords": ["Anthropomorphic stele", "人形石碑", "Arabian Peninsula 阿拉伯半岛", "sandstone 砂岩", "dagger 匕首"]
+    },
+    {
+      "id": "ap7-jade-cong",
+      "apNumber": 7,
+      "titleEn": "Jade cong",
+      "titleZh": "玉琮",
+      "unit": 1,
+      "culture": "liangzhu",
+      "region": "eastAsia",
+      "period": "Liangzhu culture",
+      "date": "3300–2200 B.C.E.",
+      "artistCulture": "Liangzhu culture jade workers",
+      "siteName": "Liangzhu, China",
+      "coordinates": { "x": 1250, "y": 345 },
+      "medium": "Carved jade",
+      "workType": "ritual jade",
+      "function": "用于精英墓葬和仪式，可能表达宇宙秩序、祖先或神灵关系；确切意义未被文字记录",
+      "form": "外方内圆的厚壁玉管以分节角部展开低浮雕面纹，坚硬玉料经长时间磨制与钻孔",
+      "content": "角部重复的面具结合圆眼、横带与简化兽面，随器身转动形成多面观看",
+      "context": "良渚社会将高劳动成本玉器集中于等级墓葬，显示专业生产、精英权力和共享礼仪体系",
+      "recognitionAnchors": [
+        "外方内圆的中空玉管",
+        "四角重复简化面纹",
+        "精密磨制的良渚礼仪玉器"
+      ],
+      "comparisonIds": ["ap5-beaker-ibex-motifs", "ap16-standard-of-ur"],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Liangzhu_Culture_Jade_Cong_%2810433557693%29.jpg",
+      "imageAlt": "良渚玉琮的方形外壁、圆孔与角部面纹",
+      "imageSourceName": "Wikimedia Commons / Freer-Sackler Galleries, Smithsonian",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Liangzhu_Culture_Jade_Cong_(10433557693).jpg",
+      "keywords": ["Jade cong", "玉琮", "Liangzhu 良渚", "ritual jade 礼玉", "square and circle 方外圆内"]
+    },
+    {
+      "id": "ap8-stonehenge",
+      "apNumber": 8,
+      "titleEn": "Stonehenge",
+      "titleZh": "巨石阵",
+      "unit": 1,
+      "culture": "neolithicEurope",
+      "region": "europe",
+      "period": "Neolithic Europe",
+      "date": "c. 2500-1600 B.C.E.",
+      "artistCulture": "Neolithic communities in southern Britain",
+      "siteName": "Wiltshire, UK",
+      "coordinates": { "x": 812, "y": 218 },
+      "medium": "Sandstone",
+      "workType": "megalithic monument",
+      "function": "长期作为集会、埋葬与仪式景观，并与太阳至点方向联系；各阶段功能可能变化",
+      "form": "圆形土堤和沟渠包围立石环，榫卯连接的横梁与内部三石门构成轴线性巨石建筑",
+      "content": "萨森砂岩与较小蓝石围绕中心排列，东北入口轴线对应夏至日出和冬至日落",
+      "context": "遗址经数百年分阶段建造，远距离搬运石材和大规模劳作反映新石器社群协作与区域联系",
+      "recognitionAnchors": [
+        "立石与横梁组成连续石环",
+        "内部马蹄形三石门",
+        "圆形土堤沟渠与至点轴线"
+      ],
+      "comparisonIds": ["ap17-great-pyramids-giza", "ap35-athenian-acropolis"],
+      "images": [
+        {
+          "label": "Aerial overview",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stonehenge_and_Aerodrome_1928.jpg",
+          "imageAlt": "巨石阵圆形土堤、沟渠与石构遗迹的完整空中视图",
+          "imageSourceName": "Wikimedia Commons / English Heritage",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stonehenge_and_Aerodrome_1928.jpg"
+        },
+        {
+          "label": "Ground-level view",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stonedhenge.jpg",
+          "imageAlt": "巨石阵立石、横梁与三石门结构的完整地面视图",
+          "imageSourceName": "Wikimedia Commons / Stonehenge, Wiltshire",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stonedhenge.jpg"
+        }
+      ],
+      "keywords": ["Stonehenge", "巨石阵", "megalith 巨石建筑", "trilithon 三石门", "solstice 至点", "Wiltshire 威尔特郡"]
+    },
+    {
+      "id": "ap9-ambum-stone",
+      "apNumber": 9,
+      "titleEn": "The Ambum stone",
+      "titleZh": "安布姆石",
+      "unit": 1,
+      "culture": "papuaNewGuineaHighlands",
+      "region": "oceania",
+      "period": "Prehistoric Papua New Guinea",
+      "date": "c. 1500 B.C.E.",
+      "artistCulture": "Unknown makers of the Papua New Guinea Highlands",
+      "siteName": "Ambum Valley, Papua New Guinea",
+      "coordinates": { "x": 1410, "y": 515 },
+      "medium": "Greywacke",
+      "workType": "carved stone object",
+      "function": "可能作为具有祖先力量或狩猎、农业效力的仪式石；后世高地群体对同类石器极为珍视",
+      "form": "硬质杂砂岩经磨制形成紧凑动物体，细长头颈从环形身体中抬起，表面光滑圆润",
+      "content": "动物可能是针鼹、食蚁兽或胎生形象，长鼻、圆眼和弯曲四肢保留物种歧义",
+      "context": "安布姆谷出土的史前石雕早于当地已知定居农业传统，其原始文化与用途缺少文字说明",
+      "recognitionAnchors": [
+        "长鼻动物从环形身体中抬头",
+        "灰色杂砂岩磨制得圆润光滑",
+        "物种身份刻意或不可避免地含混"
+      ],
+      "comparisonIds": ["ap3-camelid-sacrum-canine", "ap7-jade-cong"],
+      "imageUrl": "https://smarthistory.org/wp-content/uploads/2016/09/ambumnga.jpg",
+      "imageAlt": "安布姆石圆润动物身体、长颈与下垂长鼻",
+      "imageSourceName": "Smarthistory–LibreTexts / National Gallery of Australia",
+      "imageSourceUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_X_-_Oceania/04%3A_Melanesia/4.02%3A_Ambum_Stone",
+      "keywords": ["Ambum stone", "安布姆石", "Papua New Guinea 巴布亚新几内亚", "greywacke 杂砂岩", "ritual stone 仪式石"]
+    },
+    {
+      "id": "ap10-tlatilco-female-figurine",
+      "apNumber": 10,
+      "titleEn": "Tlatilco female figurine",
+      "titleZh": "特拉特尔科女性雕像",
+      "unit": 1,
+      "culture": "tlatilco",
+      "region": "americas",
+      "period": "Tlatilco",
+      "date": "1200–900 B.C.E.",
+      "artistCulture": "Tlatilco ceramic makers in central Mexico",
+      "siteName": "Tlatilco, central Mexico",
+      "coordinates": { "x": 405, "y": 382 },
+      "medium": "Ceramic",
+      "workType": "ceramic figurine",
+      "function": "可能作为墓葬随葬、仪式物或关于身体与身份的社会图像；具体用途因发现语境而异",
+      "form": "手塑小型陶像具有宽髋细腰、短臂和精细发式，两个头共享一个身体并保留彩绘细节",
+      "content": "裸体女性身体与双头、三眼组合制造异常视觉，可能涉及二元性、转化或先天差异",
+      "context": "特拉特尔科村落墓葬出土大量女性陶像，反映家庭制作、身体装饰与中美洲早期交流网络",
+      "recognitionAnchors": [
+        "一个身体连接两个完整头部",
+        "宽髋细腰与短小手臂",
+        "精细发式和残留彩绘的手塑陶像"
+      ],
+      "comparisonIds": ["ap3-camelid-sacrum-canine", "ap14-statues-votive-figures"],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Central_Mexico%2C_Tlatilco_-_Two-headed_Female_Figurine_-_1990.141_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Central_Mexico%2C_Tlatilco_-_Two-headed_Female_Figurine_-_1990.141_-_Cleveland_Museum_of_Art.tif.jpg",
+      "imageAlt": "特拉特尔科双头女性陶像的完整正面",
+      "imageSourceName": "Wikimedia Commons / Cleveland Museum of Art",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Central_Mexico,_Tlatilco_-_Two-headed_Female_Figurine_-_1990.141_-_Cleveland_Museum_of_Art.tif",
+      "keywords": ["Tlatilco female figurine", "特拉特尔科女性雕像", "two-headed 双头", "ceramic 陶塑", "central Mexico 墨西哥中部"]
+    },
+    {
+      "id": "ap11-terra-cotta-fragment",
+      "apNumber": 11,
+      "titleEn": "Terra cotta fragment",
+      "titleZh": "陶土残片",
+      "unit": 1,
+      "culture": "lapita",
+      "region": "oceania",
+      "period": "Lapita",
+      "date": "1000 B.C.E.",
+      "artistCulture": "Lapita potters of the Reef Islands",
+      "siteName": "Reef Islands, Solomon Islands",
+      "coordinates": { "x": 1510, "y": 560 },
+      "medium": "Terra cotta (incised)",
+      "workType": "incised ceramic fragment",
+      "function": "原属容器并可能用于食物储存、宴饮或仪式；纹样也帮助维系跨岛群体身份",
+      "form": "红色陶片表面以齿状工具压印和刻划重复几何图案，曲面暗示原器物的圆形器身",
+      "content": "嵌套弧线、齿状边缘和对称面纹般组合构成高度规则的装饰带",
+      "context": "拉皮塔航海社群在西太平洋岛屿扩散相似陶器，装饰传统成为迁徙、交换与亲缘网络的考古标志",
+      "recognitionAnchors": [
+        "齿状工具形成密集重复压印",
+        "弧线与几何纹组成面纹般图案",
+        "所罗门群岛拉皮塔红陶残片"
+      ],
+      "comparisonIds": ["ap5-beaker-ibex-motifs", "ap10-tlatilco-female-figurine"],
+      "imageUrl": "https://live.staticflickr.com/7502/15612056877_45456e307f.jpg",
+      "imageAlt": "所罗门群岛拉皮塔陶土残片上的齿状压印与几何纹样",
+      "imageSourceName": "Flickr / Anthropology Photographic Archive, University of Auckland",
+      "imageSourceUrl": "https://www.flickr.com/photos/profzucker/15612056877",
+      "keywords": ["Terra cotta fragment", "陶土残片", "Lapita 拉皮塔", "incised ceramic 刻纹陶器", "Reef Islands 礁群岛"]
+    }
+  ],
+  "credits": {
+    "ap1-apollo-11-stones": {
+      "creatorOrInstitution": "Ratel; Apollo 11 Cave, Namibia",
+      "licenseName": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap2-great-hall-bulls": {
+      "creatorOrInstitution": "Eline13Viki+; Lascaux II",
+      "licenseName": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap3-camelid-sacrum-canine": {
+      "creatorOrInstitution": "Mariano Bárcena illustration / Smarthistory–LibreTexts",
+      "licenseName": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "ap4-running-horned-woman": {
+      "creatorOrInstitution": "Unrecorded artist; Smarthistory",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap5-beaker-ibex-motifs": {
+      "creatorOrInstitution": "© Marie-Lan Nguyen / Wikimedia Commons; Louvre Museum, Sb 3174",
+      "licenseName": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
+    },
+    "ap6-anthropomorphic-stele": {
+      "creatorOrInstitution": "Wolfgang Sauber; National Museum, Riyadh",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap7-jade-cong": {
+      "creatorOrInstitution": "Gary Lee Todd; Freer-Sackler Galleries, Smithsonian",
+      "licenseName": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap8-stonehenge": [
+      {
+        "creatorOrInstitution": "Royal Air Force; English Heritage source",
+        "licenseName": "Public domain (UK Government photograph)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-UKGov"
+      },
+      {
+        "creatorOrInstitution": "Ion Tichy; Stonehenge, Wiltshire",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ],
+    "ap9-ambum-stone": {
+      "creatorOrInstitution": "National Gallery of Australia / Smarthistory–LibreTexts",
+      "licenseName": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "ap10-tlatilco-female-figurine": {
+      "creatorOrInstitution": "Cleveland Museum of Art, 1990.141",
+      "licenseName": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap11-terra-cotta-fragment": {
+      "creatorOrInstitution": "Anthropology Photographic Archive, University of Auckland; uploaded by Steven Zucker / Smarthistory",
+      "licenseName": "CC BY-NC-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+    }
+  }
+}

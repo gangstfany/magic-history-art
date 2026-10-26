@@ -1,0 +1,734 @@
+{
+  "images": {
+    "ap192-great-stupa-sanchi": [
+      {
+        "id": "stupa-exterior",
+        "label": "Dome, stone railing and carved torana / 穹顶、石栏与雕刻牌楼",
+        "imageUrl": "assets/art-history/u8/ap192-stupa-exterior.webp",
+        "imageAlt": "Dome, stone railing and carved torana / 穹顶、石栏与雕刻牌楼",
+        "imageSourceName": "Wikimedia Commons; Bernard Gagnon",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stupa_1,_Sanchi_02.jpg"
+      },
+      {
+        "id": "circumambulatory-path-detail",
+        "label": "Path between dome and railing beside seated Buddha / 穹顶与石栏间的绕行道及坐佛",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Path between dome and railing beside seated Buddha / 穹顶与石栏间的绕行道及坐佛",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      },
+      {
+        "id": "north-gate",
+        "label": "Carved north torana with three crossbars / 三层横梁的北牌楼雕刻",
+        "imageUrl": "assets/art-history/u8/ap192-north-gate.webp",
+        "imageAlt": "Rear face of Sanchi's north torana with three carved crossbars, animal finials and foreground stone railing / 桑奇北牌楼背面，含三层雕刻横梁、动物顶饰与前景石栏",
+        "imageSourceName": "Wikimedia Commons; Bernard Gagnon",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:North_Torana,_Sanchi_01.jpg"
+      },
+      {
+        "id": "plan-and-elevation",
+        "label": "Combined circular plan and side elevation / 圆形平面与侧立面组合图",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Combined circular plan and side elevation / 圆形平面与侧立面组合图",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      }
+    ],
+    "ap193-terracotta-warriors": [
+      {
+        "id": "excavation-pit-overview",
+        "label": "Rows of warriors in the excavated pit / 发掘坑内成排兵马俑",
+        "imageUrl": "assets/art-history/u8/ap193-excavation-pit-overview.webp",
+        "imageAlt": "Rows of warriors in the excavated pit / 发掘坑内成排兵马俑",
+        "imageSourceName": "Wikimedia Commons; shankar s. from Dubai, united arab emirates",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_sheer_scale_of_it_was_nothing_like_what_I_had_expected_(35519050182).jpg"
+      },
+      {
+        "id": "warriors-and-horse-detail",
+        "label": "Terracotta warriors beside a horse / 陶马旁的陶俑",
+        "imageUrl": "assets/art-history/u8/ap193-warriors-and-horse-detail.webp",
+        "imageAlt": "Terracotta warriors beside a horse / 陶马旁的陶俑",
+        "imageSourceName": "Wikimedia Commons; Gary Todd",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_Horses_%26_Soldiers.jpg"
+      }
+    ],
+    "ap194-lady-dai-banner": [
+      {
+        "id": "complete-banner",
+        "label": "Complete T-shaped painted silk banner and hanging pendants / 完整T形彩绘丝帛与下垂饰物",
+        "imageUrl": "assets/art-history/u8/ap194-complete-banner.webp",
+        "imageAlt": "Complete T-shaped painted silk banner and hanging pendants / 完整T形彩绘丝帛与下垂饰物",
+        "imageSourceName": "Wikimedia Commons; Unknown Han-dynasty artist; Wikimedia Commons faithful reproduction",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bani%C3%A8re_fun%C3%A9raire,_peinture_sur_soie,_Chine.jpg"
+      }
+    ],
+    "ap195-longmen-caves": [
+      {
+        "id": "cliff-overview",
+        "label": "River-facing cliff with open monumental sculptural ensemble / 面向河流的石崖与露天大型造像群",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: River-facing cliff with open monumental sculptural ensemble / 面向河流的石崖与露天大型造像群",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=251",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      },
+      {
+        "id": "guardian-detail",
+        "label": "Standing muscular guardian carved into rock / 岩壁雕刻的健壮立姿护法",
+        "imageUrl": "assets/art-history/u8/ap195-guardian-detail.webp",
+        "imageAlt": "Standing muscular guardian carved into rock / 岩壁雕刻的健壮立姿护法",
+        "imageSourceName": "Wikimedia Commons; Gary Todd",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Buddhist_Grottoes_at_Longmen-_Fengxian_Temple,_Celestial_Guardian.jpg"
+      },
+      {
+        "id": "vairocana-and-attendants",
+        "label": "Seated Vairocana with flanking attendants / 毗卢遮那坐佛及两侧侍从",
+        "imageUrl": "assets/art-history/u8/ap195-vairocana-and-attendants.webp",
+        "imageAlt": "Seated Vairocana with flanking attendants / 毗卢遮那坐佛及两侧侍从",
+        "imageSourceName": "Wikimedia Commons; Gary Todd",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Buddhist_Grottoes_at_Longmen-_Fengxian_Temple,_Vairocana_Buddha.jpg"
+      }
+    ],
+    "ap196-gold-jade-crown": [
+      {
+        "id": "complete-crown",
+        "label": "Hwangnam Daechong north-mound gold crown with tree branches and jade pendants / 皇南大冢北坟金冠、树枝形饰与玉坠",
+        "imageUrl": "assets/art-history/u8/ap196-complete-crown.webp",
+        "imageAlt": "Hwangnam Daechong north-mound gold crown with tree branches and jade pendants / 皇南大冢北坟金冠、树枝形饰与玉坠",
+        "imageSourceName": "Wikimedia Commons; Tristan Surtel",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gold_crown_from_Hwangnam_Daechong_at_National_Museum_of_Korea.jpg"
+      }
+    ],
+    "ap197-todai-ji": [
+      {
+        "id": "great-buddha-hall-exterior",
+        "label": "Great Buddha Hall roof and frontal wooden facade / 大佛殿屋顶与正面木构立面",
+        "imageUrl": "assets/art-history/u8/ap197-great-buddha-hall-exterior.webp",
+        "imageAlt": "Great Buddha Hall roof and frontal wooden facade / 大佛殿屋顶与正面木构立面",
+        "imageSourceName": "Wikimedia Commons; ONO Masanobu",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Todai-ji_Daibutsuden_front_view_in_2011.jpg"
+      },
+      {
+        "id": "great-buddha",
+        "label": "Seated bronze Great Buddha with halo / 带背光的青铜大佛坐像",
+        "imageUrl": "assets/art-history/u8/ap197-great-buddha.webp",
+        "imageAlt": "Seated bronze Great Buddha with halo / 带背光的青铜大佛坐像",
+        "imageSourceName": "Wikimedia Commons; Balon Greyjoy",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20190121_T%C5%8Ddai-ji_Great_Buddha-2.jpg"
+      },
+      {
+        "id": "nio-closed-mouth",
+        "label": "Ungyo guardian with mouth closed / 闭口吽形护法像",
+        "imageUrl": "assets/art-history/u8/ap197-nio-closed-mouth.webp",
+        "imageAlt": "Ungyo guardian with mouth closed / 闭口吽形护法像",
+        "imageSourceName": "Wikimedia Commons; Bamse",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nio_Ungyo_at_Todaiji_Nandaimon.jpg"
+      },
+      {
+        "id": "nio-open-mouth",
+        "label": "Agyo guardian with mouth open / 张口阿形护法像",
+        "imageUrl": "assets/art-history/u8/ap197-nio-open-mouth.webp",
+        "imageAlt": "Agyo guardian with mouth open / 张口阿形护法像",
+        "imageSourceName": "Wikimedia Commons; Tsuyoshi chiba",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Todaiji_niozo_agyo.jpg"
+      },
+      {
+        "id": "great-south-gate",
+        "label": "Nandaimon two-storey timber gate / 南大门两层木构门楼",
+        "imageUrl": "assets/art-history/u8/ap197-great-south-gate.webp",
+        "imageAlt": "Nandaimon two-storey timber gate / 南大门两层木构门楼",
+        "imageSourceName": "Wikimedia Commons; Jakub Hałun",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20100716_Nara_Todaiji_Nandaimon_2248.jpg"
+      }
+    ],
+    "ap198-borobudur": [
+      {
+        "id": "aerial-overview",
+        "label": "Aerial view of square terraces and circular upper stupas / 方形台地与上层圆形佛塔航拍",
+        "imageUrl": "assets/art-history/u8/ap198-aerial-overview.webp",
+        "imageAlt": "Aerial view of square terraces and circular upper stupas / 方形台地与上层圆形佛塔航拍",
+        "imageSourceName": "Wikimedia Commons; Zaenulihsan91",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Borobudur_Magelang.jpg"
+      },
+      {
+        "id": "narrative-relief-detail",
+        "label": "Narrative stone relief with chariot and figures / 含战车与人物的叙事石浮雕",
+        "imageUrl": "assets/art-history/u8/ap198-narrative-relief-detail.webp",
+        "imageAlt": "Narrative stone relief with chariot and figures / 含战车与人物的叙事石浮雕",
+        "imageSourceName": "Wikimedia Commons; Anandajoti Bhikkhu / Photo Dharma",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:027b_In_the_Chariot_(28474987780).jpg"
+      },
+      {
+        "id": "buddha-and-stupas",
+        "label": "Seated Buddha among perforated stupas / 镂空佛塔间的坐佛",
+        "imageUrl": "assets/art-history/u8/ap198-buddha-and-stupas.webp",
+        "imageAlt": "Seated Buddha among perforated stupas / 镂空佛塔间的坐佛",
+        "imageSourceName": "Wikimedia Commons; CEphoto, Uwe Aranas",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Borobudur-Temple-Park_Indonesia_Stupas-of-Borobudur-04.jpg"
+      }
+    ],
+    "ap199-angkor": [
+      {
+        "id": "angkor-wat-exterior",
+        "label": "Angkor Wat towers and temple exterior / 吴哥窟塔楼与寺庙外观",
+        "imageUrl": "assets/art-history/u8/ap199-angkor-wat-exterior.webp",
+        "imageAlt": "Wide sunset panorama of Angkor Wat's lotus towers and temple facade behind a green foreground / 绿色前景后方吴哥窟莲花塔与寺庙立面的夕照宽幅全景",
+        "imageSourceName": "Wikimedia Commons; Chris (Flickr user 11581043@N00)",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Angkor_panorama_banner.jpg"
+      },
+      {
+        "id": "angkor-thom-south-gate",
+        "label": "Angkor Thom south gate with face tower / 吴哥城南门及人面塔",
+        "imageUrl": "assets/art-history/u8/ap199-angkor-thom-south-gate.webp",
+        "imageAlt": "Angkor Thom south gate with face tower / 吴哥城南门及人面塔",
+        "imageSourceName": "Wikimedia Commons; Supanut Arunoprayote",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Angkor_Thom_(I).jpg"
+      },
+      {
+        "id": "churning-ocean-of-milk-relief",
+        "label": "Figures pulling serpent in Churning of the Ocean of Milk relief / 搅乳海浮雕中拉动蛇身的人物",
+        "imageUrl": "assets/art-history/u8/ap199-churning-ocean-of-milk-relief.webp",
+        "imageAlt": "Figures pulling serpent in Churning of the Ocean of Milk relief / 搅乳海浮雕中拉动蛇身的人物",
+        "imageSourceName": "Wikimedia Commons; LizaBo",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Depiction_of_Kurma_at_the_Angkor_Wat.JPG"
+      },
+      {
+        "id": "bayon-face-towers",
+        "label": "Bayon stone towers bearing monumental faces / 巴戎寺大型石雕人面塔",
+        "imageUrl": "assets/art-history/u8/ap199-bayon-face-towers.webp",
+        "imageAlt": "Bayon stone towers bearing monumental faces / 巴戎寺大型石雕人面塔",
+        "imageSourceName": "Wikimedia Commons; Greg Willis from Denver, CO, usa",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bayon_Towers_(4184831149).jpg"
+      },
+      {
+        "id": "angkor-wat-plan",
+        "label": "Angkor Wat building floor plan / 吴哥窟建筑平面图",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Angkor Wat building floor plan / 吴哥窟建筑平面图",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      },
+      {
+        "id": "angkor-site-plan",
+        "label": "Wider Angkor site plan including Angkor Thom / 含吴哥城的吴哥遗址总平面图",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Wider Angkor site plan including Angkor Thom / 含吴哥城的吴哥遗址总平面图",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      }
+    ],
+    "ap200-lakshmana-temple": [
+      {
+        "id": "temple-exterior",
+        "label": "Lakshmana Temple clustered towers and carved exterior / 拉克什曼纳寺群塔与雕刻外墙",
+        "imageUrl": "assets/art-history/u8/ap200-temple-exterior.webp",
+        "imageAlt": "Lakshmana Temple clustered towers and carved exterior / 拉克什曼纳寺群塔与雕刻外墙",
+        "imageSourceName": "Wikimedia Commons; Ms Sarah Welch",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:01022_Lakshmana_temple,_Khajuraho_Madhya_Pradesh_007.jpg"
+      },
+      {
+        "id": "mithuna-relief-detail",
+        "label": "Embracing erotic figures carved on temple wall / 寺墙上相拥的情爱人物雕刻",
+        "imageUrl": "assets/art-history/u8/ap200-mithuna-relief-detail.webp",
+        "imageAlt": "Embracing erotic figures carved on temple wall / 寺墙上相拥的情爱人物雕刻",
+        "imageSourceName": "Wikimedia Commons; Jean-Pierre Dalbéra",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg"
+      },
+      {
+        "id": "lion-and-figure-detail",
+        "label": "Lion-like creature and human beside carved porch / 雕刻门廊旁的狮形兽与人物",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Lion-like creature and human beside carved porch / 雕刻门廊旁的狮形兽与人物",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      },
+      {
+        "id": "temple-plan",
+        "label": "Lakshmana Temple sanctuary and surrounding platform plan / 拉克什曼纳寺圣殿与周围台基平面",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Lakshmana Temple sanctuary and surrounding platform plan / 拉克什曼纳寺圣殿与周围台基平面",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      }
+    ],
+    "ap201-travelers-mountains-streams": [
+      {
+        "id": "complete-hanging-scroll",
+        "label": "Full hanging scroll with towering mountain, waterfall and tiny travelers / 完整立轴中的巨峰、瀑布与微小旅人",
+        "imageUrl": "assets/art-history/u8/ap201-complete-hanging-scroll.webp",
+        "imageAlt": "Full hanging scroll with towering mountain, waterfall and tiny travelers / 完整立轴中的巨峰、瀑布与微小旅人",
+        "imageSourceName": "Wikimedia Commons; Fan Kuan",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B0%BF%E5%B1%B1%E8%A1%8C%E6%97%85%E5%9B%BE%E8%BD%B4.%E6%BA%AA%E5%B1%B1%E8%A1%8C%E6%97%85%E5%9B%BE.%E5%AE%8B.%E8%8C%83%E5%AE%BD.%E7%BB%A2%E6%9C%AC%E6%B5%85%E8%AE%BE%E8%89%B2.%E5%8F%B0%E5%8C%97%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2%E8%97%8F.jpg"
+      }
+    ],
+    "ap202-shiva-nataraja": [
+      {
+        "id": "complete-bronze",
+        "label": "Metropolitan Museum bronze Shiva in flame aureole standing on dwarf / 大都会博物馆火焰圆环内踩侏儒的青铜湿婆",
+        "imageUrl": "assets/art-history/u8/ap202-complete-bronze.webp",
+        "imageAlt": "Metropolitan Museum bronze Shiva in flame aureole standing on dwarf / 大都会博物馆火焰圆环内踩侏儒的青铜湿婆",
+        "imageSourceName": "Wikimedia Commons; The Metropolitan Museum of Art",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:MET_DT240.jpg"
+      }
+    ],
+    "ap203-night-attack-sanjo": [
+      {
+        "id": "complete-handscroll",
+        "label": "Complete horizontal handscroll including text and palace attack narrative / 含文字与宫殿袭击叙事的完整横向手卷",
+        "imageUrl": "assets/art-history/u8/ap203-complete-handscroll.webp",
+        "imageAlt": "Complete horizontal handscroll including text and palace attack narrative / 含文字与宫殿袭击叙事的完整横向手卷",
+        "imageSourceName": "Wikimedia Commons; Unknown Kamakura-period artist; Museum of Fine Arts, Boston",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Heiji_Monogatari_Emaki_-_Sanjo_scroll_complete.jpg"
+      },
+      {
+        "id": "opening-text-and-riders-detail",
+        "label": "Opening calligraphy beside mounted riders / 开篇书法与骑马人物",
+        "imageUrl": "assets/art-history/u8/ap203-opening-text-and-riders-detail.webp",
+        "imageAlt": "Opening calligraphy beside mounted riders / 开篇书法与骑马人物",
+        "imageSourceName": "Wikimedia Commons; Unknown Kamakura-period artist; Museum of Fine Arts, Boston",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_8.jpg"
+      }
+    ],
+    "ap204-david-vases": [
+      {
+        "id": "paired-vases",
+        "label": "Both matching blue-and-white David vases with handles and inscriptions / 两件配对青花大维德瓶、瓶耳与铭文",
+        "imageUrl": "assets/art-history/u8/ap204-paired-vases.webp",
+        "imageAlt": "Both matching blue-and-white David vases with handles and inscriptions / 两件配对青花大维德瓶、瓶耳与铭文",
+        "imageSourceName": "Wikimedia Commons; Patche99z",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Room_95_David_Vases_6747.JPG"
+      }
+    ],
+    "ap205-sin-sukju-portrait": [
+      {
+        "id": "complete-portrait",
+        "label": "Seated Sin Sukju in official robe with rank badge and footstool / 身穿带补子官服、脚踏脚凳的申叔舟坐像",
+        "imageUrl": "assets/art-history/u8/ap205-complete-portrait.webp",
+        "imageAlt": "Seated Sin Sukju in official robe with rank badge and footstool / 身穿带补子官服、脚踏脚凳的申叔舟坐像",
+        "imageSourceName": "Wikimedia Commons; Unknown Joseon court artist",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shin_Suk-ju.jpg"
+      }
+    ],
+    "ap206-forbidden-city": [
+      {
+        "id": "palace-overview",
+        "label": "Forbidden City roofs and axial courtyards in wider overview / 紫禁城屋顶与中轴院落全景",
+        "imageUrl": "assets/art-history/u8/ap206-palace-overview.webp",
+        "imageAlt": "Forbidden City axial roofscape viewed from Jingshan beneath a pink sunset sky / 景山俯瞰粉色晚霞下的紫禁城中轴屋顶群",
+        "imageSourceName": "Wikimedia Commons; Pixelflake",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg"
+      },
+      {
+        "id": "tiananmen-front-gate",
+        "label": "Tiananmen red gate facade and tiled roof / 天安门红色门楼立面与瓦顶",
+        "imageUrl": "assets/art-history/u8/ap206-tiananmen-front-gate.webp",
+        "imageAlt": "Tiananmen red gate facade and tiled roof / 天安门红色门楼立面与瓦顶",
+        "imageSourceName": "Wikimedia Commons; konget",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Heavenly_Peace,_Tiananmen_-_panoramio.jpg"
+      },
+      {
+        "id": "hall-supreme-harmony",
+        "label": "Hall of Supreme Harmony above marble terraces / 大理石台基上的太和殿",
+        "imageUrl": "assets/art-history/u8/ap206-hall-supreme-harmony.webp",
+        "imageAlt": "Hall of Supreme Harmony above marble terraces / 大理石台基上的太和殿",
+        "imageSourceName": "Wikimedia Commons; Gisling",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony.JPG"
+      },
+      {
+        "id": "tranquility-longevity-interior",
+        "label": "Retirement room with illusionistic garden murals and painted ceiling / 带幻景园林壁画与彩绘天花的退隐房间",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Retirement room with illusionistic garden murals and painted ceiling / 带幻景园林壁画与彩绘天花的退隐房间",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=260",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      },
+      {
+        "id": "palace-plan",
+        "label": "Forbidden City palace precinct plan / 紫禁城宫殿建筑群平面图",
+        "imageUrl": "assets/art-history/u8/ap206-palace-plan.webp",
+        "imageAlt": "Color-coded plan of the Forbidden City's full walled precinct, central halls, gates and side compounds / 紫禁城完整围墙范围、中轴殿宇、宫门与两侧院落的彩色平面图",
+        "imageSourceName": "Wikimedia Commons; Tommy Chen (Sumple)",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Forbidden_city_map_wp_1.png"
+      }
+    ],
+    "ap207-ryoan-ji": [
+      {
+        "id": "wet-garden",
+        "label": "Ryoan-ji pond, vegetation and bridge / 龙安寺池塘、植被与桥",
+        "imageUrl": "assets/art-history/u8/ap207-wet-garden.webp",
+        "imageAlt": "Lily-covered Ryoan-ji pond framed by green trees with a small stone bridge at the rear / 绿树环绕、长满睡莲的龙安寺池塘及后方小石桥",
+        "imageSourceName": "Wikimedia Commons; Tedmoseby",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_outside_Ryoan-ji_Temple.jpg"
+      },
+      {
+        "id": "dry-garden",
+        "label": "Rocks and raked gravel of Ryoan-ji dry garden / 龙安寺枯山水庭园的石组与耙纹砂砾",
+        "imageUrl": "assets/art-history/u8/ap207-dry-garden.webp",
+        "imageAlt": "Rocks and raked gravel of Ryoan-ji dry garden / 龙安寺枯山水庭园的石组与耙纹砂砾",
+        "imageSourceName": "Wikimedia Commons; Stephane D'Alu",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:RyoanJi-Dry_garden.jpg"
+      },
+      {
+        "id": "site-plan",
+        "label": "Site plan showing temple, dry garden and pond / 展示寺院、枯山水与池塘的总平面图",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Site plan showing temple, dry garden and pond / 展示寺院、枯山水与池塘的总平面图",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=261",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      }
+    ],
+    "ap208-jahangir-sufi-shaikh": [
+      {
+        "id": "complete-album-page",
+        "label": "Full bordered album page with Jahangir, Sufi shaikh and kings / 含装饰边框、贾汉吉尔、苏菲长老与君王的完整册页",
+        "imageUrl": "assets/art-history/u8/ap208-complete-album-page.webp",
+        "imageAlt": "Full bordered album page with Jahangir, Sufi shaikh and kings / 含装饰边框、贾汉吉尔、苏菲长老与君王的完整册页",
+        "imageSourceName": "Wikimedia Commons; Bichitr",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bichitr_-_Jahangir_Preferring_a_Sufi_Shaikh_to_Kings,_from_the_St._Petersburg_album_-_Google_Art_Project.jpg"
+      }
+    ],
+    "ap209-taj-mahal": [
+      {
+        "id": "mausoleum-and-garden",
+        "label": "Frontal Taj Mahal mausoleum with garden reflection pool / 泰姬陵正面及园林倒影池",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Frontal Taj Mahal mausoleum with garden reflection pool / 泰姬陵正面及园林倒影池",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      },
+      {
+        "id": "cenotaph-interior",
+        "label": "Marble cenotaph and surrounding pierced screen / 大理石纪念墓与周围镂空石屏",
+        "imageUrl": null,
+        "imageAlt": "Required interior: Mumtaz Mahal's floral-inlay cenotaph surrounded by marble pierced screen / 指定内部视图：镂空大理石屏围绕的慕塔兹·玛哈尔花卉镶嵌纪念墓；图像暂缺",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      }
+    ],
+    "ap210-white-red-plum": [
+      {
+        "id": "white-plum-left-screen",
+        "label": "Complete left two-fold screen with white plum tree beside stream / 溪流旁白梅树的完整左侧二折屏",
+        "imageUrl": "assets/art-history/u8/ap210-white-plum-left-screen.webp",
+        "imageAlt": "Complete left two-fold screen with white plum tree beside stream / 溪流旁白梅树的完整左侧二折屏",
+        "imageSourceName": "Wikimedia Commons; Ogata Kōrin",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ogata_K%C5%8Drin_-_Red_and_White_Plum_Blossoms.jpg"
+      },
+      {
+        "id": "red-plum-right-screen",
+        "label": "Complete right two-fold screen with red plum tree beside stream / 溪流旁红梅树的完整右侧二折屏",
+        "imageUrl": "assets/art-history/u8/ap210-red-plum-right-screen.webp",
+        "imageAlt": "Complete right two-fold screen with red plum tree beside stream / 溪流旁红梅树的完整右侧二折屏",
+        "imageSourceName": "Wikimedia Commons; Ogata Kōrin",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ogata_K%C5%8Drin_-_Red_and_White_Plum_Blossoms.jpg"
+      }
+    ],
+    "ap211-great-wave": [
+      {
+        "id": "complete-print",
+        "label": "Complete Great Wave woodblock print with boats and distant Mount Fuji / 含船只与远处富士山的完整大浪木版画",
+        "imageUrl": "assets/art-history/u8/ap211-complete-print.webp",
+        "imageAlt": "Complete Great Wave woodblock print with boats and distant Mount Fuji / 含船只与远处富士山的完整大浪木版画",
+        "imageSourceName": "Wikimedia Commons; Katsushika Hokusai",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg"
+      }
+    ],
+    "ap212-mao-anyuan": [
+      {
+        "id": "complete-lithograph",
+        "label": "Anonymous circa-1969 color lithograph of Mao walking to Anyuan with printed lower margin / 约1969年匿名彩色石版画：毛泽东步行前往安源，含下方印刷边缘",
+        "imageUrl": null,
+        "imageAlt": "Required view, currently unavailable: Anonymous circa-1969 color lithograph of Mao walking to Anyuan with printed lower margin / 约1969年匿名彩色石版画：毛泽东步行前往安源，含下方印刷边缘",
+        "imageSourceName": "College Board AP Art History CED; official component reference",
+        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=264",
+        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+      }
+    ]
+  },
+  "credits": {
+    "ap192-great-stupa-sanchi": [
+      {
+        "creatorOrInstitution": "Bernard Gagnon",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249"
+      },
+      {
+        "creatorOrInstitution": "Bernard Gagnon",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249"
+      }
+    ],
+    "ap193-terracotta-warriors": [
+      {
+        "creatorOrInstitution": "shankar s. from Dubai, united arab emirates",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      {
+        "creatorOrInstitution": "Gary Todd",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "ap194-lady-dai-banner": {
+      "creatorOrInstitution": "Unknown Han-dynasty artist; Wikimedia Commons faithful reproduction",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap195-longmen-caves": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=251"
+      },
+      {
+        "creatorOrInstitution": "Gary Todd",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Gary Todd",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "ap196-gold-jade-crown": {
+      "creatorOrInstitution": "Tristan Surtel",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap197-todai-ji": [
+      {
+        "creatorOrInstitution": "ONO Masanobu",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Balon Greyjoy",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Bamse",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Tsuyoshi chiba",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "creatorOrInstitution": "Jakub Hałun",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ],
+    "ap198-borobudur": [
+      {
+        "creatorOrInstitution": "Zaenulihsan91",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "creatorOrInstitution": "Anandajoti Bhikkhu / Photo Dharma",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      {
+        "creatorOrInstitution": "CEphoto, Uwe Aranas",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "ap199-angkor": [
+      {
+        "creatorOrInstitution": "Chris (Flickr user 11581043@N00)",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      {
+        "creatorOrInstitution": "Supanut Arunoprayote",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "creatorOrInstitution": "LizaBo",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Greg Willis from Denver, CO, usa",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256"
+      }
+    ],
+    "ap200-lakshmana-temple": [
+      {
+        "creatorOrInstitution": "Ms Sarah Welch",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Jean-Pierre Dalbéra",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257"
+      }
+    ],
+    "ap201-travelers-mountains-streams": {
+      "creatorOrInstitution": "Fan Kuan",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap202-shiva-nataraja": {
+      "creatorOrInstitution": "The Metropolitan Museum of Art",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap203-night-attack-sanjo": [
+      {
+        "creatorOrInstitution": "Unknown Kamakura-period artist; Museum of Fine Arts, Boston",
+        "licenseName": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Unknown Kamakura-period artist; Museum of Fine Arts, Boston",
+        "licenseName": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
+    ],
+    "ap204-david-vases": {
+      "creatorOrInstitution": "Patche99z",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap205-sin-sukju-portrait": {
+      "creatorOrInstitution": "Unknown Joseon court artist",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap206-forbidden-city": [
+      {
+        "creatorOrInstitution": "Pixelflake",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "konget",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Gisling",
+        "licenseName": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=260"
+      },
+      {
+        "creatorOrInstitution": "Tommy Chen (Sumple)",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "ap207-ryoan-ji": [
+      {
+        "creatorOrInstitution": "Tedmoseby",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Stephane D'Alu",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=261"
+      }
+    ],
+    "ap208-jahangir-sufi-shaikh": {
+      "creatorOrInstitution": "Bichitr",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap209-taj-mahal": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262"
+      }
+    ],
+    "ap210-white-red-plum": [
+      {
+        "creatorOrInstitution": "Ogata Kōrin",
+        "licenseName": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Ogata Kōrin",
+        "licenseName": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
+    ],
+    "ap211-great-wave": {
+      "creatorOrInstitution": "Katsushika Hokusai",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap212-mao-anyuan": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=264"
+    }
+  }
+}

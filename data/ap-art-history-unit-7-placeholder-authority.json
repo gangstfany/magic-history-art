@@ -1,0 +1,17 @@
+{
+  "ap185-dome-of-rock::interior": {
+    "imageSourceName": "College Board West and Central Asia image set; Erich Lessing / Art Resource, NY",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=6",
+    "rightsNote": "Official interior requires the sacred rock in the foreground beneath the mosaic drum, windows and striped arcades. Verified open photographs either obscure the rock or omit the upper drum/windows; no single eligible source preserves all essential content. Official image permission not verified for public release."
+  },
+  "ap186-great-mosque-isfahan::iwan-detail": {
+    "imageSourceName": "College Board West and Central Asia image set; EmmePi Travel / Alamy",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=7",
+    "rightsNote": "Official detail shows the south/qibla iwan's muqarnas vault, geometric panels and central window. Open candidates verified for the same iwan remained wider whole-facade views, not the specified close vault detail; no adequately matching open source selected."
+  },
+  "ap189-bahram-gur-karg::primary": {
+    "imageSourceName": "College Board West and Central Asia image set; Harvard Art Museums / Arthur M. Sackler Museum",
+    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=8",
+    "rightsNote": "Exact Harvard leaf 1960.190.2, Bahram Gur Fights the Karg, full folio with text above and below. No image-level PD/CC0/CC BY/CC BY-SA grant verified; educational/noncommercial permissions do not meet this release policy. Not another Bahram Gur hunt."
+  }
+}

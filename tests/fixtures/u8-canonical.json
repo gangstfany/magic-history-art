@@ -1,0 +1,1606 @@
+{
+  "artworks": [
+    {
+      "id": "ap192-great-stupa-sanchi",
+      "apNumber": 192,
+      "unit": 8,
+      "region": "india",
+      "culture": "Buddhist; Maurya and late Shunga periods",
+      "traditionGroup": "Buddhist Sacred Sites",
+      "period": "Mauryan origins and later Shunga/Satavahana enlargement",
+      "titleEn": "Great Stupa at Sanchi",
+      "titleZh": "桑奇大佛塔",
+      "artistCulture": "Buddhist patrons, builders and relief sculptors; individual makers unrecorded",
+      "siteName": "Sanchi, Madhya Pradesh, India",
+      "coordinates": {
+        "x": 1146,
+        "y": 296
+      },
+      "date": "c. 300 B.C.E.–100 C.E.",
+      "medium": "Stone masonry; sandstone facing on dome",
+      "workType": "Buddhist reliquary monument",
+      "function": "舍利 reliquary 纪念佛陀并支持 clockwise circumambulation；信徒在外围绕行，不进入实心穹丘作会众礼拜。",
+      "form": "半球 anda、围栏 vedika、四座 torana 与顶部 chatra 组合成宇宙秩序；下层与上层绕行道组织身体移动。",
+      "content": "门上以 Jataka 本生故事、树、轮与空座等符号叙述佛教；路径旁后加的人形佛像不等于早期门雕都采用人形佛。",
+      "context": "Ashoka 时期起建，后世包覆扩建并增门；今日组合包含多个营造阶段，不能全定为公元前三世纪。",
+      "recognitionAnchors": [
+        "半球实心穹丘与顶部三重伞 chatra",
+        "四向雕刻横梁门 torana",
+        "上下绕行道和石栏"
+      ],
+      "comparisonIds": [
+        "ap198-borobudur"
+      ],
+      "comparisonNotes": {
+        "ap198-borobudur": "同为佛教绕行；Sanchi 围绕穹丘，Borobudur 在多层平台上以浮雕与上升动线推进修行。"
+      },
+      "keywords": [
+        "stupa 佛塔",
+        "torana 塔门",
+        "circumambulation 绕行",
+        "relic 舍利"
+      ],
+      "images": [
+        {
+          "id": "stupa-exterior",
+          "label": "Dome, stone railing and carved torana / 穹顶、石栏与雕刻牌楼",
+          "imageUrl": "assets/art-history/u8/ap192-stupa-exterior.webp",
+          "imageAlt": "Dome, stone railing and carved torana / 穹顶、石栏与雕刻牌楼",
+          "imageSourceName": "Wikimedia Commons; Bernard Gagnon",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stupa_1,_Sanchi_02.jpg"
+        },
+        {
+          "id": "circumambulatory-path-detail",
+          "label": "Path between dome and railing beside seated Buddha / 穹顶与石栏间的绕行道及坐佛",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Path between dome and railing beside seated Buddha / 穹顶与石栏间的绕行道及坐佛",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        },
+        {
+          "id": "north-gate",
+          "label": "Carved north torana with three crossbars / 三层横梁的北牌楼雕刻",
+          "imageUrl": "assets/art-history/u8/ap192-north-gate.webp",
+          "imageAlt": "Rear face of Sanchi's north torana with three carved crossbars, animal finials and foreground stone railing / 桑奇北牌楼背面，含三层雕刻横梁、动物顶饰与前景石栏",
+          "imageSourceName": "Wikimedia Commons; Bernard Gagnon",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:North_Torana,_Sanchi_01.jpg"
+        },
+        {
+          "id": "plan-and-elevation",
+          "label": "Combined circular plan and side elevation / 圆形平面与侧立面组合图",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Combined circular plan and side elevation / 圆形平面与侧立面组合图",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        }
+      ]
+    },
+    {
+      "id": "ap193-terracotta-warriors",
+      "apNumber": 193,
+      "unit": 8,
+      "region": "china",
+      "culture": "Qin dynasty China",
+      "traditionGroup": "Court & Imperial Power",
+      "period": "First unified Chinese empire",
+      "titleEn": "Terra cotta warriors from mausoleum of the first Qin emperor of China",
+      "titleZh": "秦始皇陵兵马俑",
+      "artistCulture": "Qin imperial workshops; potters and sculptors; commissioned by Qin Shi Huang",
+      "siteName": "Qin imperial mausoleum, Lintong, near Xi'an, China",
+      "coordinates": {
+        "x": 1286,
+        "y": 247
+      },
+      "date": "c. 221–209 B.C.E.",
+      "medium": "Painted terra cotta",
+      "workType": "Funerary sculptural army",
+      "function": "以 funerary army 守护帝陵，延续皇帝死后权威；庞大劳力组织也显示现世国家控制。",
+      "form": "近真人尺度、重复军阵与模制部件形成标准化；发式、面部与服装手工修整产生差异，原有彩绘 polychromy。",
+      "content": "步兵、弓手、军官与马构成军阵；现存裸陶色不代表原始外观，不能把所有差异断言为真人肖像。",
+      "context": "统一后的 Qin 国家把标准化与巨型工程相连；1974 年发现的俑坑只是陵区一部分，不等于已打开皇帝墓室。",
+      "recognitionAnchors": [
+        "成排近真人尺度武士",
+        "甲片、发髻和各异面部",
+        "军阵中的陶马"
+      ],
+      "comparisonIds": [
+        "ap194-lady-dai-banner"
+      ],
+      "comparisonNotes": {
+        "ap194-lady-dai-banner": "两者延续精英死后身份；兵马俑以军事群体和规模表现帝权，Lady Dai 帛画以宇宙层次引导个人来世。"
+      },
+      "keywords": [
+        "terra cotta 陶土",
+        "Qin 秦",
+        "polychromy 彩绘",
+        "standardization 标准化"
+      ],
+      "images": [
+        {
+          "id": "excavation-pit-overview",
+          "label": "Rows of warriors in the excavated pit / 发掘坑内成排兵马俑",
+          "imageUrl": "assets/art-history/u8/ap193-excavation-pit-overview.webp",
+          "imageAlt": "Rows of warriors in the excavated pit / 发掘坑内成排兵马俑",
+          "imageSourceName": "Wikimedia Commons; shankar s. from Dubai, united arab emirates",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_sheer_scale_of_it_was_nothing_like_what_I_had_expected_(35519050182).jpg"
+        },
+        {
+          "id": "warriors-and-horse-detail",
+          "label": "Terracotta warriors beside a horse / 陶马旁的陶俑",
+          "imageUrl": "assets/art-history/u8/ap193-warriors-and-horse-detail.webp",
+          "imageAlt": "Terracotta warriors beside a horse / 陶马旁的陶俑",
+          "imageSourceName": "Wikimedia Commons; Gary Todd",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_Horses_%26_Soldiers.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap194-lady-dai-banner",
+      "apNumber": 194,
+      "unit": 8,
+      "region": "china",
+      "culture": "Western Han dynasty China",
+      "traditionGroup": "Court & Imperial Power",
+      "period": "Early Western Han elite funerary culture",
+      "titleEn": "Funeral banner of Lady Dai (Xin Zhui)",
+      "titleZh": "辛追（轪侯夫人）葬仪帛画",
+      "artistCulture": "Han silk painters; individual maker unrecorded",
+      "siteName": "Mawangdui Tomb 1, Changsha, China",
+      "coordinates": {
+        "x": 1302,
+        "y": 275
+      },
+      "provenanceQualifier": "The anchor marks the excavated funerary context, not a securely documented silk-painting workshop.",
+      "date": "c. 180 B.C.E.",
+      "medium": "Painted silk",
+      "workType": "T-shaped funerary silk banner",
+      "function": "与 mourning 和 afterlife 有关，可能用于标识死者或协助灵魂升天；具体仪式用途仍有争论，不把一种解释当定论。",
+      "form": "T-shaped 丝幅横向分层，流动龙身连接上下；细线与重叠人物营造空间，不是木漆棺本身。",
+      "content": "天界日月与神灵、中间持杖的 Lady Dai 和侍从、下方祭奠及地下生物构成宇宙图式。",
+      "context": "出土于 Mawangdui Tomb 1，原置内棺之上；AP 约180 B.C.E.是课程标识，考古讨论可采用更宽二世纪范围；墓地不证明绘画作坊位置。",
+      "recognitionAnchors": [
+        "T形丝幅与垂穗",
+        "持杖老妇和侍从",
+        "上部日月、下部鱼与盘龙"
+      ],
+      "comparisonIds": [
+        "ap193-terracotta-warriors"
+      ],
+      "comparisonNotes": {
+        "ap193-terracotta-warriors": "两者属于精英墓葬；帛画以绘画连接天人地下，俑军以三维成阵人物延续武力。"
+      },
+      "keywords": [
+        "silk 丝绸",
+        "register 分层",
+        "afterlife 来世",
+        "Mawangdui 马王堆"
+      ],
+      "images": [
+        {
+          "id": "complete-banner",
+          "label": "Complete T-shaped painted silk banner and hanging pendants / 完整T形彩绘丝帛与下垂饰物",
+          "imageUrl": "assets/art-history/u8/ap194-complete-banner.webp",
+          "imageAlt": "Complete T-shaped painted silk banner and hanging pendants / 完整T形彩绘丝帛与下垂饰物",
+          "imageSourceName": "Wikimedia Commons; Unknown Han-dynasty artist; Wikimedia Commons faithful reproduction",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bani%C3%A8re_fun%C3%A9raire,_peinture_sur_soie,_Chine.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap195-longmen-caves",
+      "apNumber": 195,
+      "unit": 8,
+      "region": "china",
+      "culture": "Chinese Buddhism; Northern Wei through Tang and later dynasties",
+      "traditionGroup": "Buddhist Sacred Sites",
+      "period": "Northern Wei foundations; major Tang commissions; later additions",
+      "titleEn": "Longmen caves",
+      "titleZh": "龙门石窟",
+      "artistCulture": "Successive Buddhist patrons and stone carvers; Gaozong and Wu Zetian associated with Fengxian",
+      "siteName": "Longmen, Luoyang, China",
+      "coordinates": {
+        "x": 1300,
+        "y": 246
+      },
+      "date": "493–1127 C.E.",
+      "medium": "Limestone",
+      "workType": "Buddhist rock-cut cave and monumental sculptural complex",
+      "function": "通过佛像、供养与 donor patronage 积累功德；大型帝室赞助把佛教宇宙等级与王权联系。",
+      "form": "沿河石灰岩崖壁开凿洞窟；Fengxian 的巨型 Vairocana 与侍从呈层级，柔和佛面与有力 guardian 肌肉形成对比。",
+      "content": "必须看全崖、护法和卢舍那佛群；弟子、bodhisattva 与天王不是同一种身份。",
+      "context": "493 年始于 Northern Wei，唐代奉先寺为重点；CED 唐代标签不表示所有洞窟均唐建，早期与后期风格及赞助需区分。",
+      "recognitionAnchors": [
+        "沿河密集洞窟和巨型开敞佛群",
+        "大坐佛与两侧多类侍从",
+        "肌肉强健、动态护法"
+      ],
+      "comparisonIds": [
+        "ap197-todai-ji"
+      ],
+      "comparisonNotes": {
+        "ap197-todai-ji": "同借 Vairocana 和国家赞助强调佛教秩序；Longmen 固定于石崖，Todai-ji 以铜像和木殿组成礼拜空间。"
+      },
+      "keywords": [
+        "Vairocana 卢舍那佛",
+        "bodhisattva 菩萨",
+        "guardian 护法",
+        "patronage 赞助"
+      ],
+      "images": [
+        {
+          "id": "cliff-overview",
+          "label": "River-facing cliff with open monumental sculptural ensemble / 面向河流的石崖与露天大型造像群",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: River-facing cliff with open monumental sculptural ensemble / 面向河流的石崖与露天大型造像群",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=251",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        },
+        {
+          "id": "guardian-detail",
+          "label": "Standing muscular guardian carved into rock / 岩壁雕刻的健壮立姿护法",
+          "imageUrl": "assets/art-history/u8/ap195-guardian-detail.webp",
+          "imageAlt": "Standing muscular guardian carved into rock / 岩壁雕刻的健壮立姿护法",
+          "imageSourceName": "Wikimedia Commons; Gary Todd",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Buddhist_Grottoes_at_Longmen-_Fengxian_Temple,_Celestial_Guardian.jpg"
+        },
+        {
+          "id": "vairocana-and-attendants",
+          "label": "Seated Vairocana with flanking attendants / 毗卢遮那坐佛及两侧侍从",
+          "imageUrl": "assets/art-history/u8/ap195-vairocana-and-attendants.webp",
+          "imageAlt": "Seated Vairocana with flanking attendants / 毗卢遮那坐佛及两侧侍从",
+          "imageSourceName": "Wikimedia Commons; Gary Todd",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Buddhist_Grottoes_at_Longmen-_Fengxian_Temple,_Vairocana_Buddha.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap196-gold-jade-crown",
+      "apNumber": 196,
+      "unit": 8,
+      "region": "korea",
+      "culture": "Silla kingdom, Korea; Three Kingdoms period",
+      "traditionGroup": "Court & Imperial Power",
+      "period": "Fifth–sixth-century Silla elite ritual and burial",
+      "titleEn": "Gold and jade crown",
+      "titleZh": "金与玉冠",
+      "artistCulture": "Silla goldworkers; individual maker unrecorded",
+      "siteName": "North mound of Hwangnam Daechong Tomb, Gyeongju, Korea",
+      "coordinates": {
+        "x": 1374,
+        "y": 241
+      },
+      "provenanceQualifier": "Smarthistory identifies the excavated burial context; this does not establish the precise goldworking workshop.",
+      "date": "Fifth to sixth century C.E.",
+      "medium": "Metalwork; gold and jade",
+      "workType": "Royal ceremonial and funerary crown",
+      "function": "王族 ceremonial regalia 表明地位，也进入墓葬延续死后身份；不能因金片脆弱就断言只为陪葬。",
+      "form": "薄金片树形与鹿角形竖饰、悬垂金圆片及逗号形 gogok 玉饰营造轻盈闪动表面。",
+      "content": "自然形态常联系 sacred tree、丰饶与萨满传统；这些是图像解释，不应把每一支都等同某个已证实的神。",
+      "context": "出土为 Gyeongju Hwangnam Daechong 北 mound；新罗贵重金属与欧亚交流并存，墓葬发现地不等于已知制作作坊。",
+      "recognitionAnchors": [
+        "树枝与鹿角状高竖饰",
+        "逗号形绿色玉坠 gogok",
+        "薄金冠带及垂链"
+      ],
+      "comparisonIds": [
+        "ap205-sin-sukju-portrait"
+      ],
+      "comparisonNotes": {
+        "ap205-sin-sukju-portrait": "两者用服饰标示韩国精英等级；Silla 冠以贵金属自然符号强调仪式权力，Joseon 肖像以rank badge和克制姿态表现文官身份。"
+      },
+      "keywords": [
+        "Silla 新罗",
+        "gogok 曲玉",
+        "regalia 王权服饰",
+        "sacred tree 圣树"
+      ],
+      "images": [
+        {
+          "id": "complete-crown",
+          "label": "Hwangnam Daechong north-mound gold crown with tree branches and jade pendants / 皇南大冢北坟金冠、树枝形饰与玉坠",
+          "imageUrl": "assets/art-history/u8/ap196-complete-crown.webp",
+          "imageAlt": "Hwangnam Daechong north-mound gold crown with tree branches and jade pendants / 皇南大冢北坟金冠、树枝形饰与玉坠",
+          "imageSourceName": "Wikimedia Commons; Tristan Surtel",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gold_crown_from_Hwangnam_Daechong_at_National_Museum_of_Korea.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap197-todai-ji",
+      "apNumber": 197,
+      "unit": 8,
+      "region": "japan",
+      "culture": "Japanese Buddhism; Nara foundation and later rebuilding",
+      "traditionGroup": "Buddhist Sacred Sites",
+      "period": "Nara imperial Buddhism; Kamakura sculpture; Edo rebuilding",
+      "titleEn": "Todai-ji",
+      "titleZh": "东大寺",
+      "artistCulture": "Various artists; Unkei, Kaikei and the Kei School associated with Nio guardians",
+      "siteName": "Todai-ji, Nara, Japan",
+      "coordinates": {
+        "x": 1404,
+        "y": 246
+      },
+      "date": "743 C.E.; rebuilt c. 1700 C.E.",
+      "medium": "Bronze and wood sculpture; wood architecture with ceramic-tile roofs",
+      "workType": "Buddhist temple, monumental Buddha and guardian ensemble",
+      "function": "由 Shomu 皇帝赞助，作为国家寺院网络中心，借 Buddhist protection 组织精神及政治统一。",
+      "form": "木构 Great Buddha Hall 内巨型铜坐佛；南大门以粗大木构和两尊组木 Nio 的扭转肌肉形成威力。",
+      "content": "Great Buddha 为 Vairocana；Nio Agyo 开口、Ungyo 闭口守门。佛像、殿与门及两尊护法均须分辨。",
+      "context": "743 是发愿／造像起点，752 开眼；火灾后多次修复，现殿1709建成；1203护法属于Kamakura而非743原作。",
+      "recognitionAnchors": [
+        "巨大木殿与瓦顶",
+        "莲座铜坐佛",
+        "南大门开口／闭口肌肉护法"
+      ],
+      "comparisonIds": [
+        "ap195-longmen-caves"
+      ],
+      "comparisonNotes": {
+        "ap195-longmen-caves": "两地以巨佛与护法表达国家佛教；东大寺是铜木可修复组合，龙门是崖壁减材石雕。"
+      },
+      "keywords": [
+        "Daibutsu 大佛",
+        "Vairocana 毗卢遮那佛",
+        "Nio 仁王",
+        "Kei School 庆派"
+      ],
+      "images": [
+        {
+          "id": "great-buddha-hall-exterior",
+          "label": "Great Buddha Hall roof and frontal wooden facade / 大佛殿屋顶与正面木构立面",
+          "imageUrl": "assets/art-history/u8/ap197-great-buddha-hall-exterior.webp",
+          "imageAlt": "Great Buddha Hall roof and frontal wooden facade / 大佛殿屋顶与正面木构立面",
+          "imageSourceName": "Wikimedia Commons; ONO Masanobu",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Todai-ji_Daibutsuden_front_view_in_2011.jpg"
+        },
+        {
+          "id": "great-buddha",
+          "label": "Seated bronze Great Buddha with halo / 带背光的青铜大佛坐像",
+          "imageUrl": "assets/art-history/u8/ap197-great-buddha.webp",
+          "imageAlt": "Seated bronze Great Buddha with halo / 带背光的青铜大佛坐像",
+          "imageSourceName": "Wikimedia Commons; Balon Greyjoy",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20190121_T%C5%8Ddai-ji_Great_Buddha-2.jpg"
+        },
+        {
+          "id": "nio-closed-mouth",
+          "label": "Ungyo guardian with mouth closed / 闭口吽形护法像",
+          "imageUrl": "assets/art-history/u8/ap197-nio-closed-mouth.webp",
+          "imageAlt": "Ungyo guardian with mouth closed / 闭口吽形护法像",
+          "imageSourceName": "Wikimedia Commons; Bamse",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nio_Ungyo_at_Todaiji_Nandaimon.jpg"
+        },
+        {
+          "id": "nio-open-mouth",
+          "label": "Agyo guardian with mouth open / 张口阿形护法像",
+          "imageUrl": "assets/art-history/u8/ap197-nio-open-mouth.webp",
+          "imageAlt": "Agyo guardian with mouth open / 张口阿形护法像",
+          "imageSourceName": "Wikimedia Commons; Tsuyoshi chiba",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Todaiji_niozo_agyo.jpg"
+        },
+        {
+          "id": "great-south-gate",
+          "label": "Nandaimon two-storey timber gate / 南大门两层木构门楼",
+          "imageUrl": "assets/art-history/u8/ap197-great-south-gate.webp",
+          "imageAlt": "Nandaimon two-storey timber gate / 南大门两层木构门楼",
+          "imageSourceName": "Wikimedia Commons; Jakub Hałun",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20100716_Nara_Todaiji_Nandaimon_2248.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap198-borobudur",
+      "apNumber": 198,
+      "unit": 8,
+      "region": "indonesia",
+      "culture": "Mahayana Buddhism; Sailendra dynasty, Central Java",
+      "traditionGroup": "Buddhist Sacred Sites",
+      "period": "Eighth–ninth-century Javanese Buddhist kingship",
+      "titleEn": "Borobudur Temple",
+      "titleZh": "婆罗浮屠",
+      "artistCulture": "Sailendra patrons; architects and stone carvers unrecorded",
+      "siteName": "Borobudur, Central Java, Indonesia",
+      "coordinates": {
+        "x": 1290,
+        "y": 434
+      },
+      "date": "c. 750–842 C.E.",
+      "medium": "Volcanic-stone masonry",
+      "workType": "Terraced Buddhist pilgrimage monument",
+      "function": "以 circumambulation 和逐层上升引导修行；叙事浮雕把教义与身体移动相连，不是普通宫殿。",
+      "form": "方形下层转向圆形上层，呈三维 mandala；顶部中央 stupa 与多座镂空钟形小塔形成秩序。",
+      "content": "下层佛教叙事和众多 Buddha 指向教法；上部小塔原含佛像，不能把空塔等于原来没有佛。",
+      "context": "Java 的 Sailendra 佛教赞助体现跨海传播；后世荒废与近现代复原属于保存史，不是八世纪原貌的全部。",
+      "recognitionAnchors": [
+        "方形台阶上叠圆平台",
+        "镂空钟形佛塔群",
+        "沿绕行路密集叙事浮雕"
+      ],
+      "comparisonIds": [
+        "ap192-great-stupa-sanchi"
+      ],
+      "comparisonNotes": {
+        "ap192-great-stupa-sanchi": "两者借绕行敬佛；Sanchi 强调穹丘与门，Borobudur 将绕行、叙事和上升层次结合。"
+      },
+      "keywords": [
+        "mandala 曼荼罗",
+        "stupa 佛塔",
+        "Mahayana 大乘",
+        "circumambulation 绕行"
+      ],
+      "images": [
+        {
+          "id": "aerial-overview",
+          "label": "Aerial view of square terraces and circular upper stupas / 方形台地与上层圆形佛塔航拍",
+          "imageUrl": "assets/art-history/u8/ap198-aerial-overview.webp",
+          "imageAlt": "Aerial view of square terraces and circular upper stupas / 方形台地与上层圆形佛塔航拍",
+          "imageSourceName": "Wikimedia Commons; Zaenulihsan91",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Borobudur_Magelang.jpg"
+        },
+        {
+          "id": "narrative-relief-detail",
+          "label": "Narrative stone relief with chariot and figures / 含战车与人物的叙事石浮雕",
+          "imageUrl": "assets/art-history/u8/ap198-narrative-relief-detail.webp",
+          "imageAlt": "Narrative stone relief with chariot and figures / 含战车与人物的叙事石浮雕",
+          "imageSourceName": "Wikimedia Commons; Anandajoti Bhikkhu / Photo Dharma",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:027b_In_the_Chariot_(28474987780).jpg"
+        },
+        {
+          "id": "buddha-and-stupas",
+          "label": "Seated Buddha among perforated stupas / 镂空佛塔间的坐佛",
+          "imageUrl": "assets/art-history/u8/ap198-buddha-and-stupas.webp",
+          "imageAlt": "Seated Buddha among perforated stupas / 镂空佛塔间的坐佛",
+          "imageSourceName": "Wikimedia Commons; CEphoto, Uwe Aranas",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Borobudur-Temple-Park_Indonesia_Stupas-of-Borobudur-04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap199-angkor",
+      "apNumber": 199,
+      "unit": 8,
+      "region": "cambodia",
+      "culture": "Khmer Angkor kingdom; Hindu and Buddhist royal foundations",
+      "traditionGroup": "Hindu Sacred Art",
+      "period": "Angkorian urban and temple development",
+      "titleEn": "Angkor, the temple of Angkor Wat, and the city of Angkor Thom, Cambodia",
+      "titleZh": "吴哥：吴哥窟与吴哥城",
+      "artistCulture": "Suryavarman II associated with Angkor Wat; Jayavarman VII with Angkor Thom and Bayon; builders unrecorded",
+      "siteName": "Angkor, near Siem Reap, Cambodia",
+      "coordinates": {
+        "x": 1262,
+        "y": 340
+      },
+      "date": "c. 800–1400 C.E.",
+      "medium": "Stone masonry; sandstone",
+      "workType": "Royal temple and urban sacred complex",
+      "function": "Angkor Wat 原奉 Vishnu 并体现王权；Angkor Thom 和 Bayon 的 Jayavarman VII 佛教营造不同，不把整个条目仅解释为一种宗教。",
+      "form": "吴哥窟五塔、轴线、围廊与护城河表现 Mount Meru 宇宙；Bayon 的面塔及吴哥城南门属于另一组城市构件。",
+      "content": "Churning of Ocean of Milk 浮雕显示神魔拉 naga 求甘露；Bayon 面孔有佛／菩萨／王者解释，CED的Jayavarman VII as Buddha标签不排除学术争论。",
+      "context": "吴哥窟主要十二世纪早期，吴哥城和Bayon十二世纪晚期起；c.800–1400涵盖长期发展。两张plan分别是寺庙与地区布局，不能合并。",
+      "recognitionAnchors": [
+        "吴哥窟五座莲苞塔与护城河",
+        "拉蛇搅乳海浮雕",
+        "Bayon 多面塔与吴哥城南门"
+      ],
+      "comparisonIds": [
+        "ap200-lakshmana-temple"
+      ],
+      "comparisonNotes": {
+        "ap200-lakshmana-temple": "同用山形圣所与王室赞助表达Hindu宇宙；Angkor Wat 巨大围廊护城河与Lakshmana高台shikhara形式不同，Bayon另属佛教语境。"
+      },
+      "keywords": [
+        "Mount Meru 须弥山",
+        "Vishnu 毗湿奴",
+        "naga 蛇王",
+        "Bayon 巴戎寺"
+      ],
+      "images": [
+        {
+          "id": "angkor-wat-exterior",
+          "label": "Angkor Wat towers and temple exterior / 吴哥窟塔楼与寺庙外观",
+          "imageUrl": "assets/art-history/u8/ap199-angkor-wat-exterior.webp",
+          "imageAlt": "Wide sunset panorama of Angkor Wat's lotus towers and temple facade behind a green foreground / 绿色前景后方吴哥窟莲花塔与寺庙立面的夕照宽幅全景",
+          "imageSourceName": "Wikimedia Commons; Chris (Flickr user 11581043@N00)",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Angkor_panorama_banner.jpg"
+        },
+        {
+          "id": "angkor-thom-south-gate",
+          "label": "Angkor Thom south gate with face tower / 吴哥城南门及人面塔",
+          "imageUrl": "assets/art-history/u8/ap199-angkor-thom-south-gate.webp",
+          "imageAlt": "Angkor Thom south gate with face tower / 吴哥城南门及人面塔",
+          "imageSourceName": "Wikimedia Commons; Supanut Arunoprayote",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Angkor_Thom_(I).jpg"
+        },
+        {
+          "id": "churning-ocean-of-milk-relief",
+          "label": "Figures pulling serpent in Churning of the Ocean of Milk relief / 搅乳海浮雕中拉动蛇身的人物",
+          "imageUrl": "assets/art-history/u8/ap199-churning-ocean-of-milk-relief.webp",
+          "imageAlt": "Figures pulling serpent in Churning of the Ocean of Milk relief / 搅乳海浮雕中拉动蛇身的人物",
+          "imageSourceName": "Wikimedia Commons; LizaBo",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Depiction_of_Kurma_at_the_Angkor_Wat.JPG"
+        },
+        {
+          "id": "bayon-face-towers",
+          "label": "Bayon stone towers bearing monumental faces / 巴戎寺大型石雕人面塔",
+          "imageUrl": "assets/art-history/u8/ap199-bayon-face-towers.webp",
+          "imageAlt": "Bayon stone towers bearing monumental faces / 巴戎寺大型石雕人面塔",
+          "imageSourceName": "Wikimedia Commons; Greg Willis from Denver, CO, usa",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bayon_Towers_(4184831149).jpg"
+        },
+        {
+          "id": "angkor-wat-plan",
+          "label": "Angkor Wat building floor plan / 吴哥窟建筑平面图",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Angkor Wat building floor plan / 吴哥窟建筑平面图",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        },
+        {
+          "id": "angkor-site-plan",
+          "label": "Wider Angkor site plan including Angkor Thom / 含吴哥城的吴哥遗址总平面图",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Wider Angkor site plan including Angkor Thom / 含吴哥城的吴哥遗址总平面图",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        }
+      ]
+    },
+    {
+      "id": "ap200-lakshmana-temple",
+      "apNumber": 200,
+      "unit": 8,
+      "region": "india",
+      "culture": "Hindu; Chandella dynasty, north India",
+      "traditionGroup": "Hindu Sacred Art",
+      "period": "Tenth-century Chandella temple patronage",
+      "titleEn": "Lakshmana Temple",
+      "titleZh": "拉克什曼那神庙",
+      "artistCulture": "Chandella royal patrons and sandstone builders; individual makers unrecorded",
+      "siteName": "Khajuraho, Madhya Pradesh, India",
+      "coordinates": {
+        "x": 1155,
+        "y": 290
+      },
+      "date": "c. 930–950 C.E.",
+      "medium": "Sandstone",
+      "workType": "Nagara-style Hindu temple",
+      "function": "奉献 Vishnu，信众经mandapa走向garbhagriha并绕行；雕饰也把世俗生命纳入神圣秩序。",
+      "form": "高台上主殿与四角小祠构成panchayatana，主shikhara及较小峰顶形成山群；由入口至内殿层层收紧。",
+      "content": "外墙神祇、mithuna伴侣和生活形象并置；情色只是部分图像，狮形兽与人细节不可漏看。",
+      "context": "Khajuraho的Chandella王朝赞助以神庙体现宗教及王权；不能把寺名误当奉献神本身，圣所关联Vaikuntha Vishnu。",
+      "recognitionAnchors": [
+        "高台与层叠曲线shikhara",
+        "密集人物与mithuna雕带",
+        "轴向门廊、殿厅及内圣所"
+      ],
+      "comparisonIds": [
+        "ap199-angkor"
+      ],
+      "comparisonNotes": {
+        "ap199-angkor": "两者以山形神殿为神居；Lakshmana是北印度Nagara高塔及高台，Angkor Wat以五塔围廊和水域表现须弥山。"
+      },
+      "keywords": [
+        "shikhara 神庙塔",
+        "garbhagriha 胎藏室",
+        "mithuna 伴侣像",
+        "panchayatana 五祠布局"
+      ],
+      "images": [
+        {
+          "id": "temple-exterior",
+          "label": "Lakshmana Temple clustered towers and carved exterior / 拉克什曼纳寺群塔与雕刻外墙",
+          "imageUrl": "assets/art-history/u8/ap200-temple-exterior.webp",
+          "imageAlt": "Lakshmana Temple clustered towers and carved exterior / 拉克什曼纳寺群塔与雕刻外墙",
+          "imageSourceName": "Wikimedia Commons; Ms Sarah Welch",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:01022_Lakshmana_temple,_Khajuraho_Madhya_Pradesh_007.jpg"
+        },
+        {
+          "id": "mithuna-relief-detail",
+          "label": "Embracing erotic figures carved on temple wall / 寺墙上相拥的情爱人物雕刻",
+          "imageUrl": "assets/art-history/u8/ap200-mithuna-relief-detail.webp",
+          "imageAlt": "Embracing erotic figures carved on temple wall / 寺墙上相拥的情爱人物雕刻",
+          "imageSourceName": "Wikimedia Commons; Jean-Pierre Dalbéra",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg"
+        },
+        {
+          "id": "lion-and-figure-detail",
+          "label": "Lion-like creature and human beside carved porch / 雕刻门廊旁的狮形兽与人物",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Lion-like creature and human beside carved porch / 雕刻门廊旁的狮形兽与人物",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        },
+        {
+          "id": "temple-plan",
+          "label": "Lakshmana Temple sanctuary and surrounding platform plan / 拉克什曼纳寺圣殿与周围台基平面",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Lakshmana Temple sanctuary and surrounding platform plan / 拉克什曼纳寺圣殿与周围台基平面",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        }
+      ]
+    },
+    {
+      "id": "ap201-travelers-mountains-streams",
+      "apNumber": 201,
+      "unit": 8,
+      "region": "china",
+      "culture": "Chinese; Northern Song landscape painting",
+      "traditionGroup": "Landscape & Nature",
+      "period": "Early Northern Song monumental landscape",
+      "titleEn": "Travelers among Mountains and Streams",
+      "titleZh": "溪山行旅图",
+      "artistCulture": "Fan Kuan",
+      "siteName": "Northern Song China (workshop uncertain)",
+      "coordinates": {
+        "x": 1289,
+        "y": 244
+      },
+      "provenanceQualifier": "The landscape evokes northern Chinese mountains; neither its depicted setting nor its present collection proves an exact production site.",
+      "date": "c. 1000 C.E.",
+      "medium": "Ink and colors on silk",
+      "workType": "Landscape hanging scroll",
+      "function": "以山水 landscape 鉴赏与沉思自然，强调人相对宇宙的尺度；不是某次旅行的精确地图。",
+      "form": "巨峰占上部，前景巨石、中景树群与溪流分层；cun纹理笔法、墨色浓淡与云雾空白连接近远。",
+      "content": "底部极小商旅驮队与壮阔山体对比；细瀑从高峰垂下，观众视线在多个空间层次游动。",
+      "context": "Northern Song绘画以自然观察和山水理想结合；可能联系道家宇宙观，但不能将便携画的现收藏地或描绘景观当作确定作坊。",
+      "recognitionAnchors": [
+        "占绝大画幅的中央巨峰",
+        "细长高瀑及云雾分界",
+        "底部微小驮队"
+      ],
+      "comparisonIds": [
+        "ap211-great-wave"
+      ],
+      "comparisonNotes": {
+        "ap211-great-wave": "两者对比渺小人群与强大自然；Fan Kuan用墨色纹理和垂直巨峰，Hokusai用彩色木刻、近景波峰与远小富士。"
+      },
+      "keywords": [
+        "cun 皴",
+        "hanging scroll 立轴",
+        "monumental landscape 巨碑式山水",
+        "scale 尺度"
+      ],
+      "images": [
+        {
+          "id": "complete-hanging-scroll",
+          "label": "Full hanging scroll with towering mountain, waterfall and tiny travelers / 完整立轴中的巨峰、瀑布与微小旅人",
+          "imageUrl": "assets/art-history/u8/ap201-complete-hanging-scroll.webp",
+          "imageAlt": "Full hanging scroll with towering mountain, waterfall and tiny travelers / 完整立轴中的巨峰、瀑布与微小旅人",
+          "imageSourceName": "Wikimedia Commons; Fan Kuan",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B0%BF%E5%B1%B1%E8%A1%8C%E6%97%85%E5%9B%BE%E8%BD%B4.%E6%BA%AA%E5%B1%B1%E8%A1%8C%E6%97%85%E5%9B%BE.%E5%AE%8B.%E8%8C%83%E5%AE%BD.%E7%BB%A2%E6%9C%AC%E6%B5%85%E8%AE%BE%E8%89%B2.%E5%8F%B0%E5%8C%97%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2%E8%97%8F.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap202-shiva-nataraja",
+      "apNumber": 202,
+      "unit": 8,
+      "region": "india",
+      "culture": "Hindu; Chola dynasty, Tamil Nadu",
+      "traditionGroup": "Hindu Sacred Art",
+      "period": "Chola bronze devotional tradition",
+      "titleEn": "Shiva as Lord of Dance (Nataraja)",
+      "titleZh": "舞王湿婆",
+      "artistCulture": "Chola bronze casters; individual maker unrecorded",
+      "siteName": "Tamil Nadu, India (Chola production context)",
+      "coordinates": {
+        "x": 1151,
+        "y": 351
+      },
+      "provenanceQualifier": "The precise casting workshop and original temple are not established by the CED; this is a regional creation-context anchor.",
+      "date": "c. eleventh century C.E.",
+      "medium": "Cast bronze",
+      "workType": "Hindu processional devotional sculpture",
+      "function": "作为可供装扮、礼拜及procession的神像，使Shiva向信众显现；不只是静态美术馆装饰。",
+      "form": "lost-wax casting塑成四臂舞动身体，火焰aureole围合；一足踩侏儒，一足举起，平衡同时表达动能。",
+      "content": "鼓象征创造，火象征毁灭；abhaya手示无畏，另一手指向举足的解脱；Apasmara代表无知。",
+      "context": "Chola赞助南印度寺院青铜，宇宙循环与信众实践相连；确切作坊及原庙未知，以Tamil Nadu区域定位。",
+      "recognitionAnchors": [
+        "火焰环内四臂舞神",
+        "一足踩侏儒、一足抬起",
+        "鼓与火及飞扬发绺"
+      ],
+      "comparisonIds": [
+        "ap192-great-stupa-sanchi"
+      ],
+      "comparisonNotes": {
+        "ap192-great-stupa-sanchi": "都把宗教观念转为身体实践；Nataraja通过移动神像出巡和舞姿表现宇宙，Sanchi以信徒绕行固定舍利塔。"
+      },
+      "keywords": [
+        "Nataraja 舞王",
+        "lost-wax 失蜡铸造",
+        "abhaya 无畏印",
+        "Apasmara 无知侏儒"
+      ],
+      "images": [
+        {
+          "id": "complete-bronze",
+          "label": "Metropolitan Museum bronze Shiva in flame aureole standing on dwarf / 大都会博物馆火焰圆环内踩侏儒的青铜湿婆",
+          "imageUrl": "assets/art-history/u8/ap202-complete-bronze.webp",
+          "imageAlt": "Metropolitan Museum bronze Shiva in flame aureole standing on dwarf / 大都会博物馆火焰圆环内踩侏儒的青铜湿婆",
+          "imageSourceName": "Wikimedia Commons; The Metropolitan Museum of Art",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:MET_DT240.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap203-night-attack-sanjo",
+      "apNumber": 203,
+      "unit": 8,
+      "region": "japan",
+      "culture": "Japanese; Kamakura-period narrative painting",
+      "traditionGroup": "Court & Imperial Power",
+      "period": "Kamakura retelling of Heiji conflicts",
+      "titleEn": "Night Attack on the Sanjô Palace",
+      "titleZh": "三条殿夜袭绘卷",
+      "artistCulture": "Japanese handscroll painter; individual maker unrecorded",
+      "siteName": "Kamakura-period Japan (workshop uncertain)",
+      "coordinates": {
+        "x": 1404,
+        "y": 244
+      },
+      "provenanceQualifier": "The narrative depicts the Sanjo Palace attack in Kyoto in 1159; the depicted event is not proof of the later handscroll's production workshop.",
+      "date": "c. 1250–1300 C.E.",
+      "medium": "Handscroll; ink and color on paper",
+      "workType": "Narrative war-tale handscroll",
+      "function": "供精英逐段展卷观看gunki monogatari战争故事，纪念并塑造对武士与宫廷冲突的历史记忆。",
+      "form": "emaki从右向左渐展，骑兵、屋顶斜线、火焰与人流形成节奏；时间靠观看动作推进，不是一次看全的壁画。",
+      "content": "叙述1159袭击Sanjo Palace、纵火混战及劫持退位皇帝Go-Shirakawa；必看开头文字与骑手而不只火场。",
+      "context": "画于事件后约一世纪，反映Kamakura武士时代的回顾；京都的故事现场不能证明后来绘卷的制作作坊。",
+      "recognitionAnchors": [
+        "横向密集骑兵与牛车",
+        "红黑火焰和斜向宫殿屋顶",
+        "开头书法与渐进叙事"
+      ],
+      "comparisonIds": [
+        "ap212-mao-anyuan"
+      ],
+      "comparisonNotes": {
+        "ap212-mao-anyuan": "两者回顾历史以塑造政治记忆；Sanjo以连续多人物行动讲冲突，Mao印刷品以单一理想化英雄压缩革命历史。"
+      },
+      "keywords": [
+        "emaki 绘卷",
+        "Heiji 平治",
+        "continuous narrative 连续叙事",
+        "samurai 武士"
+      ],
+      "images": [
+        {
+          "id": "complete-handscroll",
+          "label": "Complete horizontal handscroll including text and palace attack narrative / 含文字与宫殿袭击叙事的完整横向手卷",
+          "imageUrl": "assets/art-history/u8/ap203-complete-handscroll.webp",
+          "imageAlt": "Complete horizontal handscroll including text and palace attack narrative / 含文字与宫殿袭击叙事的完整横向手卷",
+          "imageSourceName": "Wikimedia Commons; Unknown Kamakura-period artist; Museum of Fine Arts, Boston",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Heiji_Monogatari_Emaki_-_Sanjo_scroll_complete.jpg"
+        },
+        {
+          "id": "opening-text-and-riders-detail",
+          "label": "Opening calligraphy beside mounted riders / 开篇书法与骑马人物",
+          "imageUrl": "assets/art-history/u8/ap203-opening-text-and-riders-detail.webp",
+          "imageAlt": "Opening calligraphy beside mounted riders / 开篇书法与骑马人物",
+          "imageSourceName": "Wikimedia Commons; Unknown Kamakura-period artist; Museum of Fine Arts, Boston",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_8.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap204-david-vases",
+      "apNumber": 204,
+      "unit": 8,
+      "region": "china",
+      "culture": "Chinese; Yuan dynasty porcelain",
+      "traditionGroup": "Ceramics & Exchange",
+      "period": "Fourteenth-century Yuan ceramic production and exchange",
+      "titleEn": "The David Vases",
+      "titleZh": "大维德花瓶",
+      "artistCulture": "Jingdezhen porcelain workshop; donor Zhang Wenjin named in inscriptions",
+      "siteName": "Jingdezhen, Jiangxi, China",
+      "coordinates": {
+        "x": 1321,
+        "y": 270
+      },
+      "provenanceQualifier": "The anchor represents porcelain production at Jingdezhen, not the later temple dedication or present London collection.",
+      "date": "1351 C.E.",
+      "medium": "White porcelain with cobalt-blue underglaze",
+      "workType": "Pair of inscribed temple altar vases",
+      "function": "与香炉组成temple altar供器，为Daoist temple奉献祈求家人平安；不是本来为London藏家制作。",
+      "form": "白瓷以cobalt蓝釉下彩绘，透明釉与高温烧造增亮；长颈、象耳、鼓腹与分带纹饰组成成对器形。",
+      "content": "dragon、phoenix、花叶及长铭文结合；铭文记录1351和供养者，象鼻环部损失是保存状态，不是另一设计。",
+      "context": "Jingdezhen制造与西亚钴料交换体现Mongol网络；Yuan并非Ming，制作地、寺院奉献地和现收藏地须分开。",
+      "recognitionAnchors": [
+        "成对青花高瓶与象耳",
+        "环腹龙纹与颈部文字",
+        "白底蓝色分带花纹"
+      ],
+      "comparisonIds": [
+        "ap196-gold-jade-crown"
+      ],
+      "comparisonNotes": {
+        "ap196-gold-jade-crown": "两者以贵重材料和细工表现精英资源；David Vases服务寺院供养并体现跨区钴料交换，Silla冠服务身体服饰与墓葬。"
+      },
+      "keywords": [
+        "porcelain 瓷",
+        "cobalt 钴",
+        "underglaze 釉下彩",
+        "dedication 奉献"
+      ],
+      "images": [
+        {
+          "id": "paired-vases",
+          "label": "Both matching blue-and-white David vases with handles and inscriptions / 两件配对青花大维德瓶、瓶耳与铭文",
+          "imageUrl": "assets/art-history/u8/ap204-paired-vases.webp",
+          "imageAlt": "Both matching blue-and-white David vases with handles and inscriptions / 两件配对青花大维德瓶、瓶耳与铭文",
+          "imageSourceName": "Wikimedia Commons; Patche99z",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Room_95_David_Vases_6747.JPG"
+        }
+      ]
+    },
+    {
+      "id": "ap205-sin-sukju-portrait",
+      "apNumber": 205,
+      "unit": 8,
+      "region": "korea",
+      "culture": "Korean; Joseon dynasty Confucian court portraiture",
+      "traditionGroup": "Court & Imperial Power",
+      "period": "Fifteenth-century Joseon meritorious-subject portrait tradition",
+      "titleEn": "Portrait of Sin Sukju (1417–1475)",
+      "titleZh": "申叔舟肖像",
+      "artistCulture": "Imperial Bureau of Painting; individual artist unrecorded",
+      "siteName": "Joseon Korea (Imperial Bureau of Painting)",
+      "coordinates": {
+        "x": 1364,
+        "y": 233
+      },
+      "provenanceQualifier": "The CED identifies the court painting bureau, not an exact workshop address; the national court context is used rather than the present shrine location.",
+      "date": "c. fifteenth century C.E.",
+      "medium": "Hanging scroll; ink and color on silk",
+      "workType": "Official commemorative portrait",
+      "function": "honor meritorious subject表彰功臣与忠诚，后代保存并用于祖先纪念；不是普通无名官员肖像。",
+      "form": "全身坐姿与微侧脸、藏袖双手、空背景形成克制礼仪；面部细节比衣袍更个别化。",
+      "content": "Sin Sukju戴黑帽、穿官袍，rank badge双孔雀示文官等级；椅与脚凳强化正式身份。",
+      "context": "Joseon儒家秩序重忠臣和祖先；CED称Imperial Bureau，历史解释可称royal bureau；现家族祠藏地不证明绘制地点。",
+      "recognitionAnchors": [
+        "黑官帽与宽蓝绿色袍",
+        "胸前双孔雀rank badge",
+        "全身坐椅、足置脚凳"
+      ],
+      "comparisonIds": [
+        "ap208-jahangir-sufi-shaikh"
+      ],
+      "comparisonNotes": {
+        "ap208-jahangir-sufi-shaikh": "同以画像建构政治等级；Sin以克制坐姿与徽章表现文官功勋，Jahangir以光环和人物大小表现皇权与精神优先。"
+      },
+      "keywords": [
+        "Joseon 朝鲜王朝",
+        "rank badge 补子",
+        "meritorious subject 功臣",
+        "ancestor commemoration 祖先纪念"
+      ],
+      "images": [
+        {
+          "id": "complete-portrait",
+          "label": "Seated Sin Sukju in official robe with rank badge and footstool / 身穿带补子官服、脚踏脚凳的申叔舟坐像",
+          "imageUrl": "assets/art-history/u8/ap205-complete-portrait.webp",
+          "imageAlt": "Seated Sin Sukju in official robe with rank badge and footstool / 身穿带补子官服、脚踏脚凳的申叔舟坐像",
+          "imageSourceName": "Wikimedia Commons; Unknown Joseon court artist",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shin_Suk-ju.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap206-forbidden-city",
+      "apNumber": 206,
+      "unit": 8,
+      "region": "china",
+      "culture": "Chinese; Ming and Qing imperial courts",
+      "traditionGroup": "Court & Imperial Power",
+      "period": "Fifteenth-century Ming palace with Qing additions",
+      "titleEn": "Forbidden City",
+      "titleZh": "紫禁城",
+      "artistCulture": "Imperial architects and craftspeople; Ming Yongle and later Qing patrons",
+      "siteName": "Forbidden City, Beijing, China",
+      "coordinates": {
+        "x": 1317,
+        "y": 223
+      },
+      "date": "Fifteenth century C.E. and later",
+      "medium": "Stone masonry, marble, brick, wood and ceramic tile",
+      "workType": "Imperial palace and ceremonial residential complex",
+      "function": "宫廷礼仪、统治与皇室居住按rank分区；外朝与内廷把国家及家庭等级转为空间秩序。",
+      "form": "南北axis、连续门与院落、抬高殿基及木构瓦顶组织递进；红墙黄瓦和龙纹强化帝权。",
+      "content": "必看鸟瞰、Tiananmen、Hall of Supreme Harmony、plan及宁寿宫相关illusionistic interior；画墙天花制造虚拟建筑花园，不能换成任意殿厅。",
+      "context": "主体1406–1420营造，Qing持续使用修建；乾隆退休空间为十八世纪层次，后世修复不等于Ming原件。CED front gate照片为天安门，不是午门。",
+      "recognitionAnchors": [
+        "轴线上的门、院、殿",
+        "红墙、黄瓦与白石台基",
+        "宁寿宫相关透视壁画与天花"
+      ],
+      "comparisonIds": [
+        "ap209-taj-mahal"
+      ],
+      "comparisonNotes": {
+        "ap209-taj-mahal": "两者用轴线对称和等级通行表达帝权；Forbidden City是持续政务住宅，Taj Mahal是纪念性墓园。"
+      },
+      "keywords": [
+        "axis 轴线",
+        "hierarchy 等级",
+        "Outer Court 外朝",
+        "trompe-l'oeil 错视绘画"
+      ],
+      "images": [
+        {
+          "id": "palace-overview",
+          "label": "Forbidden City roofs and axial courtyards in wider overview / 紫禁城屋顶与中轴院落全景",
+          "imageUrl": "assets/art-history/u8/ap206-palace-overview.webp",
+          "imageAlt": "Forbidden City axial roofscape viewed from Jingshan beneath a pink sunset sky / 景山俯瞰粉色晚霞下的紫禁城中轴屋顶群",
+          "imageSourceName": "Wikimedia Commons; Pixelflake",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg"
+        },
+        {
+          "id": "tiananmen-front-gate",
+          "label": "Tiananmen red gate facade and tiled roof / 天安门红色门楼立面与瓦顶",
+          "imageUrl": "assets/art-history/u8/ap206-tiananmen-front-gate.webp",
+          "imageAlt": "Tiananmen red gate facade and tiled roof / 天安门红色门楼立面与瓦顶",
+          "imageSourceName": "Wikimedia Commons; konget",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Heavenly_Peace,_Tiananmen_-_panoramio.jpg"
+        },
+        {
+          "id": "hall-supreme-harmony",
+          "label": "Hall of Supreme Harmony above marble terraces / 大理石台基上的太和殿",
+          "imageUrl": "assets/art-history/u8/ap206-hall-supreme-harmony.webp",
+          "imageAlt": "Hall of Supreme Harmony above marble terraces / 大理石台基上的太和殿",
+          "imageSourceName": "Wikimedia Commons; Gisling",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony.JPG"
+        },
+        {
+          "id": "tranquility-longevity-interior",
+          "label": "Retirement room with illusionistic garden murals and painted ceiling / 带幻景园林壁画与彩绘天花的退隐房间",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Retirement room with illusionistic garden murals and painted ceiling / 带幻景园林壁画与彩绘天花的退隐房间",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=260",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        },
+        {
+          "id": "palace-plan",
+          "label": "Forbidden City palace precinct plan / 紫禁城宫殿建筑群平面图",
+          "imageUrl": "assets/art-history/u8/ap206-palace-plan.webp",
+          "imageAlt": "Color-coded plan of the Forbidden City's full walled precinct, central halls, gates and side compounds / 紫禁城完整围墙范围、中轴殿宇、宫门与两侧院落的彩色平面图",
+          "imageSourceName": "Wikimedia Commons; Tommy Chen (Sumple)",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Forbidden_city_map_wp_1.png"
+        }
+      ]
+    },
+    {
+      "id": "ap207-ryoan-ji",
+      "apNumber": 207,
+      "unit": 8,
+      "region": "japan",
+      "culture": "Japanese; Zen Buddhism, Muromachi foundation and later garden history",
+      "traditionGroup": "Buddhist Sacred Sites",
+      "period": "Muromachi temple; likely eighteenth-century current garden design",
+      "titleEn": "Ryoan-ji",
+      "titleZh": "龙安寺",
+      "artistCulture": "Garden designer unrecorded; attribution uncertain",
+      "siteName": "Ryoan-ji, Kyoto, Japan",
+      "coordinates": {
+        "x": 1403,
+        "y": 244
+      },
+      "date": "c. 1480 C.E.; current design most likely eighteenth century C.E.",
+      "medium": "Rock garden; rocks, gravel, moss, walls; pond garden",
+      "workType": "Zen temple garden complex",
+      "function": "供观看与contemplation，Zen语境强调注意力；不能证明每颗石头有唯一固定教义，也不把所有观众当僧人。",
+      "form": "dry garden以十五石、苔岛、耙纹gravel和低墙形成不对称；另有实际水池wet garden，plan展示二者关系。",
+      "content": "枯山水可唤起山、水与岛的意象，却没有真实流水；观看点变化使石群可见关系变化，开放解释。",
+      "context": "寺院早期历史与现存设计年代不同；CED保留c.1480并说明现设计很可能十八世纪，不能把今天全部定为十五世纪。",
+      "recognitionAnchors": [
+        "围墙内十五石与耙纹白砾",
+        "苔藓石岛与大面积留白",
+        "另一处池塘和桥"
+      ],
+      "comparisonIds": [
+        "ap198-borobudur"
+      ],
+      "comparisonNotes": {
+        "ap198-borobudur": "都在佛教场所组织身体与观看；Ryoan-ji以抽象静观留白，Borobudur以绕行上升与叙事浮雕导引。"
+      },
+      "keywords": [
+        "karesansui 枯山水",
+        "Zen 禅",
+        "gravel 砾石",
+        "asymmetry 不对称"
+      ],
+      "images": [
+        {
+          "id": "wet-garden",
+          "label": "Ryoan-ji pond, vegetation and bridge / 龙安寺池塘、植被与桥",
+          "imageUrl": "assets/art-history/u8/ap207-wet-garden.webp",
+          "imageAlt": "Lily-covered Ryoan-ji pond framed by green trees with a small stone bridge at the rear / 绿树环绕、长满睡莲的龙安寺池塘及后方小石桥",
+          "imageSourceName": "Wikimedia Commons; Tedmoseby",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_outside_Ryoan-ji_Temple.jpg"
+        },
+        {
+          "id": "dry-garden",
+          "label": "Rocks and raked gravel of Ryoan-ji dry garden / 龙安寺枯山水庭园的石组与耙纹砂砾",
+          "imageUrl": "assets/art-history/u8/ap207-dry-garden.webp",
+          "imageAlt": "Rocks and raked gravel of Ryoan-ji dry garden / 龙安寺枯山水庭园的石组与耙纹砂砾",
+          "imageSourceName": "Wikimedia Commons; Stephane D'Alu",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:RyoanJi-Dry_garden.jpg"
+        },
+        {
+          "id": "site-plan",
+          "label": "Site plan showing temple, dry garden and pond / 展示寺院、枯山水与池塘的总平面图",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Site plan showing temple, dry garden and pond / 展示寺院、枯山水与池塘的总平面图",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=261",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        }
+      ]
+    },
+    {
+      "id": "ap208-jahangir-sufi-shaikh",
+      "apNumber": 208,
+      "unit": 8,
+      "region": "india",
+      "culture": "Mughal India; Islamic court culture and cross-cultural painting",
+      "traditionGroup": "Court & Imperial Power",
+      "period": "Early seventeenth-century Jahangir court",
+      "titleEn": "Jahangir Preferring a Sufi Shaikh to Kings",
+      "titleZh": "贾汉吉尔偏爱苏菲圣贤胜于诸王",
+      "artistCulture": "Bichitr",
+      "siteName": "Mughal India (Jahangir's court)",
+      "coordinates": {
+        "x": 1147,
+        "y": 279
+      },
+      "provenanceQualifier": "Bichitr's court context is established, but the CED does not fix the city where this portable album painting was made.",
+      "date": "c. 1620 C.E.",
+      "medium": "Watercolor, gold and ink on paper",
+      "workType": "Imperial allegorical album painting",
+      "function": "以muraqqa album供宫廷赏鉴；宣示皇帝优先尊重精神圣贤，同时把自己置于全球统治者之上。",
+      "form": "hierarchical scale使皇帝最大，日月金halo与沙漏宝座表现宇宙时间；细笔、金饰和花边框成豪华整页。",
+      "content": "皇帝向Sufi shaikh赠书，下列Ottoman ruler、James I与画家自画像；putti和欧洲式人物借外来视觉语汇。",
+      "context": "非真实同场接见纪录，而是symbolic hierarchy；Bichitr为Hindu画家服务Mughal，说明艺术传统不等于作者宗教。",
+      "recognitionAnchors": [
+        "巨大日月金光环",
+        "沙漏座上的皇帝与赠书圣贤",
+        "下列诸王、画家及装饰边框"
+      ],
+      "comparisonIds": [
+        "ap205-sin-sukju-portrait"
+      ],
+      "comparisonNotes": {
+        "ap205-sin-sukju-portrait": "都以肖像组织身份；Sin强调臣子端正与补子，Jahangir以超大尺度及光环把精神偏爱转为君主宣言。"
+      },
+      "keywords": [
+        "muraqqa 画册",
+        "Sufi 苏菲",
+        "halo 光环",
+        "hierarchical scale 等级尺度"
+      ],
+      "images": [
+        {
+          "id": "complete-album-page",
+          "label": "Full bordered album page with Jahangir, Sufi shaikh and kings / 含装饰边框、贾汉吉尔、苏菲长老与君王的完整册页",
+          "imageUrl": "assets/art-history/u8/ap208-complete-album-page.webp",
+          "imageAlt": "Full bordered album page with Jahangir, Sufi shaikh and kings / 含装饰边框、贾汉吉尔、苏菲长老与君王的完整册页",
+          "imageSourceName": "Wikimedia Commons; Bichitr",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bichitr_-_Jahangir_Preferring_a_Sufi_Shaikh_to_Kings,_from_the_St._Petersburg_album_-_Google_Art_Project.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap209-taj-mahal",
+      "apNumber": 209,
+      "unit": 8,
+      "region": "india",
+      "culture": "Mughal India; Islamic funerary and garden architecture",
+      "traditionGroup": "Court & Imperial Power",
+      "period": "Seventeenth-century Shah Jahan imperial patronage",
+      "titleEn": "Taj Mahal",
+      "titleZh": "泰姬陵",
+      "artistCulture": "Ustad Ahmad Lahori supervising masons, marble workers, mosaicists and decorators",
+      "siteName": "Agra, Uttar Pradesh, India",
+      "coordinates": {
+        "x": 1147,
+        "y": 279
+      },
+      "date": "1632–1653 C.E.",
+      "medium": "Stone masonry and marble with precious and semiprecious stone inlay; gardens",
+      "workType": "Imperial mausoleum and garden complex",
+      "function": "Shah Jahan为Mumtaz Mahal建陵，兼具爱情纪念、王朝荣耀及paradise园林意象；不只是住宅或清真寺。",
+      "form": "白大理石穹顶、四角minaret与轴向水池形成对称；charbagh花园分区，镶嵌pietra dura与经文精工装饰。",
+      "content": "室内cenotaph为象征棺，实际墓葬在下层；marble screen、花卉镶嵌及书法装饰把外部纪念性转为近观细节。",
+      "context": "1632–1653范围涵盖陵园多部分，后来Shah Jahan也葬入；Mughal整合伊斯兰与地方工匠传统，现修复不得等于原始完工。",
+      "recognitionAnchors": [
+        "白色葱形穹顶与四角尖塔",
+        "轴向水池倒影和园林",
+        "内室象征棺与雕镂大理石屏"
+      ],
+      "comparisonIds": [
+        "ap206-forbidden-city"
+      ],
+      "comparisonNotes": {
+        "ap206-forbidden-city": "两者轴线对称表达帝王资源；Taj的花园陵墓纪念死者，Forbidden City连续庭院维持活着的统治与等级。"
+      },
+      "keywords": [
+        "cenotaph 象征棺",
+        "charbagh 四分园",
+        "pietra dura 硬石镶嵌",
+        "minaret 宣礼塔"
+      ],
+      "images": [
+        {
+          "id": "mausoleum-and-garden",
+          "label": "Frontal Taj Mahal mausoleum with garden reflection pool / 泰姬陵正面及园林倒影池",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Frontal Taj Mahal mausoleum with garden reflection pool / 泰姬陵正面及园林倒影池",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        },
+        {
+          "id": "cenotaph-interior",
+          "label": "Marble cenotaph and surrounding pierced screen / 大理石纪念墓与周围镂空石屏",
+          "imageUrl": null,
+          "imageAlt": "Required interior: Mumtaz Mahal's floral-inlay cenotaph surrounded by marble pierced screen / 指定内部视图：镂空大理石屏围绕的慕塔兹·玛哈尔花卉镶嵌纪念墓；图像暂缺",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        }
+      ]
+    },
+    {
+      "id": "ap210-white-red-plum",
+      "apNumber": 210,
+      "unit": 8,
+      "region": "japan",
+      "culture": "Japanese; Edo-period Rinpa painting",
+      "traditionGroup": "Landscape & Nature",
+      "period": "Early eighteenth-century decorative painting",
+      "titleEn": "White and Red Plum Blossoms",
+      "titleZh": "红白梅图屏风",
+      "artistCulture": "Ogata Korin",
+      "siteName": "Edo-period Japan (workshop uncertain)",
+      "coordinates": {
+        "x": 1404,
+        "y": 244
+      },
+      "provenanceQualifier": "Ogata Korin worked in Kyoto and Edo; the CED does not establish a precise studio for these screens. Atami is the present collection, not the creation site.",
+      "date": "c. 1710–1716 C.E.",
+      "medium": "Ink, watercolor and gold leaf on paper",
+      "workType": "Pair of two-fold painted screens",
+      "function": "byobu屏风分隔并装饰室内，以昂贵金底与季节自然服务鉴赏；不是固定拉门或单幅纵轴。",
+      "form": "两屏共构波曲溪流，平面金底与自然树身并置；tarashikomi湿色叠染形成树干斑纹，水纹高度抽象。",
+      "content": "左屏白梅较苍老，右屏红梅较年轻，溪流把分离屏面关联；必看两屏而非任意一树局部。",
+      "context": "Rinpa是后世称呼的松散设计传统，不是Korin创办正式学院；艺术家活动于Kyoto和Edo，现Atami馆藏不等于工作室。",
+      "recognitionAnchors": [
+        "两折屏风成对与金底",
+        "左白梅、右红梅",
+        "中间曲流与树干斑驳湿染"
+      ],
+      "comparisonIds": [
+        "ap211-great-wave"
+      ],
+      "comparisonNotes": {
+        "ap211-great-wave": "同将自然化为强烈平面设计；Korin的金地手绘屏风供室内精英观看，Hokusai彩色木版印刷流通于城市市场。"
+      },
+      "keywords": [
+        "Rinpa 琳派",
+        "byobu 屏风",
+        "tarashikomi 滴入叠染",
+        "gold leaf 金箔"
+      ],
+      "images": [
+        {
+          "id": "white-plum-left-screen",
+          "label": "Complete left two-fold screen with white plum tree beside stream / 溪流旁白梅树的完整左侧二折屏",
+          "imageUrl": "assets/art-history/u8/ap210-white-plum-left-screen.webp",
+          "imageAlt": "Complete left two-fold screen with white plum tree beside stream / 溪流旁白梅树的完整左侧二折屏",
+          "imageSourceName": "Wikimedia Commons; Ogata Kōrin",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ogata_K%C5%8Drin_-_Red_and_White_Plum_Blossoms.jpg"
+        },
+        {
+          "id": "red-plum-right-screen",
+          "label": "Complete right two-fold screen with red plum tree beside stream / 溪流旁红梅树的完整右侧二折屏",
+          "imageUrl": "assets/art-history/u8/ap210-red-plum-right-screen.webp",
+          "imageAlt": "Complete right two-fold screen with red plum tree beside stream / 溪流旁红梅树的完整右侧二折屏",
+          "imageSourceName": "Wikimedia Commons; Ogata Kōrin",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ogata_K%C5%8Drin_-_Red_and_White_Plum_Blossoms.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap211-great-wave",
+      "apNumber": 211,
+      "unit": 8,
+      "region": "japan",
+      "culture": "Japanese; Edo-period ukiyo-e print culture",
+      "traditionGroup": "Landscape & Nature",
+      "period": "Nineteenth-century Edo commercial landscape prints",
+      "titleEn": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as the Great Wave, from the series Thirty-six Views of Mount Fuji",
+      "titleZh": "神奈川冲浪里（巨浪）",
+      "artistCulture": "Katsushika Hokusai; collaborative woodblock production",
+      "siteName": "Edo (Tokyo), Japan",
+      "coordinates": {
+        "x": 1421,
+        "y": 241
+      },
+      "provenanceQualifier": "The anchor represents the print's Edo publishing context, not the depicted waters off Kanagawa.",
+      "date": "1830–1833 C.E.",
+      "medium": "Polychrome woodblock print; ink and color on paper",
+      "workType": "Commercial landscape print from a series",
+      "function": "ukiyo-e商业版画为城市购买者提供富士与旅行景观；可复印多份，不是唯一油画。",
+      "form": "巨大近景波峰以爪状白沫包住小小远方Fuji；曲线、斜向舟与Prussian blue形成动静及近远对比。",
+      "content": "三艘长舟与俯身船员面临巨浪，远山稳定；无需把波浪认定为一次有记录tsunami。",
+      "context": "Thirty-six Views of Mount Fuji呼应旅游及圣山兴趣；欧洲透视与进口蓝色参与跨文化交换，Edo出版地不同于Kanagawa描绘水域。",
+      "recognitionAnchors": [
+        "爪状白沫的大弯曲波峰",
+        "三艘细长舟与俯身人",
+        "远处小三角富士山"
+      ],
+      "comparisonIds": [
+        "ap201-travelers-mountains-streams"
+      ],
+      "comparisonNotes": {
+        "ap201-travelers-mountains-streams": "两者以人小自然大组织尺度；巨浪用近波远山与印刷平色，溪山用立轴巨峰、皴纹与多层空间。"
+      },
+      "keywords": [
+        "ukiyo-e 浮世绘",
+        "woodblock 木版",
+        "Prussian blue 普鲁士蓝",
+        "Mount Fuji 富士山"
+      ],
+      "images": [
+        {
+          "id": "complete-print",
+          "label": "Complete Great Wave woodblock print with boats and distant Mount Fuji / 含船只与远处富士山的完整大浪木版画",
+          "imageUrl": "assets/art-history/u8/ap211-complete-print.webp",
+          "imageAlt": "Complete Great Wave woodblock print with boats and distant Mount Fuji / 含船只与远处富士山的完整大浪木版画",
+          "imageSourceName": "Wikimedia Commons; Katsushika Hokusai",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap212-mao-anyuan",
+      "apNumber": 212,
+      "unit": 8,
+      "region": "china",
+      "culture": "People's Republic of China; Cultural Revolution propaganda",
+      "traditionGroup": "Court & Imperial Power",
+      "period": "Late 1960s Cultural Revolution leader imagery",
+      "titleEn": "Chairman Mao en Route to Anyuan",
+      "titleZh": "毛主席去安源",
+      "artistCulture": "Artist unknown; based on Liu Chunhua's 1967 oil painting",
+      "siteName": "China (Cultural Revolution print production; workshop unknown)",
+      "coordinates": {
+        "x": 1289,
+        "y": 244
+      },
+      "provenanceQualifier": "The specified work is an anonymous circa-1969 lithograph after Liu Chunhua's painting. Anyuan is the depicted destination, not a documented printing location; Beijing is not asserted as the anonymous print's workshop.",
+      "date": "c. 1969 C.E.",
+      "medium": "Color lithograph",
+      "workType": "Mass-reproduced political propaganda print",
+      "function": "以color lithograph广泛复制个人崇拜，塑造Mao为革命源头及群众引领者；本条目是印刷品不是1967油画原作。",
+      "form": "单一理想化英雄居中高大，低地平线、亮面与风动长衫强化前行；云雾山水结合socialist realism的人物塑造。",
+      "content": "年轻Mao携伞走向Anyuan；图像叙事指1921赴安源，随后1922矿工罢工为背景，不能把两年事件合成同一刻。",
+      "context": "源自Liu Chunhua的1967油画，CED指定约1969匿名lithograph；文革宣传重写革命功劳，不把画家、展地或Anyuan当作匿名印刷作坊。",
+      "recognitionAnchors": [
+        "长衫青年Mao独行、臂夹伞",
+        "高大中心人像与云雾群山",
+        "完整印刷下缘标题及文字"
+      ],
+      "comparisonIds": [
+        "ap208-jahangir-sufi-shaikh"
+      ],
+      "comparisonNotes": {
+        "ap208-jahangir-sufi-shaikh": "两者通过理想化中心人物确立领袖地位；Jahangir为精英画册以金光环与接见等级，Mao用大众复制和孤身英雄叙事建个人崇拜。"
+      },
+      "keywords": [
+        "lithograph 石版画",
+        "propaganda 宣传",
+        "Cultural Revolution 文化大革命",
+        "socialist realism 社会主义现实主义"
+      ],
+      "images": [
+        {
+          "id": "complete-lithograph",
+          "label": "Anonymous circa-1969 color lithograph of Mao walking to Anyuan with printed lower margin / 约1969年匿名彩色石版画：毛泽东步行前往安源，含下方印刷边缘",
+          "imageUrl": null,
+          "imageAlt": "Required view, currently unavailable: Anonymous circa-1969 color lithograph of Mao walking to Anyuan with printed lower margin / 约1969年匿名彩色石版画：毛泽东步行前往安源，含下方印刷边缘",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=264",
+          "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        }
+      ]
+    }
+  ],
+  "imageCredits": {
+    "ap192-great-stupa-sanchi": [
+      {
+        "creatorOrInstitution": "Bernard Gagnon",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249"
+      },
+      {
+        "creatorOrInstitution": "Bernard Gagnon",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249"
+      }
+    ],
+    "ap193-terracotta-warriors": [
+      {
+        "creatorOrInstitution": "shankar s. from Dubai, united arab emirates",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      {
+        "creatorOrInstitution": "Gary Todd",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "ap194-lady-dai-banner": {
+      "creatorOrInstitution": "Unknown Han-dynasty artist; Wikimedia Commons faithful reproduction",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap195-longmen-caves": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=251"
+      },
+      {
+        "creatorOrInstitution": "Gary Todd",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Gary Todd",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "ap196-gold-jade-crown": {
+      "creatorOrInstitution": "Tristan Surtel",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap197-todai-ji": [
+      {
+        "creatorOrInstitution": "ONO Masanobu",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Balon Greyjoy",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Bamse",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Tsuyoshi chiba",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "creatorOrInstitution": "Jakub Hałun",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ],
+    "ap198-borobudur": [
+      {
+        "creatorOrInstitution": "Zaenulihsan91",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "creatorOrInstitution": "Anandajoti Bhikkhu / Photo Dharma",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      {
+        "creatorOrInstitution": "CEphoto, Uwe Aranas",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "ap199-angkor": [
+      {
+        "creatorOrInstitution": "Chris (Flickr user 11581043@N00)",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      {
+        "creatorOrInstitution": "Supanut Arunoprayote",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "creatorOrInstitution": "LizaBo",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Greg Willis from Denver, CO, usa",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256"
+      }
+    ],
+    "ap200-lakshmana-temple": [
+      {
+        "creatorOrInstitution": "Ms Sarah Welch",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Jean-Pierre Dalbéra",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257"
+      }
+    ],
+    "ap201-travelers-mountains-streams": {
+      "creatorOrInstitution": "Fan Kuan",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap202-shiva-nataraja": {
+      "creatorOrInstitution": "The Metropolitan Museum of Art",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap203-night-attack-sanjo": [
+      {
+        "creatorOrInstitution": "Unknown Kamakura-period artist; Museum of Fine Arts, Boston",
+        "licenseName": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Unknown Kamakura-period artist; Museum of Fine Arts, Boston",
+        "licenseName": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
+    ],
+    "ap204-david-vases": {
+      "creatorOrInstitution": "Patche99z",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap205-sin-sukju-portrait": {
+      "creatorOrInstitution": "Unknown Joseon court artist",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap206-forbidden-city": [
+      {
+        "creatorOrInstitution": "Pixelflake",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "konget",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Gisling",
+        "licenseName": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=260"
+      },
+      {
+        "creatorOrInstitution": "Tommy Chen (Sumple)",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "ap207-ryoan-ji": [
+      {
+        "creatorOrInstitution": "Tedmoseby",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Stephane D'Alu",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=261"
+      }
+    ],
+    "ap208-jahangir-sufi-shaikh": {
+      "creatorOrInstitution": "Bichitr",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap209-taj-mahal": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262"
+      }
+    ],
+    "ap210-white-red-plum": [
+      {
+        "creatorOrInstitution": "Ogata Kōrin",
+        "licenseName": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      {
+        "creatorOrInstitution": "Ogata Kōrin",
+        "licenseName": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
+    ],
+    "ap211-great-wave": {
+      "creatorOrInstitution": "Katsushika Hokusai",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap212-mao-anyuan": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=264"
+    }
+  }
+}

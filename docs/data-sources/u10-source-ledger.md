@@ -1,0 +1,29 @@
+# Unit 10 integration and public release ledger
+
+Final checkpoint 2026-10-14: native integration and independent specification/quality review completed. AP224–250 contributes 27 works, producing 250 works / Units 1–10. This is record coverage, not a claim of complete image clearance.
+
+## Independently reviewed inputs
+
+The frozen manifest and [official ordered-view ledger](u10-official-views.md) preserve 32 component slots across 27 works. AP239 contains only the WATER video still; AP240 has exterior, interior and plan; AP249 has exterior and interior. The full official CED physical pages 293–301 were visually inspected independently. No textbook or CED image is copied into the public release.
+
+[Content evidence](u10-content-sources.md) accompanies complete bilingual records and [27 complete English study sections](../content/ap-art-history-unit-10-english.md), with per-component public-image status and source links. Independent content specification review approved the exact identification/order/view scope. Quality review required AP245's learner-facing context to disclose Harn's Ghana origin record versus the broader Nsukka working context; both editions now disclose that discrepancy and unresolved exact fabrication. The frozen provenance qualifier and other fields remain unchanged. Quality re-review approved, and all five staged U10 tests passed.
+
+## Actual public-image coverage
+
+The [component-specific media ledger](u10-media-sources.md) records **0 open local assets and 32 rights-unverified null views**. Media received independent specification and quality approvals for this honest placeholder bundle, not image clearance. No source reference is presented as a reuse grant. Contemporary underlying-artwork permission and photographic/reproduction permission are separately assessed; a CC photographer's license alone does not clear a protected artwork.
+
+The Bilbao exterior review distinguishes Spain's documented freedom-of-panorama provision from the museum's separate trademark assertion. The conservative placeholder reflects unresolved release assessment, not an asserted blanket legal ban. Community/stewardship considerations are separately qualified where relevant. Future replacements require exact component identity and eligible evidence for both rights layers.
+
+## Geography and preservation requirements
+
+AP230 and AP241 have no verified production location or original venue. Their neutral stored coordinates must not become geographic pins; the native map will retain direct, keyboard-accessible study-card entry without invented location precision. AP243's broad US working context is not its current Luxembourg holding; AP229 distinguishes Beijing 1988 and Tokyo 1991; AP239 identifies the documented 1996 presentation rather than a conjectural filming location; AP250 distinguishes London presentation and Jingdezhen production. Other broad working contexts remain explicitly qualified.
+
+The pre-U10 AP1–223 artwork/credit hash fixture (`tests/fixtures/u1-u9-pre-u10-hashes.json`) and reviewed joined-record projection (`tests/fixtures/u10-canonical.json`) were frozen during append-only integration. Unit overview counts all 27 study works while computing its navigation centroid only from the 25 mappable records. Two location-unverified study buttons retain AP230/AP241 access without false geographic pins. Shared typography, CSS, map heights, existing Art controls and World History behavior remain unchanged. No push, merge or Desktop synchronization is included.
+
+## Fresh integration verification
+
+Native implementation checkpoint: 999/999 full Node tests passed (`/tmp/u10-full-tests-final.log`), and the strict native validator accepted all 250 works with ordered identity/view/credit/rights evidence. The full legacy Art browser matrix passed `ok:true`, 49 cases (`/tmp/u10-browser-matrix-3.log`). Focused U10 traversal passed all four standalone/embedded 1440px/390px cases (`/tmp/u10-focused-browser-final.log`): all 27 works and all 32 ordered slots, no Art-frame image request for null slots, source links, keyboard entry including both unlocated works, four study tabs, comparisons, six filter groups, search/reset, camera controls, subject switching and overflow. Image decoding and modal-focus checks are explicitly not applicable to the all-null U10 bundle, not falsely reported as successful image tests.
+
+Production shared-map typography/height/navigation checks independently passed four viewport cases (`/tmp/u10-parent-production-ui.log`). World/Home passed all 16 cases (`/tmp/u10-world-home.log`); public/private-media leak verification passed (`/tmp/u10-parent-private-leaks.log`). A bounded iframe-height settlement wait addresses ResizeObserver timing before taking the test snapshot; exact <=1px shared-height and overflow assertions remain intact. The ten-Unit mobile overview now uses the existing dense capsule fallback, after a reproducing regression failed against the missing fallback. Desktop and mobile screenshots were visually inspected.
+
+Final controller rerun passed 999/999 tests with zero failures (`/tmp/u10-parent-final-tests.log`); the native strict validator freshly accepted 250, and `git diff --check` passed. Independent final specification review approved after 26 focused tests; final quality review independently passed 125 content/English/preservation/media tests and found no blocking or actionable minor issues. Its separate browser attempt was sandbox-blocked by loopback/Chromium permissions, so browser evidence is explicitly the actual successful implementation/controller logs above, not an invented independent browser rerun. U8, U9 and U10 stage checklists are complete. The existing `feature/ap-art-history-u6` branch and worktree are retained without commit, push, merge or Desktop copy.

@@ -1,0 +1,42 @@
+{
+  "ap140-two-fridas::primary": {
+    "imageSourceName": "Museo de Arte Moderno / INBAL",
+    "imageSourceUrl": "https://inba.gob.mx/prensa/23566/el-museo-de-arte-moderno-presenta-las-dos-fridas-una-identidad-global",
+    "rightsNote": "The underlying work or source photograph remains protected; public reproduction is omitted, and this link is identity/source evidence rather than a portable license."
+  },
+  "ap143-dream-alameda-central::primary": {
+    "imageSourceName": "Smarthistory / Museo Mural Diego Rivera / INBAL",
+    "imageSourceUrl": "https://smarthistory.org/rivera-dream-of-a-sunday-afternoon-in-alameda-central-park/",
+    "rightsNote": "The underlying work or source photograph remains protected; public reproduction is omitted, and this link is identity/source evidence rather than a portable license."
+  },
+  "ap146-marilyn-diptych::primary": {
+    "imageSourceName": "Tate",
+    "imageSourceUrl": "https://www.tate.org.uk/art/artworks/warhol-marilyn-diptych-t03093",
+    "rightsNote": "The underlying work or source photograph remains protected; public reproduction is omitted, and this link is identity/source evidence rather than a portable license."
+  },
+  "ap148-narcissus-garden::primary": {
+    "imageSourceName": "Victoria Miro / FIAC 2010",
+    "imageSourceUrl": "https://www.victoria-miro.com/exhibitions/411/",
+    "rightsNote": "The underlying work or source photograph remains protected; public reproduction is omitted, and this link is identity/source evidence rather than a portable license."
+  },
+  "ap149-bay::primary": {
+    "imageSourceName": "Detroit Institute of Arts",
+    "imageSourceUrl": "https://dia.org/collection/bay/45380",
+    "rightsNote": "The underlying work or source photograph remains protected; public reproduction is omitted, and this link is identity/source evidence rather than a portable license."
+  },
+  "ap150-lipstick-caterpillar-tracks::primary": {
+    "imageSourceName": "Yale University Art Gallery",
+    "imageSourceUrl": "https://artgallery.yale.edu/collections/objects/13727",
+    "rightsNote": "The underlying work or source photograph remains protected; public reproduction is omitted, and this link is identity/source evidence rather than a portable license."
+  },
+  "ap152-house-new-castle-county::exterior": {
+    "imageSourceName": "Smarthistory / University of Pennsylvania Architectural Archives",
+    "imageSourceUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware",
+    "rightsNote": "The underlying work or source photograph remains protected; public reproduction is omitted, and this link is identity/source evidence rather than a portable license."
+  },
+  "ap152-house-new-castle-county::interior": {
+    "imageSourceName": "Smarthistory / University of Pennsylvania Architectural Archives",
+    "imageSourceUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware",
+    "rightsNote": "The underlying work or source photograph remains protected; public reproduction is omitted, and this link is identity/source evidence rather than a portable license."
+  }
+}

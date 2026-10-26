@@ -1,0 +1,3072 @@
+{
+  "artworks": [
+    {
+      "id": "ap99-portrait-sor-juana",
+      "apNumber": 99,
+      "unit": 4,
+      "region": "mexicoCaribbean",
+      "culture": "New Spanish Baroque portraiture",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Spanish Colonial Baroque",
+      "titleEn": "Portrait of Sor Juana Inés de la Cruz",
+      "titleZh": "索尔·胡安娜肖像",
+      "artistCulture": "Miguel Cabrera",
+      "siteName": "Mexico City, New Spain (Mexico)",
+      "coordinates": {
+        "x": 330,
+        "y": 385
+      },
+      "date": "c. 1750 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Portrait painting",
+      "function": "塑造修女、学者与作家的公共形象",
+      "form": "正面坐姿、书架与深色帷幕形成庄严的学者肖像",
+      "content": "书本、书写工具与宗教服饰同时标示学识和修会身份",
+      "context": "新西班牙精英肖像把女性知识权威置于殖民宗教文化之中",
+      "recognitionAnchors": [
+        "被书籍环绕的修女学者",
+        "胸前椭圆形修女徽章"
+      ],
+      "comparisonIds": [
+        "ap100-philosopher-lecture-orrery"
+      ],
+      "comparisonNotes": {
+        "ap100-philosopher-lecture-orrery": "与A Philosopher Giving a Lecture on the Orrery比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Sor Juana",
+        "Miguel Cabrera",
+        "殖民肖像"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sor%20Juana%20by%20Miguel%20Cabrera.png",
+          "imageAlt": "索尔·胡安娜肖像：被书籍环绕的修女学者；胸前椭圆形修女徽章",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sor%20Juana%20by%20Miguel%20Cabrera.png"
+        }
+      ]
+    },
+    {
+      "id": "ap100-philosopher-lecture-orrery",
+      "apNumber": 100,
+      "unit": 4,
+      "region": "britishIsles",
+      "culture": "British Enlightenment painting",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Enlightenment",
+      "titleEn": "A Philosopher Giving a Lecture on the Orrery",
+      "titleZh": "哲学家讲解太阳系仪",
+      "artistCulture": "Joseph Wright of Derby",
+      "siteName": "Derby, England",
+      "coordinates": {
+        "x": 758,
+        "y": 205
+      },
+      "date": "c. 1763-1765 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "History and genre painting",
+      "function": "赞颂实验科学、理性教育与知识传播",
+      "form": "隐藏光源从太阳系仪中心照亮环形排列的人物",
+      "content": "听众的不同年龄与表情表现从惊奇到理性观察的反应",
+      "context": "英国启蒙时代的公共演示把科学仪器变成近似宗教启示的景象",
+      "recognitionAnchors": [
+        "太阳系仪充当唯一光源",
+        "儿童面孔呈月相式明暗"
+      ],
+      "comparisonIds": [
+        "ap99-portrait-sor-juana"
+      ],
+      "comparisonNotes": {
+        "ap99-portrait-sor-juana": "与Portrait of Sor Juana Inés de la Cruz比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "orrery",
+        "Enlightenment",
+        "启蒙科学"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wright%20of%20Derby%2C%20The%20Orrery.jpg",
+          "imageAlt": "哲学家讲解太阳系仪：太阳系仪充当唯一光源；儿童面孔呈月相式明暗",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wright%20of%20Derby%2C%20The%20Orrery.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap101-swing",
+      "apNumber": 101,
+      "unit": 4,
+      "region": "france",
+      "culture": "French Rococo",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Rococo",
+      "titleEn": "The Swing",
+      "titleZh": "秋千",
+      "artistCulture": "Jean-Honoré Fragonard",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1767 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Genre painting",
+      "function": "为贵族私人空间提供机智而暧昧的娱乐图像",
+      "form": "粉彩、曲线和蓬松树叶包围摆动的粉衣女子",
+      "content": "隐蔽情人仰望裙摆，年长男子推秋千，丘比特示意保密",
+      "context": "旧制度晚期的洛可可赞助文化偏爱私密、游戏与感官愉悦",
+      "recognitionAnchors": [
+        "空中飞出的粉色鞋",
+        "灌木中的年轻情人"
+      ],
+      "comparisonIds": [
+        "ap100-philosopher-lecture-orrery"
+      ],
+      "comparisonNotes": {
+        "ap100-philosopher-lecture-orrery": "与A Philosopher Giving a Lecture on the Orrery比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Rococo",
+        "Fragonard",
+        "洛可可"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Swing%20%28P430%29.jpg",
+          "imageAlt": "秋千：空中飞出的粉色鞋；灌木中的年轻情人",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The%20Swing%20%28P430%29.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap102-monticello",
+      "apNumber": 102,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "American Neoclassical architecture",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Neoclassicism",
+      "titleEn": "Monticello",
+      "titleZh": "蒙蒂塞洛",
+      "artistCulture": "Thomas Jefferson",
+      "siteName": "Charlottesville, Virginia, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1768-1809 C.E.",
+      "medium": "Brick, glass, stone, and wood",
+      "workType": "Plantation house",
+      "function": "作为住宅、种植园管理中心与共和理想的自我展示",
+      "form": "低矮穹顶、柱廊和对称立面结合帕拉第奥式古典语汇",
+      "content": "轴线平面隐藏服务空间并组织公共、私人房间和花园视线",
+      "context": "共和古典主义的理想与奴隶劳动维系的种植园现实并存",
+      "recognitionAnchors": [
+        "八角穹顶与柱廊正面",
+        "服务空间嵌入平台下方"
+      ],
+      "comparisonIds": [
+        "ap101-swing",
+        "ap46-pantheon"
+      ],
+      "comparisonNotes": {
+        "ap101-swing": "与The Swing比较其形式、材料与历史语境如何形成不同观看经验。",
+        "ap46-pantheon": "比较蒙蒂塞洛如何借用万神殿的古典柱廊与穹顶语言，并把帝国纪念空间转化为美国住宅和政治身份。"
+      },
+      "keywords": [
+        "Monticello",
+        "Jefferson",
+        "新古典住宅"
+      ],
+      "images": [
+        {
+          "id": "exterior",
+          "label": "Exterior",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Monticello%202010-10-29.jpg",
+          "imageAlt": "蒙蒂塞洛：外部可见八角穹顶与柱廊正面",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Monticello%202010-10-29.jpg"
+        },
+        {
+          "id": "plan",
+          "label": "Plan",
+          "imageUrl": "https://cdn.loc.gov/service/pnp/habshaer/va/va0000/va0059/sheet/00003v.jpg",
+          "imageAlt": "蒙蒂塞洛：平面图标出服务空间嵌入平台下方",
+          "imageSourceName": "Library of Congress",
+          "imageSourceUrl": "https://www.loc.gov/resource/hhh.va0059.sheet/?sp=3"
+        }
+      ]
+    },
+    {
+      "id": "ap103-oath-horatii",
+      "apNumber": 103,
+      "unit": 4,
+      "region": "southernEurope",
+      "culture": "French Neoclassicism",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Neoclassicism",
+      "titleEn": "The Oath of the Horatii",
+      "titleZh": "荷拉斯兄弟之誓",
+      "artistCulture": "Jacques-Louis David",
+      "siteName": "Rome, Italy",
+      "coordinates": {
+        "x": 850,
+        "y": 285
+      },
+      "date": "1784 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "History painting",
+      "function": "以古罗马忠诚故事宣扬公民美德与牺牲",
+      "form": "三组人物置于三拱门前，坚硬直线与柔软曲线形成性别对比",
+      "content": "父亲高举三剑，兄弟宣誓，女性因家族冲突而哀悼",
+      "context": "法国大革命前的国家赞助将古典历史转化为道德示范",
+      "recognitionAnchors": [
+        "三把剑位于构图焦点",
+        "男性直线与女性弧线对照"
+      ],
+      "comparisonIds": [
+        "ap102-monticello"
+      ],
+      "comparisonNotes": {
+        "ap102-monticello": "与Monticello比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Neoclassicism",
+        "David",
+        "公民美德"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jacques-Louis%20David%2C%20Le%20Serment%20des%20Horaces.jpg",
+          "imageAlt": "荷拉斯兄弟之誓：三把剑位于构图焦点；男性直线与女性弧线对照",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jacques-Louis%20David%2C%20Le%20Serment%20des%20Horaces.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap104-george-washington",
+      "apNumber": 104,
+      "unit": 4,
+      "region": "france",
+      "culture": "American Neoclassical sculpture",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Neoclassicism",
+      "titleEn": "George Washington",
+      "titleZh": "乔治·华盛顿",
+      "artistCulture": "Jean-Antoine Houdon",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1788-1792 C.E.",
+      "medium": "Marble",
+      "workType": "Portrait sculpture",
+      "function": "纪念华盛顿并塑造克制的共和领袖形象",
+      "form": "自然主义人体与古典支撑物结合，站姿稳定而不夸张",
+      "content": "军服、手杖、犁与法西斯束表现军功、农业与公民权威",
+      "context": "为弗吉尼亚州议会制作的肖像拒绝君王式理想化",
+      "recognitionAnchors": [
+        "按真人面模塑造的面容",
+        "十三根束棒与犁头"
+      ],
+      "comparisonIds": [
+        "ap103-oath-horatii"
+      ],
+      "comparisonNotes": {
+        "ap103-oath-horatii": "与The Oath of the Horatii比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Houdon",
+        "George Washington",
+        "共和肖像"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jean-Antoine%20Houdon's%20George%20Washington.jpg",
+          "imageAlt": "乔治·华盛顿：按真人面模塑造的面容；十三根束棒与犁头",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jean-Antoine%20Houdon's%20George%20Washington.jpg"
+        }
+      ],
+      "provenanceQualifier": "Modeled from life at Mount Vernon in 1785 and carved in Paris for installation at the Virginia State Capitol in Richmond."
+    },
+    {
+      "id": "ap105-self-portrait-vigee-le-brun",
+      "apNumber": 105,
+      "unit": 4,
+      "region": "southernEurope",
+      "culture": "French Neoclassical portraiture",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Neoclassicism",
+      "titleEn": "Self-Portrait",
+      "titleZh": "自画像",
+      "artistCulture": "Élisabeth Louise Vigée Le Brun",
+      "siteName": "Rome, Italy",
+      "coordinates": {
+        "x": 850,
+        "y": 285
+      },
+      "date": "1790 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Self-portrait",
+      "function": "宣传女性艺术家的职业身份与宫廷声望",
+      "form": "半身侧转、流畅轮廓和明亮色调营造自信而亲近的形象",
+      "content": "画家一边作画一边看向观者，画布上出现玛丽·安托瓦内特",
+      "context": "女性被排斥于学院训练时，宫廷赞助为少数女画家提供职业入口",
+      "recognitionAnchors": [
+        "手持调色板正在作画",
+        "画布上王后轮廓"
+      ],
+      "comparisonIds": [
+        "ap104-george-washington"
+      ],
+      "comparisonNotes": {
+        "ap104-george-washington": "与George Washington比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Vigée Le Brun",
+        "self-portrait",
+        "女性艺术家"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Self-portrait%20in%20a%20Straw%20Hat%20by%20Elisabeth-Louise%20Vig%C3%A9e-Lebrun.jpg",
+          "imageAlt": "自画像：手持调色板正在作画；画布上王后轮廓",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Self-portrait%20in%20a%20Straw%20Hat%20by%20Elisabeth-Louise%20Vig%C3%A9e-Lebrun.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap106-y-no-hai-remedio",
+      "apNumber": 106,
+      "unit": 4,
+      "region": "southernEurope",
+      "culture": "Spanish Romantic printmaking",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Romanticism",
+      "titleEn": "Y no hai remedio (And There's Nothing to Be Done), from Los Desastres de la Guerra (The Disasters of War), plate 15",
+      "titleZh": "没有办法",
+      "artistCulture": "Francisco de Goya",
+      "siteName": "Spain",
+      "coordinates": {
+        "x": 850,
+        "y": 285
+      },
+      "date": "1810-1823 C.E. (published 1863)",
+      "medium": "Etching, drypoint, burin, and burnisher",
+      "workType": "Print",
+      "function": "控诉战争暴力而非歌颂胜利者",
+      "form": "强烈黑白、近景受刑者与截断枪管制造逼迫感",
+      "content": "蒙眼男子被绑在木桩上，尸体与行刑队暗示暴力循环",
+      "context": "半岛战争期间完成但延后出版，反映审查与政治风险",
+      "recognitionAnchors": [
+        "蒙眼白衣受刑者",
+        "右侧只露出枪管的行刑队"
+      ],
+      "comparisonIds": [
+        "ap105-self-portrait-vigee-le-brun"
+      ],
+      "comparisonNotes": {
+        "ap105-self-portrait-vigee-le-brun": "与Self-Portrait比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Goya",
+        "Disasters of War",
+        "反战版画"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Plate%2015%20from%20%22The%20Disasters%20of%20War'%20%28Los%20Desastres%20de%20la%20Guerra%29-%20And%20there%20is%20no%20help%20%28Y%20no%20hai%20remedio%29%20MET%20270269.jpg",
+          "imageAlt": "没有办法：蒙眼白衣受刑者；右侧只露出枪管的行刑队",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Plate%2015%20from%20%22The%20Disasters%20of%20War'%20%28Los%20Desastres%20de%20la%20Guerra%29-%20And%20there%20is%20no%20help%20%28Y%20no%20hai%20remedio%29%20MET%20270269.jpg"
+        }
+      ],
+      "provenanceQualifier": "Made during the Peninsular War; the precise place where Goya produced this plate is not securely localized."
+    },
+    {
+      "id": "ap107-grande-odalisque",
+      "apNumber": 107,
+      "unit": 4,
+      "region": "france",
+      "culture": "French Neoclassicism and Orientalism",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Neoclassicism / Orientalism",
+      "titleEn": "La Grande Odalisque",
+      "titleZh": "大宫女",
+      "artistCulture": "Jean-Auguste-Dominique Ingres",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1814 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Odalisque painting",
+      "function": "供精英观者凝视被东方化的理想女性裸体",
+      "form": "光滑轮廓、浅空间和故意拉长的脊背压倒解剖准确性",
+      "content": "背向观者的宫女与烟斗、扇子、织物共同建构想象的后宫",
+      "context": "法国殖民扩张时期的东方主义将非欧洲空间塑造成感官幻想",
+      "recognitionAnchors": [
+        "异常拉长的背部",
+        "孔雀扇与水烟器"
+      ],
+      "comparisonIds": [
+        "ap106-y-no-hai-remedio"
+      ],
+      "comparisonNotes": {
+        "ap106-y-no-hai-remedio": "与Y no hai remedio (And There's Nothing to Be Done), from Los Desastres de la Guerra (The Disasters of War), plate 15比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Ingres",
+        "Orientalism",
+        "东方主义"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/La%20grande%20odalisque%20-%20Jean-Auguste%20Dominique%20Ingres%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20RF%201158.jpg",
+          "imageAlt": "大宫女：异常拉长的背部；孔雀扇与水烟器",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:La%20grande%20odalisque%20-%20Jean-Auguste%20Dominique%20Ingres%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20RF%201158.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap108-liberty-leading-people",
+      "apNumber": 108,
+      "unit": 4,
+      "region": "france",
+      "culture": "French Romanticism",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "Romanticism",
+      "titleEn": "Liberty Leading the People",
+      "titleZh": "自由引导人民",
+      "artistCulture": "Eugène Delacroix",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1830 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "History painting",
+      "function": "纪念七月革命并将自由拟人化为集体号召",
+      "form": "金字塔构图、烟雾与强烈对角线制造向前冲锋的运动",
+      "content": "持三色旗的自由女神跨过尸体，联合不同阶层的起义者",
+      "context": "作品回应推翻查理十世的巴黎七月革命并在寓言与新闻现场间摆动",
+      "recognitionAnchors": [
+        "高举三色旗的自由女神",
+        "前景路障上的尸体"
+      ],
+      "comparisonIds": [
+        "ap107-grande-odalisque"
+      ],
+      "comparisonNotes": {
+        "ap107-grande-odalisque": "与La Grande Odalisque比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Delacroix",
+        "Romanticism",
+        "七月革命"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/La%20Libert%C3%A9%20guidant%20le%20peuple%20-%20Eug%C3%A8ne%20Delacroix%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20RF%20129%20-%20apr%C3%A8s%20restauration%202024.jpg",
+          "imageAlt": "自由引导人民：高举三色旗的自由女神；前景路障上的尸体",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:La%20Libert%C3%A9%20guidant%20le%20peuple%20-%20Eug%C3%A8ne%20Delacroix%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20RF%20129%20-%20apr%C3%A8s%20restauration%202024.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap109-oxbow",
+      "apNumber": 109,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "Hudson River School",
+      "traditionGroup": "enlightenmentRevolution",
+      "period": "American Romanticism",
+      "titleEn": "View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm - The Oxbow",
+      "titleZh": "牛轭湖",
+      "artistCulture": "Thomas Cole",
+      "siteName": "New York City, New York, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1836 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Landscape painting",
+      "function": "以国家风景讨论荒野、开发与美国未来",
+      "form": "画面对角分成左侧暴风荒野与右侧开垦河谷",
+      "content": "远景牛轭湖、农田和前景微小画家形成文明与自然的对照",
+      "context": "杰克逊时代的领土扩张让风景画承担国家身份与环境伦理问题",
+      "recognitionAnchors": [
+        "一半暴风一半晴朗的景观",
+        "山坡上带画架的微小自画像"
+      ],
+      "comparisonIds": [
+        "ap108-liberty-leading-people"
+      ],
+      "comparisonNotes": {
+        "ap108-liberty-leading-people": "与Liberty Leading the People比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Hudson River School",
+        "Thomas Cole",
+        "美国风景"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cole%20Thomas%20The%20Oxbow%20%28The%20Connecticut%20River%20near%20Northampton%201836%29.jpg",
+          "imageAlt": "牛轭湖：一半暴风一半晴朗的景观；山坡上带画架的微小自画像",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cole%20Thomas%20The%20Oxbow%20%28The%20Connecticut%20River%20near%20Northampton%201836%29.jpg"
+        }
+      ],
+      "provenanceQualifier": "Painted in Cole's New York studio from sketches made at Mount Holyoke, Massachusetts."
+    },
+    {
+      "id": "ap110-still-life-studio",
+      "apNumber": 110,
+      "unit": 4,
+      "region": "france",
+      "culture": "Early French photography",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "Early photography",
+      "titleEn": "Still Life in Studio",
+      "titleZh": "画室静物",
+      "artistCulture": "Louis-Jacques-Mandé Daguerre",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1837 C.E.",
+      "medium": "Daguerreotype",
+      "workType": "Photograph",
+      "function": "展示达盖尔摄影法记录细节与光线的能力",
+      "form": "银版上静物以锐利细节、长曝光与镜面表面呈现",
+      "content": "石膏像、织物和框架构成类似画室实验台的组合",
+      "context": "摄影发明前夕的实验把机械成像带入艺术与证据的讨论",
+      "recognitionAnchors": [
+        "银版镜面上的单一正像",
+        "石膏像与褶皱织物静物"
+      ],
+      "comparisonIds": [
+        "ap109-oxbow"
+      ],
+      "comparisonNotes": {
+        "ap109-oxbow": "与View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm - The Oxbow比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "daguerreotype",
+        "Daguerre",
+        "早期摄影"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Daguerreotype%20Daguerre%20Atelier%201837.jpg",
+          "imageAlt": "画室静物：银版镜面上的单一正像；石膏像与褶皱织物静物",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Daguerreotype%20Daguerre%20Atelier%201837.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap111-slave-ship",
+      "apNumber": 111,
+      "unit": 4,
+      "region": "britishIsles",
+      "culture": "British Romanticism",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "Romanticism",
+      "titleEn": "Slave Ship (Slavers Throwing Overboard the Dead and Dying, Typhoon Coming On)",
+      "titleZh": "奴隶船",
+      "artistCulture": "Joseph Mallord William Turner",
+      "siteName": "London, England",
+      "coordinates": {
+        "x": 758,
+        "y": 205
+      },
+      "date": "1840 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Landscape and history painting",
+      "function": "以崇高海景谴责跨大西洋奴隶贸易的暴行",
+      "form": "旋涡式笔触与炽烈红橙色吞没稳定地平线",
+      "content": "船驶入台风，前景被抛下的锁链肢体遭海兽围绕",
+      "context": "画作借宗号船事件在英国废奴会议期间动员道德愤怒",
+      "recognitionAnchors": [
+        "血红落日与逼近台风",
+        "前景戴镣铐的肢体"
+      ],
+      "comparisonIds": [
+        "ap110-still-life-studio"
+      ],
+      "comparisonNotes": {
+        "ap110-still-life-studio": "与Still Life in Studio比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Turner",
+        "abolition",
+        "奴隶贸易"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Slave-ship.jpg",
+          "imageAlt": "奴隶船：血红落日与逼近台风；前景戴镣铐的肢体",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Slave-ship.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap112-palace-westminster",
+      "apNumber": 112,
+      "unit": 4,
+      "region": "britishIsles",
+      "culture": "Gothic Revival architecture",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "Gothic Revival",
+      "titleEn": "Palace of Westminster (Houses of Parliament)",
+      "titleZh": "威斯敏斯特宫",
+      "artistCulture": "Charles Barry and Augustus W. N. Pugin",
+      "siteName": "London, England",
+      "coordinates": {
+        "x": 758,
+        "y": 205
+      },
+      "date": "1840-1870 C.E.",
+      "medium": "Limestone masonry and iron framework",
+      "workType": "Government complex",
+      "function": "容纳英国议会并以建筑表现民族历史与宪政传统",
+      "form": "对称河岸体量覆盖垂直尖塔、窗饰和哥特复兴细节",
+      "content": "中央大厅连接上下两院，威斯敏斯特厅保留中世纪锤梁屋顶",
+      "context": "1834年火灾后的重建把现代议会程序包裹在英国哥特历史语汇中",
+      "recognitionAnchors": [
+        "泰晤士河岸长立面与钟塔",
+        "威斯敏斯特厅巨型锤梁屋顶"
+      ],
+      "comparisonIds": [
+        "ap111-slave-ship"
+      ],
+      "comparisonNotes": {
+        "ap111-slave-ship": "与Slave Ship (Slavers Throwing Overboard the Dead and Dying, Typhoon Coming On)比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Gothic Revival",
+        "Parliament",
+        "哥特复兴"
+      ],
+      "images": [
+        {
+          "id": "exterior",
+          "label": "Exterior",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Palace%20of%20Westminster%20as%20seen%20from%20Westminster%20Bridge.jpg",
+          "imageAlt": "威斯敏斯特宫：外部可见泰晤士河岸长立面与钟塔",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Palace%20of%20Westminster%20as%20seen%20from%20Westminster%20Bridge.jpg"
+        },
+        {
+          "id": "central-lobby",
+          "label": "Central Lobby",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Central%20hall%20Parliament%20QE1%2013.jpg",
+          "imageAlt": "威斯敏斯特宫：中央大厅八角空间、拱顶与通往上下两院的轴线",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Central%20hall%20Parliament%20QE1%2013.jpg"
+        },
+        {
+          "id": "westminster-hall",
+          "label": "Westminster Hall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Westminster%20Hall%20interior.jpg",
+          "imageAlt": "威斯敏斯特宫：威斯敏斯特厅宽阔中殿与木构锤梁屋顶",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Westminster%20Hall%20interior.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap113-stone-breakers",
+      "apNumber": 113,
+      "unit": 4,
+      "region": "france",
+      "culture": "French Realism",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "Realism",
+      "titleEn": "The Stone Breakers",
+      "titleZh": "碎石工",
+      "artistCulture": "Gustave Courbet",
+      "siteName": "Ornans, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1849 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Genre painting",
+      "function": "让匿名劳工以历史画尺度进入公共展览",
+      "form": "横向大画布压缩空间，粗重色彩和劳动姿势拒绝美化",
+      "content": "一老一少两名工人重复破石，面孔被遮挡以强调阶级处境",
+      "context": "1848年革命后的现实主义关注工业社会、贫困与劳动尊严",
+      "recognitionAnchors": [
+        "一老一少构成劳动循环",
+        "真人大小却看不见面孔"
+      ],
+      "comparisonIds": [
+        "ap112-palace-westminster"
+      ],
+      "comparisonNotes": {
+        "ap112-palace-westminster": "与Palace of Westminster (Houses of Parliament)比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Courbet",
+        "Realism",
+        "劳动阶级"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gustave%20Courbet%20-%20The%20Stonebreakers%20-%20WGA05457.jpg",
+          "imageAlt": "碎石工：一老一少构成劳动循环；真人大小却看不见面孔",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gustave%20Courbet%20-%20The%20Stonebreakers%20-%20WGA05457.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap114-nadar-raising-photography",
+      "apNumber": 114,
+      "unit": 4,
+      "region": "france",
+      "culture": "French caricature and print culture",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "Realism / modern print culture",
+      "titleEn": "Nadar Raising Photography to the Height of Art",
+      "titleZh": "纳达尔把摄影提升到艺术高度",
+      "artistCulture": "Honoré Daumier",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1862 C.E.",
+      "medium": "Lithograph",
+      "workType": "Satirical print",
+      "function": "讽刺摄影追求艺术地位及其技术野心",
+      "form": "松动线条把倾斜气球篮悬在遍布摄影招牌的城市上空",
+      "content": "纳达尔在高空操作相机，标题把实际升高变成双关语",
+      "context": "大众报刊与石版印刷让关于新媒介的评论快速传播",
+      "recognitionAnchors": [
+        "写有PHOTOGRAPHIE NADAR的篮筐",
+        "城市屋顶反复出现摄影招牌"
+      ],
+      "comparisonIds": [
+        "ap113-stone-breakers"
+      ],
+      "comparisonNotes": {
+        "ap113-stone-breakers": "与The Stone Breakers比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Daumier",
+        "Nadar",
+        "摄影讽刺"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nadar%20%C3%89levant%20la%20Photographie%20%C3%A0%20la%20Hauteur%20de%20l'Art%20MET%20MM8597.jpg",
+          "imageAlt": "纳达尔把摄影提升到艺术高度：写有PHOTOGRAPHIE NADAR的篮筐；城市屋顶反复出现摄影招牌",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nadar%20%C3%89levant%20la%20Photographie%20%C3%A0%20la%20Hauteur%20de%20l'Art%20MET%20MM8597.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap115-olympia",
+      "apNumber": 115,
+      "unit": 4,
+      "region": "france",
+      "culture": "French Realism",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "Realism",
+      "titleEn": "Olympia",
+      "titleZh": "奥林匹亚",
+      "artistCulture": "Édouard Manet",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1863 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Modern-life painting",
+      "function": "挑战学院裸体传统与资产阶级观看习惯",
+      "form": "平坦强光、硬轮廓和浅空间削弱古典理想化",
+      "content": "现代妓女直视观者，女仆献花，黑猫替代忠贞象征",
+      "context": "1865年沙龙争议暴露阶级、种族、性交易与绘画规范的关系",
+      "recognitionAnchors": [
+        "正面直视观者的裸体",
+        "床尾弓背黑猫"
+      ],
+      "comparisonIds": [
+        "ap114-nadar-raising-photography"
+      ],
+      "comparisonNotes": {
+        "ap114-nadar-raising-photography": "与Nadar Raising Photography to the Height of Art比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Manet",
+        "modernity",
+        "现代裸体"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Edouard%20Manet%20-%20Olympia%20-%20Google%20Art%20ProjectFXD.jpg",
+          "imageAlt": "奥林匹亚：正面直视观者的裸体；床尾弓背黑猫",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Edouard%20Manet%20-%20Olympia%20-%20Google%20Art%20ProjectFXD.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap116-saint-lazare-station",
+      "apNumber": 116,
+      "unit": 4,
+      "region": "france",
+      "culture": "French Impressionism",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "Impressionism",
+      "titleEn": "The Saint-Lazare Station",
+      "titleZh": "圣拉扎尔火车站",
+      "artistCulture": "Claude Monet",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1877 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Urban landscape painting",
+      "function": "捕捉现代交通空间中瞬时光色与蒸汽效果",
+      "form": "可见笔触把玻璃棚、烟雾和铁轨溶解成蓝灰色气氛",
+      "content": "机车驶入站台，蒸汽遮蔽乘客并连接室内与城市",
+      "context": "印象派把奥斯曼改造后的巴黎和工业技术作为现代生活主题",
+      "recognitionAnchors": [
+        "玻璃铁棚下的蓝白蒸汽",
+        "迎面驶来的黑色机车"
+      ],
+      "comparisonIds": [
+        "ap115-olympia"
+      ],
+      "comparisonNotes": {
+        "ap115-olympia": "与Olympia比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Impressionism",
+        "Monet",
+        "铁路现代性"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Claude%20Monet%20-%20The%20Saint-Lazare%20Station%20-%20Google%20Art%20Project.jpg",
+          "imageAlt": "圣拉扎尔火车站：玻璃铁棚下的蓝白蒸汽；迎面驶来的黑色机车",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20The%20Saint-Lazare%20Station%20-%20Google%20Art%20Project.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap117-horse-motion",
+      "apNumber": 117,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "American motion photography",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "Early photography",
+      "titleEn": "The Horse in Motion",
+      "titleZh": "运动中的马",
+      "artistCulture": "Eadweard Muybridge",
+      "siteName": "Palo Alto, California, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1878 C.E.",
+      "medium": "Albumen prints from glass-plate negatives",
+      "workType": "Sequential photograph",
+      "function": "以摄影实验分析肉眼难以分辨的运动阶段",
+      "form": "等距相机连续曝光把奔马动作分成规则网格式片段",
+      "content": "每格记录同一匹马的步态并证实四蹄离地的瞬间",
+      "context": "斯坦福委托的技术实验连接科学测量、娱乐与电影前史",
+      "recognitionAnchors": [
+        "连续排列的奔马影像",
+        "标尺背景与编号帧"
+      ],
+      "comparisonIds": [
+        "ap116-saint-lazare-station"
+      ],
+      "comparisonNotes": {
+        "ap116-saint-lazare-station": "与The Saint-Lazare Station比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Muybridge",
+        "motion study",
+        "连续摄影"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Horse%20in%20Motion.jpg",
+          "imageAlt": "运动中的马：连续排列的奔马影像；标尺背景与编号帧",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The%20Horse%20in%20Motion.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap118-valley-mexico",
+      "apNumber": 118,
+      "unit": 4,
+      "region": "mexicoCaribbean",
+      "culture": "Mexican academic landscape",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "National landscape painting",
+      "titleEn": "The Valley of Mexico from the Hillside of Santa Isabel",
+      "titleZh": "从圣伊莎贝尔山坡眺望墨西哥谷地",
+      "artistCulture": "José María Velasco",
+      "siteName": "Mexico City, Mexico",
+      "coordinates": {
+        "x": 330,
+        "y": 385
+      },
+      "date": "1882 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Landscape painting",
+      "function": "把墨西哥谷地塑造成可识别的国家景观",
+      "form": "高视点、深远透视与清晰地质植物细节组织全景",
+      "content": "湖泊、山峰、仙人掌与远处城市共同连接本土土地和现代国家",
+      "context": "独立后的学院科学、测绘与民族主义推动墨西哥风景画发展",
+      "recognitionAnchors": [
+        "波波卡特佩特与伊斯塔西瓦特尔火山",
+        "前景仙人掌和远处墨西哥城"
+      ],
+      "comparisonIds": [
+        "ap117-horse-motion"
+      ],
+      "comparisonNotes": {
+        "ap117-horse-motion": "与The Horse in Motion比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Velasco",
+        "Mexican landscape",
+        "墨西哥国家景观"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jos%C3%A9%20Mar%C3%ADa%20Velasco%20-%20The%20Valley%20of%20Mexico%20from%20the%20Santa%20Isabel%20Mountain%20Range%20-%20Google%20Art%20Project.jpg",
+          "imageAlt": "从圣伊莎贝尔山坡眺望墨西哥谷地：波波卡特佩特与伊斯塔西瓦特尔火山；前景仙人掌和远处墨西哥城",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9%20Mar%C3%ADa%20Velasco%20-%20The%20Valley%20of%20Mexico%20from%20the%20Santa%20Isabel%20Mountain%20Range%20-%20Google%20Art%20Project.jpg"
+        }
+      ],
+      "provenanceQualifier": "Painted from studies of the Valley of Mexico made at the hillside of Santa Isabel; the manifest maps Velasco's Mexico City creation context."
+    },
+    {
+      "id": "ap119-burghers-calais",
+      "apNumber": 119,
+      "unit": 4,
+      "region": "france",
+      "culture": "French modern sculpture",
+      "traditionGroup": "realismIndustryPhotography",
+      "period": "Modern sculpture",
+      "titleEn": "The Burghers of Calais",
+      "titleZh": "加莱义民",
+      "artistCulture": "Auguste Rodin",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1884-1895 C.E.",
+      "medium": "Bronze",
+      "workType": "Public monument",
+      "function": "纪念加莱市民在百年战争中的集体牺牲",
+      "form": "六人同高、分散步伐与粗糙表面拒绝传统英雄金字塔",
+      "content": "义民手持城门钥匙，姿态分别表现恐惧、决心与悲痛",
+      "context": "城市委托原本期待英雄纪念，罗丹改以心理真实和观众同地面接触",
+      "recognitionAnchors": [
+        "六名人物没有单一主角",
+        "粗大手脚与绳索衣袍"
+      ],
+      "comparisonIds": [
+        "ap118-valley-mexico"
+      ],
+      "comparisonNotes": {
+        "ap118-valley-mexico": "与The Valley of Mexico from the Hillside of Santa Isabel比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Rodin",
+        "public monument",
+        "公共纪念碑"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rodin%2C%20The%20Burghers%20of%20Calais.jpg",
+          "imageAlt": "加莱义民：六名人物没有单一主角；粗大手脚与绳索衣袍",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rodin%2C%20The%20Burghers%20of%20Calais.jpg"
+        }
+      ],
+      "provenanceQualifier": "Modeled in Rodin's Paris studio for the city of Calais; later casts exist at multiple sites."
+    },
+    {
+      "id": "ap120-starry-night",
+      "apNumber": 120,
+      "unit": 4,
+      "region": "france",
+      "culture": "Post-Impressionism",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Post-Impressionism",
+      "titleEn": "The Starry Night",
+      "titleZh": "星月夜",
+      "artistCulture": "Vincent van Gogh",
+      "siteName": "Saint-Rémy-de-Provence, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1889 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Landscape painting",
+      "function": "把个人感受与自然观察转化为富有精神张力的夜景",
+      "form": "旋涡笔触、粗厚颜料和互补色让天空产生连续运动",
+      "content": "柏树连接村庄与星空，夸张星体照亮想象与记忆重构的景观",
+      "context": "梵高在圣雷米疗养院期间从窗外景色和草图发展出非写实夜景",
+      "recognitionAnchors": [
+        "旋转的蓝色夜空",
+        "火焰状柏树贯穿天地"
+      ],
+      "comparisonIds": [
+        "ap119-burghers-calais"
+      ],
+      "comparisonNotes": {
+        "ap119-burghers-calais": "与The Burghers of Calais比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Van Gogh",
+        "Post-Impressionism",
+        "表现性笔触"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+          "imageAlt": "星月夜：旋转的蓝色夜空；火焰状柏树贯穿天地",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap121-coiffure",
+      "apNumber": 121,
+      "unit": 4,
+      "region": "france",
+      "culture": "American Impressionist printmaking",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Japonisme / modern printmaking",
+      "titleEn": "The Coiffure",
+      "titleZh": "梳妆",
+      "artistCulture": "Mary Cassatt",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1890-1891 C.E.",
+      "medium": "Drypoint and aquatint",
+      "workType": "Color print",
+      "function": "表现女性日常私密生活并探索彩色版画",
+      "form": "高视点、平涂色块与裁切构图吸收日本浮世绘方法",
+      "content": "女子背向观者整理发髻，镜面与桌沿组织封闭的室内动作",
+      "context": "卡萨特受巴黎日本版画展启发，以现代女性经验重写传统盥洗主题",
+      "recognitionAnchors": [
+        "高视点俯瞰梳妆动作",
+        "裸露背部与镜面弧线"
+      ],
+      "comparisonIds": [
+        "ap120-starry-night"
+      ],
+      "comparisonNotes": {
+        "ap120-starry-night": "与The Starry Night比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Mary Cassatt",
+        "Japonisme",
+        "彩色版画"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mary_Cassatt%2C_The_Coiffure%2C_1890-1891%2C_NGA_5920.jpg",
+          "imageAlt": "梳妆：高视点俯瞰梳妆动作；裸露背部与镜面弧线",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_Cassatt,_The_Coiffure,_1890-1891,_NGA_5920.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap122-scream",
+      "apNumber": 122,
+      "unit": 4,
+      "region": "centralNorthernEurope",
+      "culture": "Norwegian Expressionism",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Symbolism / Expressionism",
+      "titleEn": "The Scream",
+      "titleZh": "呐喊",
+      "artistCulture": "Edvard Munch",
+      "siteName": "Berlin, Germany",
+      "coordinates": {
+        "x": 865,
+        "y": 215
+      },
+      "date": "1893 C.E.",
+      "medium": "Tempera and pastel on cardboard",
+      "workType": "Symbolist painting",
+      "function": "把现代焦虑和主观感受转化为普遍心理图像",
+      "form": "波动线条与不自然色彩让人物、天空和峡湾产生视觉回声",
+      "content": "桥上尖叫者捂耳，远处两人继续行走，血红天空压迫场景",
+      "context": "世纪末欧洲的心理学、城市孤独与象征主义推动内在情绪成为主题",
+      "recognitionAnchors": [
+        "骷髅般捂耳的中心人物",
+        "血红天空和波浪形峡湾"
+      ],
+      "comparisonIds": [
+        "ap121-coiffure"
+      ],
+      "comparisonNotes": {
+        "ap121-coiffure": "与The Coiffure比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Munch",
+        "Expressionism",
+        "现代焦虑"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Scream_by_Edvard_Munch%2C_1893_-_Nasjonalgalleriet.png",
+          "imageAlt": "呐喊：骷髅般捂耳的中心人物；血红天空和波浪形峡湾",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Scream_by_Edvard_Munch,_1893_-_Nasjonalgalleriet.png"
+        }
+      ],
+      "provenanceQualifier": "Painted while Munch was based in Berlin from a remembered experience and landscape near Kristiania (Oslo)."
+    },
+    {
+      "id": "ap123-where-do-we-come-from",
+      "apNumber": 123,
+      "unit": 4,
+      "region": "pacific",
+      "culture": "French Post-Impressionism in Tahiti",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Post-Impressionism / Primitivism",
+      "titleEn": "Where Do We Come From? What Are We? Where Are We Going?",
+      "titleZh": "我们从哪里来？我们是谁？我们到哪里去？",
+      "artistCulture": "Paul Gauguin",
+      "siteName": "Punaauia, Tahiti, French Polynesia",
+      "coordinates": {
+        "x": 1400,
+        "y": 545
+      },
+      "date": "1897-1898 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Allegorical painting",
+      "function": "以生命阶段寓言回应存在、死亡与精神意义",
+      "form": "横向壁画式构图按从右到左的时间顺序串联多组人物",
+      "content": "婴儿、成熟人物、摘果者与老妇构成从出生到死亡的循环",
+      "context": "高更在殖民地塔希提塑造被理想化的非西方世界并投射欧洲欲望",
+      "recognitionAnchors": [
+        "右侧婴儿到左侧老妇的序列",
+        "中央高举双臂摘果者"
+      ],
+      "comparisonIds": [
+        "ap122-scream"
+      ],
+      "comparisonNotes": {
+        "ap122-scream": "与The Scream比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Gauguin",
+        "Tahiti",
+        "生命寓言"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Paul_Gauguin_-_D%27ou_venons-nous.jpg",
+          "imageAlt": "我们从哪里来？我们是谁？我们到哪里去？：右侧婴儿到左侧老妇的序列；中央高举双臂摘果者",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_D%27ou_venons-nous.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap124-carson-pirie-scott",
+      "apNumber": 124,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "Chicago School architecture",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Early modern commercial architecture",
+      "titleEn": "Carson, Pirie, Scott and Company Building",
+      "titleZh": "卡森、皮里、斯科特公司大楼",
+      "artistCulture": "Louis Sullivan",
+      "siteName": "Chicago, Illinois, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1899-1903 C.E.",
+      "medium": "Steel frame, cast iron, glass, and terra-cotta",
+      "workType": "Department store",
+      "function": "容纳百货零售并通过街角入口吸引城市消费者",
+      "form": "钢骨架允许宽阔水平窗带，底层铸铁植物纹装饰突出入口",
+      "content": "重复楼层网格表现商业效率，低层卷曲金属形成行人尺度的视觉标志",
+      "context": "芝加哥工业、升降机和新零售文化推动高层商业建筑类型",
+      "recognitionAnchors": [
+        "圆角入口的绿色铸铁藤蔓",
+        "水平窗带包覆钢骨架"
+      ],
+      "comparisonIds": [
+        "ap123-where-do-we-come-from"
+      ],
+      "comparisonNotes": {
+        "ap123-where-do-we-come-from": "与Where Do We Come From? What Are We? Where Are We Going?比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Louis Sullivan",
+        "Chicago School",
+        "百货大楼"
+      ],
+      "images": [
+        {
+          "id": "exterior",
+          "label": "Exterior",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Carson%2C_Pirie%2C_Scott_and_Company_Building_%28Sullivan_Center%29%2C_Chicago%2C_Illinois_%289179422705%29.jpg",
+          "imageAlt": "卡森、皮里、斯科特公司大楼：外部可见圆角入口的绿色铸铁藤蔓",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Carson,_Pirie,_Scott_and_Company_Building_(Sullivan_Center),_Chicago,_Illinois_(9179422705).jpg"
+        },
+        {
+          "id": "detail",
+          "label": "Cast-Iron Detail",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Carson%2C_Pirie%2C_Scott_and_Company_Building_1_South_State_Street_entrance_closeup_1.jpg",
+          "imageAlt": "卡森、皮里、斯科特公司大楼：街角入口铸铁植物卷草纹与支撑构件细部",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Carson,_Pirie,_Scott_and_Company_Building_1_South_State_Street_entrance_closeup_1.jpg"
+        },
+        {
+          "id": "plan",
+          "label": "Plan",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Schlesinger_and_Mayer_Department_Store%2C_1_South_State_Street_%281-19_South_State_Street_1-15_East_Madison_Street%29%2C_Chicago%2C_Cook_County%2C_IL_HABS_ILL%2C16-CHIG%2C65-_%28sheet_2_of_4%29.png",
+          "imageAlt": "卡森、皮里、斯科特公司大楼：平面图标出水平窗带包覆钢骨架",
+          "imageSourceName": "Library of Congress / Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Schlesinger_and_Mayer_Department_Store,_1_South_State_Street_(1-19_South_State_Street_1-15_East_Madison_Street),_Chicago,_Cook_County,_IL_HABS_ILL,16-CHIG,65-_(sheet_2_of_4).png"
+        }
+      ]
+    },
+    {
+      "id": "ap125-mont-sainte-victoire",
+      "apNumber": 125,
+      "unit": 4,
+      "region": "france",
+      "culture": "French Post-Impressionism",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Post-Impressionism",
+      "titleEn": "Mont Sainte-Victoire",
+      "titleZh": "圣维克多山",
+      "artistCulture": "Paul Cézanne",
+      "siteName": "Aix-en-Provence, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1902-1904 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Landscape painting",
+      "function": "以持续观察研究视觉结构并重组熟悉风景",
+      "form": "短而平行的色块把山、树和房屋构造成相互咬合的平面",
+      "content": "圣维克多山在远景稳定画面，前景树木和田野使空间前后摆动",
+      "context": "塞尚反复描绘普罗旺斯景观，为立体主义的多视点结构奠定基础",
+      "recognitionAnchors": [
+        "蓝灰色三角形山体",
+        "色块构成而非轮廓描绘空间"
+      ],
+      "comparisonIds": [
+        "ap124-carson-pirie-scott"
+      ],
+      "comparisonNotes": {
+        "ap124-carson-pirie-scott": "与Carson, Pirie, Scott and Company Building比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Cézanne",
+        "Mont Sainte-Victoire",
+        "结构性笔触"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Montagne_Sainte-Victoire%2C_par_Paul_C%C3%A9zanne_108.jpg",
+          "imageAlt": "圣维克多山：蓝灰色三角形山体；色块构成而非轮廓描绘空间",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Montagne_Sainte-Victoire,_par_Paul_C%C3%A9zanne_108.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap126-demoiselles-avignon",
+      "apNumber": 126,
+      "unit": 4,
+      "region": "france",
+      "culture": "Proto-Cubism",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Early modernism / Proto-Cubism",
+      "titleEn": "Les Demoiselles d'Avignon",
+      "titleZh": "亚维农少女",
+      "artistCulture": "Pablo Picasso",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1907 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Figure painting",
+      "function": "以激进形式实验挑战裸体传统和观看关系",
+      "form": "破碎棱角、压缩浅空间与不连续视点消除自然主义透视",
+      "content": "五名性工作者正面逼视观者，右侧面孔借鉴非洲面具形式",
+      "context": "巴黎前卫艺术挪用伊比利亚和非洲物件，在殖民语境中推进立体主义",
+      "recognitionAnchors": [
+        "五人挤满没有深度的画面",
+        "右侧面具化棱角面孔"
+      ],
+      "comparisonIds": [
+        "ap125-mont-sainte-victoire"
+      ],
+      "comparisonNotes": {
+        "ap125-mont-sainte-victoire": "与Mont Sainte-Victoire比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Picasso",
+        "Proto-Cubism",
+        "殖民挪用"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://www.moma.org/media/W1siZiIsIjYxOTg4OCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=217eb07febfd139b",
+          "imageAlt": "亚维农少女：五人挤满没有深度的画面；右侧面具化棱角面孔",
+          "imageSourceName": "Museum of Modern Art",
+          "imageSourceUrl": "https://www.moma.org/collection/works/79766"
+        }
+      ]
+    },
+    {
+      "id": "ap127-steerage",
+      "apNumber": 127,
+      "unit": 4,
+      "region": "transatlantic",
+      "culture": "American modernist photography",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Photo-Secession / Straight photography",
+      "titleEn": "The Steerage",
+      "titleZh": "统舱",
+      "artistCulture": "Alfred Stieglitz",
+      "siteName": "North Atlantic Ocean, aboard SS Kaiser Wilhelm II",
+      "coordinates": {
+        "x": 560,
+        "y": 250
+      },
+      "date": "1907 C.E. (printed 1911)",
+      "medium": "Photogravure",
+      "workType": "Photograph",
+      "function": "把社会分层的船上场景转化为现代摄影构图",
+      "form": "舷梯、烟囱、栏杆和桅杆以强烈几何线切分上下空间",
+      "content": "上层乘客俯视统舱移民，白帽与弧形桥板成为视觉节点",
+      "context": "跨大西洋移民、阶级隔离与摄影争取艺术地位在同一图像交汇",
+      "recognitionAnchors": [
+        "斜向白色舷梯",
+        "上下甲板的阶级分隔"
+      ],
+      "comparisonIds": [
+        "ap126-demoiselles-avignon"
+      ],
+      "comparisonNotes": {
+        "ap126-demoiselles-avignon": "与Les Demoiselles d'Avignon比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Stieglitz",
+        "photogravure",
+        "跨大西洋移民"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
+          "imageAlt": "统舱：斜向白色舷梯；上下甲板的阶级分隔",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg"
+        }
+      ],
+      "provenanceQualifier": "Photographed aboard the SS Kaiser Wilhelm II during Stieglitz's 1907 voyage from New York to Europe; the map anchor represents the transatlantic voyage rather than a fixed city."
+    },
+    {
+      "id": "ap128-kiss-klimt",
+      "apNumber": 128,
+      "unit": 4,
+      "region": "centralNorthernEurope",
+      "culture": "Vienna Secession",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Vienna Secession / Symbolism",
+      "titleEn": "The Kiss",
+      "titleZh": "吻",
+      "artistCulture": "Gustav Klimt",
+      "siteName": "Vienna, Austria",
+      "coordinates": {
+        "x": 865,
+        "y": 215
+      },
+      "date": "1907-1908 C.E.",
+      "medium": "Oil and gold leaf on canvas",
+      "workType": "Symbolist painting",
+      "function": "把亲密关系转化为装饰性、近乎圣像的爱情寓言",
+      "form": "金箔扁平背景包裹人物，矩形与圆形图案区分两具身体",
+      "content": "男性俯身亲吻跪姿女性，两人停在花地边缘形成封闭金色轮廓",
+      "context": "维也纳分离派结合拜占庭金地、工艺设计与世纪末情色文化",
+      "recognitionAnchors": [
+        "包裹恋人的金色斗篷",
+        "男女图案分别偏矩形与圆形"
+      ],
+      "comparisonIds": [
+        "ap127-steerage"
+      ],
+      "comparisonNotes": {
+        "ap127-steerage": "与The Steerage比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Klimt",
+        "Vienna Secession",
+        "金箔"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+          "imageAlt": "吻：包裹恋人的金色斗篷；男女图案分别偏矩形与圆形",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap129-kiss-brancusi",
+      "apNumber": 129,
+      "unit": 4,
+      "region": "france",
+      "culture": "Modernist direct carving",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Early modern sculpture",
+      "titleEn": "The Kiss",
+      "titleZh": "吻",
+      "artistCulture": "Constantin Brancusi",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "Original 1907-1908; version 1916 C.E.",
+      "medium": "Limestone",
+      "workType": "Sculpture",
+      "function": "把拥抱主题还原为材料、体块与统一形式",
+      "form": "直接雕刻保留方石块，两个身体以最少切线紧密互锁",
+      "content": "共享的眼、手臂和嘴将两个人压缩成一个几何整体",
+      "context": "布朗库西反对学院写实与罗丹式表面，推动现代雕塑强调材料本性",
+      "recognitionAnchors": [
+        "两只半眼合成完整注视",
+        "方石块中互锁的手臂"
+      ],
+      "comparisonIds": [
+        "ap128-kiss-klimt"
+      ],
+      "comparisonNotes": {
+        "ap128-kiss-klimt": "与The Kiss比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Brancusi",
+        "direct carving",
+        "现代雕塑"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://iiif.micr.io/maKTp/full/2000,/0/default.jpg",
+          "imageAlt": "吻：两只半眼合成完整注视；方石块中互锁的手臂",
+          "imageSourceName": "Philadelphia Museum of Art",
+          "imageSourceUrl": "https://www.philamuseum.org/objects/51306"
+        }
+      ],
+      "provenanceQualifier": "Maps the Paris creation context of Brancusi's original 1907-1908 conception; the College Board reference image shows the 1916 version."
+    },
+    {
+      "id": "ap130-portuguese",
+      "apNumber": 130,
+      "unit": 4,
+      "region": "france",
+      "culture": "Analytic Cubism",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Cubism",
+      "titleEn": "The Portuguese",
+      "titleZh": "葡萄牙人",
+      "artistCulture": "Georges Braque",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1911 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Painting",
+      "function": "通过多视点分析探索观看、记忆与再现的关系",
+      "form": "褐灰色有限色调与交叠小平面使人物和背景相互渗透",
+      "content": "吉他手、乐器、绳索和模板字母在碎片中提供识别线索",
+      "context": "布拉克与毕加索的合作把单点透视拆解为同时性的视觉系统",
+      "recognitionAnchors": [
+        "模板字母BAL与数字",
+        "几乎融入背景的吉他手"
+      ],
+      "comparisonIds": [
+        "ap129-kiss-brancusi"
+      ],
+      "comparisonNotes": {
+        "ap129-kiss-brancusi": "与The Kiss比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Braque",
+        "Analytic Cubism",
+        "同时性"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://digital.lib.buffalo.edu/files/original/8f4d0614979c244854da2ede1de2c635.jpg",
+          "imageAlt": "葡萄牙人：模板字母BAL与数字；几乎融入背景的吉他手",
+          "imageSourceName": "University at Buffalo Libraries Digital Collections",
+          "imageSourceUrl": "https://digital.lib.buffalo.edu/items/show/31590"
+        }
+      ]
+    },
+    {
+      "id": "ap131-goldfish",
+      "apNumber": 131,
+      "unit": 4,
+      "region": "france",
+      "culture": "French Fauvism",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Fauvism",
+      "titleEn": "The Goldfish",
+      "titleZh": "金鱼",
+      "artistCulture": "Henri Matisse",
+      "siteName": "Issy-les-Moulineaux, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1912 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Still-life painting",
+      "function": "以色彩和沉思观看塑造理想化的宁静环境",
+      "form": "互补橙绿、倾斜桌面和多重视点使空间既平坦又流动",
+      "content": "圆柱鱼缸、金鱼、植物和花园家具构成画家工作室的私密世界",
+      "context": "马蒂斯将北非旅行经验与欧洲对异域生活的投射转化为现代静物",
+      "recognitionAnchors": [
+        "鲜橙金鱼对比绿色植物",
+        "鱼缸同时从正面与上方观看"
+      ],
+      "comparisonIds": [
+        "ap130-portuguese"
+      ],
+      "comparisonNotes": {
+        "ap130-portuguese": "与The Portuguese比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Matisse",
+        "Fauvism",
+        "互补色"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Goldfish_Matisse.jpg",
+          "imageAlt": "金鱼：鲜橙金鱼对比绿色植物；鱼缸同时从正面与上方观看",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Goldfish_Matisse.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap132-improvisation-28",
+      "apNumber": 132,
+      "unit": 4,
+      "region": "centralNorthernEurope",
+      "culture": "German Expressionist abstraction",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Der Blaue Reiter / abstraction",
+      "titleEn": "Improvisation 28 (second version)",
+      "titleZh": "即兴28号（第二版）",
+      "artistCulture": "Vasily Kandinsky",
+      "siteName": "Munich, Germany",
+      "coordinates": {
+        "x": 865,
+        "y": 215
+      },
+      "date": "1912 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Abstract painting",
+      "function": "以色彩与线条触发类似音乐的精神和情感反应",
+      "form": "黑色斜线、透明色区和旋涡笔触在非统一空间中碰撞",
+      "content": "可辨的山、船、洪水和拥抱者在毁灭与重生主题间浮现",
+      "context": "蓝骑士团将神智学、音乐类比和表现主义推进非客观绘画",
+      "recognitionAnchors": [
+        "交叉黑线像即兴乐谱",
+        "抽象色面中隐约出现山与洪水"
+      ],
+      "comparisonIds": [
+        "ap131-goldfish"
+      ],
+      "comparisonNotes": {
+        "ap131-goldfish": "与The Goldfish比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Kandinsky",
+        "Der Blaue Reiter",
+        "抽象绘画"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Aerrapc_Guggenheim_art_photo_%28178%29.png",
+          "imageAlt": "即兴28号（第二版）：交叉黑线像即兴乐谱；抽象色面中隐约出现山与洪水",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aerrapc_Guggenheim_art_photo_(178).png"
+        }
+      ]
+    },
+    {
+      "id": "ap133-self-portrait-soldier",
+      "apNumber": 133,
+      "unit": 4,
+      "region": "centralNorthernEurope",
+      "culture": "German Expressionism",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Die Brücke / Expressionism",
+      "titleEn": "Self-Portrait as a Soldier",
+      "titleZh": "士兵自画像",
+      "artistCulture": "Ernst Ludwig Kirchner",
+      "siteName": "Berlin, Germany",
+      "coordinates": {
+        "x": 865,
+        "y": 215
+      },
+      "date": "1915 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Self-portrait",
+      "function": "表现战争创伤、艺术身份危机与心理断裂",
+      "form": "酸性颜色、棱角轮廓和狭窄空间使人物显得紧张僵硬",
+      "content": "穿军服的画家举起想象中的断手，身后裸体模特与创作分离",
+      "context": "基希纳在一战服役与精神崩溃期间把自画像作为焦虑象征",
+      "recognitionAnchors": [
+        "抬起的血红断手",
+        "军服画家与裸体模特并置"
+      ],
+      "comparisonIds": [
+        "ap132-improvisation-28"
+      ],
+      "comparisonNotes": {
+        "ap132-improvisation-28": "与Improvisation 28 (second version)比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Kirchner",
+        "Expressionism",
+        "战争创伤"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kirchner_-_Self_Portrait_as_a_Soldier_%281915%29.jpg",
+          "imageAlt": "士兵自画像：抬起的血红断手；军服画家与裸体模特并置",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kirchner_-_Self_Portrait_as_a_Soldier_(1915).jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap134-memorial-sheet-karl-liebknecht",
+      "apNumber": 134,
+      "unit": 4,
+      "region": "centralNorthernEurope",
+      "culture": "German Expressionist printmaking",
+      "traditionGroup": "postImpressionismEarlyModernism",
+      "period": "Expressionism / political print",
+      "titleEn": "Memorial Sheet of Karl Liebknecht",
+      "titleZh": "卡尔·李卜克内西纪念页",
+      "artistCulture": "Käthe Kollwitz",
+      "siteName": "Berlin, Germany",
+      "coordinates": {
+        "x": 865,
+        "y": 215
+      },
+      "date": "1919-1920 C.E.",
+      "medium": "Woodcut",
+      "workType": "Memorial print",
+      "function": "纪念被杀革命者并把关注点放在哀悼工人群体",
+      "form": "黑白木刻的粗厚轮廓、压缩空间和横向节奏强化共同悲痛",
+      "content": "送葬者俯身触碰遗体，妇女与儿童挤在后方形成集体见证",
+      "context": "魏玛革命暴力后，科尔维茨以非宗派的人道立场回应政治死亡",
+      "recognitionAnchors": [
+        "遗体上方弯曲的哀悼者群",
+        "粗犷木纹般黑白切割"
+      ],
+      "comparisonIds": [
+        "ap133-self-portrait-soldier"
+      ],
+      "comparisonNotes": {
+        "ap133-self-portrait-soldier": "与Self-Portrait as a Soldier比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Kollwitz",
+        "woodcut",
+        "政治哀悼"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/K%C3%A4the_Kollwitz_Gedenkblatt_f%C3%BCr_Karl_Liebknecht_1920.jpg",
+          "imageAlt": "卡尔·李卜克内西纪念页：遗体上方弯曲的哀悼者群；粗犷木纹般黑白切割",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%A4the_Kollwitz_Gedenkblatt_f%C3%BCr_Karl_Liebknecht_1920.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap135-villa-savoye",
+      "apNumber": 135,
+      "unit": 4,
+      "region": "france",
+      "culture": "International Style architecture",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "International Style",
+      "titleEn": "Villa Savoye",
+      "titleZh": "萨伏伊别墅",
+      "artistCulture": "Le Corbusier and Pierre Jeanneret",
+      "siteName": "Poissy-sur-Seine, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1929 C.E.",
+      "medium": "Steel and reinforced concrete, glass, and stucco",
+      "workType": "Villa",
+      "function": "作为周末住宅并示范现代建筑五点原则",
+      "form": "架空柱、自由平面、水平长窗、自由立面与屋顶花园形成白色几何体",
+      "content": "弧形车道和连续坡道构成从地面到日光浴平台的建筑漫游",
+      "context": "汽车时代与工业材料让住宅被设想为可标准化的居住机器",
+      "recognitionAnchors": [
+        "白色盒体由细柱抬起",
+        "内部坡道连续上升到屋顶"
+      ],
+      "comparisonIds": [
+        "ap134-memorial-sheet-karl-liebknecht"
+      ],
+      "comparisonNotes": {
+        "ap134-memorial-sheet-karl-liebknecht": "与Memorial Sheet of Karl Liebknecht比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Le Corbusier",
+        "five points",
+        "建筑漫游"
+      ],
+      "images": [
+        {
+          "id": "exterior",
+          "label": "Exterior",
+          "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/65100/65198v.jpg",
+          "imageAlt": "萨伏伊别墅：外部可见白色盒体由细柱抬起",
+          "imageSourceName": "Library of Congress",
+          "imageSourceUrl": "https://www.loc.gov/item/2020714937/"
+        },
+        {
+          "id": "interior-ramp",
+          "label": "Interior Ramp",
+          "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppem/00600/00682v.jpg",
+          "imageAlt": "萨伏伊别墅：室内坡道、水平长窗与向屋顶花园展开的建筑漫游",
+          "imageSourceName": "Library of Congress",
+          "imageSourceUrl": "https://www.loc.gov/item/2020714517/"
+        }
+      ]
+    },
+    {
+      "id": "ap136-composition-red-blue-yellow",
+      "apNumber": 136,
+      "unit": 4,
+      "region": "france",
+      "culture": "De Stijl",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "De Stijl / Neoplasticism",
+      "titleEn": "Composition with Red, Blue and Yellow",
+      "titleZh": "红蓝黄构图",
+      "artistCulture": "Piet Mondrian",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1930 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Abstract painting",
+      "function": "以最基本视觉关系追求普遍秩序与动态平衡",
+      "form": "不等粗黑直线划分不对称矩形，只使用白、黑和三原色",
+      "content": "红蓝黄块与大片白区在边缘截断，暗示结构延伸出画布",
+      "context": "风格派在一战后将几何抽象视为重建社会和精神和谐的语言",
+      "recognitionAnchors": [
+        "三原色与黑白限定色谱",
+        "不对称网格延伸至画外"
+      ],
+      "comparisonIds": [
+        "ap135-villa-savoye"
+      ],
+      "comparisonNotes": {
+        "ap135-villa-savoye": "与Villa Savoye比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Mondrian",
+        "De Stijl",
+        "新造型主义"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg",
+          "imageAlt": "红蓝黄构图：三原色与黑白限定色谱；不对称网格延伸至画外",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap137-first-five-year-plan",
+      "apNumber": 137,
+      "unit": 4,
+      "region": "russiaSoviet",
+      "culture": "Soviet Constructivist photomontage",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Constructivism / propaganda",
+      "titleEn": "Illustration from The Results of the First Five-Year Plan",
+      "titleZh": "《第一个五年计划的成果》插图",
+      "artistCulture": "Varvara Stepanova",
+      "siteName": "Moscow, Soviet Union (Russia)",
+      "coordinates": {
+        "x": 980,
+        "y": 205
+      },
+      "date": "1932 C.E.",
+      "medium": "Photomontage",
+      "workType": "Magazine illustration",
+      "function": "为苏联工业化计划制造群众支持与国际宣传",
+      "form": "照片、文字、红色几何形和夸张比例以对角线组织",
+      "content": "列宁头像、扩音器、输电塔、数字5与欢呼群众构成进步叙事",
+      "context": "斯大林时期国家委托将先锋设计转化为控制现实形象的宣传工具",
+      "recognitionAnchors": [
+        "巨大的数字5与CCCP字样",
+        "列宁头像连接扩音器和电塔"
+      ],
+      "comparisonIds": [
+        "ap136-composition-red-blue-yellow"
+      ],
+      "comparisonNotes": {
+        "ap136-composition-red-blue-yellow": "与Composition with Red, Blue and Yellow比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Stepanova",
+        "photomontage",
+        "苏联宣传"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://www.moma.org/media/W1siZiIsIjMyODczMCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDE1MzZ4MTUzNlx1MDAzZSJdXQ.jpg?sha=c067b67684fdcd9f",
+          "imageAlt": "《第一个五年计划的成果》插图：巨大的数字5与CCCP字样；列宁头像连接扩音器和电塔",
+          "imageSourceName": "Museum of Modern Art",
+          "imageSourceUrl": "https://www.moma.org/collection/works/13934"
+        }
+      ]
+    },
+    {
+      "id": "ap138-object-dejeuner-fourrure",
+      "apNumber": 138,
+      "unit": 4,
+      "region": "france",
+      "culture": "Surrealism",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Surrealism",
+      "titleEn": "Object (Le Déjeuner en fourrure)",
+      "titleZh": "物体（皮毛早餐）",
+      "artistCulture": "Meret Oppenheim",
+      "siteName": "Paris, France",
+      "coordinates": {
+        "x": 802,
+        "y": 225
+      },
+      "date": "1936 C.E.",
+      "medium": "Fur-covered cup, saucer, and spoon",
+      "workType": "Surrealist object",
+      "function": "通过日常物体的陌生化激发触觉欲望与排斥",
+      "form": "成套茶具保持熟悉轮廓却被毛皮完全覆盖",
+      "content": "可饮用器皿与动物毛皮碰撞，使观者想象口唇接触湿毛的感受",
+      "context": "超现实主义借弗洛伊德无意识、物神与偶然组合挑战理性习惯",
+      "recognitionAnchors": [
+        "整套杯碟勺覆盖毛皮",
+        "视觉柔软与饮用功能相冲突"
+      ],
+      "comparisonIds": [
+        "ap137-first-five-year-plan"
+      ],
+      "comparisonNotes": {
+        "ap137-first-five-year-plan": "与Illustration from The Results of the First Five-Year Plan比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Oppenheim",
+        "Surrealism",
+        "陌生化"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://www.moma.org/media/W1siZiIsIjYxNDY5NyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=203e557b7d43cc8e",
+          "imageAlt": "物体（皮毛早餐）：整套杯碟勺覆盖毛皮；视觉柔软与饮用功能相冲突",
+          "imageSourceName": "Museum of Modern Art",
+          "imageSourceUrl": "https://www.moma.org/collection/works/80997"
+        }
+      ]
+    },
+    {
+      "id": "ap139-fallingwater",
+      "apNumber": 139,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "American organic architecture",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Organic architecture",
+      "titleEn": "Fallingwater",
+      "titleZh": "流水别墅",
+      "artistCulture": "Frank Lloyd Wright",
+      "siteName": "Mill Run, Pennsylvania, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1936-1939 C.E.",
+      "medium": "Reinforced concrete, sandstone, steel, and glass",
+      "workType": "Weekend house",
+      "function": "为考夫曼家族提供与溪谷环境融合的周末住宅",
+      "form": "水平悬挑板穿插本地石墙，低天花和开放转角玻璃引导向外",
+      "content": "建筑跨越瀑布而非远观，室内壁炉直接包容场地岩石",
+      "context": "赖特以有机建筑回应国际式几何，同时依赖复杂现代工程",
+      "recognitionAnchors": [
+        "层叠混凝土悬挑越过瀑布",
+        "壁炉前天然岩石穿入室内"
+      ],
+      "comparisonIds": [
+        "ap138-object-dejeuner-fourrure"
+      ],
+      "comparisonNotes": {
+        "ap138-object-dejeuner-fourrure": "与Object (Le Déjeuner en fourrure)比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Fallingwater",
+        "Frank Lloyd Wright",
+        "有机建筑"
+      ],
+      "images": [
+        {
+          "id": "exterior",
+          "label": "Exterior",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Fallingwater.JPG",
+          "imageAlt": "流水别墅：外部可见层叠混凝土悬挑越过瀑布",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater.JPG"
+        },
+        {
+          "id": "living-room",
+          "label": "Living Room",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Fallingwater_interior.JPG",
+          "imageAlt": "流水别墅：起居室石墙、低矮天花与转角玻璃共同框取林地",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater_interior.JPG"
+        },
+        {
+          "id": "site-plan",
+          "label": "Site Plan",
+          "imageUrl": "https://cdn.loc.gov/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00002v.jpg",
+          "imageAlt": "流水别墅：场地平面显示住宅横跨溪流与瀑布的关系",
+          "imageSourceName": "Library of Congress",
+          "imageSourceUrl": "https://www.loc.gov/pictures/item/pa1690.sheet.00002a/"
+        }
+      ]
+    },
+    {
+      "id": "ap140-two-fridas",
+      "apNumber": 140,
+      "unit": 4,
+      "region": "mexicoCaribbean",
+      "culture": "Mexican modernism",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Mexican modernism / Surrealism",
+      "titleEn": "The Two Fridas",
+      "titleZh": "两个弗里达",
+      "artistCulture": "Frida Kahlo",
+      "siteName": "Mexico City, Mexico",
+      "coordinates": {
+        "x": 330,
+        "y": 385
+      },
+      "date": "1939 C.E.",
+      "medium": "Oil on canvas",
+      "workType": "Double self-portrait",
+      "function": "处理离婚时期的身份分裂、情感创伤与文化归属",
+      "form": "两个等大的自我牵手，暴露的心脏和血管形成清晰连接",
+      "content": "欧式白裙的心脏受损，特瓦纳服饰的自我持有里维拉小像",
+      "context": "卡洛将个人传记、殖民混合身份与墨西哥民族服饰组织为象征自画像",
+      "recognitionAnchors": [
+        "两位弗里达手牵手",
+        "连通心脏的红色血管"
+      ],
+      "comparisonIds": [
+        "ap139-fallingwater"
+      ],
+      "comparisonNotes": {
+        "ap139-fallingwater": "与Fallingwater比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Frida Kahlo",
+        "double portrait",
+        "混合身份"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": null,
+          "imageAlt": "两个弗里达：两位弗里达手牵手；连通心脏的红色血管",
+          "imageSourceName": "Museo de Arte Moderno / INBAL",
+          "imageSourceUrl": "https://inba.gob.mx/prensa/23566/el-museo-de-arte-moderno-presenta-las-dos-fridas-una-identidad-global",
+          "mediaStatus": "rightsRestricted"
+        }
+      ]
+    },
+    {
+      "id": "ap141-migration-negro-panel-49",
+      "apNumber": 141,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "African American modernism",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Harlem Renaissance / social history painting",
+      "titleEn": "The Migration of the Negro, Panel no. 49",
+      "titleZh": "黑人迁徙，第49号画板",
+      "artistCulture": "Jacob Lawrence",
+      "siteName": "New York City, New York, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1940-1941 C.E.",
+      "medium": "Casein tempera on hardboard",
+      "workType": "Narrative painting",
+      "function": "以连续图像记录非裔美国人大迁徙及北方歧视",
+      "form": "平涂色块、简化人物和锐利对角线形成易读而统一的系列语言",
+      "content": "餐馆隔离屏障把白人和黑人用餐区明确分开",
+      "context": "劳伦斯以60幅系列连接个人口述史、报刊研究与吉姆·克劳制度",
+      "recognitionAnchors": [
+        "黄色隔板分开黑白用餐者",
+        "文字说明与图像共同叙事"
+      ],
+      "comparisonIds": [
+        "ap140-two-fridas"
+      ],
+      "comparisonNotes": {
+        "ap140-two-fridas": "与The Two Fridas比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Jacob Lawrence",
+        "Great Migration",
+        "种族隔离"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://live.staticflickr.com/5333/29824123133_b283d2ff53_b.jpg",
+          "imageAlt": "黑人迁徙，第49号画板：黄色隔板分开黑白用餐者；文字说明与图像共同叙事",
+          "imageSourceName": "Flickr",
+          "imageSourceUrl": "https://www.flickr.com/photos/ronc-photography/29824123133/"
+        }
+      ]
+    },
+    {
+      "id": "ap142-jungle",
+      "apNumber": 142,
+      "unit": 4,
+      "region": "mexicoCaribbean",
+      "culture": "Afro-Cuban modernism",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Afro-Cuban Surrealism",
+      "titleEn": "The Jungle",
+      "titleZh": "丛林",
+      "artistCulture": "Wifredo Lam",
+      "siteName": "Havana, Cuba",
+      "coordinates": {
+        "x": 330,
+        "y": 385
+      },
+      "date": "1942-1943 C.E.",
+      "medium": "Gouache on paper mounted on canvas",
+      "workType": "Painting",
+      "function": "揭露殖民旅游幻想、甘蔗劳动与非裔古巴精神世界",
+      "form": "拥挤垂直构图融合立体主义碎片、植物茎秆和混种身体",
+      "content": "面具脸、蹄足、夸张臀部与甘蔗共同形成可变形的神灵人物",
+      "context": "林飞龙返古巴后结合桑特里亚、超现实主义与反殖民经验",
+      "recognitionAnchors": [
+        "面具化人兽混合身体",
+        "像牢笼一样密集的甘蔗"
+      ],
+      "comparisonIds": [
+        "ap141-migration-negro-panel-49"
+      ],
+      "comparisonNotes": {
+        "ap141-migration-negro-panel-49": "与The Migration of the Negro, Panel no. 49比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Wifredo Lam",
+        "Santería",
+        "反殖民现代主义"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://live.staticflickr.com/7214/7188333645_cd92316917_b.jpg",
+          "imageAlt": "丛林：面具化人兽混合身体；像牢笼一样密集的甘蔗",
+          "imageSourceName": "Flickr",
+          "imageSourceUrl": "https://www.flickr.com/photos/kebpix/7188333645/"
+        }
+      ]
+    },
+    {
+      "id": "ap143-dream-alameda-central",
+      "apNumber": 143,
+      "unit": 4,
+      "region": "mexicoCaribbean",
+      "culture": "Mexican muralism",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Mexican muralism",
+      "titleEn": "Dream of a Sunday Afternoon in the Alameda Central Park",
+      "titleZh": "阿拉梅达公园星期日下午之梦",
+      "artistCulture": "Diego Rivera",
+      "siteName": "Mexico City, Mexico",
+      "coordinates": {
+        "x": 330,
+        "y": 385
+      },
+      "date": "1947-1948 C.E.",
+      "medium": "Fresco",
+      "workType": "Public mural",
+      "function": "把墨西哥历史、阶级冲突与个人记忆汇成公共教育图像",
+      "form": "横向壁画把数百人物按时代与政治阵营密集排列",
+      "content": "骷髅卡特里娜牵着少年里维拉，身旁有波萨达与弗里达·卡洛",
+      "context": "革命后国家文化机构借壁画建立世俗、民族与大众历史叙事",
+      "recognitionAnchors": [
+        "中央卡特里娜骷髅盛装人物",
+        "少年里维拉与弗里达并列"
+      ],
+      "comparisonIds": [
+        "ap142-jungle"
+      ],
+      "comparisonNotes": {
+        "ap142-jungle": "与The Jungle比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Diego Rivera",
+        "muralism",
+        "墨西哥历史"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": null,
+          "imageAlt": "阿拉梅达公园星期日下午之梦：中央卡特里娜骷髅盛装人物；少年里维拉与弗里达并列",
+          "imageSourceName": "Smarthistory / Museo Mural Diego Rivera / INBAL",
+          "imageSourceUrl": "https://smarthistory.org/rivera-dream-of-a-sunday-afternoon-in-alameda-central-park/",
+          "mediaStatus": "rightsRestricted"
+        }
+      ]
+    },
+    {
+      "id": "ap144-fountain",
+      "apNumber": 144,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "Dada",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Dada / readymade",
+      "titleEn": "Fountain",
+      "titleZh": "泉",
+      "artistCulture": "Marcel Duchamp",
+      "siteName": "New York City, New York, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1917 original; 1950 replica C.E.",
+      "medium": "Glazed ceramic sanitary fixture with black paint",
+      "workType": "Readymade sculpture",
+      "function": "质疑艺术定义、作者身份与展览制度权力",
+      "form": "工业小便器旋转放置并以R. Mutt 1917签名取代手工塑造",
+      "content": "普通商品因选择、命名和提交展览而被重新框定为艺术",
+      "context": "独立艺术家协会拒展事件把达达观念挑战置于现代艺术制度中心",
+      "recognitionAnchors": [
+        "倒置小便器与R. Mutt签名",
+        "1950复制品指向已遗失原作"
+      ],
+      "comparisonIds": [
+        "ap143-dream-alameda-central"
+      ],
+      "comparisonNotes": {
+        "ap143-dream-alameda-central": "与Dream of a Sunday Afternoon in the Alameda Central Park比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Duchamp",
+        "readymade",
+        "达达"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://live.staticflickr.com/22/28365079_cdd32f04c0_o.jpg",
+          "imageAlt": "泉：倒置小便器与R. Mutt签名；1950复制品指向已遗失原作",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Duchamp_Fountain_(28365079).jpg"
+        }
+      ],
+      "provenanceQualifier": "Maps the New York context of the lost 1917 original and the 1950 second version shown by College Board; multiple authorized replicas exist."
+    },
+    {
+      "id": "ap145-woman-i",
+      "apNumber": 145,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "Abstract Expressionism",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Abstract Expressionism",
+      "titleEn": "Woman, I",
+      "titleZh": "女人一号",
+      "artistCulture": "Willem de Kooning",
+      "siteName": "New York City, New York, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1950-1952 C.E.",
+      "medium": "Oil, enamel, and charcoal on canvas",
+      "workType": "Figure painting",
+      "function": "在抽象笔触与大众女性形象之间制造不安冲突",
+      "form": "反复刮改的厚重颜料、猛烈笔触和碎裂轮廓覆盖画布",
+      "content": "巨眼、露齿笑和夸张胸部同时引用女神、广告与海报形象",
+      "context": "战后纽约画坛的男性英雄叙事与大众媒体性别刻板印象在此碰撞",
+      "recognitionAnchors": [
+        "露齿笑与巨大的圆眼",
+        "身体被反复涂抹和重画"
+      ],
+      "comparisonIds": [
+        "ap144-fountain"
+      ],
+      "comparisonNotes": {
+        "ap144-fountain": "与Fountain比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "de Kooning",
+        "Abstract Expressionism",
+        "性别凝视"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://live.staticflickr.com/65535/54354963606_53416caf0f_b.jpg",
+          "imageAlt": "女人一号：露齿笑与巨大的圆眼；身体被反复涂抹和重画",
+          "imageSourceName": "Flickr",
+          "imageSourceUrl": "https://www.flickr.com/photos/profzucker/54354963606/"
+        }
+      ]
+    },
+    {
+      "id": "ap146-marilyn-diptych",
+      "apNumber": 146,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "Pop Art",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Pop Art",
+      "titleEn": "Marilyn Diptych",
+      "titleZh": "玛丽莲双联画",
+      "artistCulture": "Andy Warhol",
+      "siteName": "New York City, New York, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1962 C.E.",
+      "medium": "Acrylic and silkscreen enamel on canvas",
+      "workType": "Diptych painting",
+      "function": "讨论名人图像的商品化、复制与死亡",
+      "form": "五十次丝网印刷头像横向重复，彩色左半与褪色黑白右半对照",
+      "content": "电影宣传照从饱和亮色逐步转为模糊、空缺和幽灵般痕迹",
+      "context": "梦露去世后，沃霍尔借商业印刷技术揭示大众消费与纪念机制",
+      "recognitionAnchors": [
+        "左彩色右黑白的双联结构",
+        "同一头像重复五十次"
+      ],
+      "comparisonIds": [
+        "ap145-woman-i"
+      ],
+      "comparisonNotes": {
+        "ap145-woman-i": "与Woman, I比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Warhol",
+        "Pop Art",
+        "名人商品化"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": null,
+          "imageAlt": "玛丽莲双联画：左彩色右黑白的双联结构；同一头像重复五十次",
+          "imageSourceName": "Tate",
+          "imageSourceUrl": "https://www.tate.org.uk/art/artworks/warhol-marilyn-diptych-t03093",
+          "mediaStatus": "rightsRestricted"
+        }
+      ]
+    },
+    {
+      "id": "ap147-seagram-building",
+      "apNumber": 147,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "International Style corporate architecture",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "International Style",
+      "titleEn": "Seagram Building",
+      "titleZh": "西格拉姆大厦",
+      "artistCulture": "Ludwig Mies van der Rohe and Philip Johnson",
+      "siteName": "New York City, New York, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1954-1958 C.E.",
+      "medium": "Steel frame, bronze, glass, and travertine",
+      "workType": "Office tower",
+      "function": "提供企业办公空间并以精确现代主义塑造公司身份",
+      "form": "深色玻璃幕墙与非承重青铜工字形竖梃形成严格模块网格",
+      "content": "大楼后退形成花岗岩广场，塔体比例和开放空间共同控制城市视线",
+      "context": "纽约分区法规、企业资本和密斯少即是多原则塑造战后摩天楼范式",
+      "recognitionAnchors": [
+        "深色幕墙外露青铜竖梃",
+        "退让街道形成开放广场"
+      ],
+      "comparisonIds": [
+        "ap146-marilyn-diptych"
+      ],
+      "comparisonNotes": {
+        "ap146-marilyn-diptych": "与Marilyn Diptych比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Mies van der Rohe",
+        "International Style",
+        "企业摩天楼"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Seagram_Building.jpg",
+          "imageAlt": "西格拉姆大厦：深色幕墙外露青铜竖梃；退让街道形成开放广场",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seagram_Building.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap148-narcissus-garden",
+      "apNumber": 148,
+      "unit": 4,
+      "region": "southernEurope",
+      "culture": "Performance and installation art",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Performance / installation art",
+      "titleEn": "Narcissus Garden",
+      "titleZh": "水仙花园",
+      "artistCulture": "Yayoi Kusama",
+      "siteName": "Venice, Italy",
+      "coordinates": {
+        "x": 850,
+        "y": 285
+      },
+      "date": "1966 original; 2010 installation shown",
+      "medium": "Mirrored plastic balls",
+      "workType": "Installation and performance",
+      "function": "通过复制、反射和现场售卖批判艺术市场与自我商品化",
+      "form": "大量同尺寸镜球铺满地面并反射观者、天空和彼此",
+      "content": "艺术家曾以低价出售银球并展示写有自恋花园的标牌",
+      "context": "未受邀参加威尼斯双年展的行动把场外表演转化为制度批评",
+      "recognitionAnchors": [
+        "密集银色镜球无限反射",
+        "艺术家现场售卖单个球体"
+      ],
+      "comparisonIds": [
+        "ap147-seagram-building"
+      ],
+      "comparisonNotes": {
+        "ap147-seagram-building": "与Seagram Building比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Yayoi Kusama",
+        "installation",
+        "艺术市场批评"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": null,
+          "imageAlt": "水仙花园：密集银色镜球无限反射；艺术家现场售卖单个球体",
+          "imageSourceName": "Victoria Miro / FIAC 2010",
+          "imageSourceUrl": "https://www.victoria-miro.com/exhibitions/411/",
+          "mediaStatus": "rightsRestricted"
+        }
+      ],
+      "provenanceQualifier": "Maps Kusama's original 1966 Venice Biennale installation and performance; the College Board reference image documents a 2010 Paris installation."
+    },
+    {
+      "id": "ap149-bay",
+      "apNumber": 149,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "Color Field painting",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Color Field / Post-painterly abstraction",
+      "titleEn": "The Bay",
+      "titleZh": "海湾",
+      "artistCulture": "Helen Frankenthaler",
+      "siteName": "New York City, New York, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1963 C.E.",
+      "medium": "Acrylic on canvas",
+      "workType": "Abstract painting",
+      "function": "以浸染色彩营造开放、非叙事的空间感受",
+      "form": "稀释颜料渗入未打底画布，蓝色大形边缘柔软并保留布面呼吸",
+      "content": "蓝色场域可联想到海湾，却不固定为可读景观",
+      "context": "法兰肯塔勒从行动绘画转向浸染技法并影响莫里斯·路易斯等色域画家",
+      "recognitionAnchors": [
+        "大面积透明蓝色浸染",
+        "未覆盖的生画布边缘"
+      ],
+      "comparisonIds": [
+        "ap148-narcissus-garden"
+      ],
+      "comparisonNotes": {
+        "ap148-narcissus-garden": "与Narcissus Garden比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Frankenthaler",
+        "Color Field",
+        "浸染技法"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": null,
+          "imageAlt": "海湾：大面积透明蓝色浸染；未覆盖的生画布边缘",
+          "imageSourceName": "Detroit Institute of Arts",
+          "imageSourceUrl": "https://dia.org/collection/bay/45380",
+          "mediaStatus": "rightsRestricted"
+        }
+      ]
+    },
+    {
+      "id": "ap150-lipstick-caterpillar-tracks",
+      "apNumber": 150,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "Pop Art public sculpture",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Pop Art / public sculpture",
+      "titleEn": "Lipstick (Ascending) on Caterpillar Tracks",
+      "titleZh": "履带上的口红（上升）",
+      "artistCulture": "Claes Oldenburg",
+      "siteName": "New Haven, Connecticut, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1969-1974 C.E.",
+      "medium": "Cor-Ten steel, aluminum, fiberglass, and polyurethane enamel",
+      "workType": "Monumental sculpture",
+      "function": "作为反战讲台并以消费品反讽军事和纪念碑语言",
+      "form": "巨大软性口红形体竖立在真实感履带底座上，红色与军绿色冲突",
+      "content": "口红暗示欲望和女性消费，坦克履带暗示战争与男性权力",
+      "context": "耶鲁学生在越战抗议中委托作品，后以耐久材料重制",
+      "recognitionAnchors": [
+        "红色巨型口红插在坦克履带上",
+        "可升降原型兼作演讲台"
+      ],
+      "comparisonIds": [
+        "ap149-bay"
+      ],
+      "comparisonNotes": {
+        "ap149-bay": "与The Bay比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Oldenburg",
+        "Pop Art",
+        "反战公共艺术"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": null,
+          "imageAlt": "履带上的口红（上升）：红色巨型口红插在坦克履带上；可升降原型兼作演讲台",
+          "imageSourceName": "Yale University Art Gallery",
+          "imageSourceUrl": "https://artgallery.yale.edu/collections/objects/13727",
+          "mediaStatus": "rightsRestricted"
+        }
+      ]
+    },
+    {
+      "id": "ap151-spiral-jetty",
+      "apNumber": 151,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "Land Art",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Land Art",
+      "titleEn": "Spiral Jetty",
+      "titleZh": "螺旋防波堤",
+      "artistCulture": "Robert Smithson",
+      "siteName": "Rozel Point, Great Salt Lake, Utah, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1970 C.E.",
+      "medium": "Black rock, salt crystals, earth, and water",
+      "workType": "Earthwork",
+      "function": "把艺术置于熵、地质时间和不断变化的自然过程之中",
+      "form": "逆时针螺旋从湖岸卷入水面，形状随水位、盐晶与藻类改变",
+      "content": "黑玄武岩和泥土在大盐湖红色水体中形成可步行路径",
+      "context": "土地艺术离开画廊体系，同时依赖摄影和电影向远方观众传播",
+      "recognitionAnchors": [
+        "从岸边卷入湖中的巨型螺旋",
+        "水位变化使作品消失又重现"
+      ],
+      "comparisonIds": [
+        "ap150-lipstick-caterpillar-tracks"
+      ],
+      "comparisonNotes": {
+        "ap150-lipstick-caterpillar-tracks": "与Lipstick (Ascending) on Caterpillar Tracks比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Robert Smithson",
+        "Land Art",
+        "熵"
+      ],
+      "images": [
+        {
+          "id": "primary",
+          "label": "Overall",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/The_Spiral_Jetty.jpg",
+          "imageAlt": "螺旋防波堤：从岸边卷入湖中的巨型螺旋；水位变化使作品消失又重现",
+          "imageSourceName": "Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Spiral_Jetty.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap152-house-new-castle-county",
+      "apNumber": 152,
+      "unit": 4,
+      "region": "unitedStates",
+      "culture": "Postmodern architecture",
+      "traditionGroup": "avantGardeArchitecturePostwar",
+      "period": "Postmodernism",
+      "titleEn": "House in New Castle County",
+      "titleZh": "纽卡斯尔县住宅",
+      "artistCulture": "Robert Venturi, John Rauch, and Denise Scott Brown",
+      "siteName": "New Castle County, Delaware, U.S.",
+      "coordinates": {
+        "x": 385,
+        "y": 265
+      },
+      "date": "1978-1983 C.E.",
+      "medium": "Wood frame, stucco, glass, and stone veneer",
+      "workType": "Private house",
+      "function": "为私人家庭提供住宅并以矛盾符号批评现代主义纯粹性",
+      "form": "正面像传统山墙住宅却被裂缝、拱线和不对称窗洞故意打断",
+      "content": "室内壁炉、楼梯和家具构成复杂轴线，历史引用与日常功能并置",
+      "context": "文丘里与斯科特·布朗以复杂与矛盾回应国际式单一语言",
+      "recognitionAnchors": [
+        "裂开的古典山墙式正立面",
+        "室内楼梯与壁炉相互挤压"
+      ],
+      "comparisonIds": [
+        "ap151-spiral-jetty"
+      ],
+      "comparisonNotes": {
+        "ap151-spiral-jetty": "与Spiral Jetty比较其形式、材料与历史语境如何形成不同观看经验。"
+      },
+      "keywords": [
+        "Venturi",
+        "Postmodernism",
+        "复杂与矛盾"
+      ],
+      "images": [
+        {
+          "id": "exterior",
+          "label": "Exterior",
+          "imageUrl": null,
+          "imageAlt": "纽卡斯尔县住宅：外部可见裂开的古典山墙式正立面",
+          "imageSourceName": "Smarthistory / University of Pennsylvania Architectural Archives",
+          "imageSourceUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware",
+          "mediaStatus": "rightsRestricted"
+        },
+        {
+          "id": "interior",
+          "label": "Interior",
+          "imageUrl": null,
+          "imageAlt": "纽卡斯尔县住宅：室内可见室内楼梯与壁炉相互挤压",
+          "imageSourceName": "Smarthistory / University of Pennsylvania Architectural Archives",
+          "imageSourceUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware",
+          "mediaStatus": "rightsRestricted"
+        }
+      ],
+      "provenanceQualifier": "Private residence; the manifest uses the county-level location published by College Board."
+    }
+  ],
+  "credits": {
+    "ap99-portrait-sor-juana": {
+      "creatorOrInstitution": "Miguel Cabrera / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap100-philosopher-lecture-orrery": {
+      "creatorOrInstitution": "Joseph Wright of Derby / Derby Museums / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap101-swing": {
+      "creatorOrInstitution": "Jean-Honoré Fragonard / Wallace Collection / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap102-monticello": [
+      {
+        "creatorOrInstitution": "Matt Kozlowski (Mojo Hand) / Wikimedia Commons",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Historic American Buildings Survey / Library of Congress",
+        "licenseName": "Library of Congress HABS/HAER rights advisory; no known restrictions",
+        "licenseUrl": "https://www.loc.gov/pictures/collection/hh/rights.html"
+      }
+    ],
+    "ap103-oath-horatii": {
+      "creatorOrInstitution": "Jacques-Louis David / Louvre Museum / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap104-george-washington": {
+      "creatorOrInstitution": "SuperShadowP1ay / Virginia State Capitol / Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap105-self-portrait-vigee-le-brun": {
+      "creatorOrInstitution": "Élisabeth Louise Vigée Le Brun / National Gallery, London / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap106-y-no-hai-remedio": {
+      "creatorOrInstitution": "Francisco de Goya / Metropolitan Museum of Art / Wikimedia Commons",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap107-grande-odalisque": {
+      "creatorOrInstitution": "Jean-Auguste-Dominique Ingres / Louvre Museum / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap108-liberty-leading-people": {
+      "creatorOrInstitution": "Eugène Delacroix / Louvre Museum / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap109-oxbow": {
+      "creatorOrInstitution": "Thomas Cole / Metropolitan Museum of Art / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap110-still-life-studio": {
+      "creatorOrInstitution": "Louis Daguerre / Société française de photographie / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap111-slave-ship": {
+      "creatorOrInstitution": "J. M. W. Turner / Museum of Fine Arts, Boston / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap112-palace-westminster": [
+      {
+        "creatorOrInstitution": "ThatsTheBoss / Wikimedia Commons",
+        "licenseName": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "creatorOrInstitution": "The Queen's Empire / Wikimedia Commons",
+        "licenseName": "Public domain (U.S. pre-1931 publication)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-expired"
+      },
+      {
+        "creatorOrInstitution": "Tristan Surtel / Wikimedia Commons",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ],
+    "ap113-stone-breakers": {
+      "creatorOrInstitution": "Gustave Courbet / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap114-nadar-raising-photography": {
+      "creatorOrInstitution": "Honoré Daumier / Metropolitan Museum of Art / Wikimedia Commons",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap115-olympia": {
+      "creatorOrInstitution": "Édouard Manet / Musée d’Orsay / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap116-saint-lazare-station": {
+      "creatorOrInstitution": "Claude Monet / Musée d’Orsay / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap117-horse-motion": {
+      "creatorOrInstitution": "Eadweard Muybridge / Library of Congress / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap118-valley-mexico": {
+      "creatorOrInstitution": "José María Velasco / Museo Nacional de Arte / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap119-burghers-calais": {
+      "creatorOrInstitution": "JD (Kinchan1) / Wikimedia Commons",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "ap120-starry-night": {
+      "creatorOrInstitution": "Vincent van Gogh / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap121-coiffure": {
+      "creatorOrInstitution": "Mary Cassatt / National Gallery of Art",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap122-scream": {
+      "creatorOrInstitution": "Edvard Munch / Nasjonalmuseet",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap123-where-do-we-come-from": {
+      "creatorOrInstitution": "Paul Gauguin / Museum of Fine Arts Boston",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap124-carson-pirie-scott": [
+      {
+        "creatorOrInstitution": "Ken Lund / Wikimedia Commons",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      {
+        "creatorOrInstitution": "Beyond My Ken / Wikimedia Commons",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "creatorOrInstitution": "HABS / National Park Service / Library of Congress",
+        "licenseName": "Library of Congress HABS/HAER rights advisory; no known restrictions",
+        "licenseUrl": "https://www.loc.gov/pictures/collection/hh/rights.html"
+      }
+    ],
+    "ap125-mont-sainte-victoire": {
+      "creatorOrInstitution": "Paul Cézanne / Philadelphia Museum of Art",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap126-demoiselles-avignon": {
+      "creatorOrInstitution": "Pablo Picasso / MoMA / Estate of Pablo Picasso–ARS",
+      "licenseName": "MoMA fair-use terms—noncommercial educational use",
+      "licenseUrl": "https://www.moma.org/about/about-this-site/"
+    },
+    "ap127-steerage": {
+      "creatorOrInstitution": "Alfred Stieglitz / Google Art Project",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap128-kiss-klimt": {
+      "creatorOrInstitution": "Gustav Klimt / Belvedere / Google Cultural Institute",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap129-kiss-brancusi": {
+      "creatorOrInstitution": "Constantin Brancusi / Philadelphia Museum of Art",
+      "licenseName": "PMA educational/fair-use terms",
+      "licenseUrl": "https://www.philamuseum.org/legal"
+    },
+    "ap130-portuguese": {
+      "creatorOrInstitution": "Georges Braque / University at Buffalo Department of Visual Studies",
+      "licenseName": "University at Buffalo educational-use terms",
+      "licenseUrl": "https://digital.lib.buffalo.edu/items/show/31590"
+    },
+    "ap131-goldfish": {
+      "creatorOrInstitution": "Henri Matisse / Pushkin Museum",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap132-improvisation-28": {
+      "creatorOrInstitution": "Aerra Carnicom / Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap133-self-portrait-soldier": {
+      "creatorOrInstitution": "Ernst Ludwig Kirchner / Allen Memorial Art Museum",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap134-memorial-sheet-karl-liebknecht": {
+      "creatorOrInstitution": "Käthe Kollwitz / Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap135-villa-savoye": [
+      {
+        "creatorOrInstitution": "Balthazar Korab / Library of Congress",
+        "licenseName": "No known restrictions on publication",
+        "licenseUrl": "https://hdl.loc.gov/loc.pnp/res.598.kora"
+      },
+      {
+        "creatorOrInstitution": "Balthazar Korab Studios / Library of Congress",
+        "licenseName": "No known restrictions on publication",
+        "licenseUrl": "https://hdl.loc.gov/loc.pnp/res.598.kora"
+      }
+    ],
+    "ap136-composition-red-blue-yellow": {
+      "creatorOrInstitution": "Piet Mondrian / Kunsthaus Zürich",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap137-first-five-year-plan": {
+      "creatorOrInstitution": "Varvara Stepanova / MoMA / rights holders",
+      "licenseName": "MoMA fair-use terms—noncommercial educational use",
+      "licenseUrl": "https://www.moma.org/about/about-this-site/"
+    },
+    "ap138-object-dejeuner-fourrure": {
+      "creatorOrInstitution": "Meret Oppenheim / MoMA / rights holders",
+      "licenseName": "MoMA fair-use terms—noncommercial educational use",
+      "licenseUrl": "https://www.moma.org/about/about-this-site/"
+    },
+    "ap139-fallingwater": [
+      {
+        "creatorOrInstitution": "Eritak / Wikimedia Commons",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Eritak / Wikimedia Commons",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "creatorOrInstitution": "Historic American Buildings Survey / National Park Service / Library of Congress",
+        "licenseName": "Library of Congress HABS/HAER rights advisory; no known restrictions",
+        "licenseUrl": "https://www.loc.gov/pictures/collection/hh/rights.html"
+      }
+    ],
+    "ap140-two-fridas": {
+      "creatorOrInstitution": "Museo de Arte Moderno / INBAL",
+      "licenseName": "Rights retained — public reproduction unavailable",
+      "licenseUrl": "https://inba.gob.mx/prensa/23566/el-museo-de-arte-moderno-presenta-las-dos-fridas-una-identidad-global"
+    },
+    "ap141-migration-negro-panel-49": {
+      "creatorOrInstitution": "Ron Cogswell / Flickr (photograph license only; underlying artwork rights retained)",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "ap142-jungle": {
+      "creatorOrInstitution": "Kent Baldner / Flickr (photograph license only; underlying artwork rights retained)",
+      "licenseName": "CC BY-NC-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+    },
+    "ap143-dream-alameda-central": {
+      "creatorOrInstitution": "Smarthistory / Museo Mural Diego Rivera / INBAL",
+      "licenseName": "Rights retained — public reproduction unavailable",
+      "licenseUrl": "https://smarthistory.org/rivera-dream-of-a-sunday-afternoon-in-alameda-central-park/"
+    },
+    "ap144-fountain": {
+      "creatorOrInstitution": "Stefan Powell (spDuchamp) / Flickr (photograph license only; underlying object rights retained)",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "ap145-woman-i": {
+      "creatorOrInstitution": "Steven Zucker / Flickr (photograph license only; underlying artwork rights retained)",
+      "licenseName": "CC BY-NC-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+    },
+    "ap146-marilyn-diptych": {
+      "creatorOrInstitution": "Tate",
+      "licenseName": "Rights retained — public reproduction unavailable",
+      "licenseUrl": "https://www.tate.org.uk/art/artworks/warhol-marilyn-diptych-t03093"
+    },
+    "ap147-seagram-building": {
+      "creatorOrInstitution": "Jo Baert / Wikimedia Commons",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap148-narcissus-garden": {
+      "creatorOrInstitution": "Victoria Miro / FIAC 2010",
+      "licenseName": "Rights retained — public reproduction unavailable",
+      "licenseUrl": "https://www.victoria-miro.com/exhibitions/411/"
+    },
+    "ap149-bay": {
+      "creatorOrInstitution": "Detroit Institute of Arts",
+      "licenseName": "Rights retained — public reproduction unavailable",
+      "licenseUrl": "https://dia.org/collection/bay/45380"
+    },
+    "ap150-lipstick-caterpillar-tracks": {
+      "creatorOrInstitution": "Yale University Art Gallery",
+      "licenseName": "Rights retained — public reproduction unavailable",
+      "licenseUrl": "https://artgallery.yale.edu/collections/objects/13727"
+    },
+    "ap151-spiral-jetty": {
+      "creatorOrInstitution": "Jacob Rak / Wikimedia Commons (photograph CC BY-SA 4.0; territorial artwork-status caveat)",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap152-house-new-castle-county": [
+      {
+        "creatorOrInstitution": "Smarthistory / University of Pennsylvania Architectural Archives",
+        "licenseName": "Rights retained — public reproduction unavailable",
+        "licenseUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware"
+      },
+      {
+        "creatorOrInstitution": "Smarthistory / University of Pennsylvania Architectural Archives",
+        "licenseName": "Rights retained — public reproduction unavailable",
+        "licenseUrl": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/08%3A_Architecture_design_and_dance/8.09%3A_Late_Modernism_Post-Modernism/8.9.05%3A_Robert_Venturi_House_in_New_Castle_County_Delaware"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1335 @@
+[
+  {
+    "id": "ap48-catacomb-priscilla",
+    "apNumber": 48,
+    "titleEn": "Catacomb of Priscilla",
+    "titleZh": "普里西拉地下墓穴",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "greek-chapel",
+        "label": "Greek Chapel",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Catacombe%20di%20Priscilla%2C%20Rome%20-%20Fresco%20of%20a%20Christian%20Agape%20feast%20-%20Fractio%20panis%20-%20Greek%20chapel%20-%202nd%20-%204th%20century.jpg",
+        "imageAlt": "普里西拉地下墓穴：希腊小礼拜堂墓室壁画与拱顶分区",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Catacombe%20di%20Priscilla%2C%20Rome%20-%20Fresco%20of%20a%20Christian%20Agape%20feast%20-%20Fractio%20panis%20-%20Greek%20chapel%20-%202nd%20-%204th%20century.jpg"
+      },
+      {
+        "id": "orant-fresco",
+        "label": "Orant Fresco",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Consecrated%20Virgin%2C%20praying%20with%20Orans%20position%2C%20wearing%20dalmatic%2C%20tunic%2C%20and%20veil%2C%20from%20the%20Catacomb%20of%20Priscilla%2C%203rd%20century%20AD%20cropped.jpg",
+        "imageAlt": "普里西拉地下墓穴：双臂上举的女性祈祷者立于拱顶中央",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Consecrated%20Virgin%2C%20praying%20with%20Orans%20position%2C%20wearing%20dalmatic%2C%20tunic%2C%20and%20veil%2C%20from%20the%20Catacomb%20of%20Priscilla%2C%203rd%20century%20AD%20cropped.jpg"
+      },
+      {
+        "id": "good-shepherd-fresco",
+        "label": "Good Shepherd Fresco",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Good%20shepherd%2001%20small.jpg",
+        "imageAlt": "普里西拉地下墓穴：善牧肩扛羔羊并由羊群环绕",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Good%20shepherd%2001%20small.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap49-santa-sabina",
+    "apNumber": 49,
+    "titleEn": "Santa Sabina",
+    "titleZh": "圣萨比娜教堂",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Santa%20Sabina%20Rome.jpg",
+        "imageAlt": "圣萨比娜教堂：朴素砖墙外立面与入口",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Santa%20Sabina%20Rome.jpg"
+      },
+      {
+        "id": "interior",
+        "label": "Interior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Santa%20Sabina%20%28Rome%29%20-%20Interno.jpg",
+        "imageAlt": "圣萨比娜教堂：高侧窗、再用柱列和木构屋顶组成的中殿",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Santa%20Sabina%20%28Rome%29%20-%20Interno.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Roma.%20Basilica%20di%20Santa%20Sabina%20Plattegrond%2C%20GD005416.jpg",
+        "imageAlt": "圣萨比娜教堂：纵向中殿、侧廊与半圆后殿平面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Roma.%20Basilica%20di%20Santa%20Sabina%20Plattegrond%2C%20GD005416.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap50-vienna-genesis",
+    "apNumber": 50,
+    "titleEn": "Rebecca and Eliezer at the Well and Jacob Wrestling the Angel, from the Vienna Genesis",
+    "titleZh": "《维也纳创世纪》中的〈利百加与以利以谢〉及〈雅各与天使摔跤〉",
+    "unit": 3,
+    "region": "easternMediterranean",
+    "siteName": "Syria or Palestine",
+    "provenanceQualifier": "Made in Syria or Palestine; the precise workshop is not securely localized.",
+    "images": [
+      {
+        "id": "rebecca-eliezer",
+        "label": "Rebecca Eliezer",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/ViennaGenesisPict13RebeccaEliezer.jpg",
+        "imageAlt": "《维也纳创世纪》中的〈利百加与以利以谢〉及〈雅各与天使摔跤〉：利百加在井边取水，同一人物连续出现",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ViennaGenesisPict13RebeccaEliezer.jpg"
+      },
+      {
+        "id": "jacob-wrestling-angel",
+        "label": "Jacob Wrestling Angel",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/ViennGenFol12vJacob.jpg",
+        "imageAlt": "《维也纳创世纪》中的〈利百加与以利以谢〉及〈雅各与天使摔跤〉：雅各与天使在紫色羊皮纸画面中搏斗",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ViennGenFol12vJacob.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap51-san-vitale",
+    "apNumber": 51,
+    "titleEn": "San Vitale",
+    "titleZh": "圣维塔莱教堂",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Ravenna, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Basilica%20of%20San%20Vitale%2C%20Ravenna%2C%20Italy.jpg",
+        "imageAlt": "圣维塔莱教堂：八角形砖砌外观与扶壁",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica%20of%20San%20Vitale%2C%20Ravenna%2C%20Italy.jpg"
+      },
+      {
+        "id": "interior",
+        "label": "Interior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/San%20Vitale%20%28Ravenna%29.jpg",
+        "imageAlt": "圣维塔莱教堂：金色镶嵌覆盖的集中式内殿",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:San%20Vitale%20%28Ravenna%29.jpg"
+      },
+      {
+        "id": "justinian-panel",
+        "label": "Justinian Panel",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mosaic%20of%20Justinian%20I%20-%20San%20Vitale%20-%20Ravenna%202016.jpg",
+        "imageAlt": "圣维塔莱教堂：查士丁尼持圣餐盘与随从列队",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mosaic%20of%20Justinian%20I%20-%20San%20Vitale%20-%20Ravenna%202016.jpg"
+      },
+      {
+        "id": "theodora-panel",
+        "label": "Theodora Panel",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mosaic%20of%20Theodora%20-%20Basilica%20San%20Vitale%20%28Ravenna%2C%20Italy%29.jpg",
+        "imageAlt": "圣维塔莱教堂：狄奥多拉持圣餐杯与宫廷侍从列队",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mosaic%20of%20Theodora%20-%20Basilica%20San%20Vitale%20%28Ravenna%2C%20Italy%29.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ravenna.%20Basilica%20di%20San%20Vitale%20Grondplan%2C%20GD003293.jpg",
+        "imageAlt": "圣维塔莱教堂：八角核心、环廊与后殿平面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ravenna.%20Basilica%20di%20San%20Vitale%20Grondplan%2C%20GD003293.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap52-hagia-sophia",
+    "apNumber": 52,
+    "titleEn": "Hagia Sophia",
+    "titleZh": "圣索菲亚大教堂",
+    "unit": 3,
+    "region": "easternMediterranean",
+    "siteName": "Constantinople (Istanbul), Turkey",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Exterior%20of%20Hagia%20Sophia-.jpg",
+        "imageAlt": "圣索菲亚大教堂：巨型中央穹顶与层叠半穹顶外观",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior%20of%20Hagia%20Sophia-.jpg"
+      },
+      {
+        "id": "interior",
+        "label": "Interior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hagia%20sophia%20interior.jpg",
+        "imageAlt": "圣索菲亚大教堂：帆拱托起穹顶、光线穿过多层窗带",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia%20sophia%20interior.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Aya%20Sophia%20Floor%20Plan.jpg",
+        "imageAlt": "圣索菲亚大教堂：集中式穹顶与纵向轴线融合的平面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aya%20Sophia%20Floor%20Plan.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap53-merovingian-fibulae",
+    "apNumber": 53,
+    "titleEn": "Merovingian looped fibulae",
+    "titleZh": "墨洛温王朝环形腓骨饰",
+    "unit": 3,
+    "region": "france",
+    "siteName": "Early medieval Europe",
+    "provenanceQualifier": "The Louvre records Jouy-le-Comte as the findspot; the manufacturing workshop is not securely localized, so the map uses a broad early medieval European anchor.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://collections.louvre.fr/media/cache/small/0000000021/0000116783/0000846601_OG.JPG",
+        "imageAlt": "墨洛温王朝环形腓骨饰：成对黄金环形胸针，表面密布石榴石掐丝镶嵌",
+        "imageSourceUrl": "https://collections.louvre.fr/en/ark:/53355/cl010116783"
+      }
+    ]
+  },
+  {
+    "id": "ap54-virgin-theotokos-saints",
+    "apNumber": 54,
+    "titleEn": "Virgin (Theotokos) and Child between Saints Theodore and George",
+    "titleZh": "圣母子与圣徒西奥多和乔治",
+    "unit": 3,
+    "region": "easternMediterranean",
+    "siteName": "Mount Sinai, Egypt",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mary%20%26%20Child%20Icon%20Sinai%206th%20century.jpg",
+        "imageAlt": "圣母子与圣徒西奥多和乔治：圣母子端坐中央，武士圣徒站立两侧，天使向上仰望",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mary%20%26%20Child%20Icon%20Sinai%206th%20century.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap55-lindisfarne-gospels",
+    "apNumber": 55,
+    "titleEn": "Lindisfarne Gospels: St. Matthew, cross-carpet page; St. Luke portrait page; St. Luke incipit page",
+    "titleZh": "《林迪斯法恩福音书》",
+    "unit": 3,
+    "region": "britishIsles",
+    "siteName": "Northumbria, England",
+    "provenanceQualifier": "Made in Northumbria, probably at Lindisfarne; Eadfrith is the traditionally attributed scribe-artist.",
+    "images": [
+      {
+        "id": "st-matthew-cross-carpet",
+        "label": "St Matthew Cross Carpet",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/F26v.jpg",
+        "imageAlt": "《林迪斯法恩福音书》：马太十字地毯页布满交织纹与鸟兽纹",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:F26v.jpg"
+      },
+      {
+        "id": "st-luke-portrait",
+        "label": "St Luke Portrait",
+        "imageUrl": "https://human.libretexts.org/@api/deki/files/29514/luke-portrait.jpg?revision=1",
+        "imageAlt": "《林迪斯法恩福音书》：路加持书而坐，背后帘幕卷起",
+        "imageSourceUrl": "https://pressbooks.pub/pacarthistory/back-matter/image-credits/"
+      },
+      {
+        "id": "st-luke-incipit",
+        "label": "St Luke Incipit",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lindisfarne%20Gospels%20folio%20139r.jpg",
+        "imageAlt": "《林迪斯法恩福音书》：路加福音开篇巨型彩色首字母吞没文字",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lindisfarne%20Gospels%20folio%20139r.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap56-great-mosque-cordoba",
+    "apNumber": 56,
+    "titleEn": "Great Mosque",
+    "titleZh": "科尔多瓦大清真寺",
+    "unit": 3,
+    "region": "iberianPeninsula",
+    "siteName": "Córdoba, Spain",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Great%20Mosque%20of%20Cordoba%2C%20exterior%2C%208th%20-%2010th%20centuries%20%2829185040314%29.jpg",
+        "imageAlt": "科尔多瓦大清真寺：清真寺低矮外墙、庭院与宣礼塔",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Great%20Mosque%20of%20Cordoba%2C%20exterior%2C%208th%20-%2010th%20centuries%20%2829185040314%29.jpg"
+      },
+      {
+        "id": "hypostyle-hall",
+        "label": "Hypostyle Hall",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Interior%20de%20la%20Mezquita%20de%20C%C3%B3rdoba.jpg",
+        "imageAlt": "科尔多瓦大清真寺：柱林与红白双层马蹄拱向远处延伸",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Interior%20de%20la%20Mezquita%20de%20C%C3%B3rdoba.jpg"
+      },
+      {
+        "id": "mihrab-detail",
+        "label": "Mihrab Detail",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Mihrab%20in%20La%20Mezquita.JPG",
+        "imageAlt": "科尔多瓦大清真寺：金色镶嵌框住米哈拉布入口",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The%20Mihrab%20in%20La%20Mezquita.JPG"
+      },
+      {
+        "id": "double-tier-arches",
+        "label": "Double Tier Arches",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mosque%20of%20Cordoba.jpg",
+        "imageAlt": "科尔多瓦大清真寺：上下叠置的红白拱券与细柱",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mosque%20of%20Cordoba.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Plano%20de%20la%20Mezquita%20de%20C%C3%B3rdoba%20%28revised%29.png",
+        "imageAlt": "科尔多瓦大清真寺：庭院、柱厅与朝向墙的扩展平面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Plano%20de%20la%20Mezquita%20de%20C%C3%B3rdoba%20%28revised%29.png"
+      }
+    ]
+  },
+  {
+    "id": "ap57-pyxis-al-mughira",
+    "apNumber": 57,
+    "titleEn": "Pyxis of al-Mughira",
+    "titleZh": "穆吉拉王子象牙盒",
+    "unit": 3,
+    "region": "iberianPeninsula",
+    "siteName": "Madinat al-Zahra, Spain",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pyxid%20Al%20Mughira%20OA%204068.jpg",
+        "imageAlt": "穆吉拉王子象牙盒：象牙圆盒被卷草纹和人物动物圆章环绕",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pyxid%20Al%20Mughira%20OA%204068.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap58-church-sainte-foy",
+    "apNumber": 58,
+    "titleEn": "Church of Sainte-Foy",
+    "titleZh": "圣福瓦教堂与圣女福瓦圣物箱",
+    "unit": 3,
+    "region": "france",
+    "siteName": "Conques, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Conques%20eglise%20face%20ter.jpg",
+        "imageAlt": "圣福瓦教堂与圣女福瓦圣物箱：双塔西立面与朝圣教堂石砌体量",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Conques%20eglise%20face%20ter.jpg"
+      },
+      {
+        "id": "last-judgment-tympanum",
+        "label": "Last Judgment Tympanum",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Abbatiale%20Sainte-Foy%20de%20Conques%20-%20Tympan.jpg",
+        "imageAlt": "圣福瓦教堂与圣女福瓦圣物箱：入口门楣上基督主持最后审判",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Abbatiale%20Sainte-Foy%20de%20Conques%20-%20Tympan.jpg"
+      },
+      {
+        "id": "interior",
+        "label": "Interior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PM%20018670%20F%20Conques.jpg",
+        "imageAlt": "圣福瓦教堂与圣女福瓦圣物箱：桶形拱中殿与上层看台",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:PM%20018670%20F%20Conques.jpg"
+      },
+      {
+        "id": "reliquary",
+        "label": "Reliquary",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Reliquaire%20de%20sainte%20foy.jpg",
+        "imageAlt": "圣福瓦教堂与圣女福瓦圣物箱：端坐圣女福瓦圣物像镶满金银宝石",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Reliquaire%20de%20sainte%20foy.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap59-bayeux-tapestry",
+    "apNumber": 59,
+    "titleEn": "Bayeux Tapestry",
+    "titleZh": "贝叶挂毯",
+    "unit": 3,
+    "region": "britishIsles",
+    "siteName": "England or Normandy",
+    "provenanceQualifier": "Probably embroidered in England for a Norman patron; the precise workshop and original display setting remain debated.",
+    "images": [
+      {
+        "id": "narrative-overview",
+        "label": "Narrative Overview",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BayeuxTapestry.jpg",
+        "imageAlt": "贝叶挂毯：狭长刺绣带连续展开船只、骑兵与题记",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:BayeuxTapestry.jpg"
+      },
+      {
+        "id": "narrative-detail",
+        "label": "Narrative Detail",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bayeux%20Tapestry%20scene23%20Harold%20oath%20William.jpg",
+        "imageAlt": "贝叶挂毯：黑斯廷斯战斗中骑兵、步兵与倒地人物的细节",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bayeux%20Tapestry%20scene23%20Harold%20oath%20William.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap60-chartres-cathedral",
+    "apNumber": 60,
+    "titleEn": "Chartres Cathedral",
+    "titleZh": "沙特尔大教堂",
+    "unit": 3,
+    "region": "france",
+    "siteName": "Chartres, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "west-facade",
+        "label": "West Facade",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chartres%20cathedral%20%28West%20fa%C3%A7ade%29.jpg",
+        "imageAlt": "沙特尔大教堂：不对称双塔、三座入口与王者之门",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres%20cathedral%20%28West%20fa%C3%A7ade%29.jpg"
+      },
+      {
+        "id": "nave",
+        "label": "Nave",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chartres%20Cath%C3%A9drale%20Notre-Dame%20de%20Chartres%20Innen%20Langhaus%20Gew%C3%B6lbe%20%26%20Westrosette.jpg",
+        "imageAlt": "沙特尔大教堂：肋拱顶和高窗下的纵深中殿",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres%20Cath%C3%A9drale%20Notre-Dame%20de%20Chartres%20Innen%20Langhaus%20Gew%C3%B6lbe%20%26%20Westrosette.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Plan.cathedrale.Chartres.png",
+        "imageAlt": "沙特尔大教堂：十字形巴西利卡、环廊与放射礼拜堂平面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Plan.cathedrale.Chartres.png"
+      },
+      {
+        "id": "royal-portal",
+        "label": "Royal Portal",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chartres%20%28Eure-et-Loir%29%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Fa%C3%A7ade%20ouest%20-%20Portail%20royal%20%2832928917517%29.jpg",
+        "imageAlt": "沙特尔大教堂：王者之门柱像与三角楣雕刻",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres%20%28Eure-et-Loir%29%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Fa%C3%A7ade%20ouest%20-%20Portail%20royal%20%2832928917517%29.jpg"
+      },
+      {
+        "id": "rose-window",
+        "label": "Rose Window",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chartres%20Notre-Dame%20Windows%20WestRose%20018%202905.jpg",
+        "imageAlt": "沙特尔大教堂：巨大玫瑰窗嵌在西立面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres%20Notre-Dame%20Windows%20WestRose%20018%202905.jpg"
+      },
+      {
+        "id": "stained-glass",
+        "label": "Stained Glass",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Notre-Dame%20de%20la%20Belle%20Verri%C3%A8re.jpg",
+        "imageAlt": "沙特尔大教堂：深蓝彩窗中的圣母与圣婴",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame%20de%20la%20Belle%20Verri%C3%A8re.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap61-bibles-moralisees",
+    "apNumber": 61,
+    "titleEn": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées",
+    "titleZh": "《道德化圣经》奉献页与《启示录》场景",
+    "unit": 3,
+    "region": "france",
+    "siteName": "Paris, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "dedication-page",
+        "label": "Dedication Page",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Blanche%20of%20Castile%20and%20King%20Louis%20IX%20of%20France%2C%20from%20Toledo%20Moralized%20Bible%20of%20St%20Louis%2C%20circa%201227-1234%20%2848084488327%29.jpg",
+        "imageAlt": "《道德化圣经》奉献页与《启示录》场景：布朗什王后与路易九世位于上层，书匠在下层工作",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Blanche%20of%20Castile%20and%20King%20Louis%20IX%20of%20France%2C%20from%20Toledo%20Moralized%20Bible%20of%20St%20Louis%2C%20circa%201227-1234%20%2848084488327%29.jpg"
+      },
+      {
+        "id": "apocalypse-scenes",
+        "label": "Apocalypse Scenes",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bible%20moralis%C3%A9e%20-%20Vienne%20Cod.1179%20-%20f246r.jpg",
+        "imageAlt": "《道德化圣经》奉献页与《启示录》场景：金地圆形画格分栏呈现启示录故事",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bible%20moralis%C3%A9e%20-%20Vienne%20Cod.1179%20-%20f246r.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap62-rottgen-pieta",
+    "apNumber": 62,
+    "titleEn": "Röttgen Pietà",
+    "titleZh": "勒特根哀悼圣母像",
+    "unit": 3,
+    "region": "centralEurope",
+    "siteName": "Rhineland, Germany",
+    "provenanceQualifier": "Made in the Rhineland; the precise workshop and original devotional setting are not securely localized.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Piet%C3%A0%20Roettgen.jpg",
+        "imageAlt": "勒特根哀悼圣母像：圣母抱着消瘦多伤的基督遗体，衣褶呈尖锐折角",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Piet%C3%A0%20Roettgen.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap63-arena-scrovegni-chapel",
+    "apNumber": 63,
+    "titleEn": "Arena (Scrovegni) Chapel, including Lamentation",
+    "titleZh": "阿雷纳（斯克罗威尼）礼拜堂及《哀悼基督》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Padua, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "chapel-interior",
+        "label": "Chapel Interior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cappella%20degli%20Scrovegni.jpg",
+        "imageAlt": "阿雷纳（斯克罗威尼）礼拜堂及《哀悼基督》：蓝色拱顶下三层壁画带覆盖单中殿",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cappella%20degli%20Scrovegni.jpg"
+      },
+      {
+        "id": "lamentation",
+        "label": "Lamentation",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Giotto%20-%20Scrovegni%20-%20-36-%20-%20Lamentation%20%28The%20Mourning%20of%20Christ%29%20adj.jpg",
+        "imageAlt": "阿雷纳（斯克罗威尼）礼拜堂及《哀悼基督》：哀悼者沿斜坡聚向横卧的基督",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto%20-%20Scrovegni%20-%20-36-%20-%20Lamentation%20%28The%20Mourning%20of%20Christ%29%20adj.jpg"
+      },
+      {
+        "id": "chapel-exterior",
+        "label": "Chapel Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/La%20Cappella%20degli%20Scrovegni.JPG",
+        "imageAlt": "阿雷纳（斯克罗威尼）礼拜堂及《哀悼基督》：简朴砖砌礼拜堂外观与窄窗",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:La%20Cappella%20degli%20Scrovegni.JPG"
+      }
+    ]
+  },
+  {
+    "id": "ap64-golden-haggadah",
+    "apNumber": 64,
+    "titleEn": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, and Preparation for Passover)",
+    "titleZh": "《黄金哈加达》",
+    "unit": 3,
+    "region": "iberianPeninsula",
+    "siteName": "Barcelona, Spain",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "plagues-egypt",
+        "label": "Plagues Egypt",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Golden%20Haggadah%20-%20Plagues%20of%20Egypt.jpg",
+        "imageAlt": "《黄金哈加达》：金地四格中呈现埃及灾祸",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Golden%20Haggadah%20-%20Plagues%20of%20Egypt.jpg"
+      },
+      {
+        "id": "scenes-liberation",
+        "label": "Scenes Liberation",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Exodus%20golden%20haggadah.jpg",
+        "imageAlt": "《黄金哈加达》：出走与获救场景按希伯来阅读方向排列",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Exodus%20golden%20haggadah.jpg"
+      },
+      {
+        "id": "preparation-passover",
+        "label": "Preparation Passover",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dance%20of%20Marian.%20Full%20F15%20from%20Golden%20Haggadah.jpg",
+        "imageAlt": "《黄金哈加达》：家庭准备逾越节食物与仪式用品",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dance%20of%20Marian.%20Full%20F15%20from%20Golden%20Haggadah.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap65-alhambra",
+    "apNumber": 65,
+    "titleEn": "Alhambra",
+    "titleZh": "阿尔罕布拉宫",
+    "unit": 3,
+    "region": "iberianPeninsula",
+    "siteName": "Granada, Spain",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Alhambra%20from%20Generalife.jpg",
+        "imageAlt": "阿尔罕布拉宫：红色山丘上延展的宫堡外观",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alhambra%20from%20Generalife.jpg"
+      },
+      {
+        "id": "court-lions",
+        "label": "Court Lions",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Court%20of%20lions%203.jpg",
+        "imageAlt": "阿尔罕布拉宫：狮子喷泉居中、纤细柱廊围合庭院",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Court%20of%20lions%203.jpg"
+      },
+      {
+        "id": "hall-sisters",
+        "label": "Hall Sisters",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Halloftwosisters%20alhambra%20granada.jpg",
+        "imageAlt": "阿尔罕布拉宫：蜂窝状穹顶覆盖两姐妹厅",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Halloftwosisters%20alhambra%20granada.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Plan%20of%20Alhambra.jpg",
+        "imageAlt": "阿尔罕布拉宫：庭院、水渠与串联宫室的平面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Plan%20of%20Alhambra.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap66-merode-altarpiece",
+    "apNumber": 66,
+    "titleEn": "Annunciation Triptych (Merode Altarpiece)",
+    "titleZh": "《天使报喜三联画》（梅罗德祭坛画）",
+    "unit": 3,
+    "region": "lowCountries",
+    "siteName": "Tournai, present-day Belgium",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/cl/original/DP273206.jpg",
+        "imageAlt": "《天使报喜三联画》（梅罗德祭坛画）：三联画中天使报喜居中，捐赠者和约瑟分列两翼",
+        "imageSourceUrl": "https://www.metmuseum.org/collection/the-collection-online/search/470304"
+      }
+    ]
+  },
+  {
+    "id": "ap67-pazzi-chapel",
+    "apNumber": 67,
+    "titleEn": "Pazzi Chapel",
+    "titleZh": "帕齐礼拜堂",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Exterior%20of%20the%20Pazzi%20Chapel.jpg",
+        "imageAlt": "帕齐礼拜堂：柱廊入口、穹顶与简洁几何外墙",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior%20of%20the%20Pazzi%20Chapel.jpg"
+      },
+      {
+        "id": "interior",
+        "label": "Interior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pazzi%20Chapel%20Florence%20Apr%202008.jpg",
+        "imageAlt": "帕齐礼拜堂：灰色圣石框架、白墙与彩釉圆章组成室内",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pazzi%20Chapel%20Florence%20Apr%202008.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap68-arnolfini-portrait",
+    "apNumber": 68,
+    "titleEn": "The Arnolfini Portrait",
+    "titleZh": "《阿尔诺芬尼夫妇像》",
+    "unit": 3,
+    "region": "lowCountries",
+    "siteName": "Flanders, present-day Belgium",
+    "provenanceQualifier": "Made in Flanders, probably Bruges; the sitters’ identities and original domestic setting remain debated.",
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Van%20Eyck%20-%20Arnolfini%20Portrait.jpg",
+        "imageAlt": "《阿尔诺芬尼夫妇像》：盛装男女交握双手，凸面镜与单支蜡烛位于后方",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Van%20Eyck%20-%20Arnolfini%20Portrait.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap69-donatello-david",
+    "apNumber": 69,
+    "titleEn": "David",
+    "titleZh": "《大卫》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bronze%20David%20by%20Donatello-Bargello.jpg",
+        "imageAlt": "《大卫》：裸体少年戴帽持剑，脚踩歌利亚首级",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze%20David%20by%20Donatello-Bargello.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap70-palazzo-rucellai",
+    "apNumber": 70,
+    "titleEn": "Palazzo Rucellai",
+    "titleZh": "鲁切莱宫",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Florencia%20Palazzo%20Rucellai%2008.JPG",
+        "imageAlt": "鲁切莱宫：三层壁柱与水平檐口规整鲁切莱宫石墙",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Florencia%20Palazzo%20Rucellai%2008.JPG"
+      }
+    ]
+  },
+  {
+    "id": "ap71-madonna-child-two-angels",
+    "apNumber": 71,
+    "titleEn": "Madonna and Child with Two Angels",
+    "titleZh": "《圣母子与两位天使》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Filippo%20Lippi%2C%20Madonna%20and%20Child%2C%20c.%201460-1465%2C%20Uffizi.jpg",
+        "imageAlt": "《圣母子与两位天使》：两名天使托起圣婴，忧郁圣母位于窗景之前",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Filippo%20Lippi%2C%20Madonna%20and%20Child%2C%20c.%201460-1465%2C%20Uffizi.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap72-birth-venus",
+    "apNumber": 72,
+    "titleEn": "Birth of Venus",
+    "titleZh": "《维纳斯的诞生》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Birth%20of%20Venus%20Botticelli.jpg",
+        "imageAlt": "《维纳斯的诞生》：裸体维纳斯立于贝壳，风神吹送，女神持衣迎接",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Birth%20of%20Venus%20Botticelli.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap73-last-supper",
+    "apNumber": 73,
+    "titleEn": "Last Supper",
+    "titleZh": "《最后的晚餐》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Milan, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Leonardo%2C%20ultima%20cena%20%28restored%29%2001.jpg",
+        "imageAlt": "《最后的晚餐》：基督居中央，使徒在透视餐厅内分组惊动",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leonardo%2C%20ultima%20cena%20%28restored%29%2001.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap74-adam-eve-durer",
+    "apNumber": 74,
+    "titleEn": "Adam and Eve",
+    "titleZh": "《亚当与夏娃》",
+    "unit": 3,
+    "region": "centralEurope",
+    "siteName": "Nuremberg, Germany",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Albrecht%20D%C3%BCrer%2C%20Adam%20and%20Eve%2C%201504%2C%20Engraving.jpg",
+        "imageAlt": "《亚当与夏娃》：亚当夏娃分立知识树两侧，四种动物散布脚边",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Albrecht%20D%C3%BCrer%2C%20Adam%20and%20Eve%2C%201504%2C%20Engraving.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap75-sistine-chapel-frescoes",
+    "apNumber": 75,
+    "titleEn": "Sistine Chapel ceiling and altar wall frescoes",
+    "titleZh": "西斯廷礼拜堂天顶画与《最后的审判》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Vatican City",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "ceiling-overview",
+        "label": "Ceiling Overview",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sistine%20Chapel%20Ceiling%20by%20Michelangelo%20%2848466107736%29.jpg",
+        "imageAlt": "西斯廷礼拜堂天顶画与《最后的审判》：绘制建筑框住天顶创世纪与裸体青年",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sistine%20Chapel%20Ceiling%20by%20Michelangelo%20%2848466107736%29.jpg"
+      },
+      {
+        "id": "delphic-sibyl",
+        "label": "Delphic Sibyl",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Michelangelo%20-%20Delphic%20Sibyl.jpg",
+        "imageAlt": "西斯廷礼拜堂天顶画与《最后的审判》：德尔斐女先知扭身展开卷轴",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo%20-%20Delphic%20Sibyl.jpg"
+      },
+      {
+        "id": "the-flood",
+        "label": "The Flood",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Deluge%2C%20Michelangelo.png",
+        "imageAlt": "西斯廷礼拜堂天顶画与《最后的审判》：洪水中人群争爬岩石与小舟",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Deluge%2C%20Michelangelo.png"
+      },
+      {
+        "id": "last-judgment",
+        "label": "Last Judgment",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Last%20Judgement%20by%20Michelangelo.jpg",
+        "imageAlt": "西斯廷礼拜堂天顶画与《最后的审判》：祭坛墙上基督居中主持最后审判",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Last%20Judgement%20by%20Michelangelo.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap76-school-athens",
+    "apNumber": 76,
+    "titleEn": "School of Athens",
+    "titleZh": "《雅典学院》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Vatican City",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20School%20of%20Athens%20by%20Raffaello%20Sanzio%20da%20Urbino%2C%20Vatican.jpg",
+        "imageAlt": "《雅典学院》：柏拉图与亚里士多德居中央，哲学家遍布宏伟拱厅",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The%20School%20of%20Athens%20by%20Raffaello%20Sanzio%20da%20Urbino%2C%20Vatican.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap77-isenheim-altarpiece",
+    "apNumber": 77,
+    "titleEn": "Isenheim altarpiece",
+    "titleZh": "伊森海姆祭坛画",
+    "unit": 3,
+    "region": "centralEurope",
+    "siteName": "Isenheim, Alsace",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "closed-state",
+        "label": "Closed State",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gruenewaldaltar.jpg",
+        "imageAlt": "伊森海姆祭坛画：闭合翼板显示受难基督、圣母、约翰与圣徒",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gruenewaldaltar.jpg"
+      },
+      {
+        "id": "open-state",
+        "label": "Open State",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Isenheim%20Altarpiece%20%E2%80%94%20FIRST%20OPENING.jpg",
+        "imageAlt": "伊森海姆祭坛画：开启翼板显出报喜、降生、复活与雕刻圣龛",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Isenheim%20Altarpiece%20%E2%80%94%20FIRST%20OPENING.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap78-entombment-christ-pontormo",
+    "apNumber": 78,
+    "titleEn": "Entombment of Christ",
+    "titleZh": "《基督下葬》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Florence, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jacopo%20da%20Pontormo%20-%20Deposizione.jpg",
+        "imageAlt": "《基督下葬》：淡粉蓝人物在无稳定地面的空间中托举基督",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jacopo%20da%20Pontormo%20-%20Deposizione.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap79-allegory-law-grace",
+    "apNumber": 79,
+    "titleEn": "Allegory of Law and Grace",
+    "titleZh": "《法律与恩典的寓意》",
+    "unit": 3,
+    "region": "centralEurope",
+    "siteName": "Wittenberg, Germany",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cranach%20law%20and%20grace%20woodcut.jpg",
+        "imageAlt": "《法律与恩典的寓意》：中央树分隔律法与恩典，两侧并列死亡和救赎场景",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cranach%20law%20and%20grace%20woodcut.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap80-venus-urbino",
+    "apNumber": 80,
+    "titleEn": "Venus of Urbino",
+    "titleZh": "《乌尔比诺的维纳斯》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Venice, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tizian%20-%20Venus%20von%20Urbino.jpg",
+        "imageAlt": "《乌尔比诺的维纳斯》：斜卧裸体女子直视观者，后室仆人翻找嫁妆箱",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tizian%20-%20Venus%20von%20Urbino.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap81-codex-mendoza-frontispiece",
+    "apNumber": 81,
+    "titleEn": "Frontispiece of the Codex Mendoza",
+    "titleZh": "《门多萨手抄本》",
+    "unit": 3,
+    "region": "colonialAmericas",
+    "siteName": "Tenochtitlan (Mexico City), New Spain",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Codex%20Mendoza%20folio%202r.jpg",
+        "imageAlt": "《门多萨手抄本》：鹰与仙人掌位于水城中央，运河分隔四个城区",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Codex%20Mendoza%20folio%202r.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap82-il-gesu",
+    "apNumber": 82,
+    "titleEn": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco",
+    "titleZh": "耶稣会教堂（罗马）及《耶稣圣名的胜利》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "facade",
+        "label": "Facade",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chiesa%20del%20Ges%C3%B9%20facciata.jpg",
+        "imageAlt": "耶稣会教堂（罗马）及《耶稣圣名的胜利》：双层教堂正面以卷涡与成对壁柱连接",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chiesa%20del%20Ges%C3%B9%20facciata.jpg"
+      },
+      {
+        "id": "nave",
+        "label": "Nave",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/01%20Il%20Gesu%20Nave.jpg",
+        "imageAlt": "耶稣会教堂（罗马）及《耶稣圣名的胜利》：宽阔中殿通向高坛，两侧排列礼拜堂",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:01%20Il%20Gesu%20Nave.jpg"
+      },
+      {
+        "id": "triumph-name-jesus",
+        "label": "Triumph Name Jesus",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/IlGesu%20Ceiling01.jpg",
+        "imageAlt": "耶稣会教堂（罗马）及《耶稣圣名的胜利》：耶稣圣名发光，人物冲破天顶框架升降",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:IlGesu%20Ceiling01.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap83-hunters-snow",
+    "apNumber": 83,
+    "titleEn": "Hunters in the Snow",
+    "titleZh": "《雪中猎人》",
+    "unit": 3,
+    "region": "lowCountries",
+    "siteName": "Antwerp, present-day Belgium",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Hunters%20in%20the%20Snow.jpg",
+        "imageAlt": "《雪中猎人》：猎人与猎犬沿雪坡下行，谷地冰面布满村民",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The%20Hunters%20in%20the%20Snow.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap84-mosque-selim-ii",
+    "apNumber": 84,
+    "titleEn": "Mosque of Selim II",
+    "titleZh": "塞利米耶清真寺",
+    "unit": 3,
+    "region": "easternMediterranean",
+    "siteName": "Edirne, Turkey",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "exterior",
+        "label": "Exterior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Selimiye%20Mosque.png",
+        "imageAlt": "塞利米耶清真寺：主穹顶与四座细长宣礼塔统摄外观",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Selimiye%20Mosque.png"
+      },
+      {
+        "id": "interior",
+        "label": "Interior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Interior%20of%20dome%2C%20Selimiye%20Mosque%2C%20Edirne%20-%20Tarik%20Kaan%20Muslu.jpg",
+        "imageAlt": "塞利米耶清真寺：八角支撑围出开敞礼拜厅与米哈拉布",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Interior%20of%20dome%2C%20Selimiye%20Mosque%2C%20Edirne%20-%20Tarik%20Kaan%20Muslu.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Edirne%20Selimiye%20Mosque%20Plan%20in%202003%204454.jpg",
+        "imageAlt": "塞利米耶清真寺：中央穹顶、八角支柱与周边空间平面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Edirne%20Selimiye%20Mosque%20Plan%20in%202003%204454.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap85-calling-saint-matthew",
+    "apNumber": 85,
+    "titleEn": "Calling of Saint Matthew",
+    "titleZh": "《圣马太蒙召》",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/CaravaggioContarelli.jpg",
+        "imageAlt": "《圣马太蒙召》：斜射光束越过桌面，基督指向迟疑的马太",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:CaravaggioContarelli.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap86-henri-iv-marie-medici",
+    "apNumber": 86,
+    "titleEn": "Henri IV Receives the Portrait of Marie de’ Medici, from the Marie de’ Medici Cycle",
+    "titleZh": "《亨利四世接受玛丽·德·美第奇的肖像》",
+    "unit": 3,
+    "region": "lowCountries",
+    "siteName": "Antwerp, Southern Netherlands",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Henri%20IV%20re%C3%A7oit%20le%20portrait%20de%20Marie%20de%20M%C3%A9dicis%20et%20se%20laisse%20d%C3%A9sarmer%20par%20l%E2%80%99Amour%20-%20Pierre%20Paul%20Rubens%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%201772%20%3B%20MR%20963.jpg",
+        "imageAlt": "《亨利四世接受玛丽·德·美第奇的肖像》：丘比特与婚神呈上玛丽肖像，亨利四世仰望",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Henri%20IV%20re%C3%A7oit%20le%20portrait%20de%20Marie%20de%20M%C3%A9dicis%20et%20se%20laisse%20d%C3%A9sarmer%20par%20l%E2%80%99Amour%20-%20Pierre%20Paul%20Rubens%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%201772%20%3B%20MR%20963.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap87-self-portrait-saskia",
+    "apNumber": 87,
+    "titleEn": "Self-Portrait with Saskia",
+    "titleZh": "《与萨斯基亚的自画像》",
+    "unit": 3,
+    "region": "lowCountries",
+    "siteName": "Amsterdam, Netherlands",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rembrandt%20Self-portrait%20with%20Saskia01.jpg",
+        "imageAlt": "《与萨斯基亚的自画像》：伦勃朗近景直视观者，戴大帽的萨斯基亚坐在后方",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt%20Self-portrait%20with%20Saskia01.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap88-san-carlo-quattro-fontane",
+    "apNumber": 88,
+    "titleEn": "San Carlo alle Quattro Fontane",
+    "titleZh": "四喷泉圣卡洛教堂",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "facade",
+        "label": "Facade",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rome%20S.%20Carlo%20alle%20Quattro%20Fontane%20facade.jpg",
+        "imageAlt": "四喷泉圣卡洛教堂：四喷泉街角的凹凸波动教堂立面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rome%20S.%20Carlo%20alle%20Quattro%20Fontane%20facade.jpg"
+      },
+      {
+        "id": "interior",
+        "label": "Interior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/San%20Carlo%20alle%20quattro%20fontane%20-%20interior.jpg",
+        "imageAlt": "四喷泉圣卡洛教堂：白色椭圆穹顶与格子纹在灯亭光中上升",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:San%20Carlo%20alle%20quattro%20fontane%20-%20interior.jpg"
+      },
+      {
+        "id": "plan",
+        "label": "Plan",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/San%20Carlo%20alle%20Quattro%20Fontane%20Rome%20Italy.svg",
+        "imageAlt": "四喷泉圣卡洛教堂：相扣椭圆组织教堂与修道院的紧凑平面",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:San%20Carlo%20alle%20Quattro%20Fontane%20Rome%20Italy.svg"
+      }
+    ]
+  },
+  {
+    "id": "ap89-ecstasy-saint-teresa",
+    "apNumber": 89,
+    "titleEn": "Ecstasy of Saint Teresa",
+    "titleZh": "《圣特蕾莎的狂喜》科尔纳罗礼拜堂",
+    "unit": 3,
+    "region": "italyVatican",
+    "siteName": "Rome, Italy",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "church-interior",
+        "label": "Church Interior",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Santa%20Maria%20della%20Vittoria%20in%20Rome%20-%20Interior.jpg",
+        "imageAlt": "《圣特蕾莎的狂喜》科尔纳罗礼拜堂：教堂中殿内可见科尔纳罗礼拜堂的位置",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Santa%20Maria%20della%20Vittoria%20in%20Rome%20-%20Interior.jpg"
+      },
+      {
+        "id": "cornaro-chapel",
+        "label": "Cornaro Chapel",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Santa%20Maria%20della%20Vittoria%20-%20Ecstasy%20of%20Saint%20Teresa.jpg",
+        "imageAlt": "《圣特蕾莎的狂喜》科尔纳罗礼拜堂：彩色大理石、包厢肖像与金色光束围合礼拜堂",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Santa%20Maria%20della%20Vittoria%20-%20Ecstasy%20of%20Saint%20Teresa.jpg"
+      },
+      {
+        "id": "ecstasy-saint-teresa",
+        "label": "Ecstasy Saint Teresa",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ecstasy%20of%20Saint%20Theresa.jpg",
+        "imageAlt": "《圣特蕾莎的狂喜》科尔纳罗礼拜堂：天使持箭俯向云端瘫软的圣特蕾莎",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ecstasy%20of%20Saint%20Theresa.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap90-angel-arquebus",
+    "apNumber": 90,
+    "titleEn": "Angel with Arquebus, Asiel Timor Dei",
+    "titleZh": "《持火绳枪的天使：上帝的敬畏》",
+    "unit": 3,
+    "region": "colonialAmericas",
+    "siteName": "Calamarca, present-day Bolivia",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/An%C3%B3nimo%20-%20Asiel%20Timor%20Dei.%20Arc%C3%A1ngel%20arcabucero%2C%20c.%201680.jpg",
+        "imageAlt": "《持火绳枪的天使：上帝的敬畏》：有翼天使穿锦缎长袍和羽帽，斜持火绳枪",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:An%C3%B3nimo%20-%20Asiel%20Timor%20Dei.%20Arc%C3%A1ngel%20arcabucero%2C%20c.%201680.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap91-las-meninas",
+    "apNumber": 91,
+    "titleEn": "Las Meninas",
+    "titleZh": "《宫娥》",
+    "unit": 3,
+    "region": "iberianPeninsula",
+    "siteName": "Madrid, Spain",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Las%20Meninas%20by%20Diego%20Vel%C3%A1zquez.jpg",
+        "imageAlt": "《宫娥》：公主与侍从占据画室，画家在巨幅画布旁回望",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Las%20Meninas%20by%20Diego%20Vel%C3%A1zquez.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap92-woman-holding-balance",
+    "apNumber": 92,
+    "titleEn": "Woman Holding a Balance",
+    "titleZh": "《持天平的女人》",
+    "unit": 3,
+    "region": "lowCountries",
+    "siteName": "Delft, Netherlands",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Woman%20Holding%20a%20Balance%20%28Vermeer%29.jpg",
+        "imageAlt": "《持天平的女人》：女子在珠宝桌前举起空天平，身后悬挂最后审判",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Woman%20Holding%20a%20Balance%20%28Vermeer%29.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap93-palace-versailles",
+    "apNumber": 93,
+    "titleEn": "The Palace at Versailles",
+    "titleZh": "凡尔赛宫",
+    "unit": 3,
+    "region": "france",
+    "siteName": "Versailles, France",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "aerial-overview",
+        "label": "Aerial Overview",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vue%20a%C3%A9rienne%20de%20Versailles.jpg",
+        "imageAlt": "凡尔赛宫：宫殿、花园与放射大道的鸟瞰全景",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vue%20a%C3%A9rienne%20de%20Versailles.jpg"
+      },
+      {
+        "id": "facade",
+        "label": "Facade",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fa%C3%A7ade%20of%20the%20Palace%20of%20Versailles.jpg",
+        "imageAlt": "凡尔赛宫：长翼立面面向规则花园",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade%20of%20the%20Palace%20of%20Versailles.jpg"
+      },
+      {
+        "id": "courtyard",
+        "label": "Courtyard",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cour%20d'honneur%202.jpg",
+        "imageAlt": "凡尔赛宫：石铺庭院被宫殿三面围合",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cour%20d'honneur%202.jpg"
+      },
+      {
+        "id": "hall-mirrors",
+        "label": "Hall Mirrors",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Palace%20of%20Versailles%20Hall%20of%20Mirrors%20%289812078196%29.jpg",
+        "imageAlt": "凡尔赛宫：拱窗、吊灯与连续镜面组成镜厅",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Palace%20of%20Versailles%20Hall%20of%20Mirrors%20%289812078196%29.jpg"
+      },
+      {
+        "id": "gardens",
+        "label": "Gardens",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vue%20a%C3%A9rienne%20des%20jardins%20du%20ch%C3%A2teau%20de%20Versailles.jpg",
+        "imageAlt": "凡尔赛宫：轴线花坛、喷泉与修剪树篱延向地平线",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vue%20a%C3%A9rienne%20des%20jardins%20du%20ch%C3%A2teau%20de%20Versailles.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap94-screen-siege-belgrade",
+    "apNumber": 94,
+    "titleEn": "Screen with the Siege of Belgrade and hunting scene",
+    "titleZh": "《贝尔格莱德围城与狩猎图》屏风",
+    "unit": 3,
+    "region": "colonialAmericas",
+    "siteName": "Mexico City, New Spain",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "siege-belgrade-front",
+        "label": "Siege Belgrade Front",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gonz%C3%A1lez%20Family%20biombo%20enconchado%20of%20Siege%20of%20Belgrade%20%28with%20Hunting%20Scene%20on%20reverse%29%20c.%201697-1701.jpg",
+        "imageAlt": "《贝尔格莱德围城与狩猎图》屏风：屏风正面以螺钿描绘贝尔格莱德攻城军阵",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gonz%C3%A1lez%20Family%20biombo%20enconchado%20of%20Siege%20of%20Belgrade%20%28with%20Hunting%20Scene%20on%20reverse%29%20c.%201697-1701.jpg"
+      },
+      {
+        "id": "hunting-scene-reverse",
+        "label": "Hunting Scene Reverse",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gonz%C3%A1lez%20Family%20biombo%20enconchado%20of%20Hunting%20Scene%20%28with%20Siege%20of%20Belgrade%20on%20reverse%29%20c.%201697-1701.jpg",
+        "imageAlt": "《贝尔格莱德围城与狩猎图》屏风：屏风背面呈现骑马贵族与猎犬追猎",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gonz%C3%A1lez%20Family%20biombo%20enconchado%20of%20Hunting%20Scene%20%28with%20Siege%20of%20Belgrade%20on%20reverse%29%20c.%201697-1701.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap95-virgin-guadalupe",
+    "apNumber": 95,
+    "titleEn": "The Virgin of Guadalupe (Virgen de Guadalupe)",
+    "titleZh": "《瓜达卢佩圣母》",
+    "unit": 3,
+    "region": "colonialAmericas",
+    "siteName": "Mexico City, New Spain",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://collections-images.lacma.org/images/158374/158374-1-primary.webp",
+        "imageAlt": "《瓜达卢佩圣母》：放射光中的圣母立于新月，四周围绕显现小景",
+        "imageSourceUrl": "https://collections.lacma.org/object/158374"
+      }
+    ]
+  },
+  {
+    "id": "ap96-fruit-insects",
+    "apNumber": 96,
+    "titleEn": "Fruit and Insects",
+    "titleZh": "《水果与昆虫静物》",
+    "unit": 3,
+    "region": "lowCountries",
+    "siteName": "Amsterdam, Netherlands",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rachel%20Ruysch%20-%20Still-Life%20with%20Fruit%20and%20Insects%20-%20WGA20557.jpg",
+        "imageAlt": "《水果与昆虫静物》：水果花卉堆从暗处发亮，昆虫与爬虫散布其间",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rachel%20Ruysch%20-%20Still-Life%20with%20Fruit%20and%20Insects%20-%20WGA20557.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ap97-spaniard-indian-mestizo",
+    "apNumber": 97,
+    "titleEn": "Spaniard and Indian Produce a Mestizo",
+    "titleZh": "《西班牙人与印第安妇女生出混血儿》",
+    "unit": 3,
+    "region": "colonialAmericas",
+    "siteName": "Mexico City, New Spain",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://human.libretexts.org/@api/deki/files/110949/77fccf037a0741d8859632be19bd3d6f0bd88b60.jpg?revision=1",
+        "imageAlt": "《西班牙人与印第安妇女生出混血儿》：西班牙父亲、原住民母亲与混血儿童组成家庭群像",
+        "imageSourceUrl": "https://smarthistory.org/spaniard-and-indian-produce-a-mestizo-attributed-to-juan-rodriguez/"
+      }
+    ]
+  },
+  {
+    "id": "ap98-tete-a-tete",
+    "apNumber": 98,
+    "titleEn": "The Tête à Tête, from Marriage à la Mode",
+    "titleZh": "《婚姻时尚》之二：夫妻对坐",
+    "unit": 3,
+    "region": "britishIsles",
+    "siteName": "London, England",
+    "provenanceQualifier": null,
+    "images": [
+      {
+        "id": "primary",
+        "label": "Primary view",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/William%20Hogarth%20-%20Marriage%20A-la-Mode%202%20The%20T%C3%AAte%20%C3%A0%20T%C3%AAte.jpg",
+        "imageAlt": "《婚姻时尚》之二：夫妻对坐：午后室内夫妻彼此疏离，狗嗅丈夫口袋中的女帽",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:William%20Hogarth%20-%20Marriage%20A-la-Mode%202%20The%20T%C3%AAte%20%C3%A0%20T%C3%AAte.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,703 @@
+{
+  "artworks": [
+    {
+      "id": "ap213-nan-madol",
+      "apNumber": 213,
+      "unit": 9,
+      "titleEn": "Nan Madol",
+      "titleZh": "南马都尔",
+      "artistCulture": "Saudeleur patrons and Pohnpeian builders; individual makers unrecorded",
+      "culture": "Pohnpeian; Saudeleur dynasty",
+      "date": "c. 700–1600 C.E.",
+      "period": "Saudeleur political and ceremonial center",
+      "medium": "Basalt boulders and prismatic columns",
+      "siteName": "Nan Madol, Pohnpei, Federated States of Micronesia",
+      "region": "micronesia",
+      "coordinates": {
+        "x": 1504,
+        "y": 370
+      },
+      "traditionGroup": "Monuments & Ancestors",
+      "workType": "Megalithic ceremonial and residential complex",
+      "function": "作为 Saudeleur 王朝的政治、宗教与墓葬中心，组织贡赋与精英生活；水道连接不同活动区。 Served as a political, ceremonial and mortuary center for Saudeleur rulers. Its separated islets organized elite residences, ritual activity and burial, while waterways connected them.",
+      "form": "人工小岛 artificial islets 上以天然棱柱状玄武岩交错叠砌，形成无砂浆高墙；运河与围合空间共同组织动线。 Artificial islets support massive enclosures built with intersecting courses of naturally prismatic basalt. Dry-stone walls and canals shape circulation; the columns are not all individually carved into geometric rods.",
+      "content": "建筑群包括宫殿、神庙、居住区与王室墓地；monumentality 通过巨大材料运输与集中劳力显现统治权力。 The complex contains palatial, sacred, residential and burial domains. Monumental scale and the movement of heavy stone make chiefly authority visible; no single surviving wall represents the entire city.",
+      "context": "CED 给出较宽的 700–1600 年范围；考古及 UNESCO 所述主要巨石营造阶段较晚，不能把所有现存建筑都定为 700 年。 The CED uses a broad c. 700–1600 date. Archaeological accounts place much monumental construction later, especially around 1200–1500; the broad curriculum date is not a date for every wall. Oral histories and archaeological evidence offer different but related ways to understand the site.",
+      "recognitionAnchors": [
+        "交错堆叠的玄武岩柱 intersecting basalt courses",
+        "沿水道的高墙 canal-side enclosure",
+        "人工小岛与低矮围墙 artificial islets"
+      ],
+      "comparisonIds": [
+        "ap214-moai-ahu"
+      ],
+      "comparisonNotes": {
+        "ap214-moai-ahu": "两者以巨石营造强调祖先与首领权力；Nan Madol 是水道相连的建筑群，moai 是 ahu 上的拟人祖先。 Both mobilize monumental stone for chiefly and ancestral authority; Nan Madol is a canal-linked built complex, whereas moai are anthropomorphic ancestors standing on an ahu."
+      },
+      "keywords": [
+        "basalt 玄武岩",
+        "islet 人工小岛",
+        "Saudeleur 王朝",
+        "canal 水道"
+      ],
+      "images": [
+        {
+          "id": "basalt-enclosure-overview",
+          "label": "Elevated basalt enclosure with coast beyond / 海岸前玄武岩围墙俯瞰",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Elevated basalt enclosure with coast beyond / 海岸前玄武岩围墙俯瞰",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        },
+        {
+          "id": "canal-side-basalt-wall",
+          "label": "Prismatic basalt wall beside canal / 运河旁棱柱玄武岩墙",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Prismatic basalt wall beside canal / 运河旁棱柱玄武岩墙",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap214-moai-ahu",
+      "apNumber": 214,
+      "unit": 9,
+      "titleEn": "Moai on platform (ahu)",
+      "titleZh": "阿胡平台上的摩艾石像",
+      "artistCulture": "Rapa Nui carvers and chiefly communities; individual makers unrecorded",
+      "culture": "Rapa Nui; Polynesian",
+      "date": "c. 1100–1600 C.E.",
+      "period": "Rapa Nui ancestral monument traditions",
+      "medium": "Volcanic tuff figures on basalt base",
+      "siteName": "Rapa Nui (Easter Island), Chile",
+      "region": "rapa-nui",
+      "coordinates": {
+        "x": 314,
+        "y": 521
+      },
+      "traditionGroup": "Monuments & Ancestors",
+      "provenanceQualifier": "The CED identifies Rapa Nui; the required photograph shows moai with red pukao on an ahu. A specific platform is not asserted without separate site verification.",
+      "workType": "Ancestral sculpture on ceremonial platform",
+      "function": "moai 使祖先在社区中保持临在，支撑谱系、首领权威和仪式关系；ahu 是社会与祭仪场所。 Moai embody ancestors and sustain relationships between descendants, lineage and chiefly authority. Their ahu platforms serve as ceremonial places rather than neutral museum pedestals.",
+      "form": "大型长脸、突出的眉鼻与短化身体立于低平台；部分戴红色 pukao，石材与头饰颜色形成对比。 Large elongated heads, prominent brows and noses, compact bodies and arms close to the torso stand on a low stone platform. Red pukao on some figures contrast with the darker bodies; not every moai originally had this feature.",
+      "content": "拟人石像不是单纯装饰，也不是无身体的石头头像；祖先身份通过群体排列、面向与原有眼部构件获得仪式意义。 The figures are anthropomorphic ancestral presences, not merely isolated giant heads. Their grouping, orientation and historically installed eyes contribute to ritual engagement and vitality.",
+      "context": "海洋航行联系 Polynesian 群体；殖民、奴役及文化复兴改变石像处境。官方照片并未确认具体 ahu，不能用著名平台名称代替证据。 Rapa Nui belongs to networks of Polynesian voyaging. Colonial disruption and subsequent cultural renewal affect how moai are cared for and activated. The required CED photograph does not by itself establish a named platform, so this study does not assign one.",
+      "recognitionAnchors": [
+        "长脸与突出的鼻梁 elongated face",
+        "低 ahu 石平台",
+        "红色 pukao 头饰"
+      ],
+      "comparisonIds": [
+        "ap217-female-deity"
+      ],
+      "comparisonNotes": {
+        "ap217-female-deity": "两者通过拟人形象联系神灵或祖先；moai 用巨石与室外平台建立公共规模，Nukuoro 木像以简化体量参与神庙仪式。 Both use human form to engage ancestors or divinities; moai operate at monumental outdoor scale, whereas Nukuoro wooden figures participate in temple ritual through compact, highly simplified bodies."
+      },
+      "keywords": [
+        "moai 祖先石像",
+        "ahu 平台",
+        "pukao 头饰",
+        "ancestral presence 祖先临在"
+      ],
+      "images": [
+        {
+          "id": "moai-and-pukao-on-ahu",
+          "label": "Moai with red pukao on ahu / 祭坛平台上的摩艾与红色石帽",
+          "imageUrl": "assets/art-history/u9/ap214-moai-and-pukao-on-ahu.webp",
+          "imageAlt": "Moai with red pukao on ahu / 祭坛平台上的摩艾与红色石帽",
+          "imageSourceName": "Wikimedia Commons; Torbenbrinker",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:AhuNauNau.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ap215-ahu-ula",
+      "apNumber": 215,
+      "unit": 9,
+      "titleEn": "'Ahu 'ula (feather cape)",
+      "titleZh": "羽毛披肩",
+      "artistCulture": "Hawaiian featherworkers and chiefly patrons; individual makers unrecorded",
+      "culture": "Hawaiian; Polynesian",
+      "date": "Late 18th century C.E.",
+      "period": "Hawaiian chiefly regalia",
+      "medium": "Feathers and fiber",
+      "siteName": "Hawaiian Islands, Polynesia",
+      "region": "hawaii",
+      "coordinates": {
+        "x": 108,
+        "y": 307
+      },
+      "traditionGroup": "Rank & Sacred Regalia",
+      "provenanceQualifier": "Hawaiian creation tradition is established; the exact island and featherworking workshop are not fixed by the CED. The British Museum is the present collection, not the production site.",
+      "workType": "Chiefly feather cape",
+      "function": "高等级男性在礼仪及战斗中穿戴 feather regalia，显现 sacred rank、mana 与财富；不是普通保暖披肩。 High-ranking men wore feather regalia for ceremonies and battle. The cape made status, sacred potency and the labor invested in gathering rare feathers visible; its purpose exceeded protection from weather.",
+      "form": "纤维网底上密集覆叠羽毛，半圆形轮廓与贴颈领口包覆身体；红、黄及黑色形成弧形 crescent patterns。 Dense overlapping feather bundles attach to a fiber-net foundation. A curved neckline and semicircular silhouette fit the wearer, while red, yellow and dark areas create crescent-like bands.",
+      "content": "红色联系首领与神圣，稀有黄色羽毛也具价值；颜色、材料和穿戴者身份共同构成权威视觉语言。 Red was associated with chiefly and divine status, while scarce yellow feathers also carried high value in Hawai'i. Color and material communicate rank together with the identity of the wearer.",
+      "context": "羽衣进入与早期欧洲访客的 gift exchange；此件带到英国的具体人员未知。课程用十八世纪晚期日期，不能把同类披肩的博物馆较宽年代改作精确制作记录。 Feather capes circulated as prestigious gifts during encounters with early European visitors. The person who brought this cape to England is unknown. The CED dates the selected work to the late eighteenth century; wider museum dating for related capes should not be mistaken for an exact documented making date.",
+      "recognitionAnchors": [
+        "红黄弧带 red/yellow crescent bands",
+        "半圆披肩与凹入领口 semicircular cape",
+        "密集细羽表面 overlapping feathers"
+      ],
+      "comparisonIds": [
+        "ap216-staff-god"
+      ],
+      "comparisonNotes": {
+        "ap216-staff-god": "两件都以纤维和稀有材料承载 sacred power；羽披肩围绕首领身体显现等级，staff god 的层叠树皮布包裹神像。 Both invest fiber and valued materials with sacred power; the cape displays rank on a chief's body, while the staff god's barkcloth encloses a divine image."
+      },
+      "keywords": [
+        "featherwork 羽毛工艺",
+        "mana 神圣力量",
+        "regalia 权威服饰",
+        "gift exchange 礼物交换"
+      ],
+      "images": [
+        {
+          "id": "complete-feather-cape",
+          "label": "Complete red/yellow crescent-patterned feather cape / 完整红黄新月纹羽毛披肩",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete red/yellow crescent-patterned feather cape / 完整红黄新月纹羽毛披肩",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap216-staff-god",
+      "apNumber": 216,
+      "unit": 9,
+      "titleEn": "Staff god",
+      "titleZh": "杖形神像",
+      "artistCulture": "Rarotongan woodcarvers and barkcloth makers; individual makers unrecorded",
+      "culture": "Rarotongan; Polynesian",
+      "date": "Late 18th to early 19th century C.E.",
+      "period": "Rarotongan sacred-image traditions and missionary encounters",
+      "medium": "Wood, tapa, fiber, and feathers",
+      "siteName": "Rarotonga, Cook Islands",
+      "region": "cook-islands",
+      "coordinates": {
+        "x": 88,
+        "y": 494
+      },
+      "traditionGroup": "Rank & Sacred Regalia",
+      "provenanceQualifier": "The regional carving and ritual context is Rarotonga, not the present London collection; an individual workshop is unknown.",
+      "workType": "Wrapped staff-shaped deity image",
+      "function": "以 wrapped image 凝聚并保护神圣力量；记录显示可被直立抬行。具体神祇身份未知，不应直接命名为 Tangaroa。 The wrapped image contained and protected sacred power and could be carried upright on a litter. Its exact deity and full ritual use remain uncertain; identifying it definitively as Tangaroa goes beyond the evidence.",
+      "form": "长木芯由巨大树皮布卷包裹，顶部刻大头及连续小人像；纤维绑扎和羽毛坠饰将不同材料结合。 A long wooden core is enclosed by a thick roll of barkcloth, held by bindings. At the projecting upper end, a large carved head sits above small figures; a feather pendant adds another material and texture.",
+      "content": "男性木雕与女性树皮布劳动汇合，表达生产与生殖力量；原下端含阳具，今缺失，不能把现代残存状态当作完整原貌。 The image combines traditionally male woodcarving with female barkcloth production and evokes productive and reproductive capacities. The lower carved end, originally including a phallus, is missing; its present state is not its complete historical form.",
+      "context": "传教活动导致神像被收走、破坏或转移；此件 1827 年交给 John Williams。历史版画是遭遇语境图，不是神像的另一个物件细节。 The image was among objects presented to missionary John Williams in 1827, within a broader transformation of religious practices. The required historical engraving is contextual evidence of the encounter setting, not another detail photograph of the object. Its later collecting history does not replace its Rarotongan origin.",
+      "recognitionAnchors": [
+        "极长包裹木杖 thick wrapped shaft",
+        "突出的大头与小人像 carved head and figures",
+        "绑扎布层与羽毛 tapa and feathers"
+      ],
+      "comparisonIds": [
+        "ap217-female-deity"
+      ],
+      "comparisonNotes": {
+        "ap217-female-deity": "两者是神圣木像，但 staff god 依赖包裹、附属材料与繁复小人像，Female deity 用光滑简化体量且原仪式可另加装饰。 Both are sacred wooden images. The staff god emphasizes wrapping, attached materials and repeated small figures, while the Female deity uses smooth simplified volumes and could receive separate ritual adornment."
+      },
+      "keywords": [
+        "staff god 杖形神像",
+        "tapa 树皮布",
+        "wrapping 包裹",
+        "missionary encounter 传教遭遇"
+      ],
+      "images": [
+        {
+          "id": "wrapped-staff-god",
+          "label": "Complete surviving wrapped staff god / 完整存世包裹神杖",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete surviving wrapped staff god / 完整存世包裹神杖",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        },
+        {
+          "id": "carved-head-and-figures-detail",
+          "label": "Carved head, small figures and feather attachment / 雕刻头部、小人像与羽毛饰",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Carved head, small figures and feather attachment / 雕刻头部、小人像与羽毛饰",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        },
+        {
+          "id": "historical-context-engraving",
+          "label": "Gathered figures and buildings in historical engraving / 历史版画中的人群与建筑",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Gathered figures and buildings in historical engraving / 历史版画中的人群与建筑",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap217-female-deity",
+      "apNumber": 217,
+      "unit": 9,
+      "titleEn": "Female deity",
+      "titleZh": "女性神像",
+      "artistCulture": "Nukuoro carvers; individual maker unrecorded",
+      "culture": "Nukuoran; Polynesian outlier in Micronesia",
+      "date": "c. 18th to 19th century C.E.",
+      "period": "Nukuoro temple and harvest-ritual traditions",
+      "medium": "Wood",
+      "siteName": "Nukuoro Atoll, Federated States of Micronesia",
+      "region": "micronesia",
+      "coordinates": {
+        "x": 1490,
+        "y": 383
+      },
+      "traditionGroup": "Monuments & Ancestors",
+      "provenanceQualifier": "The Nukuoro ritual and carving tradition is established; the exact carver and original temple are not established for the illustrated figure.",
+      "workType": "Tino aitu deity figure",
+      "function": "tino aitu 在神庙及收获相关仪式中成为神或神化祖先的居所；供食、舞蹈与装饰激活形象，而不是无语境的抽象摆件。 Tino aitu figures could become resting places for deities or deified ancestors during temple ceremonies associated with harvest cycles. Offerings, dance and adornment made them participants in ritual rather than autonomous abstract ornaments.",
+      "form": "卵形无细节头部、柱状颈、斜肩和长直臂，曲膝腿立在基座；光滑木面与几何化体量保留人体可识别性。 An ovoid head with minimal facial detail, columnar neck, sloping shoulders and long arms organize the body into smooth volumes. Bent legs meet a base. Strong simplification still preserves recognizable human anatomy.",
+      "content": "女性身体以克制线条呈现；当地每件命名神像可联系家庭、祭司与神庙，但此件具体名称与原神庙未经确认。 The selected work represents a female divinity through restrained bodily features. Named figures in Nukuoro traditions were associated with family groups, priests and temples, but those specific affiliations are not securely established for this illustrated figure.",
+      "context": "Nukuoro 地理上在 Micronesia，语言和文化与 Polynesia 紧密相关；十九世纪收藏和基督教化使许多木像脱离仪式。西方现代主义赞赏不能替代原用途。 Nukuoro is geographically Micronesian but culturally and linguistically linked to Polynesia, a Polynesian outlier. Nineteenth-century collecting and Christianization displaced many figures from ritual contexts. Later European admiration of their abstraction should not erase their Nukuoran functions.",
+      "recognitionAnchors": [
+        "卵形简化头部 ovoid head",
+        "斜肩与垂直长臂 sloping shoulders",
+        "光滑柱状身体 smooth volumes"
+      ],
+      "comparisonIds": [
+        "ap214-moai-ahu"
+      ],
+      "comparisonNotes": {
+        "ap214-moai-ahu": "两种拟人形象使祖先或神灵参与生活；Nukuoro 木像在神庙仪式受装饰供奉，moai 在室外平台体现公共祖先权威。 Both human-shaped images sustain relations with supernatural or ancestral presences; Nukuoro figures receive adornment and offerings in temple ceremonies, while moai assert ancestral authority on outdoor platforms."
+      },
+      "keywords": [
+        "tino aitu 神像",
+        "Polynesian outlier 波利尼西亚外岛",
+        "harvest ritual 收获仪式",
+        "abstraction 简化"
+      ],
+      "images": [
+        {
+          "id": "complete-wooden-deity",
+          "label": "Complete standing Nukuoro female deity / 完整立姿努库奥罗女神像",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete standing Nukuoro female deity / 完整立姿努库奥罗女神像",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap218-buk-mask",
+      "apNumber": 218,
+      "unit": 9,
+      "titleEn": "Buk (mask)",
+      "titleZh": "布克面具",
+      "artistCulture": "Mabuiag Island mask makers; individual maker unrecorded",
+      "culture": "Mabuiag Island; Torres Strait Islander",
+      "date": "Mid- to late 19th century C.E.",
+      "period": "Torres Strait turtle-shell masquerade traditions",
+      "medium": "Turtle shell, wood, fiber, feathers, and shell",
+      "siteName": "Mabuiag Island, Torres Strait, Australia",
+      "region": "torres-strait",
+      "coordinates": {
+        "x": 1430,
+        "y": 444
+      },
+      "traditionGroup": "Ritual & Performance",
+      "provenanceQualifier": "Smarthistory identifies Mabuiag Island for the illustrated Metropolitan Museum mask; this anchors its source community, not a known individual workshop or present New York holding.",
+      "workType": "Composite ceremonial mask",
+      "function": "masquerade 中面具与服装、音乐和动作共同沟通祖先或超自然世界；具体这件是否实际用于当地仪式或制作给外来收藏者仍不确定。 In masquerade traditions, masks worked with costume, music and movement to connect people with ancestral or supernatural presences. For this particular object, use in a local ceremony rather than manufacture for outsiders remains uncertain.",
+      "form": "龟甲片拼接成三层：人面、军舰鸟 frigatebird 与羽毛冠；侧翼、纤维发须及羽毛在运动中增加视觉变化。 Stitched turtle-shell components form three stacked registers: a human face, a frigatebird and feathers. Projecting wings, fiber hair and feathers give the assemblage multiple textures and would animate during movement.",
+      "content": "人面与鸟组合可能涉及英雄、祖先或谱系关系；这些是谨慎解释，不能把某个 totem 或具名祖先当作已证实身份。 The joined human and bird forms may refer to a hero, ancestor or lineage relationship. Such interpretations are plausible but not secure identifications of a named ancestor or a specific totem.",
+      "context": "图示为 Met 收藏的 Mabuiag Island 特定面具，不是泛指全部 Torres Strait 面具。贸易、传教破坏及外来收藏解释其现存博物馆状态。 The illustrated work is the Metropolitan Museum's specific Mabuiag Island mask. Trade, missionary suppression and collecting shaped the survival of Torres Strait turtle-shell masks; the static museum presentation omits sound, costume and motion.",
+      "recognitionAnchors": [
+        "人面—鸟—羽毛三层 stacked registers",
+        "拼接龟甲 stitched turtle shell",
+        "横展鸟翼与垂落纤维"
+      ],
+      "comparisonIds": [
+        "ap222-malagan-display-mask"
+      ],
+      "comparisonNotes": {
+        "ap222-malagan-display-mask": "两者把多种材料与面具表演结合；Buk 以龟甲拼接鸟与人，New Ireland malagan 面具和雕刻属于具体墓葬与社会交换传统。 Both link composite materials and masks to performance. Buk joins turtle-shell bird and human forms, while New Ireland malagan masks and carvings participate in specific mortuary and exchange traditions; their roles are not interchangeable."
+      },
+      "keywords": [
+        "Buk 面具",
+        "frigatebird 军舰鸟",
+        "masquerade 化装仪式",
+        "turtle shell 龟甲"
+      ],
+      "images": [
+        {
+          "id": "complete-turtle-shell-mask",
+          "label": "Buk mask with human face, frigatebird and feathers / 带人面、军舰鸟与羽冠的龟甲面具",
+          "imageUrl": "assets/art-history/u9/ap218-complete-turtle-shell-mask.webp",
+          "imageAlt": "Buk mask with human face, frigatebird and feathers / 带人面、军舰鸟与羽冠的龟甲面具",
+          "imageSourceName": "The Metropolitan Museum of Art; Mabuiag Island artist",
+          "imageSourceUrl": "https://www.metmuseum.org/art/collection/search/311950"
+        }
+      ]
+    },
+    {
+      "id": "ap219-hiapo-tapa",
+      "apNumber": 219,
+      "unit": 9,
+      "titleEn": "Hiapo (tapa)",
+      "titleZh": "希阿波树皮布",
+      "artistCulture": "Niuean barkcloth makers and painters; individual maker unrecorded",
+      "culture": "Niuean; Polynesian",
+      "date": "c. 1850–1900 C.E.",
+      "period": "19th-century Niuean hiapo traditions",
+      "medium": "Tapa or bark cloth, freehand painting",
+      "siteName": "Niue, Polynesia",
+      "region": "niue",
+      "coordinates": {
+        "x": 50,
+        "y": 485
+      },
+      "traditionGroup": "Cloth & Exchange",
+      "provenanceQualifier": "Niuean barkcloth tradition is established; the precise maker and workshop are unknown. Auckland is the current collection, not the creation location.",
+      "workType": "Painted barkcloth",
+      "function": "树皮布在衣着、展示和礼仪交换中体现 women’s wealth；这幅特定 hiapo 的原始用途未记录，不能凭一般功能断言是婚礼礼物。 Barkcloth could serve clothing, display and ceremonial exchange and was valued as women's wealth. The original use of this particular hiapo is not documented, so general textile functions should not become an invented wedding provenance.",
+      "form": "非织造树皮经捶打形成布面；自由手绘 freehand painting 组合同心布局、细密几何单元与外围植物纹样。 Beaten inner bark forms a nonwoven surface. Fine freehand painting organizes concentric zones, subdivided geometric units and vegetal motifs around the edges; it is not a woven patterned textile.",
+      "content": "重复三角、方格、圆与自然形态建立整体秩序；不应把其他 hiapo 上的文字或人物误称为本件必有图像。 Repeated triangles, squares, circular structures and naturalistic vegetal forms produce dense order. Writing and human imagery occur on some hiapo, but should not be assumed to appear on every example or asserted as mandatory features of this one.",
+      "context": "十九世纪 Niue 与传教、区域交换接触，形成独特绘饰；树皮布可能早已存在，不能断言传教士从零发明当地传统。 Nineteenth-century Niuean hiapo developed through local practice and regional encounters, including missionary networks. Evidence of an earlier local barkcloth tradition is possible; missionary arrival should not be described as the certain invention of Niuean barkcloth. Historic designs continue to inform contemporary artists.",
+      "recognitionAnchors": [
+        "密集同心几何布局 concentric geometry",
+        "外缘植物纹样 vegetal borders",
+        "浅色树皮底上的细线 freehand lines"
+      ],
+      "comparisonIds": [
+        "ap223-fijian-presentation"
+      ],
+      "comparisonNotes": {
+        "ap223-fijian-presentation": "两者展示纤维艺术的社会价值；Hiapo 以单件绘饰树皮布为中心，Fiji 以穿戴 masi、携带编织席和行进构成交换事件。 Both show the social value of fiber arts. Hiapo centers on a painted barkcloth object, while the Fijian presentation combines worn masi, carried woven mats and procession in an exchange event."
+      },
+      "keywords": [
+        "hiapo 树皮布",
+        "freehand painting 自由手绘",
+        "nonwoven 非织造",
+        "women’s wealth 女性财富"
+      ],
+      "images": [
+        {
+          "id": "complete-painted-barkcloth",
+          "label": "Complete rectangular painted hiapo / 完整矩形彩绘希阿波树皮布",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete rectangular painted hiapo / 完整矩形彩绘希阿波树皮布",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap220-tamati-waka-nene",
+      "apNumber": 220,
+      "unit": 9,
+      "titleEn": "Tamati Waka Nene",
+      "titleZh": "塔马蒂·瓦卡·内内",
+      "artistCulture": "Gottfried Lindauer (1839–1926)",
+      "culture": "Māori sitter; Gottfried Lindauer's New Zealand portrait practice",
+      "date": "1890 C.E.",
+      "period": "Late 19th-century New Zealand portraiture",
+      "medium": "Oil on canvas",
+      "siteName": "New Zealand (Lindauer's portrait practice)",
+      "region": "new-zealand",
+      "coordinates": {
+        "x": 1550,
+        "y": 560
+      },
+      "traditionGroup": "Monuments & Ancestors",
+      "provenanceQualifier": "The portrait belongs to Lindauer's New Zealand practice. Nene's Hokianga affiliation is the sitter's context, not proof of the painting's studio; Auckland is the current collection, not an asserted 1890 workshop.",
+      "workType": "Posthumous painted ancestral portrait",
+      "function": "portrait 不仅记录 Māori 首领样貌，还可作为祖先临在和 taonga 受到敬重；欧洲委托与 Māori 家庭观看可能有不同目标。 The portrait records a Māori rangatira and can also sustain ancestral presence as a treasured taonga. European collecting and Māori family engagements with portraits need not have identical purposes.",
+      "form": "油画 naturalism 以光影塑造立体脸部和衣褶；人物与 tewhatewha 占据前景，细致 moko 对比羽衣柔软纹理。 Oil-paint naturalism models the face and clothing through light and shadow. The sitter and upright tewhatewha dominate the foreground; intricate moko contrasts with the softer texture of the feather cloak.",
+      "content": "Nene 穿 kahu kiwi 羽衣，戴 pounamu 耳饰并持 tewhatewha；面部 moko 和贵重物件共同表现身份、mana 与谱系。 Nene wears a kahu kiwi cloak and a pounamu earring and holds a tewhatewha weapon. Facial moko and valued possessions communicate identity, mana and standing, rather than functioning as generic exotic decoration.",
+      "context": "Nene 1871 年去世，Lindauer 1890 年绘画，故是 posthumous portrait，可能借 John Crombie 照片；不是照片本身，也不是 Goldie 后来的画。收藏地不能证明具体作画工作室。 Nene died in 1871, before Lindauer arrived in New Zealand; the 1890 painting is posthumous and likely drew on a John Crombie photograph. It is neither that photograph nor Charles F. Goldie's later portrait. Lindauer's rendering can include artistic interventions, not merely photographic transcription.",
+      "recognitionAnchors": [
+        "精细面部 moko",
+        "kiwi 羽衣与绿石耳饰",
+        "直立 tewhatewha 武器"
+      ],
+      "comparisonIds": [
+        "ap214-moai-ahu"
+      ],
+      "comparisonNotes": {
+        "ap214-moai-ahu": "二者使祖先在后人生活中保持临在；Lindauer 以油画自然主义和摄影中介形成肖像，moai 用巨石、平台及仪式眼部呈现祖先。 Both can sustain an ancestor's presence among descendants. Lindauer works through oil-paint naturalism and photographic mediation, whereas moai use monumental stone, platforms and ritual engagement with the eyes."
+      },
+      "keywords": [
+        "moko 面部文身",
+        "taonga 传承珍宝",
+        "posthumous portrait 身后肖像",
+        "mana 威望"
+      ],
+      "images": [
+        {
+          "id": "complete-portrait",
+          "label": "Lindauer's complete 1890 portrait / 林道尔1890年完整肖像",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Lindauer's complete 1890 portrait / 林道尔1890年完整肖像",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279",
+          "mediaStatus": "Exact portrait identified; cultural reproduction guidance unresolved / 已确认指定肖像，文化再现指引尚未解决"
+        }
+      ]
+    },
+    {
+      "id": "ap221-navigation-chart",
+      "apNumber": 221,
+      "unit": 9,
+      "titleEn": "Navigation chart",
+      "titleZh": "航海图",
+      "artistCulture": "Marshallese navigators and chart makers; individual maker unrecorded",
+      "culture": "Marshallese; Micronesian",
+      "date": "19th to early 20th century C.E.",
+      "period": "Marshallese ocean-navigation knowledge",
+      "medium": "Wood and fiber",
+      "siteName": "Marshall Islands, Micronesia",
+      "region": "marshall-islands",
+      "coordinates": {
+        "x": 1570,
+        "y": 369
+      },
+      "traditionGroup": "Navigation & Knowledge",
+      "provenanceQualifier": "The Marshallese navigational tradition anchors this portable chart; a precise island, maker and workshop are not established by the CED.",
+      "workType": "Stick navigation chart",
+      "function": "岸上作为 mnemonic aid 帮助学习海浪、涌浪与岛屿关系；不是航行时照着读的 GPS，也不必符合比例地图。 Used on shore as a mnemonic and teaching aid for relationships among swells, currents and islands. Navigators internalized the knowledge; the chart was not a GPS-like device consulted continuously at sea.",
+      "form": "纤维将直、斜及弯曲木条连接成开放格架；抽象线网编码水体运动关系，而非直接描摹陆地边界。 Straight, diagonal and curved members are lashed into an open framework. The abstract lattice models relationships in moving water rather than simply tracing coastlines or preserving uniform geographic scale.",
+      "content": "图表侧重岛屿影响涌浪、波流交会及航路知识；同类作品有贝壳岛屿标记，但 CED 对本件材料列为 wood and fiber。 The chart concerns how islands and ocean swells interact and how navigators recognize routes. Shell island markers occur in related charts, but the CED specifies wood and fiber for this selected work; related examples should not overwrite its identification.",
+      "context": "远洋航行依靠师徒传授和身体感知，海洋是连接而不是空白障碍；每位制作者知识可能不同，不能把图式当作全球统一符号系统。 Marshallese navigation relies on apprenticeship and embodied sensitivity to wave motion. The ocean links communities rather than constituting empty space between them. Charts reflect learned and often maker-specific knowledge, not a universally standardized cartographic code.",
+      "recognitionAnchors": [
+        "开放矩形木条格架 open lattice",
+        "交叉斜条与弯曲构件",
+        "纤维绑扎节点 lashed joints"
+      ],
+      "comparisonIds": [
+        "ap213-nan-madol"
+      ],
+      "comparisonNotes": {
+        "ap213-nan-madol": "两者把水理解为连接：航海图用线条教授海浪关系，Nan Madol 以可通行水道组织人工岛；一个是认知模型，一个是建筑空间。 Both treat water as connection. The chart teaches ocean relationships through an abstract framework, while Nan Madol organizes built islets through navigable canals; one is a knowledge model, the other an architectural environment."
+      },
+      "keywords": [
+        "mnemonic 记忆辅助",
+        "swell 涌浪",
+        "wayfinding 寻路航行",
+        "Marshallese 马绍尔"
+      ],
+      "images": [
+        {
+          "id": "complete-stick-chart",
+          "label": "Complete rectangular lattice navigation chart / 完整矩形格状导航图",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Complete rectangular lattice navigation chart / 完整矩形格状导航图",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap222-malagan-display-mask",
+      "apNumber": 222,
+      "unit": 9,
+      "titleEn": "Malagan display and mask",
+      "titleZh": "马拉甘展示与面具",
+      "artistCulture": "New Ireland carvers and ritual communities; individual makers unrecorded",
+      "culture": "New Ireland communities; Papua New Guinea",
+      "date": "20th century C.E.",
+      "period": "New Ireland malagan mortuary and performance traditions",
+      "medium": "Wood, pigment, fiber, and shell",
+      "siteName": "New Ireland, Papua New Guinea",
+      "region": "papua-new-guinea",
+      "coordinates": {
+        "x": 1476,
+        "y": 416
+      },
+      "traditionGroup": "Ritual & Performance",
+      "provenanceQualifier": "New Ireland malagan traditions anchor the mask and display. Their current Pennsylvania and Basel museum settings do not establish an original carving workshop or a single shared ceremony.",
+      "workType": "Mortuary display and ceremonial mask",
+      "function": "malagan 仪式纪念死者、结束哀悼并重组活人关系；雕刻揭示、宴饮与交换一起发挥社会作用，面具可参与表演。 Malagan ceremonies commemorate the dead, conclude mourning obligations and reorganize relations among the living. Revealed carvings, feasting and exchanges work together, while masks can participate in performance.",
+      "form": "官方第一视图是高冠面具、彩绘脸及多质感材料；第二视图是棚下并列复杂镂雕组合，须分开识别 mask 与 display。 The first required view presents a crested mask with a painted face and varied textures. The second shows multiple elaborate openwork carvings beneath a thatched shelter. The mask and the displayed ensemble require separate formal descriptions.",
+      "content": "人与动物复合母题联系社会记忆及谱系；具体图案意义依社群、权利和场合而变，不能给全部 malagan 统一符号字典。 Intertwined human and animal motifs can carry social memory and lineage associations. Their meanings and rights vary by community and occasion; no single fixed symbolic dictionary explains all malagan.",
+      "context": "New Ireland 多语言、多社群传统并非同一仪式；CED 的面具与 Basel 博物馆展示照片不证明两者来自一次共同典礼。短暂揭示后弃置或转移不等于制作粗糙。 New Ireland contains diverse communities and traditions. The CED's mask and Basel museum display are not proof of one shared historical ceremony. Elaborate carvings may be discarded or transferred after ritual use; their temporary activation does not mean they were carelessly made.",
+      "recognitionAnchors": [
+        "高冠彩绘面具 crested mask",
+        "棚下并列复杂雕刻 sheltered ensemble",
+        "镂空人与动物组合 openwork motifs"
+      ],
+      "comparisonIds": [
+        "ap218-buk-mask"
+      ],
+      "comparisonNotes": {
+        "ap218-buk-mask": "两件强调面具、动作与材料的合作；Buk 以龟甲鸟人复合结构识别，malagan 必须兼看面具和墓葬展示，不可把不同社群仪式等同。 Both depend on materials and performance, but Buk is recognized by its turtle-shell bird-human assemblage. Malagan requires attention to both the mask and mortuary display without equating distinct community practices."
+      },
+      "keywords": [
+        "malagan 墓葬仪式",
+        "mortuary feast 丧葬宴",
+        "social memory 社会记忆",
+        "openwork 镂雕"
+      ],
+      "images": [
+        {
+          "id": "malagan-mask",
+          "label": "Crested malagan mask / 带冠马拉甘面具",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Crested malagan mask / 带冠马拉甘面具",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        },
+        {
+          "id": "malagan-display",
+          "label": "Carved ensemble beneath thatched display shelter / 茅棚内马拉甘雕刻展示群",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Carved ensemble beneath thatched display shelter / 茅棚内马拉甘雕刻展示群",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        }
+      ]
+    },
+    {
+      "id": "ap223-fijian-presentation",
+      "apNumber": 223,
+      "unit": 9,
+      "titleEn": "Presentation of Fijian mats and tapa cloths to Queen Elizabeth II",
+      "titleZh": "向伊丽莎白二世呈献斐济席与树皮布",
+      "artistCulture": "Fijian women makers and performers; photographer not securely identified here",
+      "culture": "Fijian; Polynesian exchange and performance context",
+      "date": "1953 C.E.",
+      "period": "Royal-tour encounter and continuing Fijian exchange traditions",
+      "medium": "Multimedia performance (costume; cosmetics, including scent; chant; movement; pandanus fiber/hibiscus fiber mats), photographic documentation",
+      "siteName": "Fiji (1953 royal-tour presentation)",
+      "region": "fiji",
+      "coordinates": {
+        "x": 1590,
+        "y": 479
+      },
+      "traditionGroup": "Cloth & Exchange",
+      "provenanceQualifier": "The documented performance occurred in Fiji. The CED and supplied Smarthistory chapter do not securely establish the precise venue or photograph date; the Wellington archive is not the performance site.",
+      "workType": "Ceremonial presentation documented by photograph",
+      "function": "礼仪呈献以纤维财富、身体行动与观众参与欢迎王室访客，延续 reciprocity 与 tribute；殖民语境和当地社会价值共同塑造事件。 The presentation welcomed royal visitors through valued fiber goods, bodily performance and gathered witnesses. It activated traditions of reciprocity and tribute within a colonial encounter rather than serving as a display of anonymous craft products.",
+      "form": "照片显示女性列队携带卷席，穿有图案的 masi，穿过席地观众；完整作品还包括动作、吟唱、服饰与气味等照片无法传达的媒介。 The photograph shows women moving in a line with rolled mats, patterned masi clothing and a seated audience. The performance also involved movement, chant, costume and sensory elements that a still photograph cannot preserve fully.",
+      "content": "明确可见的是携带的编织席与穿戴的树皮布；不能声称照片直接显示所有树皮布被交到女王手中，或把 mat 与 beaten barkcloth 当作同一种工艺。 Carried woven mats and worn barkcloth are directly visible. The photograph does not visibly document every cloth being handed to the Queen. Pandanus mats are woven, while masi is made from beaten bark; the two techniques are distinct.",
+      "context": "官方年份是 1953 年王室访问 Fiji；来源明确说照片具体日期未知，且未证实精确场地。Wellington 档案所在地不是表演地点。 The CED identifies the 1953 royal visit to Fiji. The source explicitly states that the exact photograph date is unknown, and it does not securely establish the precise venue. The Wellington archive is a holding institution, not the place of performance.",
+      "recognitionAnchors": [
+        "列队女性携带卷席 rolled mats",
+        "图案 masi 服饰 patterned barkcloth skirts",
+        "两侧席地观众 seated witnesses"
+      ],
+      "comparisonIds": [
+        "ap219-hiapo-tapa"
+      ],
+      "comparisonNotes": {
+        "ap219-hiapo-tapa": "两者体现女性纤维艺术的社会价值；Hiapo 的自由手绘表面是物件研究中心，Fiji 的衣着、卷席与列队行动使赠礼成为多媒介事件。 Both foreground the social value of women's fiber arts. Hiapo centers on freehand-painted barkcloth; the Fijian presentation turns clothing, rolled mats and procession into a multimedia exchange event."
+      },
+      "keywords": [
+        "masi 斐济树皮布",
+        "pandanus 露兜树纤维",
+        "ritual exchange 礼仪交换",
+        "performance 表演"
+      ],
+      "images": [
+        {
+          "id": "presentation-procession-documentation",
+          "label": "Historical procession carrying rolled mats / 携带卷席的历史进献队列",
+          "imageUrl": null,
+          "imageAlt": "Required view currently unavailable: Historical procession carrying rolled mats / 携带卷席的历史进献队列",
+          "imageSourceName": "College Board AP Art History CED; official component reference",
+          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280",
+          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+        }
+      ]
+    }
+  ],
+  "imageCredits": {
+    "ap213-nan-madol": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277"
+      }
+    ],
+    "ap214-moai-ahu": {
+      "creatorOrInstitution": "Torbenbrinker",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap215-ahu-ula": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277"
+    },
+    "ap216-staff-god": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
+      }
+    ],
+    "ap217-female-deity": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
+    },
+    "ap218-buk-mask": {
+      "creatorOrInstitution": "Mabuiag Island artist; The Metropolitan Museum of Art",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap219-hiapo-tapa": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279"
+    },
+    "ap220-tamati-waka-nene": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279"
+    },
+    "ap221-navigation-chart": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=279"
+    },
+    "ap222-malagan-display-mask": [
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280"
+      },
+      {
+        "creatorOrInstitution": "College Board official component reference",
+        "licenseName": "Open image-level rights not verified; official reference only",
+        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280"
+      }
+    ],
+    "ap223-fijian-presentation": {
+      "creatorOrInstitution": "College Board official component reference",
+      "licenseName": "Open image-level rights not verified; official reference only",
+      "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=280"
+    }
+  }
+}

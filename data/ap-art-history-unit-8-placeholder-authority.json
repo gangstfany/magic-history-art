@@ -1,0 +1,62 @@
+{
+  "ap192-great-stupa-sanchi::circumambulatory-path-detail": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249",
+    "rightsNote": "The official view requires a walking path between the stupa dome and railing beside a seated Buddha. Commons candidate Meditating Buddha with Upper Circumambulatory Passageway Landing shows Buddha, dome and upper railing but not the required path-and-side-railing relationship; other candidates depict gateway sculpture. No matching complete open frame selected. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap192-great-stupa-sanchi::plan-and-elevation": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249",
+    "rightsNote": "The required component is one combined plan-and-elevation graphic. Commons Elevation diagram of Stupa at Sanchi - 2.jpg contains elevation only and is a photograph of a modern explanatory panel, whose underlying diagram rights were not established by the photographer's CC BY-SA declaration. Historical book candidates were not extracted. No combined eligible match verified. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap195-longmen-caves::cliff-overview": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=251",
+    "rightsNote": "The official cliff overview includes the river-facing Fengxian open monumental sculptural ensemble and broad cliff context. Longmen Caves.jpg only shows small cave openings, while Binyang candidates show different cave interiors. A more specific Fengxian river-view query returned no candidate. No equivalent exact-component open frame verified. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap199-angkor::angkor-wat-plan": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256",
+    "rightsNote": "The required view is Angkor Wat's full nested building plan, not a regional map or temple photograph. Angkor Wat M1/M2/M3 candidates had no successfully accessible image for visual confirmation during bounded download checks (HTTP 429); the accessible schematic map omits the detailed nested architectural footprint. No CED graphic copied. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap199-angkor::angkor-site-plan": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256",
+    "rightsNote": "The required wider Angkor site plan includes Angkor Thom and the surrounding Angkor Wat/site relationship. Accessible candidates were satellite-plus-map composites or partial central-Angkor-Thom diagrams; none preserved the full specified site-plan essential content in a verified matching graphic. Not merged with the Angkor Wat building plan. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap200-lakshmana-temple::lion-and-figure-detail": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257",
+    "rightsNote": "The required sculpture is the lion-like creature and human beside Lakshmana Temple's carved porch at Khajuraho. Candidate files 203/214/032 were rate-limited and could not be visually verified; accessible 007 is a temple exterior and Sculpture 07a is the sanctuary Vishnu idol. None was substituted for the specific creature/figure. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap200-lakshmana-temple::temple-plan": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257",
+    "rightsNote": "The required plan includes the Lakshmana Temple at Khajuraho sanctuary and its surrounding platform/shrines. Bounded search returned an ASI historical report, not a directly verified standalone exact plan; the readily found Sirpur Lakshmana plan is a different temple and was rejected. No textbook/CED diagram extraction. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap206-forbidden-city::tranquility-longevity-interior": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=260",
+    "rightsNote": "The official retirement-room view requires illusionistically painted architectural/garden wall murals and a painted ceiling. A Juanqinzhai murals query returned no verified source. The potential Juanqinzhai/Qianlong Garden association remains unconfirmed; generic Forbidden City hall interiors or garden exteriors cannot satisfy this component. No exact open image-level grant verified. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap207-ryoan-ji::site-plan": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=261",
+    "rightsNote": "The required Ryoan-ji site plan includes the temple, dry garden, and pond together. Search returned a pond photograph and an unrelated Cage program PDF, not the specified contextual site plan. A dry-garden-only diagram would omit required content. No matching open plan verified. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap209-taj-mahal::mausoleum-and-garden": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262",
+    "rightsNote": "The required Taj Mahal frontal exterior includes the garden's reflection pool. Mehtab Bagh candidates depict the rear or omit the pool; Taj Mahal Gardens.jpg and Taj Mahal frontal with garden.jpg retain a garden but omit the specified reflection-pool composition. No adequately matching open frame selected. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap209-taj-mahal::cenotaph-interior": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262",
+    "rightsNote": "The official interior foreground is Mumtaz Mahal's floral-inlay cenotaph with surrounding pierced marble screen. Accessible Cenotaph of Shah Jahan.jpg depicts a different cenotaph and was excluded despite its open photo license; TajCenotaphs.jpg was not successfully accessible for exact visual verification during bounded checks (HTTP 429), and the Bourne historic photograph emphasizes only the screen doorway. No exact-component image selected. Release-policy classification only: it does not prove copyright restriction."
+  },
+  "ap212-mao-anyuan::complete-lithograph": {
+    "imageSourceName": "College Board AP Art History CED; official component reference",
+    "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=264",
+    "rightsNote": "The required object is the anonymous circa-1969 color lithograph after Liu Chunhua's 1967 oil painting, retaining the printed lower margin. A lithograph-specific Commons query returned no candidate. The 1967 painting, later posters, and photographer-only grants cannot establish identity and underlying-work permission for this modern print. No eligible grant verified; this is not an assertion that the print is necessarily copyrighted. Release-policy classification only: it does not prove copyright restriction."
+  }
+}

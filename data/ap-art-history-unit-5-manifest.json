@@ -1,0 +1,128 @@
+{
+  "153": {
+    "id": "ap153-chavin-huantar",
+    "titleEn": "Chavín de Huántar",
+    "region": "centralAndes",
+    "siteName": "Chavín de Huántar, Ancash, Peru",
+    "provenanceQualifier": null,
+    "traditionGroup": "Ancient Central Andes",
+    "requiredViewIds": ["plan", "lanzon-stela", "relief-sculpture", "nose-ornament"]
+  },
+  "154": {
+    "id": "ap154-mesa-verde",
+    "titleEn": "Mesa Verde cliff dwellings",
+    "region": "ancestralPueblo",
+    "siteName": "Mesa Verde, Colorado, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "Ancient North America",
+    "requiredViewIds": ["cliff-dwellings"]
+  },
+  "155": {
+    "id": "ap155-yaxchilan",
+    "titleEn": "Yaxchilán",
+    "region": "mesoamerica",
+    "siteName": "Yaxchilán, Chiapas, Mexico",
+    "provenanceQualifier": null,
+    "traditionGroup": "Ancient Mesoamerica",
+    "requiredViewIds": ["structure-40", "lintel-25-structure-23", "structure-33"]
+  },
+  "156": {
+    "id": "ap156-great-serpent-mound",
+    "titleEn": "Great Serpent Mound",
+    "region": "easternWoodlands",
+    "siteName": "Adams County, Ohio, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "Ancient North America",
+    "requiredViewIds": ["earthwork"]
+  },
+  "157": {
+    "id": "ap157-templo-mayor",
+    "titleEn": "Templo Mayor (Main Temple)",
+    "region": "mesoamerica",
+    "siteName": "Tenochtitlan (Mexico City), Mexico",
+    "provenanceQualifier": null,
+    "traditionGroup": "Ancient Mesoamerica",
+    "requiredViewIds": ["reconstruction", "coyolxauhqui-stone", "calendar-stone", "olmec-style-mask"]
+  },
+  "158": {
+    "id": "ap158-ruler-feather-headdress",
+    "titleEn": "Ruler's feather headdress (probably of Motecuhzoma II)",
+    "region": "mesoamerica",
+    "siteName": "Mexica realm, Central Mexico",
+    "provenanceQualifier": "Traditionally associated with Motecuhzoma II; exact maker and original ownership remain uncertain.",
+    "traditionGroup": "Ancient Mesoamerica",
+    "requiredViewIds": ["primary"]
+  },
+  "159": {
+    "id": "ap159-city-cusco",
+    "titleEn": "City of Cusco, including Qorikancha, Santo Domingo, and Walls at Saqsa Waman",
+    "region": "centralAndes",
+    "siteName": "Cusco, Peru",
+    "provenanceQualifier": null,
+    "traditionGroup": "Ancient Central Andes",
+    "requiredViewIds": ["city-plan", "qorikancha-santo-domingo", "saqsa-waman-walls"]
+  },
+  "160": {
+    "id": "ap160-maize-cobs",
+    "titleEn": "Maize cobs",
+    "region": "centralAndes",
+    "siteName": "Inka realm, Central Andes",
+    "provenanceQualifier": "Exact excavation and production location is not securely documented; map placement represents the Inka Central Andes.",
+    "traditionGroup": "Ancient Central Andes",
+    "requiredViewIds": ["primary"]
+  },
+  "161": {
+    "id": "ap161-machu-picchu",
+    "titleEn": "City of Machu Picchu",
+    "region": "centralAndes",
+    "siteName": "Machu Picchu, Cusco Region, Peru",
+    "provenanceQualifier": null,
+    "traditionGroup": "Ancient Central Andes",
+    "requiredViewIds": ["city", "observatory", "intihuatana-stone"]
+  },
+  "162": {
+    "id": "ap162-all-toqapu-tunic",
+    "titleEn": "All-T'oqapu tunic",
+    "region": "centralAndes",
+    "siteName": "Inka realm, Central Andes",
+    "provenanceQualifier": "Exact production location is unknown; map placement represents the Inka imperial heartland.",
+    "traditionGroup": "Ancient Central Andes",
+    "requiredViewIds": ["primary"]
+  },
+  "163": {
+    "id": "ap163-bandolier-bag",
+    "titleEn": "Bandolier bag",
+    "region": "easternWoodlands",
+    "siteName": "Lenape homelands, northeastern North America",
+    "provenanceQualifier": "Portable work; exact maker and place of production are not securely documented.",
+    "traditionGroup": "Native North America",
+    "requiredViewIds": ["primary"]
+  },
+  "164": {
+    "id": "ap164-transformation-mask",
+    "titleEn": "Transformation mask",
+    "region": "northwestCoast",
+    "siteName": "Kwakwaka'wakw territories, British Columbia, Canada",
+    "provenanceQualifier": "Portable ceremonial object; the regional anchor does not claim a precise village of manufacture.",
+    "traditionGroup": "Native North America",
+    "requiredViewIds": ["closed", "open"]
+  },
+  "165": {
+    "id": "ap165-painted-elk-hide",
+    "titleEn": "Painted elk hide",
+    "region": "plainsGreatBasin",
+    "siteName": "Wind River Reservation, Wyoming, U.S.",
+    "provenanceQualifier": "Attributed to Cotsiogo (Cadzi Cody), Eastern Shoshone; map placement represents the documented community context.",
+    "traditionGroup": "Native North America",
+    "requiredViewIds": ["primary"]
+  },
+  "166": {
+    "id": "ap166-black-on-black-vessel",
+    "titleEn": "Black-on-black ceramic vessel",
+    "region": "ancestralPueblo",
+    "siteName": "San Ildefonso Pueblo, New Mexico, U.S.",
+    "provenanceQualifier": null,
+    "traditionGroup": "Native North America",
+    "requiredViewIds": ["primary"]
+  }
+}

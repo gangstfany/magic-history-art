@@ -1,0 +1,742 @@
+{
+  "artworks": [
+    {
+      "id": "ap12-white-temple-ziggurat",
+      "apNumber": 12,
+      "titleEn": "White Temple and its ziggurat",
+      "titleZh": "乌鲁克白庙及其塔庙",
+      "unit": 2,
+      "culture": "ancientNearEast",
+      "region": "middleEast",
+      "period": "Sumerian, Uruk period",
+      "date": "c. 3500–3000 B.C.E.",
+      "artistCulture": "Sumerian",
+      "siteName": "Uruk, Iraq",
+      "siteQualifier": "古称乌鲁克，今瓦尔卡",
+      "coordinates": {
+        "x": 905,
+        "y": 365
+      },
+      "medium": "Mud brick",
+      "workType": "temple and ziggurat",
+      "function": "供奉天神安努，并把宗教仪式与城邦治理置于高台核心",
+      "form": "泥砖斜壁高台承托白灰粉刷的三分式神庙，以弯折动线接近",
+      "content": "中央大厅、侧室、祭坛与奉献台组成抬高的神圣空间",
+      "context": "两河平原缺石少木，城市以泥砖和集体劳力塑造可见的神权中心",
+      "recognitionAnchors": [
+        "高耸的泥砖斜壁平台",
+        "白灰粉刷的三分式神庙",
+        "通向高处的仪式性阶梯"
+      ],
+      "comparisonIds": [
+        "ap17-great-pyramids-giza",
+        "ap20-temple-of-amun-re-karnak"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Uruk_(3).jpg",
+      "imageAlt": "乌鲁克白庙及其塔庙遗址未裁切现场全景",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Uruk_(3).jpg",
+      "keywords": [
+        "Uruk",
+        "Anu",
+        "ziggurat",
+        "mud brick",
+        "bent-axis approach"
+      ]
+    },
+    {
+      "id": "ap14-statues-votive-figures",
+      "apNumber": 14,
+      "titleEn": "Statues of votive figures, from the Square Temple at Eshnunna (modern Tell Asmar, Iraq)",
+      "titleZh": "埃什努纳方庙出土的还愿人物像",
+      "unit": 2,
+      "culture": "ancientNearEast",
+      "region": "middleEast",
+      "period": "Sumerian, Early Dynastic",
+      "date": "c. 2700 B.C.E.",
+      "artistCulture": "Sumerian",
+      "siteName": "Eshnunna (Tell Asmar), Iraq",
+      "siteQualifier": "方庙出土地，今泰勒阿斯玛尔",
+      "coordinates": {
+        "x": 900,
+        "y": 335
+      },
+      "medium": "Gypsum inlaid with shell and black limestone",
+      "workType": "votive sculpture",
+      "function": "作为奉献者的替身在神前持续祈祷",
+      "form": "正面僵直、双手交握、圆柱与锥形体块，眼睛被夸大",
+      "content": "不同尺度的男女供奉者凝视神明，底座铭文可记录奉献者",
+      "context": "神庙崇拜把神视为在场者，人物尺度同时提示社会身份",
+      "recognitionAnchors": [
+        "夸大的贝壳嵌饰双眼",
+        "胸前交握的双手",
+        "锥形衣袍与等级尺度"
+      ],
+      "comparisonIds": [
+        "ap15-seated-scribe",
+        "ap28-peplos-kore"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sumerian_Status_from_Tell_Asmar,_part_of_the_Tell_Asmar_Hoard.jpg",
+      "imageAlt": "泰勒阿斯玛尔还愿人物像完整双像",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sumerian_Status_from_Tell_Asmar,_part_of_the_Tell_Asmar_Hoard.jpg",
+      "keywords": [
+        "Tell Asmar",
+        "votive",
+        "perpetual prayer",
+        "gypsum",
+        "inlay"
+      ]
+    },
+    {
+      "id": "ap16-standard-of-ur",
+      "apNumber": 16,
+      "titleEn": "Standard of Ur from the Royal Tombs at Ur (modern Tell el-Muqayyar, Iraq)",
+      "titleZh": "乌尔王陵出土的乌尔军旗",
+      "unit": 2,
+      "culture": "ancientNearEast",
+      "region": "middleEast",
+      "period": "Sumerian, Early Dynastic III",
+      "date": "c. 2600–2400 B.C.E.",
+      "artistCulture": "Sumerian",
+      "siteName": "Ur, Iraq",
+      "siteQualifier": "乌尔王陵出土",
+      "coordinates": {
+        "x": 910,
+        "y": 380
+      },
+      "medium": "Wood inlaid with shell, lapis lazuli, and red limestone",
+      "workType": "inlaid narrative object",
+      "function": "原用途不明；作为王陵随葬品，以战争与宴饮图像彰显统治秩序",
+      "form": "梯形木箱表面以镶嵌拼贴构成三层横向叙事",
+      "content": "“战争面”呈战车、士兵与俘虏朝见高大的国王；另一面呈贡物与宴饮",
+      "context": "乌尔王陵的奢华材料、随葬制度与远程贸易网络共同标示精英权力",
+      "recognitionAnchors": [
+        "横贯全画面的三层分带",
+        "青金石蓝底与贝壳人物",
+        "高大的国王与下层战车"
+      ],
+      "comparisonIds": [
+        "ap24-last-judgment-of-hunefer",
+        "ap40-alexander-mosaic"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Denis_Bourez_-_British_Museum,_London_(8747049029)_(2).jpg",
+      "imageAlt": "乌尔军旗完整箱体、战争面与端面镶嵌视图",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Denis_Bourez_-_British_Museum,_London_(8747049029)_(2).jpg",
+      "keywords": [
+        "Royal Tombs of Ur",
+        "War side",
+        "Peace side",
+        "registers",
+        "hieratic scale",
+        "lapis lazuli"
+      ]
+    },
+    {
+      "id": "ap19-code-of-hammurabi",
+      "apNumber": 19,
+      "titleEn": "The Code of Hammurabi",
+      "titleZh": "汉谟拉比法典碑",
+      "unit": 2,
+      "culture": "ancientNearEast",
+      "region": "middleEast",
+      "period": "Old Babylonian",
+      "date": "c. 1792–1750 B.C.E.",
+      "artistCulture": "Babylonian; found at Susa",
+      "siteName": "Susa, Iran",
+      "siteQualifier": "原立于巴比伦尼亚，后被带至苏萨并在此发现",
+      "coordinates": {
+        "x": 930,
+        "y": 350
+      },
+      "medium": "Basalt",
+      "workType": "law stele",
+      "function": "以王室司法纪念物宣示法律并把汉谟拉比的统治塑为神授正义",
+      "form": "高大黑色玄武岩碑，圆顶浮雕下密布楔形文字",
+      "content": "汉谟拉比在太阳与正义之神沙玛什前受权，下方刻写法律判例",
+      "context": "神授图像为集中王权背书，法条依社会身份规定不同责任与惩罚",
+      "recognitionAnchors": [
+        "圆弧形碑顶",
+        "站立的汉谟拉比面对端坐的沙玛什",
+        "覆盖碑身的密集楔形文字"
+      ],
+      "comparisonIds": [
+        "ap13-palette-of-king-narmer",
+        "ap45-forum-of-trajan"
+      ],
+      "imageUrl": "https://www.worldhistory.org/image/14341/code-of-hammurabi/download/",
+      "imageAlt": "卢浮宫汉谟拉比法典碑完整正面",
+      "imageSourceName": "World History Encyclopedia",
+      "imageSourceUrl": "https://www.worldhistory.org/image/14341/code-of-hammurabi/",
+      "keywords": [
+        "Hammurabi",
+        "Shamash",
+        "cuneiform",
+        "basalt",
+        "divine authority"
+      ]
+    },
+    {
+      "id": "ap23-tutankhamun-innermost-coffin",
+      "apNumber": 23,
+      "titleEn": "Tutankhamun’s tomb, innermost coffin",
+      "titleZh": "图坦卡蒙墓内棺",
+      "unit": 2,
+      "culture": "egypt",
+      "region": "northAfrica",
+      "period": "New Kingdom, Eighteenth Dynasty",
+      "date": "c. 1323 B.C.E.",
+      "artistCulture": "New Kingdom Egyptian",
+      "siteName": "Valley of the Kings, Thebes",
+      "coordinates": {
+        "x": 685,
+        "y": 425
+      },
+      "medium": "Gold with inlay of enamel and semiprecious stones",
+      "workType": "funerary coffin",
+      "function": "容纳并保护法老遗体，以神圣王权符号支持其来世复生",
+      "form": "实心黄金人形棺，以对称正面构图、彩色镶嵌和细密刻饰塑造理想化国王",
+      "content": "国王双臂交叉持曲柄杖与连枷；秃鹫与眼镜蛇、翼展女神和保护性铭文覆盖棺身",
+      "context": "最内层黄金棺置于两层外棺和石棺之内，图坦卡蒙墓葬组合揭示新王国王室来世观",
+      "recognitionAnchors": [
+        "完整人形黄金内棺",
+        "胸前交叉的曲柄杖与连枷",
+        "棺身彩色镶嵌与展开的保护神翼"
+      ],
+      "comparisonIds": [
+        "ap18-king-menkaura-and-queen",
+        "ap47-ludovisi-battle-sarcophagus"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Egypt._Cairo._King_Tutankhamun%27s_coffin_LOC_matpc.23054.jpg",
+      "imageAlt": "开罗博物馆陈列的图坦卡蒙完整黄金最内层人形棺",
+      "imageSourceName": "Wikimedia Commons / Library of Congress",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Egypt._Cairo._King_Tutankhamun%27s_coffin_LOC_matpc.23054.jpg",
+      "keywords": [
+        "Tutankhamun",
+        "innermost coffin",
+        "gold",
+        "crook and flail",
+        "Valley of the Kings"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap25-lamassu-sargon-ii",
+      "apNumber": 25,
+      "titleEn": "Lamassu from the citadel of Sargon II, Dur Sharrukin (modern Khorsabad, Iraq)",
+      "titleZh": "萨尔贡二世城堡拉玛苏守护像",
+      "unit": 2,
+      "culture": "ancientNearEast",
+      "region": "middleEast",
+      "period": "Neo-Assyrian",
+      "date": "c. 720–705 B.C.E.",
+      "artistCulture": "Neo-Assyrian",
+      "siteName": "Dur Sharrukin (Khorsabad), Iraq",
+      "siteQualifier": "萨尔贡二世新都宫殿入口",
+      "coordinates": {
+        "x": 890,
+        "y": 300
+      },
+      "medium": "Alabaster",
+      "workType": "architectural guardian sculpture",
+      "function": "守护宫殿入口，并以超人尺度与复合形象震慑来访者",
+      "form": "巨型雪花石膏高浮雕兼具正面与侧面视角，雕出五条腿",
+      "content": "戴角冠的人首、蓄须面孔、公牛身体与鹰翼合成保护神兽",
+      "context": "萨尔贡二世的新都以入口守护像和宫殿行进路线表演帝国权威",
+      "recognitionAnchors": [
+        "同时适应正面与侧视的五条腿",
+        "角冠人首与卷曲长须",
+        "覆盖牛身的巨大羽翼"
+      ],
+      "comparisonIds": [
+        "ap38-great-altar-pergamon",
+        "ap44-colosseum"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lamassu_(Winged_Bull)_of_Throne_Room_of_Palace_of_Sargon_II,_Khorsabad,_Assyria_(28218791021).jpg",
+      "imageAlt": "萨尔贡二世宫殿拉玛苏五腿守护像全身",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lamassu_(Winged_Bull)_of_Throne_Room_of_Palace_of_Sargon_II,_Khorsabad,_Assyria_(28218791021).jpg",
+      "keywords": [
+        "Lamassu",
+        "Sargon II",
+        "Dur Sharrukin",
+        "Neo-Assyrian",
+        "five legs"
+      ]
+    },
+    {
+      "id": "ap26-athenian-agora",
+      "apNumber": 26,
+      "titleEn": "Athenian agora",
+      "titleZh": "雅典市集广场",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "Archaic through Hellenistic Greece",
+      "date": "c. 600 B.C.E.–150 C.E.",
+      "artistCulture": "Ancient Greek",
+      "siteName": "Athens",
+      "coordinates": {
+        "x": 390,
+        "y": 270
+      },
+      "medium": "Plan",
+      "workType": "civic complex",
+      "function": "政治、司法、商业、宗教与社交中心",
+      "form": "开放广场周围布置柱廊、议事厅、神庙和行政建筑",
+      "content": "泛雅典娜道路穿过多功能公共空间",
+      "context": "城邦民主与日常公民生活通过共享空间运作",
+      "recognitionAnchors": [
+        "开放中心广场",
+        "周边 stoa 柱廊",
+        "泛雅典娜道路"
+      ],
+      "comparisonIds": [
+        "ap21-mortuary-temple-hatshepsut",
+        "ap45-forum-of-trajan"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ancient_Agora_of_Athens.jpg",
+      "imageAlt": "雅典古市集遗址与复原柱廊",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Agora_of_Athens.jpg",
+      "keywords": [
+        "agora",
+        "polis",
+        "democracy",
+        "stoa"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap29-sarcophagus-of-the-spouses",
+      "apNumber": 29,
+      "titleEn": "Sarcophagus of the Spouses",
+      "titleZh": "夫妻石棺",
+      "unit": 2,
+      "culture": "etruscan",
+      "region": "southernEurope",
+      "period": "Etruscan, Archaic",
+      "date": "c. 520 B.C.E.",
+      "artistCulture": "Etruscan",
+      "siteName": "Cerveteri, Italy",
+      "siteQualifier": "班迪塔恰墓地出土",
+      "coordinates": {
+        "x": 175,
+        "y": 235
+      },
+      "medium": "Terra cotta",
+      "workType": "funerary sarcophagus",
+      "function": "容纳火化遗骨，并以共同宴饮的形象纪念夫妻",
+      "form": "多段烧制的陶土棺体上塑出高浮雕上身，下身沿卧榻趋于扁平",
+      "content": "夫妻并肩斜倚在宴饮卧榻上微笑，双手向观者前方伸出",
+      "context": "精英墓葬把希腊宴饮母题本土化，也显现伊特鲁里亚女性的公共地位",
+      "recognitionAnchors": [
+        "共同斜倚在宴饮卧榻上的夫妻",
+        "古风式微笑与杏仁形眼睛",
+        "向前伸出且原本持物的双手"
+      ],
+      "comparisonIds": [
+        "ap18-king-menkaura-and-queen",
+        "ap36-grave-stele-hegeso"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sarcofago_degli_Sposi_Villa_Giulia.jpg",
+      "imageAlt": "切尔韦泰里夫妻石棺完整正面",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sarcofago_degli_Sposi_Villa_Giulia.jpg",
+      "keywords": [
+        "Etruscan",
+        "Cerveteri",
+        "terracotta",
+        "banquet",
+        "kline"
+      ]
+    },
+    {
+      "id": "ap30-apadana-darius-xerxes",
+      "apNumber": 30,
+      "titleEn": "Audience Hall (apadana) of Darius and Xerxes",
+      "titleZh": "大流士与薛西斯接见大厅（阿帕达纳）",
+      "unit": 2,
+      "culture": "ancientNearEast",
+      "region": "middleEast",
+      "period": "Achaemenid Persian",
+      "date": "c. 520–465 B.C.E.",
+      "artistCulture": "Persian (Achaemenid), commissioned by Darius I and Xerxes I",
+      "siteName": "Persepolis, Iran",
+      "siteQualifier": "波斯波利斯宫殿群",
+      "coordinates": {
+        "x": 965,
+        "y": 350
+      },
+      "medium": "Limestone",
+      "workType": "audience hall",
+      "function": "举行帝国接见、节庆与贡礼仪式",
+      "form": "由七十二根高柱构成多柱大厅，动物柱头与双向巨阶组织进场",
+      "content": "阶梯浅浮雕列出帝国各地使团，他们以有序队伍携带地方贡物",
+      "context": "阿契美尼德宫殿以多族群的秩序化呈现同时表达帝国统一与地域多样",
+      "recognitionAnchors": [
+        "带双牛柱头的高耸石柱",
+        "通向平台的巨型双向阶梯",
+        "阶梯上携带贡物的使团浮雕"
+      ],
+      "comparisonIds": [
+        "ap35-athenian-acropolis",
+        "ap45-forum-of-trajan"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Persepolis_-_Apadana_01.jpg",
+      "imageAlt": "波斯波利斯阿帕达纳接见大厅遗址全景",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Persepolis_-_Apadana_01.jpg",
+      "keywords": [
+        "Apadana",
+        "Persepolis",
+        "Darius",
+        "Xerxes",
+        "Achaemenid",
+        "tribute delegations"
+      ]
+    },
+    {
+      "id": "ap31-temple-minerva-apollo",
+      "apNumber": 31,
+      "titleEn": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo",
+      "titleZh": "密涅瓦神庙与阿波罗像",
+      "unit": 2,
+      "culture": "etruscan",
+      "region": "southernEurope",
+      "period": "Etruscan, Archaic",
+      "date": "c. 510–500 B.C.E.",
+      "artistCulture": "Master sculptor Vulca",
+      "siteName": "Veii, Italy",
+      "siteQualifier": "波尔托纳乔圣所；阿波罗为屋脊饰像",
+      "coordinates": {
+        "x": 180,
+        "y": 225
+      },
+      "medium": "Original temple of wood, mud brick, or tufa; terra cotta sculpture",
+      "workType": "temple and architectural sculpture",
+      "function": "神庙供奉密涅瓦，屋顶雕塑以戏剧化神话标示圣所",
+      "form": "高台、深前廊、宽距托斯卡纳柱与三重内殿；真人尺度陶土饰像立于屋顶",
+      "content": "阿波罗大步进入赫拉克勒斯争夺牝鹿的神话场景",
+      "context": "伊特鲁里亚人吸收希腊神庙和神话，再以正面轴线布局与动态屋顶群像本土化",
+      "recognitionAnchors": [
+        "高台与深前廊的正面式神庙",
+        "并列的三重内殿",
+        "大步前行的彩绘陶土阿波罗"
+      ],
+      "comparisonIds": [
+        "ap35-athenian-acropolis",
+        "ap46-pantheon"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Reconstruction_of_the_Apollo_temple_from_the_Portonaccio_sanctuary.jpg",
+      "imageAlt": "波尔托纳乔圣所阿波罗神庙复原图，完整显示正面建筑与屋顶阿波罗雕塑群",
+      "imageSourceName": "Wikimedia Commons / tDAR",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Reconstruction_of_the_Apollo_temple_from_the_Portonaccio_sanctuary.jpg",
+      "keywords": [
+        "Veii",
+        "Minerva",
+        "Apollo",
+        "Vulca",
+        "acroterion",
+        "Tuscan temple"
+      ]
+    },
+    {
+      "id": "ap32-tomb-of-the-triclinium",
+      "apNumber": 32,
+      "titleEn": "Tomb of the Triclinium",
+      "titleZh": "三榻餐厅墓",
+      "unit": 2,
+      "culture": "etruscan",
+      "region": "southernEurope",
+      "period": "Etruscan, Early Classical",
+      "date": "c. 480–470 B.C.E.",
+      "artistCulture": "Etruscan",
+      "siteName": "Tarquinia, Italy",
+      "siteQualifier": "蒙特罗齐墓地",
+      "coordinates": {
+        "x": 170,
+        "y": 245
+      },
+      "medium": "Tufa and fresco",
+      "workType": "painted tomb",
+      "function": "安葬精英并举行葬礼仪式，把来世想象为持续的宴饮与庆典",
+      "form": "地下凝灰岩墓室以湿壁画覆盖墙面，屋顶绘棋盘格图案",
+      "content": "后墙宾客斜倚宴饮，侧墙安排舞者、乐师、侍从、动物与树木",
+      "context": "音乐、舞蹈和宴饮属于伊特鲁里亚葬礼实践，希腊绘画方式在墓葬中被本土化",
+      "recognitionAnchors": [
+        "覆盖斜顶的红色棋盘格",
+        "后墙斜倚宴饮的宾客",
+        "侧墙舞者与乐师队列"
+      ],
+      "comparisonIds": [
+        "ap24-last-judgment-of-hunefer",
+        "ap39-house-of-the-vettii"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pittore_forse_attico,_affreschi_della_tomba_del_triclinio,_500-475_ac_ca,_01.jpg",
+      "imageAlt": "塔尔奎尼亚三榻餐厅墓彩绘墓室完整视图",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pittore_forse_attico,_affreschi_della_tomba_del_triclinio,_500-475_ac_ca,_01.jpg",
+      "keywords": [
+        "Tarquinia",
+        "fresco",
+        "banquet",
+        "triclinium",
+        "Monterozzi",
+        "afterlife"
+      ]
+    },
+    {
+      "id": "ap35-athenian-acropolis",
+      "apNumber": 35,
+      "titleEn": "Acropolis",
+      "titleZh": "雅典卫城",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "High Classical Greece",
+      "date": "447–410 B.C.E.",
+      "artistCulture": "Classical Greek",
+      "siteName": "Athens",
+      "coordinates": {
+        "x": 390,
+        "y": 270
+      },
+      "medium": "Marble",
+      "workType": "sacred architectural complex",
+      "function": "雅典娜祭祀、泛雅典娜节与城邦纪念",
+      "form": "山顶多建筑群，以行进路线组织不对称景观",
+      "content": "山门、帕特农、雅典娜胜利神庙与厄瑞克忒翁神庙",
+      "context": "波斯战争后伯里克利建设计划展示雅典帝国实力",
+      "recognitionAnchors": [
+        "山顶神庙群",
+        "山门进入的仪式路径",
+        "帕特农与厄瑞克忒翁并置"
+      ],
+      "comparisonIds": [
+        "ap26-athenian-agora",
+        "ap45-forum-of-trajan"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Acropolis_of_Athens_01361.JPG",
+      "imageAlt": "雅典卫城山顶建筑群",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Acropolis_of_Athens_01361.JPG",
+      "keywords": [
+        "Acropolis",
+        "Athens",
+        "Pericles",
+        "Athena"
+      ],
+      "siteQualifier": null
+    },
+    {
+      "id": "ap41-seated-boxer",
+      "apNumber": 41,
+      "titleEn": "Seated boxer",
+      "titleZh": "坐姿拳击手",
+      "unit": 2,
+      "culture": "greece",
+      "region": "southernEurope",
+      "period": "Hellenistic Greek",
+      "date": "c. 100 B.C.E.",
+      "artistCulture": "Hellenistic Greek",
+      "siteName": "Rome",
+      "siteQualifier": "发现于罗马奎里纳尔山，原始设置与确切出处不明",
+      "coordinates": {
+        "x": 170,
+        "y": 230
+      },
+      "medium": "Bronze",
+      "workType": "athletic sculpture",
+      "function": "可能为公共纪念、奉献或浴场陈设",
+      "form": "坐姿扭身、写实伤痕、铜合金镶嵌",
+      "content": "疲惫拳手戴手套，突然抬头望向侧上方",
+      "context": "希腊化艺术以技术写实与心理瞬间表现败者尊严",
+      "recognitionAnchors": [
+        "肿胀耳鼻与面部伤痕",
+        "古代拳击手套",
+        "坐姿突然转头"
+      ],
+      "comparisonIds": [
+        "ap15-seated-scribe",
+        "ap42-head-of-a-roman-patrician"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Seated_Boxer_%2836466552736%29.jpg",
+      "imageAlt": "奎里纳尔坐姿拳击手青铜像",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seated_Boxer_%2836466552736%29.jpg",
+      "keywords": [
+        "Seated Boxer",
+        "bronze",
+        "pathos",
+        "Quirinal"
+      ]
+    },
+    {
+      "id": "ap42-head-of-a-roman-patrician",
+      "apNumber": 42,
+      "titleEn": "Head of a Roman patrician",
+      "titleZh": "罗马贵族男子头像",
+      "unit": 2,
+      "culture": "rome",
+      "region": "southernEurope",
+      "period": "Republican Roman",
+      "date": "c. 75–50 B.C.E.",
+      "artistCulture": "Republican Roman",
+      "siteName": "Rome",
+      "siteQualifier": "作品现位于罗马；原始出处未见 CED 指定",
+      "coordinates": {
+        "x": 170,
+        "y": 230
+      },
+      "medium": "Marble",
+      "workType": "portrait bust fragment",
+      "function": "纪念祖先并宣示贵族经验、德性与血统",
+      "form": "极端写实 verism、皱纹深刻、正面凝视",
+      "content": "年长男子的消瘦面容与衰老痕迹被强化",
+      "context": "共和国精英以祖先肖像和年龄符号支撑政治权威",
+      "recognitionAnchors": [
+        "深刻额纹与鼻唇沟",
+        "消瘦不理想化面孔",
+        "共和国 verism"
+      ],
+      "comparisonIds": [
+        "ap34-doryphoros",
+        "ap41-seated-boxer"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Patrizio_Torlonia.jpg",
+      "imageAlt": "共和国时期罗马贵族男子写实头像",
+      "imageSourceName": "Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Patrizio_Torlonia.jpg",
+      "keywords": [
+        "patrician",
+        "verism",
+        "Republic",
+        "ancestor portrait"
+      ]
+    },
+    {
+      "id": "ap43-augustus-prima-porta",
+      "apNumber": 43,
+      "titleEn": "Augustus of Prima Porta",
+      "titleZh": "普里马波尔塔的奥古斯都像",
+      "unit": 2,
+      "culture": "rome",
+      "region": "southernEurope",
+      "period": "Imperial Roman",
+      "date": "Early first century C.E.",
+      "artistCulture": "Imperial Roman",
+      "siteName": "Rome",
+      "siteQualifier": "发现于罗马近郊普里马波尔塔的莉薇娅别墅；现藏梵蒂冈博物馆",
+      "coordinates": {
+        "x": 170,
+        "y": 230
+      },
+      "medium": "Marble",
+      "workType": "imperial portrait sculpture",
+      "function": "以理想化统帅形象和神圣谱系宣传奥古斯都恢复和平与秩序的统治",
+      "form": "真人尺度大理石立像采用对立式站姿与演说手势，融合古典希腊理想化和罗马肖像识别特征",
+      "content": "奥古斯都举右臂发言，胸甲浮雕表现帕提亚归还军旗；脚边丘比特乘海豚，赤足暗示英雄或神性",
+      "context": "奥古斯都时代借公共肖像和神话象征把军事外交成就、尤利乌斯血统与罗马和平联系起来",
+      "recognitionAnchors": [
+        "举起右臂的 adlocutio 演说姿态",
+        "胸甲中央归还军旗的浮雕",
+        "脚边丘比特与海豚、赤足形象"
+      ],
+      "comparisonIds": [
+        "ap13-palette-of-king-narmer",
+        "ap34-doryphoros"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Augustus_of_Prima_Porta_(inv._2290).jpg",
+      "imageAlt": "梵蒂冈博物馆藏普里马波尔塔奥古斯都完整正面立像",
+      "imageSourceName": "Wikimedia Commons / Vatican Museums",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Augustus_of_Prima_Porta_(inv._2290).jpg",
+      "keywords": [
+        "Augustus",
+        "Prima Porta",
+        "imperial propaganda",
+        "cuirass",
+        "Cupid",
+        "Pax Romana"
+      ]
+    }
+  ],
+  "credits": {
+    "ap12-white-temple-ziggurat": {
+      "creatorOrInstitution": "摄影：tobeytravels；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+    },
+    "ap14-statues-votive-figures": {
+      "creatorOrInstitution": "摄影：Osama Shukir Muhammed Amin FRCP(Glasg)；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap16-standard-of-ur": {
+      "creatorOrInstitution": "摄影：Denis Bourez；来源机构：Wikimedia Commons / British Museum",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "ap19-code-of-hammurabi": {
+      "creatorOrInstitution": "摄影：Larry Koester；来源机构：World History Encyclopedia / Louvre Museum",
+      "licenseName": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "ap23-tutankhamun-innermost-coffin": {
+      "creatorOrInstitution": "摄影：Matson Collection；来源机构：Library of Congress / Wikimedia Commons",
+      "licenseName": "Public domain / no known restrictions",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Egypt._Cairo._King_Tutankhamun%27s_coffin_LOC_matpc.23054.jpg"
+    },
+    "ap25-lamassu-sargon-ii": {
+      "creatorOrInstitution": "摄影：Gary Todd；来源机构：Wikimedia Commons / Louvre Museum",
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "ap26-athenian-agora": {
+      "creatorOrInstitution": "摄影：DerHexer；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "ap29-sarcophagus-of-the-spouses": {
+      "creatorOrInstitution": "摄影：Tutorialwiki；来源机构：Wikimedia Commons / Museo Nazionale Etrusco di Villa Giulia",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap30-apadana-darius-xerxes": {
+      "creatorOrInstitution": "摄影：Bernard Gagnon；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "ap31-temple-minerva-apollo": {
+      "creatorOrInstitution": "作者：unknown；来源机构：Wikimedia Commons / tDAR",
+      "licenseName": "Public domain (PD-ineligible)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Reconstruction_of_the_Apollo_temple_from_the_Portonaccio_sanctuary.jpg"
+    },
+    "ap32-tomb-of-the-triclinium": {
+      "creatorOrInstitution": "摄影：Sailko；来源机构：Wikimedia Commons / Museo Archeologico Nazionale di Tarquinia；许可提示：个人/学习用途允许，其他用途（尤其商业再利用）须另行获得意大利文化遗产主管部门授权",
+      "licenseName": "CC BY 3.0；另受意大利文化遗产再利用授权限制",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pittore_forse_attico,_affreschi_della_tomba_del_triclinio,_500-475_ac_ca,_01.jpg"
+    },
+    "ap35-athenian-acropolis": {
+      "creatorOrInstitution": "摄影：Glen Larson；来源机构：Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap41-seated-boxer": {
+      "creatorOrInstitution": "摄影：Bradley Weber；来源机构：Wikimedia Commons",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "ap42-head-of-a-roman-patrician": {
+      "creatorOrInstitution": "19 世纪出版物扫描，作者不详；来源机构：Wikimedia Commons",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "ap43-augustus-prima-porta": {
+      "creatorOrInstitution": "摄影：Joel Bellviure；来源机构：Wikimedia Commons / Vatican Museums",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  }
+}
