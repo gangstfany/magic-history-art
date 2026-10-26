@@ -16,6 +16,13 @@
     9,
     10
   ],
-  "excluded": "Uncommitted drafts and private media were not copied.",
-  "provenanceFix": "fe9737e provenanceQualifier ?? siteQualifier already present in 4756151."
+  "excluded": "Private study media and Python cache files are excluded from the public release; draft code and prototypes are now versioned.",
+  "provenanceFix": "fe9737e provenanceQualifier ?? siteQualifier already present in 4756151.",
+  "approvedSourceHtmlSha256": "945193e5fcc685580c116e7a1d4a49edaa01c0515628f7499eb9a37d982e5c3a",
+  "mediaSupplementation": {
+    "workCount": 14,
+    "viewCount": 18,
+    "source": "Original uncommitted workspace additions dated 2026-10-19/20; imported on user request 2026-10-26",
+    "privateMedia": "Destination awaiting user selection; excluded from public release"
+  }
 }

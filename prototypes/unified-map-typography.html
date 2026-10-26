@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>世界史 × 艺术史 · 字体统一预览</title>
+  <style>
+    * { box-sizing:border-box; }
+    body { margin:0; height:100dvh; display:flex; flex-direction:column; color:#211f1c; background:#f9f4e8; font-family:"PingFang SC","Hiragino Sans GB",-apple-system,"Helvetica Neue",sans-serif; }
+    .preview-header { flex:none; padding:12px 18px; border-bottom:1px solid #e7dcc6; background:#fffdf8; display:flex; flex-wrap:wrap; align-items:center; gap:10px 18px; }
+    .preview-heading { margin:0; font-size:15px; font-weight:800; color:#8b3a2f; }
+    .preview-controls { display:flex; flex-wrap:wrap; gap:7px; }
+    .preview-controls button, #retry { min-height:44px; padding:0 13px; border:1px solid #e7dcc6; border-radius:999px; background:#f9f4e8; color:#211f1c; font:inherit; font-size:12.5px; font-weight:700; cursor:pointer; }
+    .preview-controls button[aria-pressed="true"] { background:#211f1c; color:#fffdf8; border-color:#211f1c; }
+    button:disabled { opacity:.5; cursor:wait; }
+    button:focus-visible, a:focus-visible, summary:focus-visible { outline:3px solid #28708a; outline-offset:3px; }
+    .preview-note { flex-basis:100%; display:flex; flex-wrap:wrap; align-items:center; gap:6px 18px; color:#6b6456; font-size:12px; font-weight:600; line-height:1.55; }
+    .preview-note p { margin:0; }
+    .preview-note details { min-width:0; }
+    .preview-note summary { cursor:pointer; }
+    .preview-note a { color:#176369; }
+    #status { margin-left:auto; }
+    #retry[hidden] { display:none; }
+    #preview { width:100%; flex:1; min-height:0; display:block; border:0; background:#f9f4e8; }
+    @media(max-width:520px) { .preview-header { padding:10px 12px; gap:8px; } .preview-heading { flex-basis:100%; } .preview-controls { gap:6px; } .preview-controls button { padding:0 11px; } #status { margin-left:0; } }
+  </style>
+</head>
+<body data-mode="unified" data-ready="false">
+  <header class="preview-header">
+    <h1 class="preview-heading">Prototype · 字体与地图高度统一</h1>
+    <nav class="preview-controls" aria-label="原版与统一版对比">
+      <button type="button" data-mode="original" aria-pressed="false">原版</button>
+      <button type="button" data-mode="unified" aria-pressed="true">统一版</button>
+    </nav>
+    <nav class="preview-controls" aria-label="真实内容示例">
+      <button type="button" data-scene="event" aria-pressed="false" disabled>世界史 · 事件</button>
+      <button type="button" data-scene="study" aria-pressed="false" disabled>世界史 · Study points</button>
+      <button type="button" data-scene="art" aria-pressed="true" disabled>艺术史 · 作品</button>
+    </nav>
+    <div class="preview-note">
+      <p>艺术史自动聚焦当前作品 · 1:1 回到全球 · 等高画布：桌面 500px / 小屏幕 300px · 正式页面未改</p>
+      <details><summary>统一规范</summary><p>标题 19px/800 · 小标题 13.5px/700 · 正文 13.5px/600、行高 1.55 · 辅助文字 12px/600 · 胶囊与标签 12.5px/700。保留图片、配色、控件形状及地图数字缩放。</p></details>
+      <a href="../index.html">正式首页 ↗</a>
+      <span id="status" role="status">正在加载真实地图…</span>
+      <button type="button" id="retry" hidden>重新加载</button>
+    </div>
+  </header>
+  <iframe id="preview" title="可切换原版和统一字体的真实历史地图预览" src="../index.html?typographyPrototype=1"></iframe>
+  <script>
+  (() => {
+    const frame = document.getElementById('preview');
+    const status = document.getElementById('status');
+    const retry = document.getElementById('retry');
+    const sceneButtons = [...document.querySelectorAll('[data-scene]')];
+    const boundFrames = new WeakSet();
+    const focusBindings = new WeakMap();
+    let mode = 'unified';
+    let sceneBusy = false;
+
+    function focusArt(doc, selected = false) {
+      const api = doc?.defaultView?.ArtHistoryMap;
+      if (mode !== 'unified' || !api) return;
+      const visible = api.filterWorks(api.ARTWORKS, api.state);
+      const chosen = selected && api.ARTWORKS.find(work => work.id === api.state.selectedId);
+      const works = chosen ? [chosen] : visible;
+      const points = works.map(api.toWorldCoordinates).filter(p => Number.isFinite(p.x) && Number.isFinite(p.y));
+      if (!points.length) return;
+      const bounds = doc.querySelector('.map-svg').getBoundingClientRect();
+      const screenScale = Math.min(bounds.width / 1600, bounds.height / 800);
+      const margin = Math.min(80, bounds.width * .16) / screenScale;
+      const xs = points.map(p => p.x), ys = points.map(p => p.y);
+      const left = Math.min(...xs), right = Math.max(...xs), top = Math.min(...ys), bottom = Math.max(...ys);
+      const scale = Math.min(3, Math.max(1, Math.min(
+        1600 / (right - left + margin * 2), 800 / (bottom - top + margin * 2)
+      )));
+      api.state.transform = api.clampTransform({ scale,
+        x:800 - (left + right) / 2 * scale, y:400 - (top + bottom) / 2 * scale });
+      if (chosen) {
+        api.state.activeUnit = chosen.unit;
+        api.state.activeRegion = api.groupByConfiguredRegion(visible, chosen.unit)
+          .find(group => group.works.some(work => work.id === chosen.id))?.key || null;
+      }
+      api.render(); api.applyTransform();
+      doc.documentElement.dataset.prototypeFocus = chosen ? 'artwork' : 'range';
+    }
+
+    function bindArtFocus(doc) {
+      const api = doc?.defaultView?.ArtHistoryMap;
+      if (!api) return;
+      let binding = focusBindings.get(doc);
+      if (!binding) {
+        binding = { saved:null, timer:null };
+        focusBindings.set(doc, binding);
+        const schedule = (selected, delay = 0) => {
+          clearTimeout(binding.timer);
+          binding.timer = setTimeout(() => { binding.timer = null; focusArt(doc, selected); }, delay);
+        };
+        doc.addEventListener('change', event => {
+          if (event.target.matches('#unitFilter,#periodFilter,#typeFilter')) schedule(false);
+        }, true);
+        doc.addEventListener('input', event => {
+          if (event.target.matches('#searchInput')) schedule(false, 180);
+        }, true);
+        doc.addEventListener('click', event => {
+          if (event.target.closest('#resetView,#zoomIn,#zoomOut')) { clearTimeout(binding.timer); return; }
+          if (event.target.closest('.filter-pill,.clear-button')) schedule(false);
+          else if (event.target.closest('#markerLayer,.comparison-card,.expanded-pin-list-button,.site-cycle')) {
+            const before = api.state.selectedId;
+            clearTimeout(binding.timer);
+            binding.timer = setTimeout(() => {
+              binding.timer = null;
+              if (api.state.selectedId && api.state.selectedId !== before) focusArt(doc, true);
+            }, 0);
+          }
+        }, true);
+      }
+      if (mode === 'original' && binding.saved) {
+        clearTimeout(binding.timer);
+        api.state.transform = { ...binding.saved }; binding.saved = null;
+        api.render(); api.applyTransform();
+      } else if (mode === 'unified' && !binding.saved) {
+        binding.saved = { ...api.state.transform };
+      }
+    }
+
+    function applyCanvasSizing() {
+      const home = frame.contentDocument;
+      const nested = home?.getElementById('artMapFrame');
+      const art = nested?.contentDocument;
+      const world = home?.getElementById('worldMapFrame')?.contentDocument;
+      if (!home?.head || !art?.head) return;
+      if (mode === 'original') {
+        home.getElementById('prototype-canvas-height')?.remove();
+        art.getElementById('prototype-canvas-height')?.remove();
+        world?.getElementById('prototype-canvas-height')?.remove();
+        return;
+      }
+      const height = frame.contentWindow.innerWidth > 900 ? 500 : 300;
+      const stacked = nested.contentWindow.innerWidth <= 664;
+      const toolbarHeight = art.querySelector('.filter-toolbar')?.getBoundingClientRect().height || 0;
+      const total = Math.ceil(toolbarHeight + height + (stacked ? 360 : 0));
+      for (const [doc, rules] of [[home, `
+        .map-card[data-subject="art"] .map-events-split,
+        .map-card[data-subject="art"] .home-map-wrap { height:${total}px !important; }
+      `], [art, `
+        body.is-embedded .art-workspace { flex:0 0 auto !important; height:${height + (stacked ? 360 : 0)}px !important; min-height:0 !important; }
+        body.is-embedded .map-panel { height:${height}px !important; min-height:0 !important; }
+        body.is-embedded .map-panel { background:#f0e6d6 !important; }
+        body.is-embedded .map-svg { height:${height}px !important; min-height:0 !important; width:100% !important; }
+        ${stacked ? `body.is-embedded .art-workspace { grid-template-rows:${height}px 360px !important; }
+        body.is-embedded .map-panel, body.is-embedded .map-panel.has-compact-list { grid-template-rows:${height}px auto !important; }
+        body.is-embedded .detail-panel { height:360px !important; min-height:0 !important; }` : ''}
+      `], [world, `
+        .map-zone { background:#f0e6d6 !important; }
+      `]]) {
+        if (!doc?.head) continue;
+        let style = doc.getElementById('prototype-canvas-height');
+        if (!style) { style = doc.createElement('style'); style.id = 'prototype-canvas-height'; doc.head.append(style); }
+        if (style.textContent !== rules) style.textContent = rules;
+      }
+    }
+
+    // This stylesheet exists only in this preview's live documents. It never
+    // rewrites original CSS, content, marker metrics, or files on disk.
+    const css = `
+      :root { --ty-title:19px; --ty-section:13.5px; --ty-body:13.5px; --ty-meta:12px; --ty-control:12.5px; }
+      html, body, button, input, select { font-family:"PingFang SC","Hiragino Sans GB",-apple-system,"Helvetica Neue",sans-serif !important; }
+      :is(.work-title-en,.event-head .city-name,.location-study-title,.location-study-detail-title,.rt-name,.course-mainline-title,.qz-title) {
+        font-size:var(--ty-title) !important; font-weight:800 !important; line-height:1.3 !important;
+      }
+      :is(.study-block h3,.location-study-core h3,.location-study-connection-group h4,.location-study-name,.location-study-unit-title,.comparison-card strong) {
+        font-size:var(--ty-section) !important; font-weight:700 !important; line-height:1.55 !important;
+      }
+      :is(.detail-panel,.study-block p,.anchor-list li,.identity-row,.ec-trig,.location-study-detail p,.location-study-detail li,.location-study-detail dd,.location-study-unit-body p,.location-study-unit-body li,.rt-blurb,.rt-exam,.qz-stem,.qz-trig,.comparison-angle) {
+        font-size:var(--ty-body) !important; font-weight:600 !important; line-height:1.55 !important;
+      }
+      :is(.work-title-zh,.work-meta,.result-count,.image-credit,.location-study-context,.location-study-summary,.location-study-region,.event-head .city-count,.ec-where,.filter-label,.mth-field,.mt-field,.rt-progress,.qz-score,.comparison-card span:not(.comparison-angle)) {
+        font-size:var(--ty-meta) !important; font-weight:600 !important; line-height:1.55 !important;
+      }
+      :is(.mth-cat,.mt-cat,.filter-pill,.clear-button,.detail-tab,.map-panel-tabs button,.hdr-btn,.rt-btn,.image-view-switcher button,.rights-placeholder-source) {
+        font-size:var(--ty-control) !important; font-weight:700 !important; line-height:1.35 !important;
+      }
+      :is(.map-toolbar-host select,.map-toolbar-host input,.filter-toolbar select,.filter-toolbar input,.map-toolbar select,.map-toolbar input) {
+        font-size:13px !important; font-weight:600 !important; line-height:1.35 !important;
+      }
+      :is(.zoom-reset,.overview-button) { font-size:11px !important; font-weight:700 !important; line-height:1 !important; }
+    `;
+
+    function applyToDocument(doc) {
+      if (!doc?.head) return;
+      let style = doc.getElementById('prototype-typography');
+      if (mode === 'original') {
+        // Remove only our override: disabling an inline sheet can leave stale
+        // computed font metrics in nested Chromium frames until another repaint.
+        style?.remove();
+        return;
+      }
+      if (!style) {
+        style = doc.createElement('style'); style.id = 'prototype-typography';
+        style.textContent = css; doc.head.append(style);
+      }
+    }
+
+    function applyEverywhere() {
+      const doc = frame.contentDocument;
+      applyToDocument(doc);
+      for (const id of ['worldMapFrame','artMapFrame']) {
+        const nested = doc?.getElementById(id);
+        if (!nested) continue;
+        if (!boundFrames.has(nested)) {
+          boundFrames.add(nested);
+          nested.addEventListener('load', () => { applyToDocument(nested.contentDocument); requestAnimationFrame(applyCanvasSizing); });
+        }
+        applyToDocument(nested.contentDocument);
+      }
+      applyCanvasSizing();
+      bindArtFocus(doc?.getElementById('artMapFrame')?.contentDocument);
+      requestAnimationFrame(applyCanvasSizing);
+    }
+
+    function setMode(next) {
+      mode = next;
+      document.body.dataset.mode = mode;
+      document.querySelectorAll('[data-mode]').forEach(button => {
+        if (button.tagName === 'BUTTON') button.setAttribute('aria-pressed', String(button.dataset.mode === mode));
+      });
+      applyEverywhere();
+      if (document.body.dataset.ready === 'true') status.textContent = mode === 'unified' ? '统一版 · 仅此预览生效' : '原版 · 已恢复原始样式';
+    }
+
+    async function waitFor(predicate) {
+      const deadline = Date.now() + 15000;
+      while (Date.now() < deadline) {
+        if (predicate()) return;
+        await new Promise(resolve => setTimeout(resolve,100));
+      }
+      throw new Error('地图加载超时，请重新加载。');
+    }
+
+    async function showScene(scene) {
+      if (sceneBusy) return;
+      sceneBusy = true;
+      sceneButtons.forEach(button => button.disabled = true);
+      try {
+        const doc = frame.contentDocument;
+        if (scene === 'art') {
+          doc.querySelector('[data-subj="art"]').click();
+          await waitFor(() => doc.getElementById('artMapFrame').contentWindow.ArtHistoryMap);
+          const api = doc.getElementById('artMapFrame').contentWindow.ArtHistoryMap;
+          const work = api.ARTWORKS.find(work => work.titleEn === 'Seated scribe');
+          if (!work) throw new Error('作品示例暂时无法加载。');
+          api.selectComparison(work.id);
+          bindArtFocus(doc.getElementById('artMapFrame').contentDocument);
+        } else {
+          doc.querySelector('[data-subj="world"]').click();
+          doc.querySelector('[data-learning-view="map"]').click();
+          const map = doc.getElementById('worldMapFrame');
+          const api = map.contentWindow.__mapFilter;
+          api.reset({ includeRegion:true }); api.setPeriod('u1');
+          if (scene === 'study') {
+            const directory = doc.getElementById('hostStudyDirectory'); directory.open = true;
+            doc.querySelector('.study-place[data-study-location="1"]').click();
+            doc.querySelector('#home-events .location-study-toggle').click();
+            directory.open = false;
+          } else {
+            api.openEventInMap('1','asia','world-event-1-0');
+            // Existing homepage capture handler refreshes the mirrored detail.
+            map.contentDocument.dispatchEvent(new map.contentWindow.MouseEvent('click',{ bubbles:true }));
+          }
+        }
+        applyEverywhere();
+        if (scene === 'art') focusArt(doc.getElementById('artMapFrame').contentDocument, true);
+        doc.getElementById('home-map-embed').scrollIntoView({ block:'start',behavior:'instant' });
+        sceneButtons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.scene === scene)));
+        document.body.dataset.scene = scene;
+        retry.hidden = true;
+        status.textContent = mode === 'unified' ? '统一版 · 仅此预览生效' : '原版 · 已恢复原始样式';
+      } catch (error) {
+        status.textContent = error.message; retry.hidden = false;
+      } finally {
+        sceneBusy = false;
+        sceneButtons.forEach(button => button.disabled = false);
+      }
+    }
+
+    async function initialize() {
+      document.body.dataset.ready = 'false';
+      try {
+        const doc = frame.contentDocument;
+        applyEverywhere();
+        doc.getElementById('home-map-embed').scrollIntoView({ block:'start',behavior:'instant' });
+        await waitFor(() => doc.getElementById('worldMapFrame')?.contentWindow.__mapFilter && doc.getElementById('hostPeriod').options.length);
+        await showScene('art');
+        if (!retry.hidden) return;
+        document.body.dataset.ready = 'true';
+      } catch (error) {
+        status.textContent = error.message; retry.hidden = false;
+      }
+    }
+    document.querySelectorAll('button[data-mode]').forEach(button => button.addEventListener('click', () => setMode(button.dataset.mode)));
+    sceneButtons.forEach(button => button.addEventListener('click', () => showScene(button.dataset.scene)));
+    retry.addEventListener('click', () => { status.textContent='正在重新加载…'; retry.hidden=true; frame.contentWindow.location.reload(); });
+    frame.addEventListener('load', initialize);
+    window.addEventListener('resize', () => requestAnimationFrame(applyCanvasSizing));
+  })();
+  </script>
+</body>
+</html>

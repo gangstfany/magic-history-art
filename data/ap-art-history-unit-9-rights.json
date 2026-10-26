@@ -13,17 +13,17 @@
     "derivativeNote": "No image copied, extracted, reconstructed, cropped or published."
   },
   "ap213-nan-madol::canal-side-basalt-wall": {
-    "creatorOrInstitution": "College Board official component reference",
-    "sourcePageUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277",
-    "originalFileUrl": null,
-    "localAssetPath": null,
-    "licenseClass": "restricted",
-    "licenseName": "Open image-level rights not verified; official reference only",
-    "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277",
-    "releaseClass": "restricted",
-    "accessedOn": "2026-10-14",
-    "identityNote": "NOAA Nan madol.jpg omits the canal; Ocean 1 shows mangrove-obscured rubble rather than the long stacked prismatic canal-side wall. Wall-detail candidates do not establish this relationship. No exact open component verified. Release-policy classification only; not a legal finding of copyright restriction.",
-    "derivativeNote": "No image copied, extracted, reconstructed, cropped or published."
+    "creatorOrInstitution": "Uhooep",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nan_Madol_and_canal.jpg",
+    "originalFileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nan_Madol_and_canal.jpg",
+    "localAssetPath": "assets/art-history/u9/ap213-canal-side-basalt-wall.webp",
+    "licenseClass": "cc-by-sa",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open",
+    "accessedOn": "2026-10-19",
+    "identityNote": "Photographer's own-work file dated 16 May 2023, identified as Nan Madol and canal. Original visually compared against official U9 reference: long enclosure wall constructed from stacked prismatic basalt beside water-filled canal, with corner/entrance relationship visible. Alternate modern photograph of the same required site/component relationship, not a rubble-only interior or substitute site. Commons image-level CC BY-SA 4.0 grant verified. No claim of blanket Pohnpeian cultural authorization.",
+    "derivativeNote": "Full downloaded 5184 x 3888 source frame retained; RGB conversion and proportional resize to 1600 x 1200 only, then WebP quality 88. No cropping, retouching, AI, reconstruction, or CED/textbook image extraction. Attribution and same-license obligations retained."
   },
   "ap214-moai-ahu::moai-and-pukao-on-ahu": {
     "creatorOrInstitution": "Torbenbrinker",
@@ -78,17 +78,17 @@
     "derivativeNote": "No image copied, extracted, reconstructed, cropped or published."
   },
   "ap216-staff-god::historical-context-engraving": {
-    "creatorOrInstitution": "College Board official component reference",
-    "sourcePageUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
-    "originalFileUrl": null,
-    "localAssetPath": null,
-    "licenseClass": "restricted",
-    "licenseName": "Open image-level rights not verified; official reference only",
-    "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
-    "releaseClass": "restricted",
-    "accessedOn": "2026-10-14",
-    "identityNote": "Mandatory contextual scene captioned 'And the ships he hath utterly abolished - Isaiah II.18'. Williams 1837 frontispiece visit and Patepou portrait candidates are different compositions. Historical age alone does not verify a matching scan and reproduction rights. No textbook or CED extraction. Release-policy classification only; not a legal finding of copyright restriction.",
-    "derivativeNote": "No image copied, extracted, reconstructed, cropped or published."
+    "creatorOrInstitution": "George Baxter (1804–1867), engraving for John Williams (1796–1839), A Narrative of Missionary Enterprises in the South Sea Islands (1837); digitization via Internet Archive / University of Toronto",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Narrative_of_Missionary_Enterprises_engraving.jpg",
+    "originalFileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Narrative_of_Missionary_Enterprises_engraving.jpg",
+    "localAssetPath": "assets/art-history/u9/ap216-historical-context-engraving.webp",
+    "licenseClass": "public-domain",
+    "licenseName": "Public Domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open",
+    "accessedOn": "2026-10-19",
+    "identityNote": "Exact required historical contextual composition, independently sourced from a scan of the 1837 original publication, not the CED or a modern textbook. Original inspected: seated missionary couples, surrounding Rarotongans, staff gods on the ground and carried at right, houses and mountain backdrop; retained caption reads And the idols he shall utterly abolish.—Isaiah ii.18. Previous placeholder misread idols as ships. Commons marks the engraving public domain; original published 1837 and engraver Baxter died 1867. Source scan linked on Commons: https://archive.org/stream/narrativeofmissi00willuoft#page/n7/mode/2up . Primary collection corroborates 1837 book, Baxter attribution, and Public Domain Mark: https://wellcomecollection.org/works/ecjb2pbu . Colonial missionary representation is contextual documentation, not a neutral account or endorsement of destruction.",
+    "derivativeNote": "Entire downloaded 1845 x 1375 source image retained including margins and original caption; RGB conversion and proportional resize to 1600 x 1192 only, then WebP quality 88. No further crop, retouching, AI, reconstruction, or CED/textbook image extraction."
   },
   "ap217-female-deity::complete-wooden-deity": {
     "creatorOrInstitution": "College Board official component reference",

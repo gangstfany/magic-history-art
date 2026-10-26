@@ -1393,6 +1393,9 @@ function validateUnit6RightsAudit(rights, artworks, credits, authority) {
           ['CC BY 2.0', ['cc-by', 'https://creativecommons.org/licenses/by/2.0/']],
           ['CC BY 3.0', ['cc-by', 'https://creativecommons.org/licenses/by/3.0/']],
           ['CC0 1.0', ['cc0', 'https://creativecommons.org/publicdomain/zero/1.0/']],
+          ['CC BY-SA 4.0', ['cc-by-sa', 'https://creativecommons.org/licenses/by-sa/4.0/']],
+          ['Public Domain', ['public-domain', 'https://creativecommons.org/publicdomain/mark/1.0/']],
+          ['Public Domain Mark 1.0', ['public-domain', 'https://creativecommons.org/publicdomain/mark/1.0/']],
         ]).get(row.licenseName);
         if (!policy || row.licenseClass !== policy[0] || row.licenseUrl !== policy[1]) {
           fail('Unit 6 rights audit ' + key + ' disallowed open license policy');

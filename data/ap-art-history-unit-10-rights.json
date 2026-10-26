@@ -234,17 +234,17 @@
     "derivativeNote": "No image copied, extracted, reconstructed, cropped, generated or published."
   },
   "ap240-guggenheim-bilbao::riverside-exterior": {
-    "creatorOrInstitution": "College Board official component reference",
-    "sourcePageUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298",
-    "originalFileUrl": null,
-    "localAssetPath": null,
-    "licenseClass": "restricted",
-    "licenseName": "Open image-level rights not verified; official reference only",
-    "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298",
-    "releaseClass": "restricted",
-    "accessedOn": "2026-10-14",
-    "identityNote": "Required titanium riverside exterior. Exterior exception and photo license were checked separately; trademark assertion remains unresolved. Spain Article 35(2) public-place reproduction exception was verified in primary BOE text, and Commons exterior photographic licenses were found. Museum legal notice also asserts a registered trademark in the building image and prior consent for reproduction; this staged release conservatively withholds the exterior pending assessment of that separate assertion, not a finding that the copyright exception fails. The exception is not extended to interior or site-plan rights. Checked references: https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930#a35 ; https://commons.wikimedia.org/wiki/File:Guggenheim_Museum,_Bilbao,_July_2010_(10).JPG ; https://commons.wikimedia.org/wiki/File:Guggenheim-bilbao-jan05.jpg ; https://pro.guggenheim-bilbao.eus/en/legal-information ; https://www.guggenheim-bilbao.eus/en/the-building/inside-the-museum Release-policy classification only; not a legal finding that this work or every possible image is copyright-restricted.",
-    "derivativeNote": "No image copied, extracted, reconstructed, cropped, generated or published."
+    "creatorOrInstitution": "MykReeve / Wikimedia Commons; architecture: Frank Gehry",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Guggenheim-bilbao-jan05.jpg",
+    "originalFileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Guggenheim-bilbao-jan05.jpg",
+    "localAssetPath": "assets/art-history/u10/ap240-riverside-exterior.webp",
+    "licenseClass": "cc-by-sa",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "releaseClass": "open",
+    "accessedOn": "2026-10-20",
+    "identityNote": "Exact Bilbao building with full titanium volumes and river foreground; not a photograph dominated by the bridge, spider or another Guggenheim. Full source visually inspected. Photographer MykReeve grants CC BY-SA 3.0 via explicit migrated license. Underlying modern architecture is not claimed open-licensed: this public riverside exterior relies separately on Spain's public-place photographic reproduction exception, consolidated Intellectual Property Law Article35.2 https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930#a35; publicly visible architectural photographs are also covered by 17USC120(a) https://www.law.cornell.edu/uscode/text/17/120. Incidental permanently installed public sculpture is covered by the Spanish provision. This does not authorize interior artwork reproductions or plans.",
+    "derivativeNote": "Entire original1200 x 608 source photograph converted to WebP quality90 at native resolution; no crop, semantic edits or upscaling. Photographer attribution and CC BY-SA license retained."
   },
   "ap240-guggenheim-bilbao::atrium-interior": {
     "creatorOrInstitution": "College Board official component reference",

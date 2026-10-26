@@ -8,7 +8,7 @@ const MANIFEST_URL = new URL('../data/ap-art-history-unit-6-manifest.json', impo
 const ENGLISH_URL = new URL('../docs/content/ap-art-history-unit-6-english.md', import.meta.url);
 const LEDGER_URL = new URL('../docs/data-sources/u6-source-ledger.md', import.meta.url);
 
-const OPEN_VIEW_KEYS = ["ap167::conical-tower","ap167::circular-wall","ap168::mosque","ap168::monday-market","ap169::wall-plaque","ap171::ndop","ap179::primary","ap180::primary"];
+const OPEN_VIEW_KEYS = ["ap167::conical-tower","ap167::circular-wall","ap168::mosque","ap168::monday-market","ap169::wall-plaque","ap169::oba-context","ap170::golden-stool","ap171::ndop","ap172::primary","ap175::performance-context","ap179::primary","ap180::primary"];
 
 const REQUIRED_VIEWS = new Map([
   [167, ['conical-tower', 'circular-wall']],
@@ -64,7 +64,7 @@ test('live map imports all 14 bilingual U6 works and 23 ordered manifest views',
         assert.equal(typeof media.mediaStatus, 'string');
         assert.ok(media.mediaStatus.trim());
       } else {
-        assert.match(media.imageUrl, /^assets\/art-history\/u6\/ap\d{3}-[a-z-]+\.webp$/);
+        assert.match(media.imageUrl, /^assets\/art-history\/u6\/ap\d{3}-[a-z0-9-]+\.webp$/);
       }
     }
   }
@@ -82,8 +82,8 @@ test('live U6 media and credit metadata match the frozen ledger exactly', async 
   const mediaByKey = new Map(works.flatMap((work) => work.images.map((media, index) => [
     `${work.id}::${media.id}`, { media, credit: Array.isArray(credits[work.id]) ? credits[work.id][index] : credits[work.id] },
   ])));
-  assert.equal(works.flatMap(({ images }) => images).filter(({ imageUrl }) => imageUrl !== null).length, 8);
-  assert.equal(OPEN_VIEW_KEYS.length, 8);
+  assert.equal(works.flatMap(({ images }) => images).filter(({ imageUrl }) => imageUrl !== null).length, 12);
+  assert.equal(OPEN_VIEW_KEYS.length, 12);
   for (const row of rows) {
     const mediaKey = `${row[1]}::${row[2]}`;
     const { media, credit } = mediaByKey.get(mediaKey);
@@ -95,7 +95,10 @@ test('live U6 media and credit metadata match the frozen ledger exactly', async 
     assert.match(credit.licenseUrl, /^https:\/\//);
     if (media.imageUrl !== null) {
       assert.ok(OPEN_VIEW_KEYS.includes(`${mediaKey.slice(0, 5)}::${media.id}`), `${mediaKey} pinned open identity`);
-      assert.match(credit.licenseName, /^(CC BY (2|3)\.0|CC0 1\.0)$/);
+      const rights=JSON.parse(await readFile(new URL('../data/ap-art-history-unit-6-rights.json',import.meta.url),'utf8'))[mediaKey];
+      assert.equal(rights.releaseClass,'open');
+      assert.equal(credit.licenseName,rights.licenseName);
+      assert.equal(credit.licenseUrl,rights.licenseUrl);
     }
   }
 });

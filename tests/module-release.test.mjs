@@ -21,9 +21,9 @@ test('public release includes complete artwork payload and excludes other reposi
  const local=html.match(/assets\/art-history\/[a-zA-Z0-9/_-]+\.webp/g)||[];
  assert.ok(local.length>70);for(const asset of local)assert.ok(existsSync(path.join(output,asset)),asset);
 });
-test('module extraction preserves the entire approved committed artwork page',()=>{
+test('module extraction preserves the approved source page and media supplementation',()=>{
  const manifest=JSON.parse(readFileSync(path.join(root,'source-manifest.json'),'utf8'));
  const html=readFileSync(path.join(root,'art-history-map.html'),'utf8').replace('  <script type="module" src="module-bridge.mjs"></script>\n','');
  const {createHash}=process.getBuiltinModule('node:crypto');
- assert.equal(createHash('sha256').update(html).digest('hex'),manifest.originalHtmlSha256);
+ assert.equal(createHash('sha256').update(html).digest('hex'),manifest.approvedSourceHtmlSha256 || manifest.originalHtmlSha256);
 });

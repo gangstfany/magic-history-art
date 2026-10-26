@@ -380,12 +380,11 @@
         },
         {
           "id": "iwan-detail",
-          "label": "Iwan vault detail / 伊万拱顶细节",
-          "imageUrl": null,
-          "imageAlt": "Required south-iwan detail: muqarnas vault, geometric panels and central window; image withheld / 指定南伊万细节：钟乳拱顶、几何面板与中央窗；图像暂缺",
-          "imageSourceName": "College Board West and Central Asia image set; EmmePi Travel / Alamy",
-          "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=7",
-          "mediaStatus": "Image withheld — exact-view open rights not verified / 指定视图开放权限尚未核实"
+          "label": "South iwan muqarnas vault detail / 南侧伊万蜂窝拱顶细节",
+          "imageUrl": "assets/art-history/u7/ap186-iwan-detail.webp",
+          "imageAlt": "South iwan of Isfahan Jameh Mosque: muqarnas vaulting, geometric tile panels and central wooden window, full photograph / 伊斯法罕聚礼清真寺南侧伊万：蜂窝拱顶、几何瓷砖面板与中央木窗",
+          "imageSourceName": "Wikimedia Commons; Wojciech Kocot",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Irnt018-Isfahan-Meczet_Pi%C4%85tkowy.jpg"
         },
         {
           "id": "courtyard",
@@ -566,11 +565,10 @@
         {
           "id": "primary",
           "label": "Bahram Gur Fights the Karg / 巴赫拉姆·古尔大战角狼",
-          "imageUrl": null,
-          "imageAlt": "Required Harvard folio: red-robed Bahram Gur on horseback over the horned wolf, with text above and below; image withheld / 指定哈佛书页：红衣巴赫拉姆骑马位于角狼上方，上下有文字；图像暂缺",
-          "imageSourceName": "College Board West and Central Asia image set; Harvard Art Museums / Arthur M. Sackler Museum",
-          "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=8",
-          "mediaStatus": "Image withheld — exact-view open rights not verified / 指定视图开放权限尚未核实"
+          "imageUrl": "assets/art-history/u7/ap189-primary.webp",
+          "imageAlt": "Complete Great Ilkhanid Shahnama folio: mounted Bahram Gur raises his sword over the horned wolf amid trees, with six text columns above and below / 大伊尔汗《列王纪》完整书页：骑马的巴赫拉姆举剑迎战树林中的角狼，上下保留六栏文字",
+          "imageSourceName": "Wikimedia Commons; Harvard Art Museums / Google Arts & Culture faithful reproduction",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bahram_Gur_Fights_the_Horned_Wolf,_folio_from_the_Great_Ilkhanid_Shahnama.jpg"
         }
       ]
     },
@@ -757,9 +755,9 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
       {
-        "creatorOrInstitution": "EmmePi Travel / Alamy",
-        "licenseName": "Restricted; no eligible matching public image permission verified",
-        "licenseUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=7"
+        "creatorOrInstitution": "Wojciech Kocot / Wikimedia Commons",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
       {
         "creatorOrInstitution": "Alex O. Holcombe",
@@ -783,9 +781,9 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     "ap189-bahram-gur-karg": {
-      "creatorOrInstitution": "Harvard Art Museums / Arthur M. Sackler Museum",
-      "licenseName": "Restricted; no eligible matching public image permission verified",
-      "licenseUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=8"
+      "creatorOrInstitution": "Unknown Ilkhanid artist; Harvard Art Museums, 1960.190 verso; Wikimedia Commons faithful reproduction",
+      "licenseName": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
     },
     "ap190-court-gayumars": {
       "creatorOrInstitution": "Sultan Muhammad (attributed); reproduction uploader Евгений Ардаев",

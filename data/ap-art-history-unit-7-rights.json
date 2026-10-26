@@ -156,17 +156,17 @@
     "derivativeNote": "Full source frame retained; proportionally resized to maximum edge 2000 where needed and converted to WebP (2000 × 1333; 431108 bytes), no added crop or retouching. Derivative retains source license."
   },
   "ap186-great-mosque-isfahan::iwan-detail": {
-    "creatorOrInstitution": "EmmePi Travel / Alamy",
-    "sourcePageUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=7",
-    "originalFileUrl": null,
-    "localAssetPath": null,
-    "licenseClass": "restricted",
-    "licenseName": "Restricted; no eligible matching public image permission verified",
-    "licenseUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=7",
-    "releaseClass": "restricted",
-    "accessedOn": "2026-10-13",
-    "identityNote": "Official detail shows the south/qibla iwan's muqarnas vault, geometric panels and central window. Open candidates verified for the same iwan remained wider whole-facade views, not the specified close vault detail; no adequately matching open source selected.",
-    "derivativeNote": "No derivative created: exact matching eligible image not verified."
+    "creatorOrInstitution": "Wojciech Kocot / Wikimedia Commons",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Irnt018-Isfahan-Meczet_Pi%C4%85tkowy.jpg",
+    "originalFileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Irnt018-Isfahan-Meczet_Pi%C4%85tkowy.jpg",
+    "localAssetPath": "assets/art-history/u7/ap186-iwan-detail.webp",
+    "licenseClass": "cc-by-sa",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "releaseClass": "open",
+    "accessedOn": "2026-10-20",
+    "identityNote": "Exact southern/qibla iwan component, not the brick northern iwan or exterior inscription collage. The Commons Jameh Mosque of Isfahan gallery explicitly captions Irnt018 as detail and muqarnas vaulting in the southern iwan. Full frame visually inspected for muqarnas, geometric tile panels and central wooden window. Historical architecture and photographer's separate CC BY-SA 4.0 grant verified.",
+    "derivativeNote": "Full-frame official 1280-pixel-wide thumbnail, 1280 x 1917, converted to WebP quality90 without crop, retouching, reconstruction or upscaling."
   },
   "ap186-great-mosque-isfahan::courtyard": {
     "creatorOrInstitution": "Alex O. Holcombe",
@@ -221,17 +221,17 @@
     "derivativeNote": "Full source frame retained; proportionally resized to maximum edge 2000 where needed and converted to WebP (2000 × 1305; 414604 bytes), no added crop or retouching. Derivative retains source license."
   },
   "ap189-bahram-gur-karg::primary": {
-    "creatorOrInstitution": "Harvard Art Museums / Arthur M. Sackler Museum",
-    "sourcePageUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=8",
-    "originalFileUrl": null,
-    "localAssetPath": null,
-    "licenseClass": "restricted",
-    "licenseName": "Restricted; no eligible matching public image permission verified",
-    "licenseUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-7-west-and-central-asia.pdf#page=8",
-    "releaseClass": "restricted",
-    "accessedOn": "2026-10-13",
-    "identityNote": "Exact Harvard leaf 1960.190.2, Bahram Gur Fights the Karg, full folio with text above and below. No image-level PD/CC0/CC BY/CC BY-SA grant verified; educational/noncommercial permissions do not meet this release policy. Not another Bahram Gur hunt.",
-    "derivativeNote": "No derivative created: exact matching eligible image not verified."
+    "creatorOrInstitution": "Unknown Ilkhanid artist; Harvard Art Museums, 1960.190 verso; Wikimedia Commons faithful reproduction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bahram_Gur_Fights_the_Horned_Wolf,_folio_from_the_Great_Ilkhanid_Shahnama.jpg",
+    "originalFileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Bahram_Gur_Fights_the_Horned_Wolf%2C_folio_from_the_Great_Ilkhanid_Shahnama.jpg",
+    "localAssetPath": "assets/art-history/u7/ap189-primary.webp",
+    "licenseClass": "public-domain",
+    "licenseName": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "releaseClass": "open",
+    "accessedOn": "2026-10-20",
+    "identityNote": "Exact Harvard Great Ilkhanid Shahnama leaf: Bahram Gur and the horned wolf, circa1335, not the Shah Tahmasp hunting leaf or another Bahram episode. Commons identifies Harvard 1960.190 verso and links Harvard's own Google Arts & Culture record https://artsandculture.google.com/asset/hAFJCU_SHCwZ-g. Full folio visually inspected, retaining upper and lower six-column text and central painting. Historical 2D work with Commons PD-Art/PDM faithful-reproduction status; not a claim that Harvard's general image API permits local caching.",
+    "derivativeNote": "Same-file official 960-pixel-wide Wikimedia thumbnail downloaded after original-file rate limit. Entire source frame retained and converted to WebP quality90 at native960x1323; no crop, retouching, compositing or upscaling."
   },
   "ap190-court-gayumars::primary": {
     "creatorOrInstitution": "Sultan Muhammad (attributed); reproduction uploader Евгений Ардаев",

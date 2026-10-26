@@ -26,6 +26,7 @@ jobs:
           python-version: '3.x'
       - run: node --test --test-skip-pattern='U5 restricted authority matches runtime|assembled U3 verifier rejects' tests/*.test.mjs
       - run: node scripts/validate-art-history-data.mjs art-history-map.html
+      - run: python3 -m unittest discover -s tests -p 'test_serve_art_history_study.py'
       - run: python3 scripts/build.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

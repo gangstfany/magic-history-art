@@ -12,7 +12,7 @@ try {
   const errors=[],unexpectedImages=[];
   let checkingNullViews=false;
   page.on('pageerror',e=>errors.push(e.message));
-  page.on('request',r=>{if(checkingNullViews&&r.resourceType()==='image'&&r.frame().url().includes('art-history-map.html'))unexpectedImages.push(r.url());});
+  page.on('request',r=>{if(checkingNullViews&&r.resourceType()==='image'&&r.frame().url().includes('art-history-map.html')&&!new URL(r.url()).pathname.endsWith('/assets/art-history/u10/ap240-riverside-exterior.webp'))unexpectedImages.push(r.url());});
   await page.goto(server.baseUrl+(embedded?'/index.html':'/art-history-map.html'));
   if(embedded){await page.locator('#home-map-embed').scrollIntoViewIfNeeded();await page.locator('[data-subj="art"]').click();}
   const frame=embedded?page.frameLocator('#artMapFrame'):page;
@@ -53,7 +53,16 @@ try {
    for(const [index,view]of views.entries()){
     if(views.length>1)await frame.locator('.image-view-switcher button').nth(index).click();
     viewCount++;
-    assert.equal(view.imageUrl,null,'all U10 views are honest null; no decode claim');
+    if(view.imageUrl){
+     assert.equal(view.imageUrl,'assets/art-history/u10/ap240-riverside-exterior.webp');
+     const img=frame.locator('.artwork-media-stage img');await img.evaluate(e=>e.decode());
+     assert.ok(await img.evaluate(e=>e.naturalWidth>0));
+     assert.equal(await img.evaluate(e=>getComputedStyle(e).objectFit),'contain');
+     await frame.locator('.artwork-image-button').click();await frame.locator('#dialogImage').evaluate(e=>e.decode());
+     await frame.locator('#dialogClose').click();
+     assert.equal(await frame.locator('.artwork-image-button').evaluate(e=>e===document.activeElement),true);
+     continue;
+    }
     assert.equal(await frame.locator('.artwork-media-stage img').count(),0);
     assert.equal(await frame.locator('.artwork-image-button').count(),0,'dialog trigger N/A with null image');
     assert.equal(await frame.locator('#imageDialog').evaluate(e=>e.open),false);
@@ -112,7 +121,7 @@ try {
   assert.ok(await frame.locator('html').evaluate(e=>e.scrollWidth<=e.clientWidth+1));assert.ok(await page.locator('html').evaluate(e=>e.scrollWidth<=e.clientWidth+1));
   assert.deepEqual(errors,[]);assert.deepEqual(unexpectedImages,[]);
   await page.screenshot({path:`/tmp/u10-${embedded?'embedded':'standalone'}-${width}.png`,fullPage:true});
-  console.log(`${embedded?'embedded':'standalone'} ${width}: 27 works, ${viewCount} honest null views; image decode/dialog N/A; unlocated keyboard paths, tabs, comparisons, six filters, search, reset, zoom, pan passed`);
+  console.log(`${embedded?'embedded':'standalone'} ${width}: 27 works, ${viewCount} views (31 unresolved + 1 decoded local image); dialog/focus, unlocated keyboard paths, tabs, comparisons, six filters, search, reset, zoom, pan passed`);
   await page.close();
  }
 }finally{await browser.close();await server.close();}

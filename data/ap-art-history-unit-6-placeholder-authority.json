@@ -1,14 +1,4 @@
 {
-  "ap169-wall-plaque-obas-palace::oba-context": {
-    "imageSourceName": "College Board Africa image set; Werner Forman / Art Resource",
-    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=5",
-    "rightsNote": "Exact 1964 Oba contextual scene, Werner Forman / Art Resource; rights-managed photograph, no portable open grant verified."
-  },
-  "ap170-sika-dwa-kofi::golden-stool": {
-    "imageSourceName": "College Board Africa image set; Marc Deville / Gamma-Rapho / Getty Images",
-    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=5",
-    "rightsNote": "Exact Golden Stool photograph credited to Marc Deville / Getty Images; rights-managed, not an open-license image."
-  },
   "ap170-sika-dwa-kofi::stool-context": {
     "imageSourceName": "College Board Africa image set; Marc Deville / Gamma-Rapho / Getty Images",
     "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=5",
@@ -18,11 +8,6 @@
     "imageSourceName": "College Board Africa image set; Eliot Elisofon / Smithsonian National Museum of African Art",
     "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=6",
     "rightsNote": "Exact 1971 Kuba ruler scene is Eliot Elisofon archive EECL2137; permission is required. EECL2170 is a different frame and cannot substitute."
-  },
-  "ap172-nkisi-nkondi::primary": {
-    "imageSourceName": "College Board Africa image set; Detroit Institute of Arts / Bridgeman Art Library",
-    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=6",
-    "rightsNote": "Exact Detroit Institute of Arts Nail Figure, accession 76.79, object 51144 (https://dia.org/collection/nail-figure/51144). A downloadable TIFF and blank copyright field do not constitute an open license."
   },
   "ap173-female-pwo-mask::primary": {
     "imageSourceName": "College Board Africa image set; Franko Khoury / Smithsonian National Museum of African Art",
@@ -43,11 +28,6 @@
     "imageSourceName": "College Board Africa image set; Schomburg Center, NYPL / Art Resource",
     "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=8",
     "rightsNote": "Exact CED Bundu mask attributed to NYPL / Schomburg Center / Art Resource remains unresolved at object-image level; no open-license image verified. Other sowei masks are not substitutes."
-  },
-  "ap175-bundu-mask::performance-context": {
-    "imageSourceName": "College Board Africa image set; William Siegmann Estate / Edward DeCarbo, Executor",
-    "imageSourceUrl": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-art-history-ced-content-area-6-africa.pdf#page=8",
-    "rightsNote": "Exact Sande masquerade photograph credited to William Siegmann Estate / Edward DeCarbo; copyrighted photograph, no open grant verified."
   },
   "ap176-ikenga::primary": {
     "imageSourceName": "College Board Africa image set; Werner Forman / Art Resource",

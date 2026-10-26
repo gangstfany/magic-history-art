@@ -890,12 +890,11 @@
       "images": [
         {
           "id": "riverside-exterior",
-          "label": "Titanium museum exterior beside the river / 河畔钛金属博物馆外观",
-          "imageUrl": null,
-          "imageAlt": "Required view currently unavailable: Titanium museum exterior beside the river / 河畔钛金属博物馆外观",
-          "imageSourceName": "College Board AP Art History CED; official component reference",
-          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298",
-          "mediaStatus": "Underlying artwork permission and exact image-level open rights not jointly verified / 作品本体权限与指定图像层级开放权限尚未同时核实"
+          "label": "Riverside titanium exterior / 河岸钛金属外观",
+          "imageUrl": "assets/art-history/u10/ap240-riverside-exterior.webp",
+          "imageAlt": "Guggenheim Museum Bilbao across the Nervion River, with complete curving titanium volumes and riverside setting / 隔内尔维翁河所见毕尔巴鄂古根海姆博物馆，完整呈现弯曲钛金属体块与河岸环境",
+          "imageSourceName": "Wikimedia Commons; MykReeve",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Guggenheim-bilbao-jan05.jpg"
         },
         {
           "id": "atrium-interior",
@@ -1543,9 +1542,9 @@
     },
     "ap240-guggenheim-bilbao": [
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=298"
+        "creatorOrInstitution": "MykReeve / Wikimedia Commons; architecture: Frank Gehry",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       },
       {
         "creatorOrInstitution": "College Board official component reference",

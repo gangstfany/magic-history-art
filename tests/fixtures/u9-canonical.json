@@ -53,11 +53,10 @@
         {
           "id": "canal-side-basalt-wall",
           "label": "Prismatic basalt wall beside canal / 运河旁棱柱玄武岩墙",
-          "imageUrl": null,
-          "imageAlt": "Required view currently unavailable: Prismatic basalt wall beside canal / 运河旁棱柱玄武岩墙",
-          "imageSourceName": "College Board AP Art History CED; official component reference",
-          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277",
-          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+          "imageUrl": "assets/art-history/u9/ap213-canal-side-basalt-wall.webp",
+          "imageAlt": "Nan Madol's stacked prismatic basalt enclosure wall beside a broad water-filled canal, photographed across the canal / 隔运河观看南马都尔棱柱玄武岩围墙",
+          "imageSourceName": "Wikimedia Commons; Uhooep",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nan_Madol_and_canal.jpg"
         }
       ]
     },
@@ -229,11 +228,10 @@
         {
           "id": "historical-context-engraving",
           "label": "Gathered figures and buildings in historical engraving / 历史版画中的人群与建筑",
-          "imageUrl": null,
-          "imageAlt": "Required view currently unavailable: Gathered figures and buildings in historical engraving / 历史版画中的人群与建筑",
-          "imageSourceName": "College Board AP Art History CED; official component reference",
-          "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278",
-          "mediaStatus": "Exact component identity and eligible open image-level rights not jointly verified / 指定组件身份与合格图像层级开放权限尚未同时核实"
+          "imageUrl": "assets/art-history/u9/ap216-historical-context-engraving.webp",
+          "imageAlt": "1837 engraving of Rarotongans presenting staff gods before seated missionary couples and European-style buildings, with the original Isaiah ii.18 caption / 1837年拉罗汤加人进献神杖的历史版画，保留原有圣经题注",
+          "imageSourceName": "Wikimedia Commons; George Baxter / John Williams, 1837",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Narrative_of_Missionary_Enterprises_engraving.jpg"
         }
       ]
     },
@@ -625,9 +623,9 @@
         "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277"
       },
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=277"
+        "creatorOrInstitution": "Uhooep",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
     ],
     "ap214-moai-ahu": {
@@ -652,9 +650,9 @@
         "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
       },
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=278"
+        "creatorOrInstitution": "George Baxter (1804–1867), engraving for John Williams (1796–1839), A Narrative of Missionary Enterprises in the South Sea Islands (1837); digitization via Internet Archive / University of Toronto",
+        "licenseName": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
       }
     ],
     "ap217-female-deity": {

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>艺术史分区配色 · A/B 互动预览</title>
+  <style>
+    * { box-sizing:border-box; }
+    body { margin:0; background:#f8f4e8; color:#28251f; font-family:"PingFang SC","Hiragino Sans GB",-apple-system,"Helvetica Neue",sans-serif; }
+    main { width:calc(100% - 40px); max-width:2000px; margin:24px auto 40px; }
+    .intro { display:flex; justify-content:space-between; gap:20px; align-items:start; margin:0 4px 18px; }
+    h1 { font-size:24px; margin:0 0 8px; line-height:1.35; font-weight:700; }
+    p { margin:0; color:#756e60; font-size:14px; line-height:1.65; }
+    .tag { white-space:nowrap; color:#8d4333; padding:7px 12px; border:1px solid #e3d6bd; border-radius:20px; font-size:12px; }
+    .controls { display:flex; gap:16px; justify-content:space-between; flex-wrap:wrap; align-items:center; margin-bottom:14px; }
+    .tabs,.examples { display:flex; gap:8px; flex-wrap:wrap; }
+    button { min-height:44px; padding:9px 17px; border:1px solid #e3d6bd; border-radius:24px; background:#fffdf8; color:#2b2822; font:inherit; font-size:14px; font-weight:600; cursor:pointer; }
+    button[aria-pressed="true"] { background:#50493f; color:#fff; border-color:#50493f; }
+    button:hover { border-color:#9f8d71; }
+    button:focus-visible,a:focus-visible { outline:3px solid #28708a; outline-offset:3px; }
+    .examples { align-items:center; }
+    .examples span { font-size:12px; color:#756e60; }
+    .examples button { padding:8px 12px; font-size:12px; }
+    .explanation { min-height:24px; margin:0 4px 12px; }
+    .preview-card { background:#fffdf8; border:1px solid #ded9ce; border-radius:24px; overflow:hidden; box-shadow:0 10px 30px rgba(68,52,30,.07); }
+    .card-header { padding:16px 20px; border-bottom:1px solid #e6dfd2; display:flex; justify-content:space-between; align-items:center; gap:16px; }
+    h2 { font-size:18px; margin:0; color:#963f30; }
+    #summary { color:#756e60; font-size:12px; line-height:1.5; text-align:right; }
+    iframe { display:block; width:100%; height:820px; border:0; background:#f8f4e8; }
+    .legend { display:flex; flex-wrap:wrap; gap:12px 20px; margin:16px 4px 10px; list-style:none; padding:0; }
+    .legend li { display:flex; align-items:center; gap:7px; font-size:12px; color:#5e584e; }
+    .swatch { width:13px; height:13px; border-radius:4px; background:var(--swatch); opacity:.55; border:1px solid rgba(50,40,20,.12); }
+    .legend li.is-muted .swatch { opacity:.22; }
+    .note { font-size:12px; margin:0 4px; }
+    .error { padding:20px; color:#963f30; }
+    @media(max-width:600px) {
+      main { width:calc(100% - 24px); margin-top:16px; }
+      h1 { font-size:21px; }
+      .intro { flex-direction:column; gap:8px; }
+      .controls { gap:10px; }
+      .tabs { display:grid; grid-template-columns:1fr 1fr; width:100%; }
+      .tabs button { padding:8px 9px; font-size:13px; }
+      .card-header { padding:14px 12px; align-items:start; }
+      h2 { font-size:16px; }
+      #summary { max-width:155px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header class="intro">
+    <div><h1>艺术史地图 · 两种分区配色</h1><p>同一张真实地图，一键比较；切换 A／B 不重置作品、筛选或缩放。</p></div>
+    <span class="tag">仅本地原型 · 正式页未修改</span>
+  </header>
+  <div class="controls">
+    <div class="tabs" role="group" aria-label="选择配色方案">
+      <button id="modeA" type="button" aria-pressed="true">A · 固定分区色</button>
+      <button id="modeB" type="button" aria-pressed="false">B · 随 Unit 高亮</button>
+    </div>
+    <div class="examples" role="group" aria-label="快速比较不同单元">
+      <span>快速看效果</span>
+      <button type="button" data-preview-unit="2">U2 · 跨地区</button>
+      <button type="button" data-preview-unit="8">U8 · 亚洲</button>
+      <button type="button" data-preview-unit="9">U9 · 太平洋</button>
+    </div>
+  </div>
+  <p class="explanation" id="explanation">A：分区始终保留各自颜色，接近世界史地图的视觉效果。</p>
+  <section class="preview-card" aria-label="可交互艺术史地图预览">
+    <div class="card-header"><h2>AP Art History Map</h2><div id="summary" role="status" aria-live="polite">正在载入真实地图…</div></div>
+    <iframe id="artPreview" title="艺术史 A/B 配色互动预览" src="../art-history-map.html?embed=1&amp;preview=region-colors"></iframe>
+  </section>
+  <ul class="legend" id="legend" aria-label="地理分区图例"></ul>
+  <p class="note">颜色仅辅助地理导航，不表示文明、作品或历史疆界覆盖整块区域。沿用世界史五色及透明度：相关分区 55%，其余同色淡化至 22%；太平洋／大洋洲补充柔和紫，未分组陆地保留底色。B 按现有地区标签高亮大区，非逐国高亮。地点未确认的作品不触发高亮。</p>
+  <p class="error" id="error" hidden>预览尚未载入。请确认本地服务开启，再刷新本页。</p>
+</main>
+<script>
+  const PALETTE = {
+    asia:{ label:'Asia',color:'#d9a441' },
+    europe:{ label:'Europe',color:'#6f9bc7' },
+    africa:{ label:'Africa',color:'#c9714f' },
+    americas:{ label:'Americas',color:'#e0949a' },
+    mideast:{ label:'Middle East',color:'#8fa878' },
+    oceania:{ label:'Pacific / Oceania',color:'#a597bd' }
+  };
+  // Match World map's REGION_FLAT_OPACITY / REGION_LIGHT_OPACITY.
+  const REGION_ACTIVE_OPACITY='0.55', REGION_MUTED_OPACITY='0.22';
+  const REGION_GROUPS = {};
+  function associate(keys,groups) { for(const key of keys.split(' ')) REGION_GROUPS[key]=groups; }
+  associate('europe southernEurope italyVatican france britishIsles iberianPeninsula centralEurope lowCountries centralNorthernEurope poland spain united-kingdom italy',['europe']);
+  associate('africa northAfrica southernAfrica westAfrica centralAfrica nigeria',['africa']);
+  associate('americas colonialAmericas mexicoCaribbean unitedStates centralAndes ancestralPueblo mesoamerica easternWoodlands northwestCoast plainsGreatBasin united-states',['americas']);
+  associate('middleEast levant afghanCentralAsia arabianPeninsula iran',['mideast']);
+  associate('eastAsia tibetanHimalaya india china korea japan indonesia cambodia',['asia']);
+  associate('oceania pacific micronesia rapa-nui hawaii cook-islands torres-strait niue new-zealand marshall-islands papua-new-guinea fiji australia',['oceania']);
+  associate('easternMediterranean',['europe','mideast']);
+  associate('northAfricaNearEast',['africa','mideast']);
+  associate('transatlantic',['europe','americas']);
+  associate('russiaSoviet',['europe','asia']);
+  associate('transnational',[]);
+  const frame=document.getElementById('artPreview'), summary=document.getElementById('summary');
+  let mode=new URLSearchParams(location.search).get('mode')==='b'?'b':'a';
+  let api, doc, paths=[], lastSignature='', pending=false, layoutObserver, mapObserver, lastSnapshot=null;
+  const legend=document.getElementById('legend');
+  for(const [key,value] of Object.entries(PALETTE)){
+    const item=document.createElement('li'); item.dataset.legendRegion=key;
+    const swatch=document.createElement('span');swatch.className='swatch';swatch.style.setProperty('--swatch',value.color);swatch.setAttribute('aria-hidden','true');
+    item.append(swatch,document.createTextNode(value.label));legend.append(item);
+  }
+  function resizeFrame(){
+    if(!doc)return;
+    doc.documentElement.style.setProperty('--art-map-height',innerWidth>900?'500px':'300px');
+    const toolbar=doc.querySelector('.filter-toolbar'), workspace=doc.querySelector('.art-workspace');
+    if(toolbar&&workspace){const height=Math.ceil(toolbar.getBoundingClientRect().height+workspace.getBoundingClientRect().height);if(height>0)frame.style.height=height+'px';}
+  }
+  function paint(){
+    pending=false;if(!api)return;
+    const unit=String(api.state.activeUnit || api.state.unit);
+    const works=api.filterWorks(api.ARTWORKS,{...api.state,unit});
+    const active=new Set(),unknown=new Set();
+    for(const work of works){
+      if([230,241].includes(work.apNumber))continue;
+      const groups=REGION_GROUPS[work.region];
+      if(!groups){unknown.add(work.region);continue;}
+      for(const group of groups)active.add(group);
+    }
+    const signature=JSON.stringify([mode,unit,works.map(w=>w.id),[...active]]);
+    if(signature===lastSignature)return;
+    lastSignature=signature;
+    for(const path of paths){
+      const key=path.dataset.previewRegion,enabled=mode==='a'||active.has(key);
+      path.setAttribute('fill',PALETTE[key].color);
+      path.setAttribute('fill-opacity',enabled?REGION_ACTIVE_OPACITY:REGION_MUTED_OPACITY);
+    }
+    for(const item of legend.children)item.classList.toggle('is-muted',mode==='b'&&!active.has(item.dataset.legendRegion));
+    document.getElementById('modeA').setAttribute('aria-pressed',String(mode==='a'));
+    document.getElementById('modeB').setAttribute('aria-pressed',String(mode==='b'));
+    document.getElementById('explanation').textContent=mode==='a'
+      ?'A：分区始终保留各自颜色，接近世界史地图的视觉效果。'
+      :'B：只突出当前 Unit／筛选涉及的地理大区，其余地区淡化。可切换 U2、U8、U9 比较。';
+    const label=unit==='all'?'All units':`U${unit}`;
+    summary.textContent=`${label} · ${works.length} ${works.length===1?'piece':'pieces'} · ${mode==='a'?'固定分区色':active.size+' 个相关分区高亮'}`;
+    lastSnapshot={mode,unit,works:works.length,active:[...active],unknown:[...unknown],paintedPaths:paths.length};
+  }
+  function schedulePaint(){if(!pending){pending=true;requestAnimationFrame(paint);}}
+  function setMode(next){mode=next;history.replaceState(null,'',`?mode=${mode}`);paint();}
+  function selectUnit(unit){
+    if(!api)return;
+    const select=doc.getElementById('unitFilter');
+    select.value=String(unit);select.dispatchEvent(new frame.contentWindow.Event('change',{bubbles:true}));
+    schedulePaint();
+  }
+  function initialize(){
+    if(api)return;
+    try{doc=frame.contentDocument;api=frame.contentWindow.ArtHistoryMap;}catch{api=null;}
+    if(!api){setTimeout(initialize,50);return;}
+    document.getElementById('error').hidden=true;
+    paths=[...doc.querySelectorAll('.world-geography path')];
+    for(const path of paths){
+      let region=path.dataset.region;
+      if(!region){
+        const box=path.getBBox();
+        // Existing ungrouped Pacific land shapes: Australia, PNG, NZ, Fiji,
+        // New Caledonia, Solomon Islands and Vanuatu. No Antarctic recoloring.
+        if((box.x>1250&&box.y>400&&box.y<650)||(box.width>1500&&box.y>450&&box.y<500))region='oceania';
+      }
+      if(PALETTE[region])path.dataset.previewRegion=region;
+    }
+    paths=paths.filter(path=>path.dataset.previewRegion);
+    layoutObserver=new ResizeObserver(resizeFrame);
+    layoutObserver.observe(doc.querySelector('.filter-toolbar'));layoutObserver.observe(doc.querySelector('.art-workspace'));
+    mapObserver=new MutationObserver(schedulePaint);
+    mapObserver.observe(doc.getElementById('markerLayer'),{childList:true});
+    doc.addEventListener('change',schedulePaint);doc.addEventListener('input',schedulePaint);
+    window.addEventListener('resize',()=>{resizeFrame();schedulePaint();});
+    selectUnit('2');resizeFrame();paint();
+    window.ColorPreview.ready=true;
+  }
+  window.ColorPreview={ready:false,snapshot:()=>lastSnapshot,setMode,selectUnit};
+  document.getElementById('modeA').addEventListener('click',()=>setMode('a'));
+  document.getElementById('modeB').addEventListener('click',()=>setMode('b'));
+  document.querySelectorAll('[data-preview-unit]').forEach(button=>button.addEventListener('click',()=>selectUnit(button.dataset.previewUnit)));
+  frame.addEventListener('load',initialize);
+  setTimeout(initialize,50);
+  setTimeout(()=>{if(!api)document.getElementById('error').hidden=false;},8000);
+</script>
+</body>
+</html>

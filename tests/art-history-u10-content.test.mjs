@@ -46,7 +46,8 @@ test('U10 native validator accepts reviewed 250-work assembly and exact ordered 
  const badCredits=structuredClone(credits);badCredits[staged[0].id][0].licenseName='CC BY 4.0';
  assert.throws(()=>validateImageCredits(badCredits,works,rights,authority),/credit|license|rights/);
 });
-test('U10 real local media contract accepts all 32 honest null views',()=>{
+test('U10 real local media contract accepts 31 unresolved views and one verified riverside exterior',()=>{
+ assert.equal(staged.flatMap(w=>w.images).filter(v=>v.imageUrl!==null).length,1);
  assertLocalMediaContract({manifest,artworks:staged,rights:json('data/ap-art-history-unit-10-rights.json'),authority:json('data/ap-art-history-unit-10-placeholder-authority.json'),rootDir:fileURLToPath(new URL('../',import.meta.url))});
 });
 test('U10 AP230 and AP241 are explicitly unlocated and have reachable native buttons',()=>{

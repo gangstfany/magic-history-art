@@ -47,10 +47,12 @@ art-history-map.html?embed=1&hostOrigin=<URL编码的首页origin>
 
 ## 来源、公开资源与草稿
 
-数据来自原公开仓库 `https://github.com/gangstfany/magic-history` 的已提交版本 `475615116516c5feab4b17daa308027d3431e4f1`（feature/ap-art-history-u6）。导出使用 Git committed tree，未复制原工作区的未提交文件，也没有修改旧仓库。`source-manifest.json` 记录原页面SHA256；自动测试确认除新增通信模块script外，完整课程HTML与原提交逐字一致。
+初始版本来自旧公开仓库 `gangstfany/magic-history` 的已提交版本 `475615116516c5feab4b17daa308027d3431e4f1`。2026-10-26按用户“全部push”的要求，追加迁入原工作区的18张公开补图（14件作品）、配套来源/权利记录、测试、本地预览脚本和原型。
 
-已核对早期 `fe9737e` 的Unit3来源限定语显示修复：其 `provenanceQualifier ?? siteQualifier` 已在本基线实现，没有用旧页面覆盖新作品。
+`source-manifest.json`保留初始提交及页面哈希，并另记追加补图后的源页面哈希；自动测试确认250件作品的全部非图片字段未变，新增模块通信代码也保留。没有改动首页、账号、世界史仓库。
 
-本库仅纳入原提交已公开的34MB WebP、公开JSON、作品来源/权利记录、相关脚本和测试。作品来源与授权见页内图注及 `data/*-rights.json`、`docs/data-sources/`。受限图片继续显示原有占位说明，私有媒体目录 `.private-media/` 没有复制或发布。外部图片仍依赖原图片站点可用性。
+补图记录见 `docs/data-sources/2026-10-19-media-additions.md`、`docs/data-sources/2026-10-20-media-additions.md`；原型在`prototypes/`、`keypoint-cards.html`和`map-keypoints-offline.html`，仅作历史预览归档，不作为正式入口或部署文件。旧仓库的原文件保留。
 
-原 `.worktrees/ap-art-history-u4` 的未提交作品、资料和私有媒体均保留原处；没有自动上传。它们之后应按作品和授权状态单独审阅后迁入本仓库。此目录不含账号配置、世界史、APUSH或教材PDF。
+`.private-media/`中的81张本地学习图片尚待用户选择上传到私有备份还是公开库；它们没有混入公开发布。`scripts/serve_art_history_study.py`与配套测试已归档，运行完整学习预览仍需本地媒体目录。Python缓存不提交。
+
+公开部署仍使用 `scripts/build.py` 的明确文件清单，只发布正式课程、模块通信脚本及公开媒体/数据；不会因归档原型、脚本或说明文档而覆盖首页框架。外部图片仍依赖原图片站点可用性。本地记录中的既有偶发地图标点排布问题并未在本次媒体迁移中声称修复。

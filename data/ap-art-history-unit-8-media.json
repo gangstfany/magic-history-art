@@ -12,11 +12,10 @@
       {
         "id": "circumambulatory-path-detail",
         "label": "Path between dome and railing beside seated Buddha / 穹顶与石栏间的绕行道及坐佛",
-        "imageUrl": null,
-        "imageAlt": "Required view, currently unavailable: Path between dome and railing beside seated Buddha / 穹顶与石栏间的绕行道及坐佛",
-        "imageSourceName": "College Board AP Art History CED; official component reference",
-        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249",
-        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        "imageUrl": "assets/art-history/u8/ap192-circumambulatory-path-detail.webp",
+        "imageAlt": "Seated Buddha beside the lower circumambulatory path, between Sanchi Stupa 1's curved masonry drum and stone railing / 桑奇一号塔坐佛旁的下层绕行道，位于弧形塔身与石栏之间",
+        "imageSourceName": "Wikimedia Commons; Biswarup Ganguly",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Meditating_Buddha_-_East_Side_-_South_Gateway_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4380.JPG"
       },
       {
         "id": "north-gate",
@@ -29,11 +28,10 @@
       {
         "id": "plan-and-elevation",
         "label": "Combined circular plan and side elevation / 圆形平面与侧立面组合图",
-        "imageUrl": null,
-        "imageAlt": "Required view, currently unavailable: Combined circular plan and side elevation / 圆形平面与侧立面组合图",
-        "imageSourceName": "College Board AP Art History CED; official component reference",
-        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249",
-        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        "imageUrl": "assets/art-history/u8/ap192-plan-and-elevation.webp",
+        "imageAlt": "Sanchi Great Stupa circular plan and side elevation, historical survey Plate II by F. C. Maisey and W. Griggs, published 1868 / 桑奇大塔圆形平面与侧立面，梅西绘制、格里格斯制版的1868年历史测绘图版二",
+        "imageSourceName": "Getty Research Institute via Internet Archive; F. C. Maisey / W. Griggs",
+        "imageSourceUrl": "https://archive.org/details/gri_33125010818173/page/n119/mode/1up"
       }
     ],
     "ap193-terracotta-warriors": [
@@ -68,11 +66,10 @@
       {
         "id": "cliff-overview",
         "label": "River-facing cliff with open monumental sculptural ensemble / 面向河流的石崖与露天大型造像群",
-        "imageUrl": null,
-        "imageAlt": "Required view, currently unavailable: River-facing cliff with open monumental sculptural ensemble / 面向河流的石崖与露天大型造像群",
-        "imageSourceName": "College Board AP Art History CED; official component reference",
-        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=251",
-        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        "imageUrl": "assets/art-history/u8/ap195-cliff-overview.webp",
+        "imageAlt": "Longmen Fengxian Temple monumental Buddha and attendant sculptures in their broad river-facing cliff setting, with Yi River in front / 龙门奉先寺大佛与胁侍造像及面向伊河的宽阔石崖环境",
+        "imageSourceName": "Wikimedia Commons; xiquinhosilva",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:27427-Luoyang_(49067744628).jpg"
       },
       {
         "id": "guardian-detail",
@@ -205,20 +202,18 @@
       {
         "id": "angkor-wat-plan",
         "label": "Angkor Wat building floor plan / 吴哥窟建筑平面图",
-        "imageUrl": null,
-        "imageAlt": "Required view, currently unavailable: Angkor Wat building floor plan / 吴哥窟建筑平面图",
-        "imageSourceName": "College Board AP Art History CED; official component reference",
-        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256",
-        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        "imageUrl": "assets/art-history/u8/ap199-angkor-wat-plan.webp",
+        "imageAlt": "Angkor Wat architectural floor plan showing nested galleries, axial entrance and central cruciform sanctuary / 吴哥窟建筑平面，展示层层回廊、轴线入口及中央十字形圣殿",
+        "imageSourceName": "Wikimedia Commons; Baldiri",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_M3.png"
       },
       {
         "id": "angkor-site-plan",
         "label": "Wider Angkor site plan including Angkor Thom / 含吴哥城的吴哥遗址总平面图",
-        "imageUrl": null,
-        "imageAlt": "Required view, currently unavailable: Wider Angkor site plan including Angkor Thom / 含吴哥城的吴哥遗址总平面图",
-        "imageSourceName": "College Board AP Art History CED; official component reference",
-        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256",
-        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        "imageUrl": "assets/art-history/u8/ap199-angkor-site-plan.webp",
+        "imageAlt": "Wider Angkor site plan with Angkor Thom north of Angkor Wat, barays and surrounding temple sites / 吴哥遗址总平面，含吴哥窟以北的吴哥城、水库与周边寺庙",
+        "imageSourceName": "Wikimedia Commons; Holger Behr (Hobe)",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Karta_AngkorWat.PNG"
       }
     ],
     "ap200-lakshmana-temple": [
@@ -241,20 +236,18 @@
       {
         "id": "lion-and-figure-detail",
         "label": "Lion-like creature and human beside carved porch / 雕刻门廊旁的狮形兽与人物",
-        "imageUrl": null,
-        "imageAlt": "Required view, currently unavailable: Lion-like creature and human beside carved porch / 雕刻门廊旁的狮形兽与人物",
-        "imageSourceName": "College Board AP Art History CED; official component reference",
-        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257",
-        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        "imageUrl": "assets/art-history/u8/ap200-lion-and-figure-detail.webp",
+        "imageAlt": "Lakshmana Temple lion-like yali with human figure at its front, beside the carved entrance porch / 拉克什曼纳寺雕刻入口门廊旁的狮形兽及其身前人物",
+        "imageSourceName": "Wikimedia Commons; Rajenver",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Khajuraho_India,_Lakshman_Temple,_Sculpture_01.JPG"
       },
       {
         "id": "temple-plan",
         "label": "Lakshmana Temple sanctuary and surrounding platform plan / 拉克什曼纳寺圣殿与周围台基平面",
-        "imageUrl": null,
-        "imageAlt": "Required view, currently unavailable: Lakshmana Temple sanctuary and surrounding platform plan / 拉克什曼纳寺圣殿与周围台基平面",
-        "imageSourceName": "College Board AP Art History CED; official component reference",
-        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257",
-        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        "imageUrl": "assets/art-history/u8/ap200-temple-plan.webp",
+        "imageAlt": "Archaeological Survey of India's 1927 plan of Lakshmana Temple at Khajuraho, including sanctuary, mandapas, platform, stairs and four corner shrines / 印度考古局1927年克久拉霍拉克什曼纳寺平面，含圣殿、厅堂、台基、台阶及四角小祠",
+        "imageSourceName": "Indira Gandhi National Centre for the Arts digital archive; Archaeological Survey of India",
+        "imageSourceUrl": "https://ignca.gov.in/Asi_data/30333.pdf#page=44"
       }
     ],
     "ap201-travelers-mountains-streams": [
@@ -399,20 +392,18 @@
       {
         "id": "mausoleum-and-garden",
         "label": "Frontal Taj Mahal mausoleum with garden reflection pool / 泰姬陵正面及园林倒影池",
-        "imageUrl": null,
-        "imageAlt": "Required view, currently unavailable: Frontal Taj Mahal mausoleum with garden reflection pool / 泰姬陵正面及园林倒影池",
-        "imageSourceName": "College Board AP Art History CED; official component reference",
-        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262",
-        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        "imageUrl": "assets/art-history/u8/ap209-mausoleum-and-garden.webp",
+        "imageAlt": "Taj Mahal frontal mausoleum with full dome, four minarets, garden and central reflection pool / 泰姬陵正面，含完整圆顶、四座宣礼塔、花园与中央倒影池",
+        "imageSourceName": "© Yann Forget / Wikimedia Commons; edited by King of Hearts and Jbarta",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Taj_Mahal,_Agra,_India_edit3.jpg"
       },
       {
         "id": "cenotaph-interior",
         "label": "Marble cenotaph and surrounding pierced screen / 大理石纪念墓与周围镂空石屏",
-        "imageUrl": null,
-        "imageAlt": "Required interior: Mumtaz Mahal's floral-inlay cenotaph surrounded by marble pierced screen / 指定内部视图：镂空大理石屏围绕的慕塔兹·玛哈尔花卉镶嵌纪念墓；图像暂缺",
-        "imageSourceName": "College Board AP Art History CED; official component reference",
-        "imageSourceUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262",
-        "mediaStatus": "Exact component identity and open image-level rights not verified / 指定组件身份与图像层级开放权限尚未核实"
+        "imageUrl": "assets/art-history/u8/ap209-cenotaph-interior.webp",
+        "imageAlt": "Taj Mahal upper tomb chamber: Mumtaz Mahal's smaller floral-inlay cenotaph at left, Shah Jahan's larger cenotaph at right and surrounding pierced marble screen; archival low-resolution photograph / 泰姬陵上层墓室：左侧较小的慕塔兹·玛哈尔花卉镶嵌纪念墓、右侧沙贾汗纪念墓与周围镂空石屏；低分辨率历史照片",
+        "imageSourceName": "Nemonoman / Wikimedia Commons",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:TajCenotaphs.jpg"
       }
     ],
     "ap210-white-red-plum": [
@@ -463,9 +454,9 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       },
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249"
+        "creatorOrInstitution": "Biswarup Ganguly",
+        "licenseName": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
       },
       {
         "creatorOrInstitution": "Bernard Gagnon",
@@ -473,9 +464,9 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       },
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=249"
+        "creatorOrInstitution": "Frederick Charles Maisey (drawing); William Griggs (lithography); Getty Research Institute (digitization)",
+        "licenseName": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
       }
     ],
     "ap193-terracotta-warriors": [
@@ -497,9 +488,9 @@
     },
     "ap195-longmen-caves": [
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=251"
+        "creatorOrInstitution": "xiquinhosilva",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
       },
       {
         "creatorOrInstitution": "Gary Todd",
@@ -583,14 +574,14 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
       },
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256"
+        "creatorOrInstitution": "Baldiri",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       },
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=256"
+        "creatorOrInstitution": "Holger Behr (Hobe)",
+        "licenseName": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
       }
     ],
     "ap200-lakshmana-temple": [
@@ -605,14 +596,14 @@
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
       },
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257"
+        "creatorOrInstitution": "Rajenver",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       },
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=257"
+        "creatorOrInstitution": "Archaeological Survey of India; B. L. Dhama, A Guide to Khajuraho, edited by Daya Ram Sahni (1927)",
+        "licenseName": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
       }
     ],
     "ap201-travelers-mountains-streams": {
@@ -698,14 +689,14 @@
     },
     "ap209-taj-mahal": [
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262"
+        "creatorOrInstitution": "© Yann Forget / Wikimedia Commons; edited by King of Hearts and Jbarta",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       },
       {
-        "creatorOrInstitution": "College Board official component reference",
-        "licenseName": "Open image-level rights not verified; official reference only",
-        "licenseUrl": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf#page=262"
+        "creatorOrInstitution": "Nemonoman / Wikimedia Commons",
+        "licenseName": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
       }
     ],
     "ap210-white-red-plum": [

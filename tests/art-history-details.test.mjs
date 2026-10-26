@@ -1511,7 +1511,7 @@ test('Unit 7 and Unit 8 unresolved views avoid false copyright and private-bundl
    }
   }
  }
- assert.equal(checkedViews,30,'actual U7/U8 unresolved views checked in both public and private modes');
+ assert.equal(checkedViews,8,'four remaining U7/U8 unresolved views checked in both public and private modes after verified additions');
 });
 
 test('all Unit 6 unresolved views show honest reusable-image status in public and private modes', async () => {
