@@ -53,6 +53,6 @@ art-history-map.html?embed=1&hostOrigin=<URL编码的首页origin>
 
 补图记录见 `docs/data-sources/2026-10-19-media-additions.md`、`docs/data-sources/2026-10-20-media-additions.md`；原型在`prototypes/`、`keypoint-cards.html`和`map-keypoints-offline.html`，仅作历史预览归档，不作为正式入口或部署文件。旧仓库的原文件保留。
 
-`.private-media/`中的81张本地学习图片尚待用户选择上传到私有备份还是公开库；它们没有混入公开发布。`scripts/serve_art_history_study.py`与配套测试已归档，运行完整学习预览仍需本地媒体目录。Python缓存不提交。
+2026-10-27用户明确选择放进公开艺术史仓库：81张学习图片及来源清单现归档于[`study-media/`](study-media/README.md)（74个补全视图、7张备用图）。原始出处及使用说明保留，未新增开放授权声明。这次只公开仓库文件，没有替换正式网页图片；Pages构建仍排除此归档目录。原`.private-media/`本地目录保持原样，Python缓存不提交。
 
 公开部署仍使用 `scripts/build.py` 的明确文件清单，只发布正式课程、模块通信脚本及公开媒体/数据；不会因归档原型、脚本或说明文档而覆盖首页框架。外部图片仍依赖原图片站点可用性。本地记录中的既有偶发地图标点排布问题并未在本次媒体迁移中声称修复。

@@ -23,6 +23,13 @@
     "workCount": 14,
     "viewCount": 18,
     "source": "Original uncommitted workspace additions dated 2026-10-19/20; imported on user request 2026-10-26",
-    "privateMedia": "Destination awaiting user selection; excluded from public release"
+    "privateMedia": "81 study images publicly archived in study-media/ on explicit user request 2026-10-27; not included in Pages artifact."
+  },
+  "studyImageArchive": {
+    "manifest": "study-media/manifest.json",
+    "count": 81,
+    "public": true,
+    "publicationAuthorizedOn": "2026-10-27",
+    "includedInWebsite": false
   }
 }
