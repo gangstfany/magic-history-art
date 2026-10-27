@@ -1,0 +1,69 @@
+/* Scoped comparison workspace for all ten AP Art History Units. */
+.ac-host{position:relative;min-width:0;width:100%;flex:1 1 auto;min-height:0}
+.ac-panel{position:absolute;z-index:6;inset:0 20px 28px;width:calc(100% - 40px);max-width:1180px;margin:auto;display:flex;flex-direction:column;overflow:hidden;border:1px solid #d8d7c9;border-radius:16px;background:#f8f5ed;color:#263c3b;box-shadow:0 12px 35px #293c3015;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;font-size:16px;font-weight:400}
+body.is-embedded .ac-panel{inset:0;width:100%;max-width:none;border-radius:0;margin:0}
+.ac-toolbar{display:flex;align-items:center;gap:24px;flex-shrink:0;min-height:64px;padding:10px 22px;border-bottom:1px solid #dbded3;background:#fffdf7}
+.ac-toolbar h2{margin:0;font:500 24px/1.3 Georgia,'Songti SC',serif}
+.ac-back{min-height:44px;padding:8px 12px;border:1px solid #d6ded5;border-radius:8px;color:#285d5a;background:#fffdf7;font-family:inherit;font-size:14px;font-weight:500;line-height:1.5;cursor:pointer}
+.ac-scroll{overflow:auto;overscroll-behavior:contain;min-height:0;flex:1;padding:16px 22px 24px}
+.ac-gallery{background:#fffdf7;border:1px solid #dbded3;border-radius:12px;overflow:hidden}
+.ac-gallery>summary{padding:10px 16px;min-height:44px;font-size:12px;color:#58685e;cursor:pointer;border-bottom:1px solid #dbded3}
+.ac-images,.ac-columns{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.ac-art{padding:16px;min-width:0}.ac-art+.ac-art{border-left:1px solid #dbded3}
+.ac-art h3{margin:5px 0 7px;font:500 23px/1.4 Georgia,'Songti SC',serif}
+.ac-title-en{display:block;font-size:14px;color:#656b65}
+.ac-meta{font-size:12px;color:#656b65;line-height:1.6;margin:0 0 9px}
+.ac-image{position:relative;display:block;width:100%;height:190px;border:1px solid #deded3;border-radius:8px;padding:10px;background:#f0eee6;cursor:zoom-in}
+.ac-image img{display:block;width:100%;height:100%;object-fit:contain}
+.ac-zoom{position:absolute;bottom:7px;right:7px;padding:3px 8px;border:1px solid #d6ded5;border-radius:5px;background:#fffdf7ed;color:#285d5a;font-size:11px}
+.ac-views{display:flex;flex-wrap:wrap;gap:7px;align-items:center;min-height:36px;margin:7px 0}
+.ac-views button{min-height:44px;padding:6px 10px;border:1px solid #d6ded5;border-radius:7px;color:#345b54;background:#fffdf7;font-size:12px;cursor:pointer;text-align:left}
+.ac-views button[aria-pressed=true]{background:#eaf0e9;border-color:#285d5a}
+.ac-credit{font-size:12px;color:#656b65}.ac-credit summary{min-height:32px;cursor:pointer}.ac-credit .image-credit{font-size:12px!important;font-weight:400!important}.ac-credit a{overflow-wrap:anywhere}
+.ac-reading{padding:0 0 10px}.ac-tabs{display:flex;gap:26px;border-bottom:1px solid #dbded3;margin-bottom:18px}
+.ac-tabs button{min-height:52px;padding:13px 0 10px;border:0;border-bottom:3px solid transparent;color:#656b65;background:transparent;font-size:14px;cursor:pointer;white-space:nowrap}
+.ac-tabs button[aria-selected=true]{color:#285d5a;border-color:#285d5a;font-weight:700}
+.ac-content{line-height:1.85}.ac-content p{margin:0}.ac-note{border-left:3px solid #285d5a;border-radius:0 8px 8px 0;background:#eaf0e9;padding:17px 21px}.ac-content h3{font-size:13px;color:#285d5a;margin:0 0 9px}
+.ac-columns{gap:27px}.ac-columns article+article{border-left:1px solid #dbded3;padding-left:27px}.ac-english{margin-top:12px;font:13px/1.8 Georgia,serif;color:#656b65}.ac-english summary{min-height:32px;cursor:pointer}.ac-hint{color:#656b65;font-size:12px;line-height:1.7;margin:17px 0 0}
+.comparison-preview{cursor:default}.comparison-start{min-height:44px;padding:9px 15px;margin-top:8px;border:1px solid #285d5a;border-radius:8px;color:#fff;background:#285d5a;font-size:14px;cursor:pointer}
+.ac-panel button:hover,.comparison-start:hover{filter:brightness(.96)}
+@media(max-width:664px){.ac-panel{inset:0 12px 28px;width:calc(100% - 24px)}.ac-toolbar{gap:13px;padding:9px 12px;flex-wrap:wrap}.ac-toolbar h2{font-size:21px}.ac-back{font-size:13px}.ac-scroll{padding:12px 12px 24px}.ac-images,.ac-columns{grid-template-columns:1fr}.ac-art+.ac-art{border-left:0;border-top:1px solid #dbded3}.ac-image{height:245px}.ac-columns{gap:20px}.ac-columns article+article{border-left:0;border-top:1px solid #dbded3;padding:20px 0 0}.ac-tabs{gap:22px}.ac-note{padding:16px}.ac-content{font-size:16px}}
+/* Native modal makes the retained course inert while leaving the map visible. */
+.comparison-note-english{font-size:12px;color:#656b65;font-weight:400;line-height:1.65}.comparison-note-english summary{min-height:32px;cursor:pointer}.comparison-note-english p{margin:5px 0}
+
+/* Selected layout: comparison lens. Preview pages keep their switchable skins. */
+body:not([data-look]) .ac-panel{background:#edf0e8}
+body:not([data-look]) .ac-scroll{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(300px,1fr);gap:22px;align-items:start;padding:20px 24px 28px}
+body:not([data-look]) .ac-gallery{border:0;border-radius:12px;background:transparent}
+body:not([data-look]) .ac-gallery>summary{background:#fffdf8;border:1px solid #d4ddce;border-radius:10px;margin-bottom:12px}
+body:not([data-look]) .ac-images{gap:12px}
+body:not([data-look]) .ac-art{background:#fffdf8;border:1px solid #d4ddce;border-radius:10px;padding:15px 14px}
+body:not([data-look]) .ac-art:first-child{box-shadow:inset 0 5px #a95d46}
+body:not([data-look]) .ac-art:nth-child(2){box-shadow:inset 0 5px #285d5a}
+body:not([data-look]) .ac-art h3{font-size:24px;min-height:66px;margin:9px 0}
+body:not([data-look]) .ac-art>.ac-meta:nth-of-type(2){min-height:40px}
+body:not([data-look]) .ac-image{height:280px;border:0;padding:8px;background:#f0eee7}
+body:not([data-look]) .ac-reading{padding:15px 17px 18px;background:#fffdf8;border:1px solid #d4ddce;border-radius:12px;position:sticky;top:0}
+body:not([data-look]) .ac-reading:before{content:'比较透镜 / COMPARE';display:block;margin-bottom:13px;color:#285d5a;font-size:11px;letter-spacing:2px;font-weight:700}
+body:not([data-look]) .ac-tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;border:0;margin-bottom:16px}
+body:not([data-look]) .ac-tabs button{min-height:44px;padding:8px;border:1px solid #d4ddce;border-radius:7px;font-size:14px}
+body:not([data-look]) .ac-tabs button[aria-selected=true]{background:#285d5a;color:white;border-color:#285d5a}
+body:not([data-look]) .ac-note{padding:16px;background:#eaf0e9;border-left:3px solid #285d5a}
+body:not([data-look]) .ac-columns{grid-template-columns:1fr;gap:21px}
+body:not([data-look]) .ac-columns article+article{border-left:0;border-top:1px solid #d4ddce;padding:18px 0 0}
+body:not([data-look]) .ac-columns article:first-child h3{color:#95533d}
+body:not([data-look]) .ac-hint{padding-top:15px;border-top:1px solid #d4ddce;font-size:12px}
+body:not([data-look]) .ac-scroll:has(.ac-gallery:not([open])){grid-template-columns:1fr}
+@media(min-width:801px) and (max-width:1000px){body:not([data-look]) .ac-images{grid-template-columns:1fr}body:not([data-look]) .ac-image{height:230px}}
+@media(max-width:800px){body:not([data-look]) .ac-scroll{display:flex;flex-direction:column;gap:15px;padding:13px}body:not([data-look]) .ac-gallery,body:not([data-look]) .ac-reading{width:100%}body:not([data-look]) .ac-reading{position:static}body:not([data-look]) .ac-art h3,body:not([data-look]) .ac-art>.ac-meta:nth-of-type(2){min-height:0}body:not([data-look]) .ac-image{height:245px}}
+
+/* Floating comparison, approved after the interactive prototype. */
+body .ac-panel.ac-floating{position:fixed;inset:0;margin:auto;width:calc(100vw - 100px);max-width:1320px;height:min(810px,86dvh);max-height:86dvh;padding:0;border-radius:20px;border:1px solid #d8ddd0;box-shadow:0 30px 100px #152b3d55;box-sizing:border-box}
+.ac-floating::backdrop{background:rgba(30,44,43,.40);backdrop-filter:blur(2px)}
+.ac-floating .ac-gallery,.ac-floating .ac-reading{flex-shrink:0}
+.ac-floating .ac-toolbar{justify-content:space-between}
+.ac-floating .ac-toolbar h2:after{content:'  /  COMPARISON';font-size:11px;letter-spacing:2px;color:#7b8178;margin-left:8px}
+.ac-floating .ac-back{min-width:110px}
+body .ac-floating .ac-scroll{padding:20px;gap:18px}
+.ac-floating button:focus-visible,.ac-floating summary:focus-visible{outline:3px solid #447998;outline-offset:3px}
+@media(max-width:800px){body .ac-panel.ac-floating{width:calc(100vw - 24px);height:90dvh;max-height:90dvh;border-radius:14px}body .ac-floating .ac-scroll{padding:12px}.ac-floating .ac-toolbar{padding:10px 12px}.ac-floating .ac-toolbar h2:after{display:none}}

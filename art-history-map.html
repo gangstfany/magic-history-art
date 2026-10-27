@@ -65,11 +65,16 @@
     .expanded-work-pin.is-active .expanded-pin-visual { transform:scale(1.12); }
     .expanded-work-pin.is-active .expanded-pin-bg { stroke:var(--ink); stroke-width:3; }
     .expanded-pin-list { display:none; width:100%; }
-    .expanded-pin-list.is-visible { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:8px; padding:10px; border-top:1px solid var(--line); background:#fffaf2; }
+    .expanded-pin-list.is-visible { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:8px; padding:10px; border-top:1px solid var(--line); background:#fffaf2; }
     .map-panel.has-compact-list { display:grid; grid-template-rows:minmax(260px,1fr) auto; overflow:auto; }
     .map-panel.has-compact-list .map-svg { grid-row:1; min-height:260px; }
-    .expanded-pin-list-button { min-height:44px; padding:9px 10px; border:2px solid transparent; border-radius:10px; color:#fff; background:var(--map-blue); font-weight:800; text-align:left; overflow-wrap:anywhere; cursor:pointer; }
-    .expanded-pin-list-button.is-active { border-color:#211f1c; box-shadow:0 0 0 3px #fff inset; }
+    .expanded-pin-list-button { display:flex; align-items:center; gap:10px; width:100%; min-height:44px; padding:12px; border:1px solid #dedbd1; border-radius:11px; color:var(--ink); background:var(--paper); font:inherit; text-align:left; overflow-wrap:anywhere; cursor:pointer; }
+    .expanded-pin-list-button:hover { border-color:var(--ink-soft); background:#faf5ea; }
+    .art-bubble-number { display:grid; place-items:center; flex:0 0 32px; height:32px; border-radius:50%; color:#fff; background:#426b93; font-size:11px; font-weight:700; }
+    .art-bubble-copy { display:grid; gap:4px; min-width:0; }
+    .art-bubble-title { font-size:13px; font-weight:700; line-height:1.35; overflow-wrap:anywhere; }
+    .art-bubble-meta { font-size:11.5px; font-weight:500; color:var(--ink-soft); line-height:1.5; }
+    .expanded-pin-list-button.is-active, .expanded-pin-list-button[aria-pressed="true"] { border-color:#597f8b; background:#edf4f4; }
     .map-controls { position:absolute; z-index:2; top:12px; right:12px; display:flex; flex-direction:column; gap:6px; }
     .map-controls button { width:30px; height:30px; min-width:30px; min-height:30px; padding:0; border:1.5px solid #ccc; border-radius:6px; color:#333; background:#fff; font-size:20px; font-weight:700; line-height:1; box-shadow:0 2px 6px rgba(0,0,0,.15); cursor:pointer; }
     .map-controls .overview-button { font-size:11px; }
@@ -174,6 +179,7 @@
     @media (prefers-reduced-motion:reduce) { *, *::before, *::after { scroll-behavior:auto!important; transition-duration:.01ms!important; animation-duration:.01ms!important; animation-iteration-count:1!important; } }
   </style>
 <link rel="stylesheet" href="assets/map-ui.css">
+<link rel="stylesheet" href="assets/art-comparison.css">
 </head>
 <body>
   <script>
@@ -16469,14 +16475,14 @@
       "China (Cultural Revolution print production; workshop unknown)": {"x":1289,"y":244},
       "Petra, Jordan": {"x":969,"y":342},
       "Bamiyan, Afghanistan": {"x":1111,"y":320},
-      "Mecca, Saudi Arabia": {"x":988,"y":386},
+      "Mecca, Saudi Arabia": {"x": 977.003, "y": 304.77},
       "Jokhang Temple, Lhasa, Tibet": {"x":1197,"y":343},
-      "Jerusalem": {"x":966,"y":331},
-      "Isfahan, Iran": {"x":1033,"y":326},
+      "Jerusalem": {"x": 956.517, "y": 258.804},
+      "Isfahan, Iran": {"x": 1029.665, "y": 254.878},
       "North Africa or Near East (origin uncertain)": {"x":974,"y":330},
       "Egypt or Syria (production context uncertain)": {"x":962,"y":338},
-      "Tabriz, Iran (attributed court context)": {"x":1020,"y":295},
-      "Tabriz, Iran": {"x":1020,"y":295},
+      "Tabriz, Iran (attributed court context)": {"x": 1005.742, "y": 230.756},
+      "Tabriz, Iran": {"x": 1005.742, "y": 230.756},
       "Safavid Iran (workshop uncertain)": {"x":1031,"y":313},
       'Apollo 11 Cave, Namibia': { x: 875, y: 500 },
       'Lascaux, France': { x: 829, y: 246 },
@@ -16490,96 +16496,96 @@
       'Reef Islands, Solomon Islands': { x: 1510, y: 560 },
       'Amarna (Akhetaten)': { x: 958, y: 372 },
       'Anavysos, Attica': { x: 927, y: 309 },
-      'Athens': { x: 926, y: 304 },
-      'Cerveteri, Italy': { x: 864, y: 286 },
+      "Athens": {"x": 905.457, "y": 231.183},
+      "Cerveteri, Italy": {"x": 853.737, "y": 213.374},
       'Deir el-Bahri, Thebes': { x: 954, y: 399 },
       'Dur Sharrukin (Khorsabad), Iraq': { x: 997, y: 301 },
       'Eshnunna (Tell Asmar), Iraq': { x: 1003, y: 322 },
-      'Giza': { x: 949, y: 348 },
+      "Giza": {"x": 938.705, "y": 266.625},
       'Hierakonpolis (Nekhen)': { x: 957, y: 408 },
       'Karnak, Thebes (Luxor)': { x: 956, y: 397 },
-      'Orvieto, Italy': { x: 867, y: 288 },
+      "Orvieto, Italy": {"x": 853.833, "y": 210.137},
       'Pergamon (Bergama)': { x: 965, y: 294 },
       'Persepolis, Iran': { x: 1039, y: 348 },
       'Pompeii': { x: 879, y: 310 },
-      'Rome': { x: 875, y: 296 },
+      "Rome": {"x": 855.606, "y": 213.814},
       'Samothrace': { x: 946, y: 282 },
       'Saqqara': { x: 950, y: 353 },
       'Susa, Iran': { x: 1018, y: 333 },
-      'Tarquinia, Italy': { x: 862, y: 284 },
+      "Tarquinia, Italy": {"x": 852.251, "y": 212.204},
       'Thebes': { x: 956, y: 396 },
       'Ur, Iraq': { x: 1009, y: 341 },
       'Uruk, Iraq': { x: 1007, y: 338 },
       'Valley of the Kings, Thebes': { x: 953, y: 401 },
       'Veii, Italy': { x: 865, y: 286 },
-      'Rome, Italy': { x: 854, y: 260 },
+      "Rome, Italy": {"x": 855.606, "y": 213.814},
       'Syria or Palestine': { x: 958, y: 322 },
-      'Ravenna, Italy': { x: 853, y: 244 },
-      'Constantinople (Istanbul), Turkey': { x: 944, y: 266 },
+      "Ravenna, Italy": {"x": 854.228, "y": 202.607},
+      "Constantinople (Istanbul), Turkey": {"x": 928.665, "y": 217.716},
       'Early medieval Europe': { x: 817, y: 230 },
       'Mount Sinai, Egypt': { x: 955, y: 340 },
       'Northumbria, England': { x: 797, y: 206 },
-      'Córdoba, Spain': { x: 756, y: 286 },
+      "Córdoba, Spain": {"x": 778.788, "y": 231.593},
       'Madinat al-Zahra, Spain': { x: 756, y: 286 },
       'Conques, France': { x: 809, y: 256 },
       'England or Normandy': { x: 792, y: 226 },
-      'Chartres, France': { x: 809, y: 235 },
-      'Paris, France': { x: 805, y: 235 },
+      "Chartres, France": {"x": 806.619, "y": 184.681},
+      "Paris, France": {"x": 810.439, "y": 182.874},
       'Rhineland, Germany': { x: 835, y: 225 },
-      'Padua, Italy': { x: 854, y: 250 },
-      'Barcelona, Spain': { x: 790, y: 280 },
-      'Granada, Spain': { x: 755, y: 300 },
-      'Tournai, present-day Belgium': { x: 815, y: 220 },
-      'Florence, Italy': { x: 845, y: 260 },
+      "Padua, Italy": {"x": 852.826, "y": 198.187},
+      "Barcelona, Spain": {"x": 809.596, "y": 216.05},
+      "Granada, Spain": {"x": 783.97, "y": 234.719},
+      "Tournai, present-day Belgium": {"x": 815.064, "y": 175.079},
+      "Florence, Italy": {"x": 849.983, "y": 205.426},
       'Flanders, present-day Belgium': { x: 815, y: 220 },
-      'Milan, Italy': { x: 842, y: 250 },
-      'Nuremberg, Germany': { x: 837, y: 225 },
-      'Vatican City': { x: 854, y: 260 },
+      "Milan, Italy": {"x": 840.842, "y": 197.937},
+      "Nuremberg, Germany": {"x": 849.233, "y": 180.204},
+      "Vatican City": {"x": 855.352, "y": 213.766},
       'Isenheim, Alsace': { x: 824, y: 235 },
-      'Wittenberg, Germany': { x: 846, y: 215 },
-      'Venice, Italy': { x: 854, y: 245 },
-      'Tenochtitlan (Mexico City), New Spain': { x: 405, y: 380 },
-      'Antwerp, present-day Belgium': { x: 815, y: 215 },
-      'Edirne, Turkey': { x: 947, y: 260 },
-      'Antwerp, Southern Netherlands': { x: 815, y: 215 },
-      'Amsterdam, Netherlands': { x: 815, y: 205 },
+      "Wittenberg, Germany": {"x": 856.221, "y": 169.484},
+      "Venice, Italy": {"x": 854.812, "y": 198.057},
+      "Tenochtitlan (Mexico City), New Spain": {"x": 359.433, "y": 313.651},
+      "Antwerp, present-day Belgium": {"x": 819.557, "y": 172.353},
+      "Edirne, Turkey": {"x": 918.027, "y": 214.768},
+      "Antwerp, Southern Netherlands": {"x": 819.557, "y": 172.353},
+      "Amsterdam, Netherlands": {"x": 821.732, "y": 167.227},
       'Calamarca, present-day Bolivia': { x: 510, y: 520 },
-      'Madrid, Spain': { x: 760, y: 275 },
-      'Delft, Netherlands': { x: 815, y: 210 },
-      'Versailles, France': { x: 805, y: 235 },
-      'Mexico City, New Spain': { x: 405, y: 380 },
-      'London, England': { x: 790, y: 205 },
-      'Mexico City, New Spain (Mexico)': { x: 330, y: 385 },
-      'Derby, England': { x: 758, y: 205 },
-      'Charlottesville, Virginia, U.S.': { x: 385, y: 265 },
+      "Madrid, Spain": {"x": 783.544, "y": 220.371},
+      "Delft, Netherlands": {"x": 819.358, "y": 168.859},
+      "Versailles, France": {"x": 809.486, "y": 183.095},
+      "Mexico City, New Spain": {"x": 359.433, "y": 313.651},
+      "London, England": {"x": 799.441, "y": 171.073},
+      "Mexico City, New Spain (Mexico)": {"x": 359.433, "y": 313.651},
+      "Derby, England": {"x": 793.437, "y": 164.788},
+      "Charlottesville, Virginia, U.S.": {"x": 451.215, "y": 230.981},
       'Spain': { x: 760, y: 275 },
-      'New York City, New York, U.S.': { x: 385, y: 265 },
-      'Ornans, France': { x: 802, y: 225 },
-      'Palo Alto, California, U.S.': { x: 385, y: 265 },
-      'Mexico City, Mexico': { x: 330, y: 385 },
-      'Saint-Rémy-de-Provence, France': { x: 802, y: 225 },
-      'Berlin, Germany': { x: 865, y: 215 },
+      "New York City, New York, U.S.": {"x": 471.085, "y": 219.048},
+      "Ornans, France": {"x": 827.302, "y": 190.633},
+      "Palo Alto, California, U.S.": {"x": 257.142, "y": 233.592},
+      "Mexico City, Mexico": {"x": 359.433, "y": 313.651},
+      "Saint-Rémy-de-Provence, France": {"x": 821.474, "y": 205.385},
+      "Berlin, Germany": {"x": 859.602, "y": 166.558},
       'Punaauia, Tahiti, French Polynesia': { x: 1400, y: 545 },
-      'Chicago, Illinois, U.S.': { x: 385, y: 265 },
-      'Aix-en-Provence, France': { x: 802, y: 225 },
+      "Chicago, Illinois, U.S.": {"x": 410.444, "y": 214.0},
+      "Aix-en-Provence, France": {"x": 824.221, "y": 206.541},
       'North Atlantic Ocean, aboard SS Kaiser Wilhelm II': { x: 560, y: 250 },
-      'Vienna, Austria': { x: 865, y: 215 },
-      'Issy-les-Moulineaux, France': { x: 802, y: 225 },
-      'Munich, Germany': { x: 865, y: 215 },
-      'Poissy-sur-Seine, France': { x: 802, y: 225 },
-      'Moscow, Soviet Union (Russia)': { x: 980, y: 205 },
+      "Vienna, Austria": {"x": 872.765, "y": 185.74},
+      "Issy-les-Moulineaux, France": {"x": 810.121, "y": 183.018},
+      "Munich, Germany": {"x": 851.447, "y": 186.056},
+      "Poissy-sur-Seine, France": {"x": 809.109, "y": 182.538},
+      "Moscow, Soviet Union (Russia)": {"x": 967.19, "y": 152.213},
       'Mill Run, Pennsylvania, U.S.': { x: 385, y: 265 },
-      'Havana, Cuba': { x: 330, y: 385 },
-      'New Haven, Connecticut, U.S.': { x: 385, y: 265 },
+      "Havana, Cuba": {"x": 433.853, "y": 297.187},
+      "New Haven, Connecticut, U.S.": {"x": 475.875, "y": 216.408},
       'Rozel Point, Great Salt Lake, Utah, U.S.': { x: 385, y: 265 },
       'New Castle County, Delaware, U.S.': { x: 385, y: 265 },
       'Chavín de Huántar, Ancash, Peru': { x: 470, y: 500 },
       'Mesa Verde, Colorado, U.S.': { x: 300, y: 300 },
       'Yaxchilán, Chiapas, Mexico': { x: 355, y: 410 },
       'Adams County, Ohio, U.S.': { x: 430, y: 270 },
-      'Tenochtitlan (Mexico City), Mexico': { x: 360, y: 390 },
+      "Tenochtitlan (Mexico City), Mexico": {"x": 359.433, "y": 313.651},
       'Mexica realm, Central Mexico': { x: 355, y: 385 },
-      'Cusco, Peru': { x: 480, y: 505 },
+      "Cusco, Peru": {"x": 480.147, "y": 460.142},
       'Inka realm, Central Andes': { x: 480, y: 505 },
       'Machu Picchu, Cusco Region, Peru': { x: 485, y: 510 },
       'Lenape homelands, northeastern North America': { x: 420, y: 280 },
@@ -16587,9 +16593,9 @@
       'Wind River Reservation, Wyoming, U.S.': { x: 330, y: 285 },
       'San Ildefonso Pueblo, New Mexico, U.S.': { x: 335, y: 320 },
       'Great Zimbabwe, Masvingo Province, Zimbabwe': { x: 938, y: 489 },
-      'Djenné, Mali': { x: 780, y: 338 },
-      'Benin City, Nigeria': { x: 825, y: 372 },
-      'Kumasi, Ghana': { x: 793, y: 370 },
+      "Djenné, Mali": {"x": 779.763, "y": 338.195},
+      "Benin City, Nigeria": {"x": 825.003, "y": 371.83},
+      "Kumasi, Ghana": {"x": 792.78, "y": 370.273},
       'Mushenge, Democratic Republic of the Congo': { x: 895, y: 421 },
       'Kongo cultural region, Central Africa': { x: 865, y: 424 },
       'Chokwe cultural region, Angola and Democratic Republic of the Congo': { x: 890, y: 448 },
@@ -17481,6 +17487,27 @@
           collisionError = error;
         }
       }
+      // Short unit labels keep the overview usable when full AP ranges cannot
+      // fit on a narrow map. Geographic anchors and 44px hit targets stay intact.
+      const unitGroups = candidates.find(groups => groups.length && groups.every(group => group.kind === 'unit'));
+      if (collisionError && unitGroups) {
+        try {
+          return layoutSiteMarkers(
+            unitGroups.map(group => ({
+              ...group,
+              apLabel: `U${group.apUnits[0]}`,
+              isGridFallback: true,
+              isDenseFallback: false
+            })),
+            screenScale,
+            toWorldCoordinates,
+            visibleWorldBounds
+          );
+        } catch (error) {
+          if (!String(error?.message).startsWith('Unable to place ')) throw error;
+          collisionError = error;
+        }
+      }
       if (collisionError) throw collisionError;
       return [];
     }
@@ -18330,9 +18357,8 @@
           work.comparisonIds.forEach((comparisonId) => {
             const comparison = ARTWORKS.find((item) => item.id === comparisonId);
             if (!comparison) return;
-            const card = document.createElement('button');
-            card.type = 'button';
-            card.className = 'comparison-card';
+            const card = document.createElement('article');
+            card.className = 'comparison-card comparison-preview';
             card.dataset.comparisonId = comparison.id;
             const title = document.createElement('strong');
             title.textContent = `${comparison.titleZh} · ${comparison.titleEn}`;
@@ -18340,9 +18366,31 @@
             details.textContent = `AP #${comparison.apNumber} · ${comparison.period}`;
             const angle = document.createElement('span');
             angle.className = 'comparison-angle';
-            angle.textContent = createComparisonAngle(work, comparison);
+            angle.textContent = work.comparisonNotes?.[comparison.id]?.trim()
+              ? work.comparisonNotes[comparison.id] : createComparisonAngle(work, comparison);
             card.append(title, details, angle);
-            card.addEventListener('click', () => selectComparison(comparison.id));
+            {
+              const bilingual = angle.textContent.match(/^([\s\S]*?。)\s+([A-Z][\s\S]*)$/);
+              if (bilingual) {
+                angle.textContent = bilingual[1];
+                const english = document.createElement('details');
+                english.className = 'comparison-note-english';
+                const label = document.createElement('summary');
+                label.textContent = 'English';
+                const copy = document.createElement('p');
+                copy.textContent = bilingual[2];
+                english.append(label, copy);
+                card.append(english);
+              }
+              const start = document.createElement('button');
+              start.type = 'button';
+              start.className = 'comparison-start';
+              start.dataset.compareSource = work.id;
+              start.dataset.compareTarget = comparison.id;
+              start.textContent = '开始对比 ↗';
+              start.setAttribute('aria-label', `开始对比：${work.titleZh}与${comparison.titleZh}`);
+              card.append(start);
+            }
             grid.append(card);
           });
           panel.append(grid.children.length ? grid : createStudyBlock('暂无比较作品', '此作品暂未关联比较对象。'));
@@ -18409,7 +18457,20 @@
           'aria-label',
           `AP ${work.apNumber} · ${work.titleEn} · ${group.siteName}`
         );
-        button.textContent = `AP ${work.apNumber} · ${work.titleEn}`;
+        const badge = document.createElement('span');
+        badge.className = 'art-bubble-number';
+        badge.textContent = String(work.apNumber);
+        badge.setAttribute('aria-hidden', 'true');
+        const copy = document.createElement('span');
+        copy.className = 'art-bubble-copy';
+        const title = document.createElement('span');
+        title.className = 'art-bubble-title';
+        title.textContent = work.titleEn;
+        const meta = document.createElement('span');
+        meta.className = 'art-bubble-meta';
+        meta.textContent = `${work.titleZh} · 查看作品 →`;
+        copy.append(title, meta);
+        button.append(badge, copy);
         if (state.selectedId === work.id) button.classList.add('is-active');
         button.addEventListener('click', () => selectArtwork(work.id, group.siteToken));
         return button;
@@ -18709,7 +18770,22 @@
           button.type = 'button';
           button.className = 'expanded-pin-list-button';
           button.dataset.unmappedWorkId = work.id;
-          button.textContent = `AP ${work.apNumber} · ${work.titleEn}`;
+          button.setAttribute('aria-label', `AP ${work.apNumber} · ${work.titleEn}`);
+          button.setAttribute('aria-pressed', String(state.selectedId === work.id));
+          const badge = document.createElement('span');
+          badge.className = 'art-bubble-number';
+          badge.textContent = String(work.apNumber);
+          badge.setAttribute('aria-hidden', 'true');
+          const copy = document.createElement('span');
+          copy.className = 'art-bubble-copy';
+          const title = document.createElement('span');
+          title.className = 'art-bubble-title';
+          title.textContent = work.titleEn;
+          const meta = document.createElement('span');
+          meta.className = 'art-bubble-meta';
+          meta.textContent = `${work.titleZh} · 查看作品 →`;
+          copy.append(title, meta);
+          button.append(badge, copy);
           button.addEventListener('click', () => selectComparison(work.id));
           buttonList.append(button);
         });
@@ -18951,6 +19027,8 @@
       createImageCredit,
       createRightsPlaceholder,
       createComparisonAngle,
+      getArtworkImages,
+      getArtworkImageCredits,
       openImageDialog,
       selectComparison,
       focusSelectedArtworkHeading,
@@ -18969,6 +19047,7 @@
       assertRenderedMarkerSemantics();
     });
   </script>
+  <script type="module" src="art-comparison.mjs"></script>
   <script type="module" src="module-bridge.mjs"></script>
 </body>
 </html>

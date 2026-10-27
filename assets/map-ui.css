@@ -1,24 +1,25 @@
 /* Shared, approved typography for the homepage mirror and both map documents. */
 :root {
+  --ty-font:"PingFang SC","Hiragino Sans GB",-apple-system,"Helvetica Neue",sans-serif;
   --ty-title:19px; --ty-section:13.5px; --ty-body:13.5px;
   --ty-meta:12px; --ty-control:12.5px; --art-map-height:500px;
 }
-html, body, button, input, select {
-  font-family:"PingFang SC","Hiragino Sans GB",-apple-system,"Helvetica Neue",sans-serif !important;
+html, body, button, input, select, summary, .ac-panel, .ac-panel h2, .ac-panel h3, .ac-title-en, .ac-english {
+  font-family:var(--ty-font) !important;
 }
-:is(.work-title-en,.event-head .city-name,.location-study-title,.location-study-detail-title,.rt-name,.course-mainline-title,.qz-title) {
+:is(.instruction h2,.empty-state h2,.ac-toolbar h2,.ac-art h3,.work-title-en,.event-head .city-name,.location-study-title,.location-study-detail-title,.rt-name,.course-mainline-title,.qz-title) {
   font-size:var(--ty-title) !important; font-weight:800 !important; line-height:1.3 !important;
 }
-:is(.study-block h3,.location-study-core h3,.location-study-connection-group h4,.location-study-name,.location-study-unit-title,.comparison-card strong) {
+:is(.ac-content h3,.study-block h3,.location-study-core h3,.location-study-connection-group h4,.location-study-name,.location-study-unit-title,.comparison-card strong) {
   font-size:var(--ty-section) !important; font-weight:700 !important; line-height:1.55 !important;
 }
-:is(.detail-panel,.study-block p,.anchor-list li,.identity-row,.ec-trig,.location-study-detail p,.location-study-detail li,.location-study-detail dd,.location-study-unit-body p,.location-study-unit-body li,.rt-blurb,.rt-exam,.qz-stem,.qz-trig,.comparison-angle) {
+:is(.instruction p,.empty-state p,.legend,.ac-content,.ac-content p,.detail-panel,.study-block p,.anchor-list li,.identity-row,.ec-trig,.location-study-detail p,.location-study-detail li,.location-study-detail dd,.location-study-unit-body p,.location-study-unit-body li,.rt-blurb,.rt-exam,.qz-stem,.qz-trig,.comparison-angle) {
   font-size:var(--ty-body) !important; font-weight:600 !important; line-height:1.55 !important;
 }
-:is(.work-title-zh,.work-meta,.result-count,.image-credit,.location-study-context,.location-study-summary,.location-study-region,.event-head .city-count,.ec-where,.filter-label,.mth-field,.mt-field,.rt-progress,.qz-score,.comparison-card span:not(.comparison-angle)) {
+:is(.ac-title-en,.ac-meta,.ac-hint,.ac-english,.ac-credit,.work-title-zh,.work-meta,.result-count,.image-credit,.location-study-context,.location-study-summary,.location-study-region,.event-head .city-count,.ec-where,.filter-label,.mth-field,.mt-field,.rt-progress,.qz-score,.comparison-card span:not(.comparison-angle)) {
   font-size:var(--ty-meta) !important; font-weight:600 !important; line-height:1.55 !important;
 }
-:is(.mth-cat,.mt-cat,.filter-pill,.clear-button,.detail-tab,.map-panel-tabs button,.hdr-btn,.rt-btn,.image-view-switcher button,.rights-placeholder-source) {
+:is(.ac-tabs button,.ac-back,.ac-views button,.comparison-start,.mth-cat,.mt-cat,.filter-pill,.clear-button,.detail-tab,.map-panel-tabs button,.hdr-btn,.rt-btn,.image-view-switcher button,.rights-placeholder-source) {
   font-size:var(--ty-control) !important; font-weight:700 !important; line-height:1.35 !important;
 }
 :is(.map-toolbar-host select,.map-toolbar-host input,.filter-toolbar select,.filter-toolbar input,.map-toolbar select,.map-toolbar input) {

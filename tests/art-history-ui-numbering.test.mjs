@@ -4,6 +4,10 @@ import { readFile } from 'node:fs/promises';
 
 const HTML_PATH = new URL('../art-history-map.html', import.meta.url);
 const loadHtml = () => readFile(HTML_PATH, 'utf8');
+const cityReview = JSON.parse(await readFile(new URL('../data/art-geography-city-review.json', import.meta.url), 'utf8'));
+const cityAnchors = new Map(cityReview.cities.map(city => [city.siteName, city.anchor]));
+const reviewedPoint = (site, legacy) => cityAnchors.get(site) || legacy;
+
 
 test('standalone document copy introduces the complete 250-work Units 1-10 map', async () => {
   const html = await loadHtml();
@@ -1383,7 +1387,7 @@ test('all 14 Unit 6 sites have stable distinct reviewed Africa projections', asy
   for (const work of works) {
     const point = SITE_WORLD_COORDINATES[work.siteName];
     assert.ok(point, `missing reviewed U6 projection: ${work.siteName}`);
-    assert.deepEqual(point, work.coordinates, `${work.siteName} frozen creation-context projection`);
+    assert.deepEqual(point, reviewedPoint(work.siteName, work.coordinates), `${work.siteName} reviewed geographic projection`);
     assert.deepEqual(toWorldCoordinates(work), point);
     assert.ok(point.x >= 0 && point.x <= 1600 && point.y >= 0 && point.y <= 800);
     assert.ok(point.x >= 750 && point.x <= 950 && point.y >= 330 && point.y <= 500,
@@ -1793,8 +1797,8 @@ test('every canonical Unit 3 creation site uses its reviewed exact world coordin
   for (const [siteName, coordinates] of canonicalSites) {
     assert.deepEqual(
       SITE_WORLD_COORDINATES[siteName],
-      coordinates,
-      `${siteName} must use the creation-context coordinates from its canonical record`,
+      reviewedPoint(siteName, coordinates),
+      `${siteName} must use the attributed city revision or its unchanged canonical anchor`,
     );
   }
 });
@@ -1833,17 +1837,17 @@ test('every Unit 5 creation site uses its reviewed Americas projection and map f
     Object.fromEntries(Object.keys(reviewedSites).map((siteName) => (
       [siteName, SITE_WORLD_COORDINATES[siteName]]
     ))),
-    reviewedSites,
+    Object.fromEntries(Object.entries(reviewedSites).map(([site, point]) => [site, reviewedPoint(site, point)])),
   );
   for (const work of unit5) {
     assert.deepEqual(work.coordinates, reviewedSites[work.siteName], `${work.id} canonical point`);
-    assert.deepEqual(toWorldCoordinates(work), reviewedSites[work.siteName], `${work.id} projection`);
+    assert.deepEqual(toWorldCoordinates(work), reviewedPoint(work.siteName, reviewedSites[work.siteName]), `${work.id} projection`);
   }
 
   const byRegion = Object.groupBy(unit5, ({ region }) => region);
   const regionRanges = {
-    mesoamerica: { left:355, right:360, top:385, bottom:410 },
-    centralAndes: { left:470, right:485, top:500, bottom:510 },
+    mesoamerica: { left:355, right:359.433, top:313.651, bottom:410 },
+    centralAndes: { left:470, right:485, top:460.142, bottom:510 },
     ancestralPueblo: { left:300, right:335, top:300, bottom:320 },
     easternWoodlands: { left:420, right:430, top:270, bottom:280 },
     northwestCoast: { left:255, right:255, top:220, bottom:220 },
@@ -1874,7 +1878,7 @@ test('every Unit 5 creation site uses its reviewed Americas projection and map f
     scale:expectedScale,
   });
   const visible = getVisibleWorldBounds(state.transform);
-  for (const point of Object.values(reviewedSites)) {
+  for (const point of Object.entries(reviewedSites).map(([site, point]) => reviewedPoint(site, point))) {
     assert.ok(point.x >= visible.left && point.x <= visible.right);
     assert.ok(point.y >= visible.top && point.y <= visible.bottom);
   }

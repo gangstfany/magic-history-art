@@ -1,0 +1,1349 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-27",
+  "projection": {
+    "name": "Equirectangular",
+    "viewBox": [
+      0,
+      0,
+      1600,
+      800
+    ],
+    "x": "(longitude+180)*1600/360",
+    "y": "(90-latitude)*800/180"
+  },
+  "dataset": {
+    "name": "GeoNames cities500",
+    "url": "https://download.geonames.org/export/dump/cities500.zip",
+    "sha256": "4c16306582581fa599d246ef103d24d51ed7cdd615603e6bbf393bcd6b3eff42",
+    "license": "CC BY",
+    "attributionUrl": "https://www.geonames.org/about.html"
+  },
+  "scopeNote": "These anchors identify the named city, not the precise artifact position or a newly asserted workshop. Historical labels and provenance qualifiers stay unchanged. Non-city/uncertain regional anchors are outside this city batch.",
+  "cities": [
+    {
+      "siteName": "Rome",
+      "latitude": 41.89193,
+      "longitude": 12.51133,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3169070,
+        "matchedName": "Rome",
+        "country": "IT",
+        "url": "https://www.geonames.org/3169070/"
+      },
+      "oldAnchor": {
+        "x": 875,
+        "y": 296
+      },
+      "anchor": {
+        "x": 855.606,
+        "y": 213.814
+      },
+      "displacement": 84.44
+    },
+    {
+      "siteName": "Rome, Italy",
+      "latitude": 41.89193,
+      "longitude": 12.51133,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3169070,
+        "matchedName": "Rome",
+        "country": "IT",
+        "url": "https://www.geonames.org/3169070/"
+      },
+      "oldAnchor": {
+        "x": 854,
+        "y": 260
+      },
+      "anchor": {
+        "x": 855.606,
+        "y": 213.814
+      },
+      "displacement": 46.21
+    },
+    {
+      "siteName": "Athens",
+      "latitude": 37.98376,
+      "longitude": 23.72784,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 264371,
+        "matchedName": "Athens",
+        "country": "GR",
+        "url": "https://www.geonames.org/264371/"
+      },
+      "oldAnchor": {
+        "x": 926,
+        "y": 304
+      },
+      "anchor": {
+        "x": 905.457,
+        "y": 231.183
+      },
+      "displacement": 75.66
+    },
+    {
+      "siteName": "Giza",
+      "latitude": 30.00944,
+      "longitude": 31.20861,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 360995,
+        "matchedName": "Giza",
+        "country": "EG",
+        "url": "https://www.geonames.org/360995/"
+      },
+      "oldAnchor": {
+        "x": 949,
+        "y": 348
+      },
+      "anchor": {
+        "x": 938.705,
+        "y": 266.625
+      },
+      "displacement": 82.02
+    },
+    {
+      "siteName": "Cerveteri, Italy",
+      "latitude": 41.9908,
+      "longitude": 12.09082,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3178999,
+        "matchedName": "Cerveteri",
+        "country": "IT",
+        "url": "https://www.geonames.org/3178999/"
+      },
+      "oldAnchor": {
+        "x": 864,
+        "y": 286
+      },
+      "anchor": {
+        "x": 853.737,
+        "y": 213.374
+      },
+      "displacement": 73.35
+    },
+    {
+      "siteName": "Orvieto, Italy",
+      "latitude": 42.71924,
+      "longitude": 12.11249,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3171874,
+        "matchedName": "Orvieto",
+        "country": "IT",
+        "url": "https://www.geonames.org/3171874/"
+      },
+      "oldAnchor": {
+        "x": 867,
+        "y": 288
+      },
+      "anchor": {
+        "x": 853.833,
+        "y": 210.137
+      },
+      "displacement": 78.97
+    },
+    {
+      "siteName": "Tarquinia, Italy",
+      "latitude": 42.25419,
+      "longitude": 11.75657,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3165919,
+        "matchedName": "Tarquinia",
+        "country": "IT",
+        "url": "https://www.geonames.org/3165919/"
+      },
+      "oldAnchor": {
+        "x": 862,
+        "y": 284
+      },
+      "anchor": {
+        "x": 852.251,
+        "y": 212.204
+      },
+      "displacement": 72.45
+    },
+    {
+      "siteName": "Ravenna, Italy",
+      "latitude": 44.41344,
+      "longitude": 12.20121,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3169561,
+        "matchedName": "Ravenna",
+        "country": "IT",
+        "url": "https://www.geonames.org/3169561/"
+      },
+      "oldAnchor": {
+        "x": 853,
+        "y": 244
+      },
+      "anchor": {
+        "x": 854.228,
+        "y": 202.607
+      },
+      "displacement": 41.41
+    },
+    {
+      "siteName": "Constantinople (Istanbul), Turkey",
+      "latitude": 41.01384,
+      "longitude": 28.94966,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 745044,
+        "matchedName": "Istanbul",
+        "country": "TR",
+        "url": "https://www.geonames.org/745044/"
+      },
+      "oldAnchor": {
+        "x": 944,
+        "y": 266
+      },
+      "anchor": {
+        "x": 928.665,
+        "y": 217.716
+      },
+      "displacement": 50.66
+    },
+    {
+      "siteName": "Córdoba, Spain",
+      "latitude": 37.89155,
+      "longitude": -4.77275,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2519240,
+        "matchedName": "Córdoba",
+        "country": "ES",
+        "url": "https://www.geonames.org/2519240/"
+      },
+      "oldAnchor": {
+        "x": 756,
+        "y": 286
+      },
+      "anchor": {
+        "x": 778.788,
+        "y": 231.593
+      },
+      "displacement": 58.99
+    },
+    {
+      "siteName": "Chartres, France",
+      "latitude": 48.44685,
+      "longitude": 1.48925,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3026467,
+        "matchedName": "Chartres",
+        "country": "FR",
+        "url": "https://www.geonames.org/3026467/"
+      },
+      "oldAnchor": {
+        "x": 809,
+        "y": 235
+      },
+      "anchor": {
+        "x": 806.619,
+        "y": 184.681
+      },
+      "displacement": 50.38
+    },
+    {
+      "siteName": "Paris, France",
+      "latitude": 48.85341,
+      "longitude": 2.3488,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2988507,
+        "matchedName": "Paris",
+        "country": "FR",
+        "url": "https://www.geonames.org/2988507/"
+      },
+      "oldAnchor": {
+        "x": 805,
+        "y": 235
+      },
+      "anchor": {
+        "x": 810.439,
+        "y": 182.874
+      },
+      "displacement": 52.41
+    },
+    {
+      "siteName": "Padua, Italy",
+      "latitude": 45.40797,
+      "longitude": 11.88586,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3171728,
+        "matchedName": "Padua",
+        "country": "IT",
+        "url": "https://www.geonames.org/3171728/"
+      },
+      "oldAnchor": {
+        "x": 854,
+        "y": 250
+      },
+      "anchor": {
+        "x": 852.826,
+        "y": 198.187
+      },
+      "displacement": 51.83
+    },
+    {
+      "siteName": "Barcelona, Spain",
+      "latitude": 41.38879,
+      "longitude": 2.15899,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3128760,
+        "matchedName": "Barcelona",
+        "country": "ES",
+        "url": "https://www.geonames.org/3128760/"
+      },
+      "oldAnchor": {
+        "x": 790,
+        "y": 280
+      },
+      "anchor": {
+        "x": 809.596,
+        "y": 216.05
+      },
+      "displacement": 66.89
+    },
+    {
+      "siteName": "Granada, Spain",
+      "latitude": 37.18817,
+      "longitude": -3.60667,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2517117,
+        "matchedName": "Granada",
+        "country": "ES",
+        "url": "https://www.geonames.org/2517117/"
+      },
+      "oldAnchor": {
+        "x": 755,
+        "y": 300
+      },
+      "anchor": {
+        "x": 783.97,
+        "y": 234.719
+      },
+      "displacement": 71.42
+    },
+    {
+      "siteName": "Tournai, present-day Belgium",
+      "latitude": 50.60715,
+      "longitude": 3.38932,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2785341,
+        "matchedName": "Tournai",
+        "country": "BE",
+        "url": "https://www.geonames.org/2785341/"
+      },
+      "oldAnchor": {
+        "x": 815,
+        "y": 220
+      },
+      "anchor": {
+        "x": 815.064,
+        "y": 175.079
+      },
+      "displacement": 44.92
+    },
+    {
+      "siteName": "Florence, Italy",
+      "latitude": 43.77925,
+      "longitude": 11.24626,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3176959,
+        "matchedName": "Florence",
+        "country": "IT",
+        "url": "https://www.geonames.org/3176959/"
+      },
+      "oldAnchor": {
+        "x": 845,
+        "y": 260
+      },
+      "anchor": {
+        "x": 849.983,
+        "y": 205.426
+      },
+      "displacement": 54.8
+    },
+    {
+      "siteName": "Milan, Italy",
+      "latitude": 45.46427,
+      "longitude": 9.18951,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3173435,
+        "matchedName": "Milan",
+        "country": "IT",
+        "url": "https://www.geonames.org/3173435/"
+      },
+      "oldAnchor": {
+        "x": 842,
+        "y": 250
+      },
+      "anchor": {
+        "x": 840.842,
+        "y": 197.937
+      },
+      "displacement": 52.08
+    },
+    {
+      "siteName": "Nuremberg, Germany",
+      "latitude": 49.45421,
+      "longitude": 11.07752,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2861650,
+        "matchedName": "Nuremberg",
+        "country": "DE",
+        "url": "https://www.geonames.org/2861650/"
+      },
+      "oldAnchor": {
+        "x": 837,
+        "y": 225
+      },
+      "anchor": {
+        "x": 849.233,
+        "y": 180.204
+      },
+      "displacement": 46.44
+    },
+    {
+      "siteName": "Vatican City",
+      "latitude": 41.90268,
+      "longitude": 12.45414,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 6691831,
+        "matchedName": "Vatican City",
+        "country": "VA",
+        "url": "https://www.geonames.org/6691831/"
+      },
+      "oldAnchor": {
+        "x": 854,
+        "y": 260
+      },
+      "anchor": {
+        "x": 855.352,
+        "y": 213.766
+      },
+      "displacement": 46.25
+    },
+    {
+      "siteName": "Wittenberg, Germany",
+      "latitude": 51.8661,
+      "longitude": 12.64973,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 7303020,
+        "matchedName": "Wittenberg",
+        "country": "DE",
+        "url": "https://www.geonames.org/7303020/"
+      },
+      "oldAnchor": {
+        "x": 846,
+        "y": 215
+      },
+      "anchor": {
+        "x": 856.221,
+        "y": 169.484
+      },
+      "displacement": 46.65
+    },
+    {
+      "siteName": "Venice, Italy",
+      "latitude": 45.43713,
+      "longitude": 12.33265,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3164603,
+        "matchedName": "Venice",
+        "country": "IT",
+        "url": "https://www.geonames.org/3164603/"
+      },
+      "oldAnchor": {
+        "x": 854,
+        "y": 245
+      },
+      "anchor": {
+        "x": 854.812,
+        "y": 198.057
+      },
+      "displacement": 46.95
+    },
+    {
+      "siteName": "Antwerp, present-day Belgium",
+      "latitude": 51.22047,
+      "longitude": 4.40026,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2803138,
+        "matchedName": "Antwerp",
+        "country": "BE",
+        "url": "https://www.geonames.org/2803138/"
+      },
+      "oldAnchor": {
+        "x": 815,
+        "y": 215
+      },
+      "anchor": {
+        "x": 819.557,
+        "y": 172.353
+      },
+      "displacement": 42.89
+    },
+    {
+      "siteName": "Edirne, Turkey",
+      "latitude": 41.67719,
+      "longitude": 26.55597,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 747712,
+        "matchedName": "Edirne",
+        "country": "TR",
+        "url": "https://www.geonames.org/747712/"
+      },
+      "oldAnchor": {
+        "x": 947,
+        "y": 260
+      },
+      "anchor": {
+        "x": 918.027,
+        "y": 214.768
+      },
+      "displacement": 53.72
+    },
+    {
+      "siteName": "Antwerp, Southern Netherlands",
+      "latitude": 51.22047,
+      "longitude": 4.40026,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2803138,
+        "matchedName": "Antwerp",
+        "country": "BE",
+        "url": "https://www.geonames.org/2803138/"
+      },
+      "oldAnchor": {
+        "x": 815,
+        "y": 215
+      },
+      "anchor": {
+        "x": 819.557,
+        "y": 172.353
+      },
+      "displacement": 42.89
+    },
+    {
+      "siteName": "Amsterdam, Netherlands",
+      "latitude": 52.37403,
+      "longitude": 4.88969,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2759794,
+        "matchedName": "Amsterdam",
+        "country": "NL",
+        "url": "https://www.geonames.org/2759794/"
+      },
+      "oldAnchor": {
+        "x": 815,
+        "y": 205
+      },
+      "anchor": {
+        "x": 821.732,
+        "y": 167.227
+      },
+      "displacement": 38.37
+    },
+    {
+      "siteName": "Madrid, Spain",
+      "latitude": 40.4165,
+      "longitude": -3.70256,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3117735,
+        "matchedName": "Madrid",
+        "country": "ES",
+        "url": "https://www.geonames.org/3117735/"
+      },
+      "oldAnchor": {
+        "x": 760,
+        "y": 275
+      },
+      "anchor": {
+        "x": 783.544,
+        "y": 220.371
+      },
+      "displacement": 59.49
+    },
+    {
+      "siteName": "Delft, Netherlands",
+      "latitude": 52.00667,
+      "longitude": 4.35556,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2757345,
+        "matchedName": "Delft",
+        "country": "NL",
+        "url": "https://www.geonames.org/2757345/"
+      },
+      "oldAnchor": {
+        "x": 815,
+        "y": 210
+      },
+      "anchor": {
+        "x": 819.358,
+        "y": 168.859
+      },
+      "displacement": 41.37
+    },
+    {
+      "siteName": "Versailles, France",
+      "latitude": 48.80359,
+      "longitude": 2.13424,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2969679,
+        "matchedName": "Versailles",
+        "country": "FR",
+        "url": "https://www.geonames.org/2969679/"
+      },
+      "oldAnchor": {
+        "x": 805,
+        "y": 235
+      },
+      "anchor": {
+        "x": 809.486,
+        "y": 183.095
+      },
+      "displacement": 52.1
+    },
+    {
+      "siteName": "London, England",
+      "latitude": 51.50853,
+      "longitude": -0.12574,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2643743,
+        "matchedName": "London",
+        "country": "GB",
+        "url": "https://www.geonames.org/2643743/"
+      },
+      "oldAnchor": {
+        "x": 790,
+        "y": 205
+      },
+      "anchor": {
+        "x": 799.441,
+        "y": 171.073
+      },
+      "displacement": 35.22
+    },
+    {
+      "siteName": "Tenochtitlan (Mexico City), New Spain",
+      "latitude": 19.42847,
+      "longitude": -99.12766,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3530597,
+        "matchedName": "Mexico City",
+        "country": "MX",
+        "url": "https://www.geonames.org/3530597/"
+      },
+      "oldAnchor": {
+        "x": 405,
+        "y": 380
+      },
+      "anchor": {
+        "x": 359.433,
+        "y": 313.651
+      },
+      "displacement": 80.49
+    },
+    {
+      "siteName": "Mexico City, New Spain",
+      "latitude": 19.42847,
+      "longitude": -99.12766,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3530597,
+        "matchedName": "Mexico City",
+        "country": "MX",
+        "url": "https://www.geonames.org/3530597/"
+      },
+      "oldAnchor": {
+        "x": 405,
+        "y": 380
+      },
+      "anchor": {
+        "x": 359.433,
+        "y": 313.651
+      },
+      "displacement": 80.49
+    },
+    {
+      "siteName": "Mexico City, New Spain (Mexico)",
+      "latitude": 19.42847,
+      "longitude": -99.12766,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3530597,
+        "matchedName": "Mexico City",
+        "country": "MX",
+        "url": "https://www.geonames.org/3530597/"
+      },
+      "oldAnchor": {
+        "x": 330,
+        "y": 385
+      },
+      "anchor": {
+        "x": 359.433,
+        "y": 313.651
+      },
+      "displacement": 77.18
+    },
+    {
+      "siteName": "Mexico City, Mexico",
+      "latitude": 19.42847,
+      "longitude": -99.12766,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3530597,
+        "matchedName": "Mexico City",
+        "country": "MX",
+        "url": "https://www.geonames.org/3530597/"
+      },
+      "oldAnchor": {
+        "x": 330,
+        "y": 385
+      },
+      "anchor": {
+        "x": 359.433,
+        "y": 313.651
+      },
+      "displacement": 77.18
+    },
+    {
+      "siteName": "Tenochtitlan (Mexico City), Mexico",
+      "latitude": 19.42847,
+      "longitude": -99.12766,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3530597,
+        "matchedName": "Mexico City",
+        "country": "MX",
+        "url": "https://www.geonames.org/3530597/"
+      },
+      "oldAnchor": {
+        "x": 360,
+        "y": 390
+      },
+      "anchor": {
+        "x": 359.433,
+        "y": 313.651
+      },
+      "displacement": 76.35
+    },
+    {
+      "siteName": "Derby, England",
+      "latitude": 52.92277,
+      "longitude": -1.47663,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2651347,
+        "matchedName": "Derby",
+        "country": "GB",
+        "url": "https://www.geonames.org/2651347/"
+      },
+      "oldAnchor": {
+        "x": 758,
+        "y": 205
+      },
+      "anchor": {
+        "x": 793.437,
+        "y": 164.788
+      },
+      "displacement": 53.6
+    },
+    {
+      "siteName": "Charlottesville, Virginia, U.S.",
+      "latitude": 38.02931,
+      "longitude": -78.47668,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 4752031,
+        "matchedName": "Charlottesville",
+        "country": "US",
+        "url": "https://www.geonames.org/4752031/"
+      },
+      "oldAnchor": {
+        "x": 385,
+        "y": 265
+      },
+      "anchor": {
+        "x": 451.215,
+        "y": 230.981
+      },
+      "displacement": 74.44
+    },
+    {
+      "siteName": "New York City, New York, U.S.",
+      "latitude": 40.71427,
+      "longitude": -74.00597,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 5128581,
+        "matchedName": "New York City",
+        "country": "US",
+        "url": "https://www.geonames.org/5128581/"
+      },
+      "oldAnchor": {
+        "x": 385,
+        "y": 265
+      },
+      "anchor": {
+        "x": 471.085,
+        "y": 219.048
+      },
+      "displacement": 97.58
+    },
+    {
+      "siteName": "Ornans, France",
+      "latitude": 47.10749,
+      "longitude": 6.14306,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2989252,
+        "matchedName": "Ornans",
+        "country": "FR",
+        "url": "https://www.geonames.org/2989252/"
+      },
+      "oldAnchor": {
+        "x": 802,
+        "y": 225
+      },
+      "anchor": {
+        "x": 827.302,
+        "y": 190.633
+      },
+      "displacement": 42.68
+    },
+    {
+      "siteName": "Palo Alto, California, U.S.",
+      "latitude": 37.44188,
+      "longitude": -122.14302,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 5380748,
+        "matchedName": "Palo Alto",
+        "country": "US",
+        "url": "https://www.geonames.org/5380748/"
+      },
+      "oldAnchor": {
+        "x": 385,
+        "y": 265
+      },
+      "anchor": {
+        "x": 257.142,
+        "y": 233.592
+      },
+      "displacement": 131.66
+    },
+    {
+      "siteName": "Saint-Rémy-de-Provence, France",
+      "latitude": 43.78848,
+      "longitude": 4.83167,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2977214,
+        "matchedName": "Saint-Rémy-de-Provence",
+        "country": "FR",
+        "url": "https://www.geonames.org/2977214/"
+      },
+      "oldAnchor": {
+        "x": 802,
+        "y": 225
+      },
+      "anchor": {
+        "x": 821.474,
+        "y": 205.385
+      },
+      "displacement": 27.64
+    },
+    {
+      "siteName": "Berlin, Germany",
+      "latitude": 52.52437,
+      "longitude": 13.41053,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2950159,
+        "matchedName": "Berlin",
+        "country": "DE",
+        "url": "https://www.geonames.org/2950159/"
+      },
+      "oldAnchor": {
+        "x": 865,
+        "y": 215
+      },
+      "anchor": {
+        "x": 859.602,
+        "y": 166.558
+      },
+      "displacement": 48.74
+    },
+    {
+      "siteName": "Chicago, Illinois, U.S.",
+      "latitude": 41.85003,
+      "longitude": -87.65005,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 4887398,
+        "matchedName": "Chicago",
+        "country": "US",
+        "url": "https://www.geonames.org/4887398/"
+      },
+      "oldAnchor": {
+        "x": 385,
+        "y": 265
+      },
+      "anchor": {
+        "x": 410.444,
+        "y": 214.0
+      },
+      "displacement": 56.99
+    },
+    {
+      "siteName": "Aix-en-Provence, France",
+      "latitude": 43.5283,
+      "longitude": 5.44973,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3038354,
+        "matchedName": "Aix-en-Provence",
+        "country": "FR",
+        "url": "https://www.geonames.org/3038354/"
+      },
+      "oldAnchor": {
+        "x": 802,
+        "y": 225
+      },
+      "anchor": {
+        "x": 824.221,
+        "y": 206.541
+      },
+      "displacement": 28.89
+    },
+    {
+      "siteName": "Vienna, Austria",
+      "latitude": 48.20849,
+      "longitude": 16.37208,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2761369,
+        "matchedName": "Vienna",
+        "country": "AT",
+        "url": "https://www.geonames.org/2761369/"
+      },
+      "oldAnchor": {
+        "x": 865,
+        "y": 215
+      },
+      "anchor": {
+        "x": 872.765,
+        "y": 185.74
+      },
+      "displacement": 30.27
+    },
+    {
+      "siteName": "Issy-les-Moulineaux, France",
+      "latitude": 48.82104,
+      "longitude": 2.27718,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3012649,
+        "matchedName": "Issy-les-Moulineaux",
+        "country": "FR",
+        "url": "https://www.geonames.org/3012649/"
+      },
+      "oldAnchor": {
+        "x": 802,
+        "y": 225
+      },
+      "anchor": {
+        "x": 810.121,
+        "y": 183.018
+      },
+      "displacement": 42.76
+    },
+    {
+      "siteName": "Munich, Germany",
+      "latitude": 48.13743,
+      "longitude": 11.57549,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2867714,
+        "matchedName": "Munich",
+        "country": "DE",
+        "url": "https://www.geonames.org/2867714/"
+      },
+      "oldAnchor": {
+        "x": 865,
+        "y": 215
+      },
+      "anchor": {
+        "x": 851.447,
+        "y": 186.056
+      },
+      "displacement": 31.96
+    },
+    {
+      "siteName": "Poissy-sur-Seine, France",
+      "latitude": 48.92902,
+      "longitude": 2.04952,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2986501,
+        "matchedName": "Poissy",
+        "country": "FR",
+        "url": "https://www.geonames.org/2986501/"
+      },
+      "oldAnchor": {
+        "x": 802,
+        "y": 225
+      },
+      "anchor": {
+        "x": 809.109,
+        "y": 182.538
+      },
+      "displacement": 43.05
+    },
+    {
+      "siteName": "Moscow, Soviet Union (Russia)",
+      "latitude": 55.75204,
+      "longitude": 37.61781,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 524901,
+        "matchedName": "Moscow",
+        "country": "RU",
+        "url": "https://www.geonames.org/524901/"
+      },
+      "oldAnchor": {
+        "x": 980,
+        "y": 205
+      },
+      "anchor": {
+        "x": 967.19,
+        "y": 152.213
+      },
+      "displacement": 54.32
+    },
+    {
+      "siteName": "Havana, Cuba",
+      "latitude": 23.13302,
+      "longitude": -82.38304,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3553478,
+        "matchedName": "Havana",
+        "country": "CU",
+        "url": "https://www.geonames.org/3553478/"
+      },
+      "oldAnchor": {
+        "x": 330,
+        "y": 385
+      },
+      "anchor": {
+        "x": 433.853,
+        "y": 297.187
+      },
+      "displacement": 136.0
+    },
+    {
+      "siteName": "New Haven, Connecticut, U.S.",
+      "latitude": 41.30815,
+      "longitude": -72.92816,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 4839366,
+        "matchedName": "New Haven",
+        "country": "US",
+        "url": "https://www.geonames.org/4839366/"
+      },
+      "oldAnchor": {
+        "x": 385,
+        "y": 265
+      },
+      "anchor": {
+        "x": 475.875,
+        "y": 216.408
+      },
+      "displacement": 103.05
+    },
+    {
+      "siteName": "Cusco, Peru",
+      "latitude": -13.53188,
+      "longitude": -71.96701,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 3941584,
+        "matchedName": "Cusco",
+        "country": "PE",
+        "url": "https://www.geonames.org/3941584/"
+      },
+      "oldAnchor": {
+        "x": 480,
+        "y": 505
+      },
+      "anchor": {
+        "x": 480.147,
+        "y": 460.142
+      },
+      "displacement": 44.86
+    },
+    {
+      "siteName": "Benin City, Nigeria",
+      "latitude": 6.33815,
+      "longitude": 5.62575,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2347283,
+        "matchedName": "Benin City",
+        "country": "NG",
+        "url": "https://www.geonames.org/2347283/"
+      },
+      "oldAnchor": {
+        "x": 825,
+        "y": 372
+      },
+      "anchor": {
+        "x": 825.003,
+        "y": 371.83
+      },
+      "displacement": 0.17
+    },
+    {
+      "siteName": "Kumasi, Ghana",
+      "latitude": 6.68848,
+      "longitude": -1.62443,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2298890,
+        "matchedName": "Kumasi",
+        "country": "GH",
+        "url": "https://www.geonames.org/2298890/"
+      },
+      "oldAnchor": {
+        "x": 793,
+        "y": 370
+      },
+      "anchor": {
+        "x": 792.78,
+        "y": 370.273
+      },
+      "displacement": 0.35
+    },
+    {
+      "siteName": "Djenné, Mali",
+      "latitude": 13.90608,
+      "longitude": -4.55332,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 2458589,
+        "matchedName": "Djenné",
+        "country": "ML",
+        "url": "https://www.geonames.org/2458589/"
+      },
+      "oldAnchor": {
+        "x": 780,
+        "y": 338
+      },
+      "anchor": {
+        "x": 779.763,
+        "y": 338.195
+      },
+      "displacement": 0.31
+    },
+    {
+      "siteName": "Isfahan, Iran",
+      "latitude": 32.65246,
+      "longitude": 51.67462,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 418863,
+        "matchedName": "Isfahan",
+        "country": "IR",
+        "url": "https://www.geonames.org/418863/"
+      },
+      "oldAnchor": {
+        "x": 1033,
+        "y": 326
+      },
+      "anchor": {
+        "x": 1029.665,
+        "y": 254.878
+      },
+      "displacement": 71.2
+    },
+    {
+      "siteName": "Tabriz, Iran",
+      "latitude": 38.08,
+      "longitude": 46.2919,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 113646,
+        "matchedName": "Tabriz",
+        "country": "IR",
+        "url": "https://www.geonames.org/113646/"
+      },
+      "oldAnchor": {
+        "x": 1020,
+        "y": 295
+      },
+      "anchor": {
+        "x": 1005.742,
+        "y": 230.756
+      },
+      "displacement": 65.81
+    },
+    {
+      "siteName": "Tabriz, Iran (attributed court context)",
+      "latitude": 38.08,
+      "longitude": 46.2919,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 113646,
+        "matchedName": "Tabriz",
+        "country": "IR",
+        "url": "https://www.geonames.org/113646/"
+      },
+      "oldAnchor": {
+        "x": 1020,
+        "y": 295
+      },
+      "anchor": {
+        "x": 1005.742,
+        "y": 230.756
+      },
+      "displacement": 65.81
+    },
+    {
+      "siteName": "Jerusalem",
+      "latitude": 31.76904,
+      "longitude": 35.21633,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 281184,
+        "matchedName": "Jerusalem",
+        "country": "IL",
+        "url": "https://www.geonames.org/281184/"
+      },
+      "oldAnchor": {
+        "x": 966,
+        "y": 331
+      },
+      "anchor": {
+        "x": 956.517,
+        "y": 258.804
+      },
+      "displacement": 72.82
+    },
+    {
+      "siteName": "Mecca, Saudi Arabia",
+      "latitude": 21.42664,
+      "longitude": 39.82563,
+      "scope": "city-representative",
+      "source": {
+        "name": "GeoNames",
+        "geonameId": 104515,
+        "matchedName": "Makkah",
+        "country": "SA",
+        "url": "https://www.geonames.org/104515/"
+      },
+      "oldAnchor": {
+        "x": 988,
+        "y": 386
+      },
+      "anchor": {
+        "x": 977.003,
+        "y": 304.77
+      },
+      "displacement": 81.97
+    }
+  ],
+  "unmatchedNotApplied": [
+    "Pompeii",
+    "Calamarca, present-day Bolivia"
+  ]
+}

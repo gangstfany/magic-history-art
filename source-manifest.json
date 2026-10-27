@@ -18,18 +18,60 @@
   ],
   "excluded": "Private study media and Python cache files are excluded from the public release; draft code and prototypes are now versioned.",
   "provenanceFix": "fe9737e provenanceQualifier ?? siteQualifier already present in 4756151.",
-  "approvedSourceHtmlSha256": "945193e5fcc685580c116e7a1d4a49edaa01c0515628f7499eb9a37d982e5c3a",
+  "approvedSourceHtmlSha256": "5f9095e7a8ea653805349647cb4dc59bab93229f6563143b52be6ee39e71f972",
   "mediaSupplementation": {
     "workCount": 14,
     "viewCount": 18,
     "source": "Original uncommitted workspace additions dated 2026-10-19/20; imported on user request 2026-10-26",
-    "privateMedia": "81 study images publicly archived in study-media/ on explicit user request 2026-10-27; not included in Pages artifact."
+    "privateMedia": "81 study images publicly archived on explicit user request 2026-10-27; 74 restored views integrated by build on request to continue remediation. Seven remote fallback images remain archive-only."
   },
   "studyImageArchive": {
     "manifest": "study-media/manifest.json",
     "count": 81,
     "public": true,
     "publicationAuthorizedOn": "2026-10-27",
-    "includedInWebsite": false
+    "includedInWebsite": true,
+    "websiteIntegration": {
+      "date": "2026-10-27",
+      "restoredViews": 74,
+      "remoteFallbacksIncluded": 0,
+      "method": "Build-time view-ID mapping; authored image-rights records retained; no new open license asserted."
+    }
+  },
+  "cityGeographyRevision": {
+    "date": "2026-10-27",
+    "review": "data/art-geography-city-review.json",
+    "cityAliases": 60,
+    "artworkPayloadChanged": false
+  },
+  "comparisonWorkspaceTrial": {
+    "unit": 10,
+    "date": "2026-10-27",
+    "workCount": 27,
+    "comparisonLinks": 27,
+    "artworkPayloadChanged": false,
+    "layout": "comparison-lens",
+    "supersededBy": "comparisonWorkspace"
+  },
+  "comparisonWorkspace": {
+    "date": "2026-10-27",
+    "units": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "workCount": 250,
+    "comparisonLinks": 311,
+    "authoredNotes": 164,
+    "layout": "comparison-lens",
+    "artworkPayloadChanged": false,
+    "presentation": "floating-dialog"
   }
 }

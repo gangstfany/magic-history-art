@@ -669,6 +669,7 @@ function createDetailHarness(
         getActiveElement: () => document.activeElement,
         getSelectedSiteIndex: () => state.selectedSiteIndex,
         createComparisonAngle,
+        selectComparison,
         renderSelected: render,
         getDetailPanel: () => detailPanel,
         getState: () => state,
@@ -1010,7 +1011,7 @@ test('required U3 cross-unit comparison notes retain their canonical basis', asy
   }
 });
 
-test('U3 comparison card clears incompatible filters and focuses AP 46 in Unit 2', async () => {
+test('legacy direct target navigation clears incompatible U3 filters and focuses AP 46', async () => {
   const html = await loadHtml();
   const artworks = parseJsonBlock(html, 'artwork-data');
   const credits = parseJsonBlock(html, 'image-credit-data');
@@ -1037,7 +1038,7 @@ test('U3 comparison card clears incompatible filters and focuses AP 46 in Unit 2
     (node) => node.dataset.comparisonId === 'ap46-pantheon',
   );
   assert.ok(comparisonCard, 'AP 89 comparison UI must expose AP 46');
-  comparisonCard.click();
+  harness.selectComparison('ap46-pantheon');
 
   assert.deepEqual(harness.getState(), {
     unit:'2',
@@ -1758,7 +1759,7 @@ test('all Unit 4 details preserve bilingual hierarchy, study tabs, and required 
   }
 });
 
-test('Monticello keeps a real cross-unit Pantheon comparison and navigation clears U4 filters', async () => {
+test('Monticello retains Pantheon association and legacy direct navigation clears U4 filters', async () => {
   const html = await loadHtml();
   const artworks = parseJsonBlock(html, 'artwork-data');
   const credits = parseJsonBlock(html, 'image-credit-data');
@@ -1786,7 +1787,7 @@ test('Monticello keeps a real cross-unit Pantheon comparison and navigation clea
   assert.ok(monticello.comparisonIds.includes(pantheon.id));
   assert.match(monticello.comparisonNotes[pantheon.id], /万神殿/);
   assert.ok(comparison);
-  comparison.click();
+  harness.selectComparison(pantheon.id);
   assert.equal(harness.getState().unit, '2');
   assert.equal(harness.getState().culture, 'all');
   assert.equal(harness.getState().period, '');
@@ -1796,7 +1797,7 @@ test('Monticello keeps a real cross-unit Pantheon comparison and navigation clea
   assert.equal(harness.getDetailPanel().ownerDocument.activeElement?.textContent, pantheon.titleEn);
 });
 
-test('Unit 5 comparison cards clear filters and restore focus within U5 and across units', async () => {
+test('legacy direct target navigation clears filters and restores focus within U5 and across units', async () => {
   const html = await loadHtml();
   const artworks = parseJsonBlock(html, 'artwork-data');
   const credits = parseJsonBlock(html, 'image-credit-data');
@@ -1825,7 +1826,7 @@ test('Unit 5 comparison cards clear filters and restore focus within U5 and acro
     ({ dataset }) => dataset.comparisonId === chavin.id,
   );
   assert.ok(chavinCard, 'AP 160 must expose its within-U5 AP 153 comparison');
-  chavinCard.click();
+  withinUnit.selectComparison(chavin.id);
   assert.deepEqual(withinUnit.getState(), {
     unit:'5', culture:'all', period:'', workType:'', search:'',
     selectedId:chavin.id, selectedSiteIndex:0, expandedSiteToken:null,
@@ -1855,7 +1856,7 @@ test('Unit 5 comparison cards clear filters and restore focus within U5 and acro
     ({ dataset }) => dataset.comparisonId === whiteTemple.id,
   );
   assert.ok(whiteTempleCard, 'AP 153 must expose its cross-unit AP 12 comparison');
-  whiteTempleCard.click();
+  crossUnit.selectComparison(whiteTemple.id);
   assert.deepEqual(crossUnit.getState(), {
     unit:'2', culture:'all', period:'', workType:'', search:'',
     selectedId:whiteTemple.id, selectedSiteIndex:0, expandedSiteToken:null,
@@ -2240,4 +2241,31 @@ test('images install a named fallback and never inject dataset HTML', async () =
   assert.match(html, /function installImageFallback\(/);
   assert.match(html, /className = 'image-fallback'/);
   assert.doesNotMatch(html, /innerHTML\s*=/);
+});
+
+test('all 250 works expose readable comparison cards and a separate start control', async () => {
+  const html = await loadHtml();
+  const artworks = parseJsonBlock(html, 'artwork-data');
+  const credits = parseJsonBlock(html, 'image-credit-data');
+  for (const source of artworks) {
+    const harness = createDetailHarness(html, artworks, credits, { activeDetailTab:'compare' });
+    const summary = harness.renderArtworkDetails(source,{works:[source]});
+    const cards = summary.querySelectorAll('.comparison-card');
+    assert.equal(cards.length,source.comparisonIds.length,source.id);
+    for(const card of cards){
+      assert.equal(card.tagName,'ARTICLE');
+      const before=JSON.stringify(harness.getState());
+      card.click();
+      assert.equal(JSON.stringify(harness.getState()),before,'reading a card must not navigate');
+      const start=card.querySelector('button');
+      assert.equal(start.dataset.compareSource,source.id);
+      assert.ok(source.comparisonIds.includes(start.dataset.compareTarget));
+      const note=source.comparisonNotes?.[start.dataset.compareTarget];
+      if(note?.trim()){
+        const parts=note.match(/^([\s\S]*?。)\s+([A-Z][\s\S]*)$/);
+        assert.equal(card.querySelector('.comparison-angle').textContent,parts?parts[1]:note);
+        if(parts)assert.ok(card.querySelector('details').textContent.includes(parts[2]));
+      }
+    }
+  }
 });
