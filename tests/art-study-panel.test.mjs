@@ -28,9 +28,9 @@ test('filtering removes stale work/region state and empty results stay empty',as
  assert.equal(context.kind,'overview');assert.equal(context.items.length,1);assert.equal(context.selected,null);
  assert.equal(deriveStudyContext([],[],state).kind,'empty');
 });
-test('U3 panel does not replace All Units or another Unit',async()=>{
+test('study panels do not replace All Units or invalid Unit states',async()=>{
  const {deriveStudyContext}=await load();
- for(const unit of ['all','1','2','4','10'])assert.equal(deriveStudyContext(works,groups,{unit}),null);
+ for(const unit of ['all','','0','11','invalid'])assert.equal(deriveStudyContext(works,groups,{unit}),null);
 });
 
 test('map navigation snapshots retain the latest pan and do not overwrite region view from an open work',async()=>{
@@ -40,7 +40,7 @@ test('map navigation snapshots retain the latest pan and do not overwrite region
  state.transform.x=-900;
  assert.deepEqual(saved,{regionKey:'unit-3-region-france',transform:{x:-231,y:45,scale:3}});
  assert.equal(captureStudyView({...state,selectedId:'ap60-chartres-cathedral'}),null);
- assert.equal(captureStudyView({...state,unit:'2'}),null);
+ assert.equal(captureStudyView({...state,unit:'all'}),null);
 });
 
 test('linked work highlighting selects one AP work while retaining its parent site highlight',async()=>{
@@ -49,4 +49,40 @@ test('linked work highlighting selects one AP work while retaining its parent si
  assert.equal(isStudyMapTargetLinked({kind:'site',siteToken:'rome'},tokens,ids),true);
  assert.equal(isStudyMapTargetLinked({kind:'work',siteToken:'rome',workId:'ap48'},tokens,ids),true);
  assert.equal(isStudyMapTargetLinked({kind:'work',siteToken:'rome',workId:'ap49'},tokens,ids),false);
+});
+
+
+test('all ten Units derive their own overview, region list and selected artwork',async()=>{
+ const {deriveStudyContext,captureStudyView:moduleCapture}=await load();
+ const all=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
+ for(let unit=1;unit<=10;unit++){
+  const items=all.filter(w=>w.unit===unit);
+  const groups=[...new Set(items.map(w=>w.region))].map(regionId=>({key:`unit-${unit}-region-${regionId}`,works:items.filter(w=>w.region===regionId)}));
+  const state={unit:String(unit),activeRegion:null,selectedId:null};
+  const overview=deriveStudyContext(items,groups,state);
+  assert.ok(overview,`Unit ${unit} must have a panel`);
+  assert.equal(overview.kind,'overview');assert.equal(overview.items.length,items.length);
+  assert.equal(overview.groups.flatMap(g=>g.works).length,items.length);
+  for(const group of groups){
+   assert.equal(deriveStudyContext(items,groups,{...state,activeRegion:group.key}).kind,'region');
+   const detail=deriveStudyContext(items,groups,{...state,selectedId:group.works[0].id});
+   assert.equal(detail.kind,'artwork');assert.equal(detail.group.key,group.key);
+  }
+  assert.equal(deriveStudyContext([],[],state).kind,'empty');
+  assert.deepEqual(captureStudyViewSafe(unit),{regionKey:null,transform:{x:1,y:2,scale:3}});
+ }
+ function captureStudyViewSafe(unit){return moduleCapture({unit:String(unit),transform:{x:1,y:2,scale:3}});}
+});
+
+test('study cards normalize legacy Unit1/2 single images and newer multi-view images',async()=>{
+ const {getStudyThumbnail}=await load();
+ const source=html.match(/    function getArtworkImages\(work\) \{[\s\S]*?\n    \}/)[0];
+ const normalize=Function(source+';return getArtworkImages;')();
+ const all=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
+ for(const work of all.filter(w=>[1,2,3].includes(w.unit))){
+  const view=getStudyThumbnail(work,normalize);
+  const expected=normalize(work).find(image=>image.imageUrl);
+  assert.deepEqual(view,expected||null,work.id);
+ }
+ assert.equal(getStudyThumbnail({imageUrl:null},normalize),null);
 });

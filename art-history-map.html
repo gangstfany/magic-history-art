@@ -17366,11 +17366,23 @@
         const availableHeight = packingBounds.bottom - packingBounds.top;
         const denseGap = 4 / scale;
         const hitWidth = Math.max(...prepared.map((group) => group.markerMetrics.hitWidth));
-        const hitHeight = Math.max(...prepared.map((group) => group.markerMetrics.hitHeight));
+        let hitHeight = Math.max(...prepared.map((group) => group.markerMetrics.hitHeight));
         const columnCount = Math.floor(
           (availableWidth + denseGap) / (hitWidth + denseGap)
         );
         const rowCount = Math.ceil(prepared.length / columnCount);
+        // A full country list may need six rows on a phone. Compress only
+        // when needed, preserving the 44px minimum touch target.
+        const compactHeight = 44 / scale;
+        if (columnCount > 0 && rowCount * hitHeight + (rowCount - 1) * denseGap > availableHeight
+          && rowCount * compactHeight + (rowCount - 1) * denseGap <= availableHeight + 1e-6) {
+          hitHeight = compactHeight;
+          for (const group of prepared) {
+            group.markerMetrics.hitHeight = hitHeight;
+            group.markerMetrics.visualHeight = Math.min(group.markerMetrics.visualHeight, hitHeight);
+            group.markerMetrics.cornerRadius = group.markerMetrics.visualHeight / 2;
+          }
+        }
         const totalHeight = rowCount * hitHeight + (rowCount - 1) * denseGap;
         if (columnCount < 1 || totalHeight > availableHeight) {
           throw new Error('Unable to place configured region capsules without a marker collision');

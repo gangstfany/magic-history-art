@@ -3643,7 +3643,7 @@ test('real render layout keeps every Unit current in narrow embedded maps',async
  const invoke=Function('visibleWorks','state','renderedMarkerScale','mapBounds',
   ...Object.keys(helpers),
   'return '+expression.slice(0,expression.indexOf(';')+1));
- for(const width of [280,320,390])for(let unit=1;unit<=10;unit++){
+ for(const width of [280,320,360,372,390,414])for(let unit=1;unit<=10;unit++){
   const visibleWorks=works.filter(w=>w.unit===unit);
   const state={unit:String(unit),activeUnit:unit,activeRegion:null,transform:{x:0,y:0,scale:1}};
   let groups;

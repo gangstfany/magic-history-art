@@ -18,7 +18,7 @@
   ],
   "excluded": "Private study media and Python cache files are excluded from the public release; draft code and prototypes are now versioned.",
   "provenanceFix": "fe9737e provenanceQualifier ?? siteQualifier already present in 4756151.",
-  "approvedSourceHtmlSha256": "3e0d6785beca98750657d154e7c26048dd724189571118e9cac3c587c59ee10c",
+  "approvedSourceHtmlSha256": "56578896179de169c38bef0d44ccd01f1f2bd83a7548446dd20c108c24665b41",
   "mediaSupplementation": {
     "workCount": 14,
     "viewCount": 18,
