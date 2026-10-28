@@ -194,8 +194,8 @@
   </header>
   <div id="filterContainer" class="filter-toolbar" role="group" aria-label="作品筛选">
     <label class="filter-label">Unit<select id="unitFilter" aria-label="Unit"><option value="all">All Units</option></select></label>
-    <label class="filter-label">时期<select id="periodFilter"><option value="">全部时期</option></select></label>
-    <label class="filter-label">作品类型<select id="typeFilter"><option value="">全部类型</option></select></label>
+    <label class="filter-label">时期<select id="periodFilter"><option value="">All Periods</option></select></label>
+    <label class="filter-label">作品类型<select id="typeFilter"><option value="">All Artwork Types</option></select></label>
     <label class="filter-label">搜索<input id="searchInput" type="search" placeholder="标题、地点或关键词"></label>
     <div id="cultureFilters" class="culture-filters" role="group" aria-label="Culture"></div>
   </div>
@@ -17728,8 +17728,8 @@
       if (!unitWorks.some((work) => work.workType === state.workType)) state.workType = '';
       const periodFilter = document.getElementById('periodFilter');
       const typeFilter = document.getElementById('typeFilter');
-      populateSelect(periodFilter, unitWorks.map((work) => work.period), '全部时期');
-      populateSelect(typeFilter, unitWorks.map((work) => work.workType), '全部类型');
+      populateSelect(periodFilter, unitWorks.map((work) => work.period), 'All Periods');
+      populateSelect(typeFilter, unitWorks.map((work) => work.workType), 'All Artwork Types');
       periodFilter.value = state.period;
       typeFilter.value = state.workType;
       document.dispatchEvent?.(new Event('art-filter-context'));
@@ -19097,7 +19097,7 @@
     });
   </script>
   <script type="module" src="art-comparison.mjs"></script>
-  <script type="module" src="art-category-filters.mjs"></script>
+  <script type="module" src="art-category-filters.mjs?v=20261028-options-en"></script>
   <script type="module" src="art-study-panel.mjs"></script>
   <script type="module" src="module-bridge.mjs"></script>
 </body>
