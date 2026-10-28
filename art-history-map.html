@@ -16659,7 +16659,7 @@
         ) return false;
         if (filters.period && work.period !== filters.period) return false;
         if (filters.workType && work.workType !== filters.workType) return false;
-        if (filters.unit === '10' && filters.studyCategory && !filters.studyCategoryAps?.includes(work.apNumber)) return false;
+        if (filters.studyCategory && !filters.studyCategoryAps?.includes(work.apNumber)) return false;
         if (!query) return true;
         const region = MAP_REGIONS[work.region];
         const preciseTradition = TRADITION_LABELS[work.culture];

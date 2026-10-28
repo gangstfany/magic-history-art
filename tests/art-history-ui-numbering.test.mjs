@@ -1582,6 +1582,7 @@ test('selecting Unit 5 resets incompatible filters, regenerates options, and fit
 
   const state = {
     unit:'4', culture:'Land Art', period:'Postwar', workType:'earthwork', search:'Spiral',
+    studyCategory:'installation', studyCategoryAps:[148,151],
     selectedId:'ap151-spiral-jetty', selectedSiteIndex:2, expandedSiteToken:'old-site',
     activeUnit:4, activeRegion:'unit-4-region-unitedStates', pendingFocusParentKey:'old',
     activeDetailTab:'compare', transform:{ x:-200, y:-100, scale:2 },
@@ -3687,13 +3688,15 @@ test('single-work keyboard selection retains mobile heading reveal and desktop m
 });
 
 
-test('formal category filtering applies to Unit 10 without leaking into other Units',async()=>{
+test('formal category filtering intersects the selected unit and applies across all Units',async()=>{
  const html=await loadHtml();
  const {filterWorks}=loadPureFunctions(html,['normalize','filterWorks'],['const MAP_REGIONS =','const TRADITION_LABELS =']);
  const works=parseArtworkData(html);
  const filters={unit:'10',culture:'all',period:'',workType:'',search:'',studyCategory:'sculpture',studyCategoryAps:[228,230,237,244,245]};
  assert.deepEqual(filterWorks(works,filters).map(w=>w.apNumber),[228,230,237,244,245]);
  assert.deepEqual(filterWorks(works,{...filters,workType:'Porcelain figurative sculpture'}).map(w=>w.apNumber),[230]);
- assert.equal(filterWorks(works,{...filters,unit:'1'}).length,11);
+ assert.equal(filterWorks(works,{...filters,unit:'1'}).length,0);
+ assert.deepEqual(filterWorks(works,{...filters,unit:'1',studyCategoryAps:[3,6,9,10]}).map(w=>w.apNumber),[3,6,9,10]);
+ assert.deepEqual(filterWorks(works,{...filters,unit:'all',studyCategoryAps:[3,230]}).map(w=>w.apNumber),[3,230]);
  assert.equal(filterWorks(works,{...filters,studyCategory:'',studyCategoryAps:null}).length,27);
 });
