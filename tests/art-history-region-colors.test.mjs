@@ -37,6 +37,7 @@ test('cross-region labels, empty results and unverified locations do not invent 
   assert.deepEqual(r.getRegionColorScope([{region:'transatlantic'}],{}).active.sort(),['americas','europe']);
   assert.deepEqual(r.getRegionColorScope([{region:'easternMediterranean'}],{}).active.sort(),['europe','mideast']);
   assert.deepEqual(r.getRegionColorScope([],{}),{active:[],unknown:[]});
-  for(const ap of [230,241])assert.deepEqual(r.getRegionColorScope(works.filter(w=>w.apNumber===ap),{}).active,[]);
+  assert.deepEqual(r.getRegionColorScope(works.filter(w=>w.apNumber===230),{}).active,['americas']);
+  assert.deepEqual(r.getRegionColorScope(works.filter(w=>w.apNumber===241),{}).active,['asia']);
   assert.equal(r.getRegionColorScope(works,{}).active.length,6);
 });

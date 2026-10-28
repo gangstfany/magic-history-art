@@ -20,5 +20,6 @@ test('all revised city points use the recorded WGS84 projection and preserve non
  }
  const artworkBlock=html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1];
  const works=JSON.parse(artworkBlock);assert.equal(works.length,250);
- for(const ap of [230,241])assert.ok(works.find(w=>w.apNumber===ap).siteName.includes('unresolved')||works.find(w=>w.apNumber===ap).siteName.includes('unverified'));
+ assert.deepEqual(sites[works.find(w=>w.apNumber===230).siteName],{x:471.085,y:219.048});
+ assert.deepEqual(sites[works.find(w=>w.apNumber===241).siteName],{x:1404,y:244});
 });

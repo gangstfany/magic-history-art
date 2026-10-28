@@ -2419,14 +2419,14 @@ test('all ten U9 regions fit the actual mobile canvas without overlaps or zoom-c
  }
 });
 
-test('unconfigured candidate fallback never resurrects U10 neutral coordinates as geographic pins',async()=>{
+test('candidate fallback includes the two user-selected U10 map anchors',async()=>{
  const html=await loadHtml(),works=parseArtworkData(html).filter(w=>w.unit===10);
  const h=loadPureFunctions(html,[
   'compactApNumbers','formatApGroupLabel','createSiteToken','getApUnitNumber','toWorldCoordinates',
   'groupBySite','getMapHierarchyLevel','groupByRegionGrid','buildMapGroups','buildMapGroupCandidates'
  ],['const AP_UNITS =','const SITE_WORLD_COORDINATES =']);
  for(const candidate of h.buildMapGroupCandidates(works,3,{selectedUnit:'all'})){
-  assert.equal(candidate.flatMap(g=>g.works).some(w=>[230,241].includes(w.apNumber)),false);
+  for(const ap of [230,241])assert.ok(candidate.flatMap(g=>g.works).some(w=>w.apNumber===ap));
  }
 });
 
@@ -2451,9 +2451,9 @@ test('ten-unit overview uses actual mobile canvas bounds while counting all 27 U
   }
  }
  const regions=h.buildMapGroups(works.filter(w=>w.unit===10),1,{selectedUnit:'10',activeUnit:10});
- assert.equal(regions.length,10);
- assert.equal(regions.flatMap(g=>g.works).length,25);
- assert.equal(regions.flatMap(g=>g.works).some(w=>[230,241].includes(w.apNumber)),false);
+ assert.equal(regions.length,11);
+ assert.equal(regions.flatMap(g=>g.works).length,27);
+ for(const ap of [230,241])assert.ok(regions.flatMap(g=>g.works).some(w=>w.apNumber===ap));
 });
 
 test('Unit 2 region hierarchy remains collision-safe in a 667x375 embedded landscape map', async () => {

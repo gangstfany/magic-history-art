@@ -18,7 +18,7 @@
   ],
   "excluded": "Private study media and Python cache files are excluded from the public release; draft code and prototypes are now versioned.",
   "provenanceFix": "fe9737e provenanceQualifier ?? siteQualifier already present in 4756151.",
-  "approvedSourceHtmlSha256": "c3ef27449a3aed21eb2040a7bc58842500bbfe33d3cef8b51a67a40959ad29e8",
+  "approvedSourceHtmlSha256": "6523447b0335d56a16400a0b7c37297652bdf9768b700dcb0eb24c11ccbf1404",
   "mediaSupplementation": {
     "workCount": 14,
     "viewCount": 18,
@@ -73,5 +73,14 @@
     "layout": "comparison-lens",
     "artworkPayloadChanged": false,
     "presentation": "floating-dialog"
+  },
+  "courseMapLocationRevision": {
+    "date": "2026-10-28",
+    "requestedBy": "course owner",
+    "anchors": {
+      "230": "New York City, New York, U.S.",
+      "241": "Japan (country representative)"
+    },
+    "scope": "Course display anchors; historical fabrication/creation qualifications retained."
   }
 }

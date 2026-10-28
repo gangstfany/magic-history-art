@@ -1,4 +1,12 @@
 {
   "sourceCommit": "475615116516c5feab4b17daa308027d3431e4f1",
-  "nonmediaSha256": "e5e9059be27c41c9077a3d9321df6449622c5d06b284f35588a4bff15d9ca0ed"
+  "nonmediaSha256": "1ba2e65f5cb14ca916bb3d31ec433b11a31bddcbb01f0b388a97e6503bb1776a",
+  "approvedLocationRevision": {
+    "date": "2026-10-28",
+    "aps": [
+      230,
+      241
+    ],
+    "reason": "Explicit user-selected course map anchors: New York and Japan; provenance qualifications preserved."
+  }
 }

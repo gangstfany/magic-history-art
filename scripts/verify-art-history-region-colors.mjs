@@ -44,8 +44,9 @@ try{
     for(const ap of [230,241]){
       await frame.locator('#unitFilter').selectOption('10');await settle(frame);
       await frame.locator('#searchInput').fill(`AP ${ap}`);await settle(frame);
-      assert.equal(await frame.locator('.site-marker').count(),0);
-      assert.ok(Object.values(await colors(frame)).every(c=>c.opacity===.22),'unverified site does not highlight geography');
+      assert.ok(await frame.locator('.site-marker').count()>0);
+      const active=ap===230?'americas':'asia';
+      for(const [region,color] of Object.entries(await colors(frame)))assert.equal(color.opacity,region===active?.55:.22,'course anchor highlights its selected region');
     }
     await frame.locator('#unitFilter').selectOption('2');await settle(frame);
     assert.equal(await frame.locator('.map-svg').evaluate(e=>e.getBoundingClientRect().height),mapHeight);

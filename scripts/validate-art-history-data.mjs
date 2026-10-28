@@ -122,7 +122,7 @@ const UNIT_RULES = Object.freeze({
   }),
   10: Object.freeze({
     start:224, end:250, count:27,
-    regions:new Set(['united-states','korea','poland','china','europe','australia','new-zealand','spain','transnational','united-kingdom','nigeria','italy']),
+    regions:new Set(['united-states','korea','poland','china','europe','australia','new-zealand','spain','transnational','japan','united-kingdom','nigeria','italy']),
   }),
 });
 const REQUIRED_FIELDS = [

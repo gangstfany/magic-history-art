@@ -50,7 +50,7 @@ test('U10 real local media contract accepts 31 unresolved views and one verified
  assert.equal(staged.flatMap(w=>w.images).filter(v=>v.imageUrl!==null).length,1);
  assertLocalMediaContract({manifest,artworks:staged,rights:json('data/ap-art-history-unit-10-rights.json'),authority:json('data/ap-art-history-unit-10-placeholder-authority.json'),rootDir:fileURLToPath(new URL('../',import.meta.url))});
 });
-test('U10 AP230 and AP241 are explicitly unlocated and have reachable native buttons',()=>{
+test('U10 AP230 and AP241 use the user-selected course map anchors',()=>{
  const h=html();
  assert.match(h,/function isUnmappedWork\(work\)/);
  assert.match(h,/visibleWorks\.filter\(\(work\) => !isUnmappedWork\(work\)\)/);
@@ -59,7 +59,12 @@ test('U10 AP230 and AP241 are explicitly unlocated and have reachable native but
  // Dense navigation is now available to every Unit, including the all-unit overview.
  assert.match(h,/getDensePackingBounds\(state\.transform, mapBounds\)/);
  assert.doesNotMatch(h,/Number\(state\.unit\) >= 9 \|\|/);
- for(const ap of [230,241])assert.deepEqual(staged.find(w=>w.apNumber===ap).coordinates,{x:0,y:0});
+ const pink=staged.find(w=>w.apNumber===230),pure=staged.find(w=>w.apNumber===241);
+ assert.equal(pink.siteName,'New York City, New York, U.S.');
+ assert.equal(pink.region,'united-states');
+ assert.equal(pure.siteName,'Japan (course map representative location)');
+ assert.equal(pure.region,'japan');
+ for(const work of [pink,pure]){assert.match(work.provenanceQualifier,/用户指定/);assert.notDeepEqual(work.coordinates,{x:0,y:0});}
 });
 test('U10 freezes 27 AP224–250 identities and 32 ordered specified views',()=>{
  assert.deepEqual(Object.keys(manifest).map(Number),Array.from({length:27},(_,i)=>224+i));

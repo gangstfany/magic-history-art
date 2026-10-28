@@ -22,18 +22,12 @@ try {
   assert.equal((await frame.locator('.result-count').textContent()).trim(),'当前显示 27 件作品');
   assert.equal(await frame.locator('.filter-pill').count(),7);
   assert.equal(await frame.locator('.filter-pill').first().textContent(),'All traditions');
-  assert.equal(await frame.locator('.site-marker[data-group-kind="region"]').count(),10);
-  assert.equal(await frame.locator('[data-unmapped-work-id]').count(),2);
-  assert.match(await frame.locator('.instruction-card').textContent(),/Location not verified · 2 pieces/);
+  assert.equal(await frame.locator('.site-marker[data-group-kind="region"]').count(),11);
+  assert.equal(await frame.locator('[data-unmapped-work-id]').count(),0);
   let viewCount=0;
   for(const [ap,work]of Object.entries(manifest)){
    await frame.locator('#unitFilter').selectOption('all');await frame.locator('#unitFilter').selectOption('10');await settle(frame);
    checkingNullViews=true;
-   if(['230','241'].includes(ap)){
-    const button=frame.locator(`[data-unmapped-work-id="${work.id}"]`);
-    assert.equal(await button.evaluate(e=>e.tagName),'BUTTON');
-    await button.press('Enter');
-   }else{
     await frame.locator(`[data-site-token="site-unit-10-region-${work.region}"]`).press('Enter');await settle(frame);
     const site=await frame.locator('body').evaluate((_,id)=>{
      const a=window.ArtHistoryMap,works=a.filterWorks(a.ARTWORKS,a.state);
@@ -46,7 +40,6 @@ try {
      if(await pin.count())await pin.press('Enter');
      else await frame.locator(`.expanded-pin-list-button[data-work-id="${work.id}"]`).press('Enter');
     }
-   }
    assert.equal(await frame.locator('.work-title-en').textContent(),work.titleEn);
    const views=await frame.locator('body').evaluate((_,id)=>window.ArtHistoryMap.ARTWORKS.find(w=>w.id===id).images,work.id);
    assert.deepEqual(views.map(v=>v.id),work.requiredViewIds);
@@ -84,7 +77,7 @@ try {
    await frame.locator('.filter-pill').nth(index).click();await settle(frame);
    assert.equal((await frame.locator('.result-count').textContent()).trim(),`当前显示 ${count} 件作品`);
    const expected=await frame.locator('body').evaluate(()=>{
-    const a=window.ArtHistoryMap;return a.filterWorks(a.ARTWORKS,a.state).filter(w=>[230,241].includes(w.apNumber)).map(w=>w.id);
+    const a=window.ArtHistoryMap;return a.filterWorks(a.ARTWORKS,a.state).filter(w=>w.coordinates.x===0&&w.coordinates.y===0).map(w=>w.id);
    });
    assert.deepEqual(await frame.locator('[data-unmapped-work-id]').evaluateAll(ns=>ns.map(n=>n.dataset.unmappedWorkId)),expected);
   }
@@ -92,8 +85,9 @@ try {
    await frame.locator('#unitFilter').selectOption('all');await frame.locator('#unitFilter').selectOption('10');
    await frame.locator('#searchInput').fill(`AP ${ap}`);await settle(frame);
    assert.equal((await frame.locator('.result-count').textContent()).trim(),'当前显示 1 件作品');
-   assert.equal(await frame.locator('.site-marker').count(),0,'unlocated-only search has no geographic pin');
-   await frame.locator(`[data-unmapped-work-id="${manifest[ap].id}"]`).press('Space');
+   assert.ok(await frame.locator('.site-marker').count()>0,'course anchor has geographic navigation');
+   await frame.locator(`[data-site-token="site-unit-10-region-${manifest[ap].region}"]`).press('Enter');await settle(frame);
+   await frame.locator('.site-marker[data-group-kind="site"]').press('Enter');await settle(frame);
    assert.equal(await frame.locator('.work-title-en').textContent(),manifest[ap].titleEn);
   }
   await frame.locator('#unitFilter').selectOption('all');await frame.locator('#unitFilter').selectOption('10');await settle(frame);
