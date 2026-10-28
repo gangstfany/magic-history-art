@@ -7,19 +7,19 @@
 html, body, button, input, select, summary, .ac-panel, .ac-panel h2, .ac-panel h3, .ac-title-en, .ac-english {
   font-family:var(--ty-font) !important;
 }
-:is(.instruction h2,.empty-state h2,.ac-toolbar h2,.ac-art h3,.work-title-en,.event-head .city-name,.location-study-title,.location-study-detail-title,.rt-name,.course-mainline-title,.qz-title) {
-  font-size:var(--ty-title) !important; font-weight:800 !important; line-height:1.3 !important;
+:is(.instruction h2,.empty-state h2,.as-title,.ac-toolbar h2,.ac-art h3,.work-title-en,.event-head .city-name,.location-study-title,.location-study-detail-title,.rt-name,.course-mainline-title,.qz-title) {
+  font-size:var(--ty-title) !important; font-weight:800 !important; line-height:1.3 !important; letter-spacing:-.01em !important;
 }
-:is(.ac-content h3,.study-block h3,.location-study-core h3,.location-study-connection-group h4,.location-study-name,.location-study-unit-title,.comparison-card strong) {
+:is(.as-section-title,.as-region-row strong,.as-work-copy strong,.art-bubble-title,.ac-content h3,.study-block h3,.location-study-core h3,.location-study-connection-group h4,.location-study-name,.location-study-unit-title,.comparison-card strong) {
   font-size:var(--ty-section) !important; font-weight:700 !important; line-height:1.55 !important;
 }
-:is(.instruction p,.empty-state p,.legend,.ac-content,.ac-content p,.detail-panel,.study-block p,.anchor-list li,.identity-row,.ec-trig,.location-study-detail p,.location-study-detail li,.location-study-detail dd,.location-study-unit-body p,.location-study-unit-body li,.rt-blurb,.rt-exam,.qz-stem,.qz-trig,.comparison-angle) {
+:is(.instruction p,.empty-state p,.as-subtitle,.ac-title-en,.work-title-zh,.as-context details p,.legend,.ac-content,.ac-content p,.detail-panel,.study-block p,.anchor-list li,.identity-row,.ec-trig,.location-study-detail p,.location-study-detail li,.location-study-detail dd,.location-study-unit-body p,.location-study-unit-body li,.rt-blurb,.rt-exam,.qz-stem,.qz-trig,.comparison-angle) {
   font-size:var(--ty-body) !important; font-weight:600 !important; line-height:1.55 !important;
 }
-:is(.ac-title-en,.ac-meta,.ac-hint,.ac-english,.ac-credit,.work-title-zh,.work-meta,.result-count,.image-credit,.location-study-context,.location-study-summary,.location-study-region,.event-head .city-count,.ec-where,.filter-label,.mth-field,.mt-field,.rt-progress,.qz-score,.comparison-card span:not(.comparison-angle)) {
+:is(.as-summary span,.as-section-title span,.as-region-row small,.as-work-copy small,.as-hint,.as-breadcrumb,.as-context details,.art-bubble-meta,.comparison-note-english,.ac-meta,.ac-hint,.ac-english,.ac-credit,.work-meta,.result-count,.image-credit,.location-study-context,.location-study-summary,.location-study-region,.event-head .city-count,.ec-where,.filter-label,.mth-field,.mt-field,.rt-progress,.qz-score,.comparison-card span:not(.comparison-angle)) {
   font-size:var(--ty-meta) !important; font-weight:600 !important; line-height:1.55 !important;
 }
-:is(.ac-tabs button,.ac-back,.ac-views button,.comparison-start,.mth-cat,.mt-cat,.filter-pill,.clear-button,.detail-tab,.map-panel-tabs button,.hdr-btn,.rt-btn,.image-view-switcher button,.rights-placeholder-source) {
+:is(.as-breadcrumb button,.category-filter-clear,.category-filter-chip,.ac-tabs button,.ac-back,.ac-views button,.comparison-start,.mth-cat,.mt-cat,.filter-pill,.clear-button,.detail-tab,.map-panel-tabs button,.hdr-btn,.rt-btn,.image-view-switcher button,.rights-placeholder-source) {
   font-size:var(--ty-control) !important; font-weight:700 !important; line-height:1.35 !important;
 }
 :is(.map-toolbar-host select,.map-toolbar-host input,.filter-toolbar select,.filter-toolbar input,.map-toolbar select,.map-toolbar input) {
@@ -60,3 +60,10 @@ html, body, button, input, select, summary, .ac-panel, .ac-panel h2, .ac-panel h
   .site-cycle button { min-width:44px; min-height:44px; }
   .identity-row dd, .image-credit { overflow-wrap:anywhere; }
 }
+
+/* Art study panels share the same text hierarchy and touch targets as native details. */
+.as-kicker,.as-ap { font-size:var(--ty-meta) !important; font-weight:700 !important; line-height:1.55 !important; letter-spacing:.04em !important; }
+.as-title { overflow-wrap:anywhere; }
+.as-context summary,.comparison-note-english summary,.ac-credit summary,.ac-english summary { min-height:44px; line-height:1.55 !important; padding-block:12px; }
+.filter-pill,.clear-button,.detail-tab,.image-view-switcher button { min-height:44px; }
+.as-summary strong { font-size:var(--ty-title) !important; font-weight:800 !important; line-height:1.3 !important; }
