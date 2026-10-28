@@ -5,8 +5,8 @@ import {CATEGORIES, categoryIncludes, categoryCounts, exactTypeOptions,setFilter
 const h=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
 const allWorks=JSON.parse(h.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
 const works=allWorks.filter(w=>w.unit===10);
-test('six browsing categories cover all 27 works without changing their exact type',()=>{
- assert.equal(categoriesForWorks(works).length,6);
+test('seven browsing categories cover all 27 works without changing their exact type',()=>{
+ assert.equal(categoriesForWorks(works).length,7);
  for(const w of works)assert.ok(CATEGORIES.some(c=>categoryIncludes(w,c.id)),w.titleEn);
  assert.equal(works.length,27);
  assert.equal(categoryIncludes(works[0],'missing'),false);
@@ -19,7 +19,7 @@ test('counts reflect the supplied search context and allow overlapping categorie
  const counts=categoryCounts(works);
  assert.equal(counts.find(c=>c.id==='books').count,1);
  assert.equal(counts.find(c=>c.id==='installation').count,9);
- assert.equal(counts.reduce((n,c)=>n+c.count,0),28);
+ assert.equal(counts.reduce((n,c)=>n+c.count,0),29);
  const one=categoryCounts(works.filter(w=>w.apNumber===250));
  assert.equal(one.find(c=>c.id==='installation').count,1);
  assert.equal(one.find(c=>c.id==='painting').count,0);
@@ -95,4 +95,17 @@ test('unit-specific exact types and counts never include works from another unit
    assert.deepEqual(exactTypeOptions(scope,c.id,[]).map(o=>o.count),exactTypeOptions(scope,c.id).map(()=>0));
   }
  }
+});
+
+
+test('AP232 story quilt remains discoverable through painting and textiles in Unit10 and All Units',()=>{
+ const quilt=allWorks.find(w=>w.apNumber===232);
+ assert.equal(quilt.workType,'Painted story quilt');
+ assert.equal(categoryIncludes(quilt,'painting'),true);
+ assert.equal(categoryIncludes(quilt,'textiles'),true);
+ assert.equal(categoryCounts(works).find(c=>c.id==='textiles').count,1);
+ assert.equal(categoryCounts(allWorks).find(c=>c.id==='textiles').count,13);
+ assert.deepEqual(exactTypeOptions(works,'textiles'),[{value:'Painted story quilt',count:1}]);
+ const searchResult=allWorks.filter(w=>w.titleEn.includes('Dancing at the Louvre'));
+ assert.equal(categoryCounts(searchResult).find(c=>c.id==='textiles').count,1);
 });

@@ -8,7 +8,7 @@ export const CATEGORIES = [
  {id:'installation',label:'地景、装置与行为',aps:[148,151,224,229,233,236,238,239,243,248,250]},
  {id:'books',label:'书籍与手稿',aps:[24,50,55,61,64,81,187,189,190,208,229]},
  {id:'objects',label:'工艺与仪式器物',aps:[5,7,11,13,16,23,29,33,53,57,58,153,160,164,166,170,173,174,175,177,178,188,196,204,216,218,221,222]},
- {id:'textiles',label:'纺织与服饰',aps:[59,158,162,163,165,175,178,191,194,215,219,223]}
+ {id:'textiles',label:'纺织与服饰',aps:[59,158,162,163,165,175,178,191,194,215,219,223,232]}
 ];
 export function categoriesForWorks(works) {
  return CATEGORIES.filter(category=>works.some(work=>categoryIncludes(work,category.id)));
@@ -72,7 +72,7 @@ function mount(document,api) {
   setFilterOptions(type,[{value:'',label:`全部具体类型 · ${categoryTotal}`},...options.map(o=>({value:o.value,label:`${o.value} · ${o.count}`}))],state.workType);
   const filtered=api.filterWorks(works,state);
   status.textContent=`显示 ${filtered.length} / ${works.length} 件作品`;
-  note.textContent=state.unit==='10'?'类别可交叉：《天书》同时收录于书籍与装置。':'类别是浏览辅助，可交叉收录；组合建筑、手稿和仪式作品可见于多个类别，类别数量不应直接相加。';
+  note.textContent=state.unit==='10'?'类别可交叉：《天书》收录于书籍与装置；AP232 叙事拼布作品收录于绘画与纺织。':'类别是浏览辅助，可交叉收录；组合建筑、手稿和仪式作品可见于多个类别，类别数量不应直接相加。';
   clear.disabled=!state.studyCategory&&!state.workType&&!state.period&&state.culture==='all'&&!state.search.trim();
   chips.replaceChildren();
   const chip=(label,action)=>{const button=node('button',label+' ×','category-filter-chip');button.type='button';button.setAttribute('aria-label','移除'+label+'筛选');button.addEventListener('click',action);chips.append(button);};
