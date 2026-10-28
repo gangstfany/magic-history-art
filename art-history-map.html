@@ -16756,7 +16756,7 @@
         const unit = getUnitById(group.apUnits[0]);
         return {
           title: `U${unit.id}`,
-          subtitle: `${unit.nameEn} · ${formatPieceCount(group.works.length)}`
+          subtitle: unit.nameEn
         };
       }
       if (group.kind === 'region') {

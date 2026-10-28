@@ -1344,7 +1344,7 @@ test('Unit 6 hierarchy is three counted regions then exact creation-context site
   const helpers = loadUnit6MapHelpers(html);
   const overview = helpers.buildMapGroups(works, 1, { selectedUnit:'all' });
   assert.equal(overview.length, 1);
-  assert.deepEqual(helpers.getMapGroupText(overview[0]), { title:'U6', subtitle:'Africa · 14 pieces' });
+  assert.deepEqual(helpers.getMapGroupText(overview[0]), { title:'U6', subtitle:'Africa' });
   const regions = helpers.buildMapGroups(works, 1, { selectedUnit:'6', activeUnit:6 });
   assert.deepEqual(regions.map(({ regionId, works }) => [regionId, works.length]), [
     ['southernAfrica', 1], ['westAfrica', 7], ['centralAfrica', 6],
@@ -1717,7 +1717,7 @@ test('English map hierarchy labels describe units, regions, and sites', async ()
       apUnits: [2],
       works: Array.from({ length: 36 }),
     }),
-    { title: 'U2', subtitle: 'Ancient Mediterranean · 36 pieces' },
+    { title: 'U2', subtitle: 'Ancient Mediterranean' },
   );
   assert.deepEqual(
     getMapGroupText({
@@ -2310,7 +2310,7 @@ test('one-work Unit and configured region groups stay two-line hierarchy capsule
   assert.deepEqual(
     laidOut.map(({ markerText }) => markerText),
     [
-      { title: 'U2', subtitle: 'Ancient Mediterranean · 1 piece' },
+      { title: 'U2', subtitle: 'Ancient Mediterranean' },
       { title: 'Middle East', subtitle: '1 piece' },
     ],
   );
@@ -2844,7 +2844,7 @@ test('250 configured works keep deterministic collision-safe hierarchy fallbacks
 
   const compactOverview = helpers.buildMapGroupCandidates(artworks, 1, branches[0])[1];
   assert.equal(compactOverview[0].kind, 'unit');
-  assert.match(helpers.getMapGroupText(compactOverview[0]).subtitle, / · \d+ pieces$/);
+  assert.equal(helpers.getMapGroupText(compactOverview[0]).subtitle, helpers.getUnitById(compactOverview[0].apUnits[0]).nameEn);
 });
 
 test('unit to region to site branch refinement stays stable and layout-safe on mobile', async () => {
@@ -3621,7 +3621,7 @@ test('hierarchy keeps textual accessible cues plus an individual-versus-group sh
   assert.match(getCssDeclarations(html, '.site-marker[data-group-kind="unit"] .marker-label-bg'), /fill:\s*var\(--unit-marker\)/);
   assert.match(
     groupTextSource,
-    /title:\s*`U\$\{unit\.id\}`[\s\S]*subtitle:\s*`\$\{unit\.nameEn\} · \$\{formatPieceCount\(group\.works\.length\)\}`/,
+    /title:\s*`U\$\{unit\.id\}`[\s\S]*subtitle:\s*unit\.nameEn/,
   );
   assert.match(groupTextSource, /title:\s*MAP_REGIONS\[group\.regionId\]\?\.nameEn/);
   assert.match(groupTextSource, /title:\s*group\.siteName/);
