@@ -261,7 +261,7 @@ test('compact desktop controls recover 44px touch targets on narrow screens', as
   const desktopUnitFilter = getCssDeclarations(html, '#unitFilter');
   assert.match(desktopUnitFilter, /font-size:\s*13px/);
   assert.match(desktopUnitFilter, /font-weight:\s*600/);
-  assert.match(desktopUnitFilter, /min-height:\s*34px/);
+  assert.match(desktopUnitFilter, /min-height:\s*44px/);
 
   assert.match(stackedEmbeddedBody, /height:\s*auto/);
   assert.match(stackedEmbeddedBody, /min-height:\s*100vh/);
