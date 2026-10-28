@@ -12,7 +12,7 @@ page, study_assets = prepare_study_media(
 )
 if OUTPUT.exists(): shutil.rmtree(OUTPUT)
 OUTPUT.mkdir()
-files = [ROOT / name for name in ['index.html', 'art-history-map.html', 'module-bridge.mjs', 'art-comparison.mjs', 'art-category-filters.mjs', 'assets/map-ui.css', 'assets/art-comparison.css', 'assets/art-category-filters.css']]
+files = [ROOT / name for name in ['index.html', 'art-history-map.html', 'module-bridge.mjs', 'art-comparison.mjs', 'art-category-filters.mjs', 'art-study-panel.mjs', 'assets/art-study-panel.css', 'assets/map-ui.css', 'assets/art-comparison.css', 'assets/art-category-filters.css']]
 files.extend(sorted((ROOT / 'assets/art-history').rglob('*.webp')))
 files.extend(sorted((ROOT / 'data').glob('ap-art-history-*.json')))
 files.extend(ROOT / asset for asset in study_assets)
