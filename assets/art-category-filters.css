@@ -15,3 +15,6 @@ body .category-filter-chip:focus-visible,body .category-filter-clear:focus-visib
 body .filter-toolbar.has-category-filters #searchInput{width:100%;}
 
 .category-filter-field[hidden],.category-filter-summary[hidden]{display:none!important}
+
+/* These Units now expose their broad historical families in the period select. */
+.filter-toolbar[data-broad-periods-replace-culture="true"] .culture-filters{display:none!important}

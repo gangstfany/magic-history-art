@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {CATEGORIES, categoryIncludes, categoryCounts, exactTypeOptions,setFilterOptions,categoriesForWorks} from '../art-category-filters.mjs';
+import {CATEGORIES, categoryIncludes, categoryCounts, exactTypeOptions,setFilterOptions,categoriesForWorks,broadPeriodOptions} from '../art-category-filters.mjs';
 const h=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
 const allWorks=JSON.parse(h.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
 const works=allWorks.filter(w=>w.unit===10);
@@ -108,4 +108,20 @@ test('AP232 story quilt remains discoverable through painting and textiles in Un
  assert.deepEqual(exactTypeOptions(works,'textiles'),[{value:'Painted story quilt',count:1}]);
  const searchResult=allWorks.filter(w=>w.titleEn.includes('Dancing at the Louvre'));
  assert.equal(categoryCounts(searchResult).find(c=>c.id==='textiles').count,1);
+});
+
+
+test('broad periods cover every authored work once with at most six options per Unit',()=>{
+ for(let unit=1;unit<=10;unit++){
+  const works=allWorks.filter(w=>w.unit===unit),options=broadPeriodOptions(works,unit);
+  assert.ok(options.length>=1&&options.length<=6,`Unit ${unit}`);
+  assert.equal(options.reduce((sum,o)=>sum+o.count,0),works.length);
+  for(const work of works)assert.equal(options.filter(o=>o.aps.includes(work.apNumber)).length,1,`AP ${work.apNumber}`);
+  for(const option of options){assert.ok(option.value.startsWith(`broad:${unit}:`));assert.ok(!/[\u3400-\u9fff]/u.test(option.label));}
+ }
+ assert.deepEqual(broadPeriodOptions(allWorks,'all'),[]);
+ const u3=broadPeriodOptions(allWorks.filter(w=>w.unit===3),3);
+ assert.equal(u3.length,5);
+ assert.ok(u3.find(o=>o.label==='Medieval Europe').aps.includes(60));
+ assert.equal(allWorks.find(w=>w.apNumber===60).period,'High Gothic');
 });

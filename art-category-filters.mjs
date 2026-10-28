@@ -10,6 +10,26 @@ export const CATEGORIES = [
  {id:'objects',label:'Crafts & Ritual Objects',aps:[5,7,11,13,16,23,29,33,53,57,58,153,160,164,166,170,173,174,175,177,178,188,196,204,216,218,221,222]},
  {id:'textiles',label:'Textiles & Dress',aps:[59,158,162,163,165,175,178,191,194,215,219,223,232]}
 ];
+// Broad browsing groups. Precise authored periods and multi-phase dates stay on works.
+const range=(start,end)=>Array.from({length:end-start+1},(_,i)=>start+i);
+export const BROAD_PERIODS = {
+ 1:[['Global Prehistory',range(1,11)]],
+ 2:[['Ancient Near East',[12,14,16,19,25,30]],['Ancient Egypt',[13,15,17,18,20,21,22,23,24]],['Ancient Greece',[26,27,28,33,34,35,36,37,38,41]],['Etruscan Art',[29,31,32]],['Ancient Rome',[39,40,42,43,44,45,46,47]]],
+ 3:[['Late Antique & Byzantine',[48,49,50,51,52,54]],['Medieval Europe',[53,55,58,59,60,61,62,64]],['Islamic Art',[56,57,65,84]],['Renaissance & Mannerism',[63,...range(66,80),83]],['Baroque, Rococo & Colonial Art',[81,82,...range(85,98)]]],
+ 4:[['Enlightenment, Rococo & Colonial Art',[99,100,101]],['Neoclassicism & Romanticism',[...range(102,109),111,112,118]],['Realism, Impressionism & Photography',[110,113,114,115,116,117,127]],['Post-Impressionism & Early Modernism',[119,120,121,122,123,124,125,126,128,129]],['Modernist Movements & Architecture',[...range(130,144),147]],['Postwar & Contemporary Art',[145,146,148,149,150,151,152]]],
+ 5:[['Precontact & Early Colonial Americas',range(153,162)],['Native North America: 19th–20th Centuries',range(163,166)]],
+ 6:[['African Historical Traditions',range(167,180)]],
+ 7:[['Ancient West Asia',[181]],['Buddhist Silk Road & Tibet',[182,184]],['Islamic Art & Architecture',[183,...range(185,191)]]],
+ 8:[['Ancient Asian Traditions',[192,193,194]],['Medieval Asian Traditions',range(195,204)],['Early Modern Asian Traditions',range(205,211)],['Modern Asian Art',[212]]],
+ 9:[['Pacific Historical Traditions',range(213,223)]],
+ 10:[['Global Contemporary',range(224,250)]]
+};
+export function broadPeriodOptions(works,unit) {
+ return (BROAD_PERIODS[Number(unit)]||[]).map(([label,aps],index)=>({
+  value:`broad:${unit}:${index}`,label,aps,count:works.filter(w=>aps.includes(w.apNumber)).length
+ }));
+}
+
 export function categoriesForWorks(works) {
  return CATEGORIES.filter(category=>works.some(work=>categoryIncludes(work,category.id)));
 }
@@ -43,7 +63,7 @@ function mount(document,api) {
  const allWorks=api.ARTWORKS;
  const currentWorks=()=>state.unit==='all'?allWorks:allWorks.filter(w=>w.unit===Number(state.unit));
  const filters=document.getElementById('filterContainer');
- const unit=document.getElementById('unitFilter'),type=document.getElementById('typeFilter');
+ const unit=document.getElementById('unitFilter'),type=document.getElementById('typeFilter'),period=document.getElementById('periodFilter');
  const node=(tag,text,className)=>{const e=document.createElement(tag);if(text)e.textContent=text;if(className)e.className=className;return e;};
  const field=node('label','作品类别','filter-label category-filter-field');
  const category=node('select');category.id='studyCategory';category.setAttribute('aria-label','作品类别');field.htmlFor=category.id;field.append(category);
@@ -64,7 +84,14 @@ function mount(document,api) {
  function sync(){
   const works=currentWorks();
   const available=categoriesForWorks(works);
+  const broad=broadPeriodOptions(works,state.unit);
+  if(state.period&&!broad.some(option=>option.value===state.period))state.period='';
+  state.periodGroupAps=broad.find(option=>option.value===state.period)?.aps||null;
+  setFilterOptions(period,[{value:'',label:state.unit==='all'?'Select a Unit for Periods':'All Periods'},...broad.map(option=>({value:option.value,label:`${option.label} · ${option.count}`}))],state.period);
+  period.disabled=state.unit==='all';
+  period.title='Broad browsing groups; precise periods and multi-phase dates remain in artwork details.';
   filters.classList.add('has-category-filters');
+  filters.dataset.broadPeriodsReplaceCulture=String(['2','3','4'].includes(String(state.unit)));
   const context=api.filterWorks(works,{...state,studyCategory:'',workType:''});
   setFilterOptions(category,[{value:'',label:`All Categories · ${context.length}`},...categoryCounts(context).filter(c=>available.some(a=>a.id===c.id)).map(c=>({value:c.id,label:`${c.label} · ${c.count}`}))],state.studyCategory||'');
   const options=exactTypeOptions(works,state.studyCategory,context);
@@ -84,7 +111,11 @@ function mount(document,api) {
  });
  type.addEventListener('change',sync);
  filters.addEventListener('input',event=>{if(event.target.id==='searchInput')sync();});
- document.getElementById('periodFilter').addEventListener('change',sync);
+ // Capture membership before the native handler fits the map.
+ period.addEventListener('change',()=>{
+  state.periodGroupAps=broadPeriodOptions(currentWorks(),state.unit).find(option=>option.value===period.value)?.aps||null;
+ },true);
+ period.addEventListener('change',sync);
  filters.addEventListener('click',event=>{if(event.target.closest('[data-culture]'))sync();});
  document.addEventListener('art-filter-context',sync);
  function resetAll(){
