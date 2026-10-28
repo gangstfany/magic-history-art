@@ -1614,6 +1614,7 @@ test('selecting Unit 5 resets incompatible filters, regenerates options, and fit
   selectUnit('5');
   assert.deepEqual(state, {
     unit:'5', culture:'all', period:'', workType:'', search:'',
+    studyCategory:'', studyCategoryAps:null,
     selectedId:null, selectedSiteIndex:0, expandedSiteToken:null,
     activeUnit:5, activeRegion:null, pendingFocusParentKey:null,
     activeDetailTab:'quick', transform:{ x:0, y:0, scale:1 },
@@ -3683,4 +3684,16 @@ test('single-work keyboard selection retains mobile heading reveal and desktop m
   expand({kind:'site',works:[{id:'work'}],siteToken:'site'},true);
   assert.deepEqual(calls,mobile?['select']:['select','marker-focus']);
  }
+});
+
+
+test('formal category filtering applies to Unit 10 without leaking into other Units',async()=>{
+ const html=await loadHtml();
+ const {filterWorks}=loadPureFunctions(html,['normalize','filterWorks'],['const MAP_REGIONS =','const TRADITION_LABELS =']);
+ const works=parseArtworkData(html);
+ const filters={unit:'10',culture:'all',period:'',workType:'',search:'',studyCategory:'sculpture',studyCategoryAps:[228,230,237,244,245]};
+ assert.deepEqual(filterWorks(works,filters).map(w=>w.apNumber),[228,230,237,244,245]);
+ assert.deepEqual(filterWorks(works,{...filters,workType:'Porcelain figurative sculpture'}).map(w=>w.apNumber),[230]);
+ assert.equal(filterWorks(works,{...filters,unit:'1'}).length,11);
+ assert.equal(filterWorks(works,{...filters,studyCategory:'',studyCategoryAps:null}).length,27);
 });

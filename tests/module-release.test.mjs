@@ -28,7 +28,7 @@ test('public release includes complete artwork payload and excludes other reposi
  assert.ok(!existsSync(path.join(output,'study-media/manifest.json')),'archive metadata is not published');
  assert.match(html,/<script type="module" src="module-bridge.mjs"><\/script>/);
  assert.match(html,/<script type="module" src="art-comparison.mjs"><\/script>/);
- for(const file of ['art-comparison.mjs','assets/art-comparison.css'])assert.ok(existsSync(path.join(output,file)),file);
+ for(const file of ['art-comparison.mjs','assets/art-comparison.css','art-category-filters.mjs','assets/art-category-filters.css'])assert.ok(existsSync(path.join(output,file)),file);
  for(const file of ['.private-media','world-map.html','assets/auth','tests','scripts','.git'])assert.ok(!existsSync(path.join(output,file)),file);
  assert.ok(existsSync(path.join(output,'.nojekyll')));
  const entries=[];

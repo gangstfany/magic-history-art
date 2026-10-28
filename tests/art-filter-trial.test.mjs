@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {CATEGORIES, categoryIncludes, categoryCounts, exactTypeOptions,setFilterOptions} from '../prototypes/art-filter-trial.mjs';
+import {CATEGORIES, categoryIncludes, categoryCounts, exactTypeOptions,setFilterOptions} from '../art-category-filters.mjs';
 const h=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
 const works=JSON.parse(h.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]).filter(w=>w.unit===10);
 test('six browsing categories cover all 27 works without changing their exact type',()=>{

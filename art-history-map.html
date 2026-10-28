@@ -180,6 +180,7 @@
   </style>
 <link rel="stylesheet" href="assets/map-ui.css?v=20261027-reading">
 <link rel="stylesheet" href="assets/art-comparison.css">
+<link rel="stylesheet" href="assets/art-category-filters.css">
 </head>
 <body>
   <script>
@@ -16407,6 +16408,8 @@
       culture: 'all',
       period: '',
       workType: '',
+      studyCategory: '',
+      studyCategoryAps: null,
       search: '',
       selectedId: null,
       selectedSiteIndex: 0,
@@ -16656,6 +16659,7 @@
         ) return false;
         if (filters.period && work.period !== filters.period) return false;
         if (filters.workType && work.workType !== filters.workType) return false;
+        if (filters.unit === '10' && filters.studyCategory && !filters.studyCategoryAps?.includes(work.apNumber)) return false;
         if (!query) return true;
         const region = MAP_REGIONS[work.region];
         const preciseTradition = TRADITION_LABELS[work.culture];
@@ -17714,6 +17718,7 @@
       populateSelect(typeFilter, unitWorks.map((work) => work.workType), '全部类型');
       periodFilter.value = state.period;
       typeFilter.value = state.workType;
+      document.dispatchEvent?.(new Event('art-filter-context'));
     }
 
     function updateCultureFilterSelection(container, cultureId) {
@@ -18858,6 +18863,8 @@
         culture:'all',
         period:'',
         workType:'',
+        studyCategory:'',
+        studyCategoryAps:null,
         search:'',
         selectedId:null,
         selectedSiteIndex:0,
@@ -18896,6 +18903,8 @@
         culture:'all',
         period:'',
         workType:'',
+        studyCategory:'',
+        studyCategoryAps:null,
         search:'',
         selectedId:null,
         selectedSiteIndex:0,
@@ -19056,6 +19065,7 @@
       focusSelectedArtworkHeading,
       applyTransform,
       fitCurrentWorks,
+      filterWorks,
       render,
       clearFilters,
       state,
@@ -19070,6 +19080,7 @@
     });
   </script>
   <script type="module" src="art-comparison.mjs"></script>
+  <script type="module" src="art-category-filters.mjs"></script>
   <script type="module" src="module-bridge.mjs"></script>
 </body>
 </html>
