@@ -125,3 +125,14 @@ test('broad periods cover every authored work once with at most six options per 
  assert.ok(u3.find(o=>o.label==='Medieval Europe').aps.includes(60));
  assert.equal(allWorks.find(w=>w.apNumber===60).period,'High Gothic');
 });
+
+
+test('U1 separates stone-age study families while retaining regional and authored periods',()=>{
+ const options=broadPeriodOptions(allWorks.filter(w=>w.unit===1),1);
+ assert.deepEqual(options.map(o=>[o.label,o.count]),[['Palaeolithic',3],['Neolithic',5],['Regional Prehistoric Traditions',3]]);
+ assert.ok(options[0].aps.includes(2));assert.ok(options[1].aps.includes(8));
+ assert.ok(options[2].aps.includes(10));
+ assert.equal(allWorks.find(w=>w.apNumber===10).period,'Tlatilco');
+ assert.ok(broadPeriodOptions(allWorks.filter(w=>w.unit===6),6).length>1);
+ assert.ok(broadPeriodOptions(allWorks.filter(w=>w.unit===9),9).length>1);
+});

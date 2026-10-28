@@ -6,4 +6,7 @@ All Units asks the learner to choose a Unit first, keeping this menu short and c
 
 Counts cover every Unit work exactly once. Selection combines with search, artwork category and type; changing Units clears incompatible selections. Current filtered region navigation preserves the broad period. The category module owns option labels; the native filter owns map fitting and selection, with membership populated before native change handling.
 
-Validation: 521 Node tests, including exact coverage of all 250 works, uniqueness and a six-option limit. Browser checks cover U3 Medieval Europe (8/51), retained High Gothic detail, Unit switching, all broad groups, category/search combinations and mobile layout.
+Validation: 522 Node tests, including exact coverage of all 250 works, uniqueness and a six-option limit. Browser checks cover U3 Medieval Europe (8/51), retained High Gothic detail, Unit switching, all broad groups, category/search combinations and mobile layout.
+
+
+Review follow-up: U1 now separates Palaeolithic (AP1–3), Neolithic (AP4–8), and Regional Prehistoric Traditions (AP9–11). U6 and U9 each now have three broad families derived from the authored dates, with multi-phase rebuilding and catalog dating differences retained. Exact type is in 更多筛选; period/type condition chips remain visible when it is closed. Removing a type chip returns focus to the summary when closed and to the select when open.

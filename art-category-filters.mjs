@@ -13,15 +13,15 @@ export const CATEGORIES = [
 // Broad browsing groups. Precise authored periods and multi-phase dates stay on works.
 const range=(start,end)=>Array.from({length:end-start+1},(_,i)=>start+i);
 export const BROAD_PERIODS = {
- 1:[['Global Prehistory',range(1,11)]],
+ 1:[['Palaeolithic',[1,2,3]],['Neolithic',[4,5,6,7,8]],['Regional Prehistoric Traditions',[9,10,11]]],
  2:[['Ancient Near East',[12,14,16,19,25,30]],['Ancient Egypt',[13,15,17,18,20,21,22,23,24]],['Ancient Greece',[26,27,28,33,34,35,36,37,38,41]],['Etruscan Art',[29,31,32]],['Ancient Rome',[39,40,42,43,44,45,46,47]]],
  3:[['Late Antique & Byzantine',[48,49,50,51,52,54]],['Medieval Europe',[53,55,58,59,60,61,62,64]],['Islamic Art',[56,57,65,84]],['Renaissance & Mannerism',[63,...range(66,80),83]],['Baroque, Rococo & Colonial Art',[81,82,...range(85,98)]]],
  4:[['Enlightenment, Rococo & Colonial Art',[99,100,101]],['Neoclassicism & Romanticism',[...range(102,109),111,112,118]],['Realism, Impressionism & Photography',[110,113,114,115,116,117,127]],['Post-Impressionism & Early Modernism',[119,120,121,122,123,124,125,126,128,129]],['Modernist Movements & Architecture',[...range(130,144),147]],['Postwar & Contemporary Art',[145,146,148,149,150,151,152]]],
  5:[['Precontact & Early Colonial Americas',range(153,162)],['Native North America: 19th–20th Centuries',range(163,166)]],
- 6:[['African Historical Traditions',range(167,180)]],
+ 6:[['Medieval Foundations & Later Rebuilding',[167,168]],['Early Modern Court Traditions',[169,170,171]],['Later Court & Community Traditions',range(172,180)]],
  7:[['Ancient West Asia',[181]],['Buddhist Silk Road & Tibet',[182,184]],['Islamic Art & Architecture',[183,...range(185,191)]]],
  8:[['Ancient Asian Traditions',[192,193,194]],['Medieval Asian Traditions',range(195,204)],['Early Modern Asian Traditions',range(205,211)],['Modern Asian Art',[212]]],
- 9:[['Pacific Historical Traditions',range(213,223)]],
+ 9:[['Monumental Traditions (c. 700–1600)',[213,214]],['18th–Early 20th-Century Traditions',range(215,221)],['20th-Century Arts & Encounters',[222,223]]],
  10:[['Global Contemporary',range(224,250)]]
 };
 export function broadPeriodOptions(works,unit) {
@@ -69,6 +69,9 @@ function mount(document,api) {
  const category=node('select');category.id='studyCategory';category.setAttribute('aria-label','作品类别');field.htmlFor=category.id;field.append(category);
  type.parentElement.before(field);
  type.parentElement.firstChild.textContent='具体类型';type.setAttribute('aria-label','具体类型');
+ const more=node('details','','category-filter-more');
+ const moreToggle=node('summary','更多筛选');
+ more.append(moreToggle,type.parentElement);filters.append(more);
  const summary=node('div','','category-filter-summary');
  const status=node('p');status.setAttribute('role','status');
  const clear=node('button','清除筛选','category-filter-clear');clear.type='button';
@@ -97,14 +100,17 @@ function mount(document,api) {
   const options=exactTypeOptions(works,state.studyCategory,context);
   const categoryTotal=context.filter(w=>categoryIncludes(w,state.studyCategory)).length;
   setFilterOptions(type,[{value:'',label:`All Artwork Types · ${categoryTotal}`},...options.map(o=>({value:o.value,label:`${o.value} · ${o.count}`}))],state.workType);
+  if(state.workType)more.open=true;
+  moreToggle.textContent=state.workType?'更多筛选 · 1':'更多筛选';
   const filtered=api.filterWorks(works,state);
   status.textContent=`显示 ${filtered.length} / ${works.length} 件作品`;
   note.textContent=state.unit==='10'?'类别可交叉：《天书》收录于书籍与装置；AP232 叙事拼布作品收录于绘画与纺织。':'类别是浏览辅助，可交叉收录；组合建筑、手稿和仪式作品可见于多个类别，类别数量不应直接相加。';
   clear.disabled=!state.studyCategory&&!state.workType&&!state.period&&state.culture==='all'&&!state.search.trim();
   chips.replaceChildren();
   const chip=(label,action)=>{const button=node('button',label+' ×','category-filter-chip');button.type='button';button.setAttribute('aria-label','移除'+label+'筛选');button.addEventListener('click',action);chips.append(button);};
+  if(state.period)chip(broad.find(option=>option.value===state.period).label,()=>{state.period='';state.periodGroupAps=null;resetSelection();api.fitCurrentWorks();sync();period.focus();});
   if(state.studyCategory)chip(CATEGORIES.find(c=>c.id===state.studyCategory).label,()=>{state.studyCategory='';state.studyCategoryAps=null;state.workType='';resetSelection();api.fitCurrentWorks();sync();category.focus();});
-  if(state.workType)chip(state.workType,()=>{state.workType='';resetSelection();api.fitCurrentWorks();sync();type.focus();});
+  if(state.workType)chip(state.workType,()=>{state.workType='';resetSelection();api.fitCurrentWorks();sync();(more.open?type:moreToggle).focus();});
  }
  category.addEventListener('change',()=>{
   state.studyCategory=category.value;state.studyCategoryAps=CATEGORIES.find(c=>c.id===category.value)?.aps||null;state.workType='';resetSelection();api.fitCurrentWorks();sync();
