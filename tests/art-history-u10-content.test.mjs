@@ -56,7 +56,9 @@ test('U10 AP230 and AP241 are explicitly unlocated and have reachable native but
  assert.match(h,/visibleWorks\.filter\(\(work\) => !isUnmappedWork\(work\)\)/);
  assert.match(h,/data-unmapped-work-id|dataset\.unmappedWorkId/);
  assert.match(h,/Location not verified/);
- assert.match(h,/state\.unit === 'all' && mappedUnits\.size >= 10/);
+ // Dense navigation is now available to every Unit, including the all-unit overview.
+ assert.match(h,/getDensePackingBounds\(state\.transform, mapBounds\)/);
+ assert.doesNotMatch(h,/Number\(state\.unit\) >= 9 \|\|/);
  for(const ap of [230,241])assert.deepEqual(staged.find(w=>w.apNumber===ap).coordinates,{x:0,y:0});
 });
 test('U10 freezes 27 AP224–250 identities and 32 ordered specified views',()=>{

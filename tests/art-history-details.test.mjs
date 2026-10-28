@@ -608,6 +608,7 @@ function createDetailHarness(
     getFunctionSource(html, 'createComparisonAngle'),
     getFunctionSource(html, 'openImageDialog'),
     getFunctionSource(html, 'focusSelectedArtworkHeading'),
+    getFunctionSource(html, 'revealSelectedArtwork'),
     getFunctionSource(html, 'isUnmappedWork'),
     getFunctionSource(html, 'selectComparison'),
     getFunctionSource(html, 'renderArtworkDetails'),
@@ -901,6 +902,7 @@ test('comparison navigation clears conflicting filters when crossing Units 1 and
     'detailPanel',
     `"use strict";
       ${getFunctionSource(html, 'isUnmappedWork')}
+      ${getFunctionSource(html, 'revealSelectedArtwork')}
       ${source}
       return selectComparison;`,
   )(

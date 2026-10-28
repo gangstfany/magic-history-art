@@ -178,7 +178,7 @@
     }
     @media (prefers-reduced-motion:reduce) { *, *::before, *::after { scroll-behavior:auto!important; transition-duration:.01ms!important; animation-duration:.01ms!important; animation-iteration-count:1!important; } }
   </style>
-<link rel="stylesheet" href="assets/map-ui.css">
+<link rel="stylesheet" href="assets/map-ui.css?v=20261027-reading">
 <link rel="stylesheet" href="assets/art-comparison.css">
 </head>
 <body>
@@ -17016,6 +17016,10 @@
         }
         const compactConfiguredGroups = configuredGroups.map((group) => ({
           ...group,
+          // A long list of AP numbers can exceed the compact capsule itself.
+          // Full location and AP identities remain in its accessible title.
+          apLabel: group.kind === 'site' && group.works.length > 1
+            ? formatPieceCount(group.works.length) : group.apLabel,
           isGridFallback: true
         }));
         if (configuredGroups.length >= 10 && configuredGroups.every(group => group.kind === 'unit')) {
@@ -17478,7 +17482,7 @@
             groups,
             screenScale,
             toWorldCoordinates,
-            groups.every(group => group.isDenseFallback === true)
+            groups.every(group => group.isDenseFallback === true || group.isGridFallback === true)
               ? densePackingBounds || visibleWorldBounds
               : visibleWorldBounds
           );
@@ -17870,7 +17874,9 @@
       focusSelectedWork();
       render();
       applyTransform();
-      if (restoreFocus) focusExpandedWorkPin(workId);
+      const revealed = revealSelectedArtwork();
+      if (!revealed && restoreFocus) focusExpandedWorkPin(workId);
+      return revealed;
     }
 
     function expandSiteGroup(group, restoreFocus = false) {
@@ -17909,8 +17915,8 @@
         return;
       }
       if (isSingleWorkSiteGroup(group)) {
-        selectArtwork(group.works[0].id, group.siteToken);
-        if (restoreFocus) focusSiteMarker(group.siteToken);
+        const revealed = selectArtwork(group.works[0].id, group.siteToken);
+        if (restoreFocus && !revealed) focusSiteMarker(group.siteToken);
         return;
       }
       state.expandedSiteToken = state.expandedSiteToken === group.siteToken ? null : group.siteToken;
@@ -18123,6 +18129,15 @@
       document.getElementById('dialogClose').focus({ preventScroll:true });
     }
 
+    function revealSelectedArtwork() {
+      if (typeof window === 'undefined' || !window.matchMedia?.('(max-width:664px)')?.matches) return false;
+      const heading = detailPanel.querySelector('[data-selected-artwork-title]');
+      if (!heading) return false;
+      focusSelectedArtworkHeading();
+      heading.scrollIntoView({ block:'start', behavior:'instant' });
+      return true;
+    }
+
     function focusSelectedArtworkHeading() {
       const heading = detailPanel.querySelector('[data-selected-artwork-title]');
       if (!heading) return;
@@ -18151,7 +18166,7 @@
       if (!isUnmappedWork(target)) focusSelectedWork();
       render();
       applyTransform();
-      focusSelectedArtworkHeading();
+      if (!revealSelectedArtwork()) focusSelectedArtworkHeading();
       detailPanel.scrollTo({ top:0, behavior:'smooth' });
     }
 
@@ -18561,10 +18576,12 @@
         : null;
       const focusedWorkId = document.activeElement?.dataset?.workId || null;
       const focusedDetailImageButton = document.activeElement?.classList?.contains('artwork-image-button');
+      const focusedDetailHeading = document.activeElement?.hasAttribute?.('data-selected-artwork-title');
+      const focusedDetailTab = document.activeElement?.classList?.contains('detail-tab')
+        ? document.activeElement.id : null;
       const visibleWorks = filterWorks(ARTWORKS, state);
       renderRegionColors(visibleWorks, state);
       const mappableWorks = visibleWorks.filter((work) => !isUnmappedWork(work));
-      const mappedUnits = new Set(mappableWorks.map((work) => work.unit));
       if (state.selectedId && !visibleWorks.some((work) => work.id === state.selectedId)) {
         state.selectedId = null;
         state.selectedSiteIndex = 0;
@@ -18582,8 +18599,9 @@
           activeRegion:state.activeRegion
         },
         getVisibleWorldBounds(state.transform),
-        Number(state.unit) >= 9 || (state.unit === 'all' && mappedUnits.size >= 10)
-          ? getDensePackingBounds(state.transform, mapBounds) : null
+        // Every Unit may need the visible letterboxing for region navigation.
+        // Reserving this for Units 9–10 could abort render and retain stale pins.
+        getDensePackingBounds(state.transform, mapBounds)
       );
       if (
         state.expandedSiteToken
@@ -18826,7 +18844,11 @@
         instruction.append(heading, copy, legend);
         detailPanel.append(instruction);
       }
-      if (focusedDetailImageButton) detailPanel.querySelector('.artwork-image-button')?.focus({ preventScroll:true });
+      // Host height updates resize the iframe and redraw this panel. Keep the
+      // reader's logical focus rather than dropping it onto the document body.
+      if (focusedDetailHeading) detailPanel.querySelector('[data-selected-artwork-title]')?.focus({ preventScroll:true });
+      else if (focusedDetailTab) document.getElementById(focusedDetailTab)?.focus({ preventScroll:true });
+      else if (focusedDetailImageButton) detailPanel.querySelector('.artwork-image-button')?.focus({ preventScroll:true });
     }
 
     function clearFilters() {

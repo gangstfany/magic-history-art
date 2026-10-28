@@ -3624,3 +3624,63 @@ test('hierarchy keeps textual accessible cues plus an individual-versus-group sh
   assert.match(groupTextSource, /title:\s*MAP_REGIONS\[group\.regionId\]\?\.nameEn/);
   assert.match(groupTextSource, /title:\s*group\.siteName/);
 });
+
+test('real render layout keeps every Unit current in narrow embedded maps',async()=>{
+ const html=await loadHtml(),works=parseArtworkData(html);
+ const helpers=loadPureFunctions(html,[
+  'compactApNumbers','formatApGroupLabel','formatPieceCount','createSiteToken',
+  'getUnitById','getMapGroupText','getApUnitNumber','toWorldCoordinates',
+  'groupBySite','groupByConfiguredRegion','getMapHierarchyLevel','groupByRegionGrid',
+  'buildMapGroups','buildMapGroupCandidates','getMarkerMetrics','getMarkerBounds',
+  'markerBoundsOverlap','expandMarkerBounds','createSpatialHash',
+  'findNearestAvailableMarkerSlot','layoutSiteMarkers','layoutMapGroups',
+  'getVisibleWorldBounds','getDensePackingBounds'
+ ],['const AP_UNITS =','const MAP_REGIONS =','const SITE_WORLD_COORDINATES =']);
+ const render=getFunctionSource(html,'render');
+ const expression=render.slice(render.indexOf('const visibleGroups = ')+22);
+ const invoke=Function('visibleWorks','state','renderedMarkerScale','mapBounds',
+  ...Object.keys(helpers),
+  'return '+expression.slice(0,expression.indexOf(';')+1));
+ for(const width of [280,320,390])for(let unit=1;unit<=10;unit++){
+  const visibleWorks=works.filter(w=>w.unit===unit);
+  const state={unit:String(unit),activeUnit:unit,activeRegion:null,transform:{x:0,y:0,scale:1}};
+  let groups;
+  assert.doesNotThrow(()=>{groups=invoke(visibleWorks,state,width/1600,{width,height:300},...Object.values(helpers));},`Unit ${unit}, ${width}px must not leave the previous Unit on screen`);
+  const ids=new Set(groups.flatMap(g=>g.works.map(w=>w.id)));
+  for(const work of visibleWorks.filter(w=>!helpers.isUnmappedWork(w)))assert.ok(ids.has(work.id),work.id);
+  for(let i=0;i<groups.length;i++)for(let j=0;j<i;j++)assert.equal(helpers.markerBoundsOverlap(groups[i].bounds,groups[j].bounds),false);
+  for(const region of helpers.groupByConfiguredRegion(visibleWorks,unit)){
+   state.activeRegion=region.key;
+   for(const groups of helpers.buildMapGroupCandidates(visibleWorks,1,{selectedUnit:state.unit,activeUnit:unit,activeRegion:region.key}))for(const group of groups){
+    if(group.kind==='site'&&group.isGridFallback&&group.works.length>1)assert.equal(group.apLabel,helpers.formatPieceCount(group.works.length),'compact multi-work pins must not overflow with a full AP-number list');
+   }
+   assert.doesNotThrow(()=>invoke(visibleWorks,state,width/1600,{width,height:300},...Object.values(helpers)),`Unit ${unit} ${region.regionId} sites at ${width}px must remain reachable`);
+  }
+ }
+});
+
+test('selecting mobile artwork reveals its heading without changing desktop focus',async()=>{
+ const html=await loadHtml();
+ const source=getFunctionSource(html,'revealSelectedArtwork');
+ const calls=[];
+ const heading={scrollIntoView:options=>calls.push(['scroll',options])};
+ const create=mobile=>Function('window','detailPanel','focusSelectedArtworkHeading',source+';return revealSelectedArtwork;')(
+  {matchMedia:()=>({matches:mobile})},
+  {querySelector:()=>heading},()=>calls.push(['focus'])
+ );
+ assert.equal(create(false)(),false);assert.deepEqual(calls,[]);
+ assert.equal(create(true)(),true);
+ assert.deepEqual(calls,[['focus'],['scroll',{block:'start',behavior:'instant'}]]);
+});
+
+test('single-work keyboard selection retains mobile heading reveal and desktop marker focus',async()=>{
+ const html=await loadHtml(),source=getFunctionSource(html,'expandSiteGroup');
+ for(const mobile of [true,false]){
+  const calls=[];
+  const expand=Function('cancelFilteredFocus','isSingleWorkSiteGroup','selectArtwork','focusSiteMarker',source+';return expandSiteGroup;')(
+   ()=>{},()=>true,()=>{calls.push('select');return mobile;},()=>calls.push('marker-focus')
+  );
+  expand({kind:'site',works:[{id:'work'}],siteToken:'site'},true);
+  assert.deepEqual(calls,mobile?['select']:['select','marker-focus']);
+ }
+});

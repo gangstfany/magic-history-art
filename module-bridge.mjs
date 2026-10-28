@@ -10,7 +10,17 @@ export function mountModuleBridge({window: win, document: doc, ResizeObserver: O
   const hostOrigin = new URLSearchParams(win.location.search).get('hostOrigin');
   if (win.parent === win || !validHostOrigin(hostOrigin)) return () => {};
   let lastHeight = 0, timer, disposed = false;
-  const height = () => Math.max(650, Math.min(10000, Math.ceil(Math.max(doc.documentElement.scrollHeight, doc.body?.scrollHeight || 0))));
+  const height = () => {
+    const workspace = doc.querySelector?.('.art-workspace');
+    const bounds = workspace?.getBoundingClientRect();
+    // scrollHeight includes the embed viewport floor and cannot report shrinkage.
+    // The course's last in-flow element provides its actual document extent.
+    const margin = workspace ? Number.parseFloat(win.getComputedStyle?.(workspace)?.marginBottom) || 0 : 0;
+    const extent = bounds?.height > 0
+      ? bounds.bottom + (win.scrollY || 0) + margin
+      : Math.max(doc.documentElement.scrollHeight, doc.body?.scrollHeight || 0);
+    return Math.max(650, Math.min(10000, Math.ceil(extent)));
+  };
   const send = type => {
     if (disposed) return;
     const nextHeight = height();
@@ -29,6 +39,11 @@ export function mountModuleBridge({window: win, document: doc, ResizeObserver: O
   win.addEventListener('resize', schedule);
   const observer = Observer ? new Observer(schedule) : null;
   observer?.observe(doc.documentElement);
+  // Descendants can shrink without resizing a viewport-sized root element.
+  for (const selector of ['.art-workspace', '#filterContainer']) {
+    const target = doc.querySelector?.(selector);
+    if (target) observer?.observe(target);
+  }
   send('ready');
   return () => { disposed = true; observer?.disconnect(); win.clearTimeout(timer); win.removeEventListener('message', receive); win.removeEventListener('resize', schedule); };
 }

@@ -1,0 +1,18 @@
+.trial-intro{width:calc(100% - 40px);max-width:1180px;margin:20px auto 14px;padding:22px 25px;border:1px solid #dedbd0;border-radius:16px;background:#fffdf8;color:#263c3b;box-sizing:border-box}
+.trial-eyebrow{font-size:11px;font-weight:700;letter-spacing:1.5px;color:#a15d42}.trial-intro h1{font-size:24px;line-height:1.4;margin:8px 0}.trial-intro p{font-size:13px;color:#6b6558;line-height:1.65;margin:0}
+body.is-embedded .trial-intro{width:calc(100% - 32px);max-width:none}
+body .filter-toolbar{display:grid;grid-template-columns:1.25fr .8fr 1.15fr 1.5fr 1.2fr;gap:12px;align-items:end;padding:18px 20px}
+body .filter-toolbar>.filter-label{min-width:0;width:auto;display:grid;gap:7px;font-size:12px;font-weight:700}
+body .filter-toolbar select,body .filter-toolbar input{width:100%;min-width:0;min-height:44px}
+body .filter-toolbar #studyCategory{border-color:#597f8b;background:#f2f7f4;color:#285d5a}
+body .filter-toolbar #unitFilter:disabled{opacity:1;color:#6b6558;background:#f7f4ec}
+body .culture-filters,body .trial-filter-summary{grid-column:1/-1}
+.trial-filter-summary{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-top:1px solid #e2dfd3;padding-top:12px;color:#263c3b}.trial-filter-summary>p[role=status]{margin:0;font-size:13px;font-weight:700}
+.trial-clear{margin-left:auto;min-height:44px;border:1px solid #d6d6ca;border-radius:8px;padding:8px 13px;background:#fffdf8;color:#285d5a;cursor:pointer;font:inherit;font-size:12px;font-weight:700}.trial-clear:disabled{opacity:.5;cursor:default}
+.trial-chips{display:flex;gap:8px;flex-wrap:wrap;width:100%}.trial-chips:empty{display:none}.trial-chip{min-height:44px;max-width:100%;overflow-wrap:anywhere;border:1px solid #9db6ae;border-radius:9px;padding:8px 12px;color:#285d5a;background:#eff5f1;cursor:pointer;font:inherit;font-size:12px}
+.trial-note{width:100%;margin:0;font-size:11px;color:#6b6558;line-height:1.6}
+body .trial-chip:focus-visible,body .trial-clear:focus-visible{outline:3px solid #447998;outline-offset:3px}
+@media(max-width:900px){body .filter-toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}body .filter-toolbar>.filter-label:last-of-type{grid-column:1/-1}}
+@media(max-width:664px){.trial-intro{padding:16px;margin-top:12px}.trial-intro h1{font-size:21px}body .filter-toolbar{padding:14px 12px!important;gap:12px}.trial-note{font-size:12px}.trial-intro p{font-size:13px}}
+
+body .filter-toolbar #searchInput{width:100%;}

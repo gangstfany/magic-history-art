@@ -45,3 +45,18 @@ html, body, button, input, select, summary, .ac-panel, .ac-panel h2, .ac-panel h
   }
   .detail-panel, body.is-embedded .detail-panel { height:360px; min-height:0; max-height:360px; }
 }
+
+/* Mobile reading follows the document instead of a second 360px scroll box. */
+@media (max-width:664px) {
+  body.is-embedded { height:auto !important; min-height:100vh !important; overflow:auto !important; }
+  .art-workspace, body.is-embedded .art-workspace {
+    grid-template-rows:var(--art-map-height) auto !important; overflow:visible;
+  }
+  .detail-panel, body.is-embedded .detail-panel {
+    height:auto; max-height:none; min-height:220px; overflow:visible; padding:16px;
+  }
+  .work-title-en { scroll-margin-top:16px; }
+  .detail-tab { min-height:44px; }
+  .site-cycle button { min-width:44px; min-height:44px; }
+  .identity-row dd, .image-credit { overflow-wrap:anywhere; }
+}
