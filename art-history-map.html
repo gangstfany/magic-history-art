@@ -18589,6 +18589,7 @@
       // A hidden subject iframe has no layout. Keep its state and existing
       // markers; the ResizeObserver redraws them when the subject is shown.
       if (mapBounds && (mapBounds.width <= 0 || mapBounds.height <= 0)) return;
+      document.dispatchEvent?.(new Event('art-before-render'));
       artworkMediaRenderGeneration += 1;
       const focusedSiteToken = document.activeElement?.classList?.contains('site-marker')
         ? document.activeElement.dataset.siteToken

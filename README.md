@@ -23,7 +23,7 @@ python3 -m http.server 8033 --directory _site
 
 `.github/workflows/pages.yml` 仅在本库 main 提交或手动执行时构建和发布。GitHub Settings → Pages → Source 选择 GitHub Actions。预期公开入口为 `https://gangstfany.github.io/magic-history-art/`。发布目录 `_site` 从明确白名单创建，每次清除旧产物，不复制开发脚本、测试、私有媒体或其他学科。
 
-测试说明：517项静态/数据/样式契约/隐私扫描/模块通信/发布契约测试通过，严格校验250作品及全部十个Unit。原仓库的4项浏览器执行测试依赖额外Playwright运行时，上述命令和CI明确排除它们；没有把它们称为通过。其余原测试保留。旧脚本 `verify-art-history-release.mjs` 和全站浏览器矩阵仍用于原单库结构，不是本独立仓库发布入口。当前页面的真实浏览器集成由完整首页联合验证。
+测试说明：520项静态/数据/样式契约/隐私扫描/模块通信/发布契约测试通过，严格校验250作品及全部十个Unit。原仓库的4项浏览器执行测试依赖额外Playwright运行时，上述命令和CI明确排除它们；没有把它们称为通过。其余原测试保留。旧脚本 `verify-art-history-release.mjs` 和全站浏览器矩阵仍用于原单库结构，不是本独立仓库发布入口。当前页面的真实浏览器集成由完整首页联合验证。
 
 旧测试中3项世界史内容冻结检查、1项直接读取首页世界史DOM检查已从艺术史边界移出；艺术史不再带世界史页面或旧首页。地区颜色基线保留为 `tests/fixtures/legacy-region-palette.json`，保留颜色契约而不需要另一门课程源码。
 

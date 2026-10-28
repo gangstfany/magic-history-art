@@ -86,3 +86,31 @@ test('study cards normalize legacy Unit1/2 single images and newer multi-view im
  }
  assert.equal(getStudyThumbnail({imageUrl:null},normalize),null);
 });
+
+test('region return without a cached view reframes its own filtered works and keeps filters',async()=>{
+ const {returnToStudyRegion}=await load();
+ const state={unit:'3',selectedId:'ap60',activeRegion:null,studyCategory:'architecture',search:'',transform:{x:0,y:0,scale:1}};
+ const group={key:'unit-3-region-france',kind:'region',works:[{id:'ap60'}]};
+ const calls=[];const api={state,expandSiteGroup:g=>calls.push(g),render:()=>calls.push('render'),applyTransform:()=>calls.push('apply')};
+ returnToStudyRegion(api,group,null);
+ assert.deepEqual(calls,[group]);assert.equal(state.selectedId,null);assert.equal(state.activeRegion,group.key);
+ assert.equal(state.studyCategory,'architecture');assert.equal(state.unit,'3');
+ const saved={x:-200,y:15,scale:2};calls.length=0;
+ returnToStudyRegion(api,group,saved);saved.x=999;
+ assert.deepEqual(state.transform,{x:-200,y:15,scale:2});assert.deepEqual(calls,['render','apply']);
+});
+test('Unit return fits the current filtered scope if the overview cache was invalidated',async()=>{
+ const {returnToStudyUnit}=await load();
+ const state={unit:'8',activeRegion:'unit-8-region-china',selectedId:'ap193',search:'warriors',transform:{x:-500,y:0,scale:3}};
+ const calls=[];const api={state,fitCurrentWorks:()=>calls.push('fit'),render:()=>calls.push('render'),applyTransform:()=>calls.push('apply')};
+ returnToStudyUnit(api,null);
+ assert.deepEqual(calls,['fit']);assert.equal(state.activeRegion,null);assert.equal(state.selectedId,null);assert.equal(state.search,'warriors');
+ calls.length=0;returnToStudyUnit(api,{x:0,y:0,scale:1});assert.deepEqual(calls,['render','apply']);
+});
+test('redraw focus resolves the same control and falls back to the new context title when removed',async()=>{
+ const {findStudyFocusTarget}=await load();
+ const card={dataset:{studyFocus:'work:ap60'}},region={dataset:{studyFocus:'region:france'}},heading={id:'context-title'};
+ assert.equal(findStudyFocusTarget('work:ap60',[region,card],heading),card);
+ assert.equal(findStudyFocusTarget('work:filtered-out',[region],heading),heading);
+ assert.equal(findStudyFocusTarget(null,[region,card],heading),null);
+});
