@@ -1,6 +1,6 @@
 body .filter-toolbar.has-category-filters{display:grid;grid-template-columns:1.25fr .8fr 1.15fr 1.5fr 1.2fr;gap:12px;align-items:end;padding:18px 20px}
 body .filter-toolbar.has-category-filters>.filter-label{min-width:0;width:auto;display:grid;gap:7px;font-size:12px;font-weight:700}
-body .filter-toolbar.has-category-filters select,body .filter-toolbar.has-category-filters input{width:100%;min-width:0;min-height:44px}
+body .filter-toolbar.has-category-filters :is(#unitFilter,#periodFilter,#studyCategory,#typeFilter,#searchInput){box-sizing:border-box;width:100%;min-width:0;height:44px;min-height:44px;border-radius:8px;padding:5px 9px;line-height:1.35}
 body .filter-toolbar.has-category-filters #studyCategory{border-color:#597f8b;background:#f2f7f4;color:#285d5a}
 body .filter-toolbar.has-category-filters #unitFilter:disabled{opacity:1;color:#6b6558;background:#f7f4ec}
 .has-category-filters .culture-filters,.category-filter-summary{grid-column:1/-1}
