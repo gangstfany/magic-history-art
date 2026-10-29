@@ -28,7 +28,9 @@ test('public release includes complete artwork payload and excludes other reposi
  assert.ok(!existsSync(path.join(output,'study-media/manifest.json')),'archive metadata is not published');
  assert.match(html,/<script type="module" src="module-bridge.mjs"><\/script>/);
  assert.match(html,/<script type="module" src="art-comparison.mjs"><\/script>/);
- for(const file of ['art-comparison.mjs','assets/art-comparison.css','art-category-filters.mjs','assets/art-category-filters.css','art-study-panel.mjs','assets/art-study-panel.css'])assert.ok(existsSync(path.join(output,file)),file);
+ assert.match(html,/<script type="module" src="art-favorites.mjs"><\/script>/);
+ assert.match(html,/<link rel="stylesheet" href="assets\/art-favorites.css">/);
+ for(const file of ['art-favorites.mjs','assets/art-favorites.css','art-comparison.mjs','assets/art-comparison.css','art-category-filters.mjs','assets/art-category-filters.css','art-study-panel.mjs','assets/art-study-panel.css'])assert.ok(existsSync(path.join(output,file)),file);
  for(const file of ['.private-media','world-map.html','assets/auth','tests','scripts','.git'])assert.ok(!existsSync(path.join(output,file)),file);
  assert.ok(existsSync(path.join(output,'.nojekyll')));
  const entries=[];
@@ -39,7 +41,9 @@ test('public release includes complete artwork payload and excludes other reposi
 });
 test('module extraction preserves the approved source page and media supplementation',()=>{
  const manifest=JSON.parse(readFileSync(path.join(root,'source-manifest.json'),'utf8'));
- const html=readFileSync(path.join(root,'art-history-map.html'),'utf8').replace('  <script type="module" src="module-bridge.mjs"></script>\n','');
+ const html=readFileSync(path.join(root,'art-history-map.html'),'utf8').replace('  <script type="module" src="module-bridge.mjs"></script>\n','')
+  .replace('  <link rel="stylesheet" href="assets/art-favorites.css">\n  <script type="module" src="art-favorites.mjs"></script>\n','')
+  .replace('      selectUnit,\n','');
  const {createHash}=process.getBuiltinModule('node:crypto');
  assert.equal(createHash('sha256').update(html).digest('hex'),manifest.approvedSourceHtmlSha256 || manifest.originalHtmlSha256);
 });

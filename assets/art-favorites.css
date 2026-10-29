@@ -1,0 +1,4 @@
+.art-favorite-button { display:inline-flex; align-items:center; gap:.35rem; margin:.65rem 0 0; padding:.55rem .85rem; min-height:42px; border:1px solid #bca77a; border-radius:8px; background:#fffaf0; color:#665024; font:inherit; font-size:.85rem; cursor:pointer; }
+.art-favorite-button[aria-pressed="true"] { background:#f5e8be; border-color:#9a7739; }
+.art-favorite-button:hover { background:#f2e6ca; }
+.art-favorite-button:focus-visible { outline:3px solid #8c6e32; outline-offset:3px; }

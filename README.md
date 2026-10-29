@@ -68,3 +68,11 @@ art-history-map.html?embed=1&hostOrigin=<URL编码的首页origin>
 `python3 scripts/build.py`通过`scripts/publish_study_media.py`在构建产物中补齐74个视图；源HTML中的课程与原始授权账本继续保留，供原有严格数据契约检查。不要把生成的`_site`文件覆盖回源文件。源数据校验命令仍针对`art-history-map.html`；其历史“受限视图必须为空”规则不用于集成后的产物。新增Python转换测试与Node发布测试验证产物的381个视图都含图片地址、74张本地图存在且哈希一致、其余307视图和教学字段未变；不会把原图外链是否实时可达混同为已验证。
 
 运行`python3 -m unittest discover -s tests -p 'test_*.py'`验证转换与原有预览服务。源HTML直接预览保留历史缺图状态；完整学习预览请使用构建后的`_site`服务器。
+
+## 作品收藏接口 v1
+
+作品详情新增“收藏作品”按钮，使用原有作品 `id`（例如 `ap1-apollo-11-stones`）和 `kind:'artwork'`。独立打开时收藏保存至本地；存储不可用时仍可在当前页面操作。嵌入时首页为唯一权威数据源，首次加载不导入本地艺术史收藏，避免重新恢复已在首页移除的作品。
+
+收藏适配器 `art-favorites.mjs` 沿用 `module-bridge.mjs` 的明确 `hostOrigin` 校验；仅接受 parent source、准确 origin 和 `{namespace:'magic-history',version:1,module:'art'}`。首页可发送 `init` 的 `favorites` 数组、`favorites-sync` 的 `items` 数组，以及 `open-favorite` 的 `item:{id,kind:'artwork'}`。课程发送 `favorite-change` 的 `{action:'add'|'remove',item}`，打开后回复 `favorite-opened` 的 `{ok,id,kind}`。作品元数据仅包含 `{id,kind,title,subtitle,unit}`，不传图片、URL、HTML 或完整教学内容。
+
+打开收藏通过公开的 `ArtHistoryMap.selectUnit(String(work.unit))` 清除不兼容筛选，再调用 `selectArtwork(work.id, siteToken, true)`；保持作品原有学习面板及图片交互。新增运行文件和样式均通过构建白名单发布。既有 source snapshot 测试仅剥除这三个明确集成入口（API 导出、样式和模块标签），仍校验原页面哈希；作品数据与媒体权利检查保持原样。
