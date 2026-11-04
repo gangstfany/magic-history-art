@@ -1,3 +1,4 @@
+import {restoreReviewedHtml} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {existsSync,readFileSync} from 'node:fs';
@@ -14,7 +15,7 @@ test('U8 anchors use the actual equirectangular SVG geography, not hand-tuned of
   [200,1155,290],[201,1289,244],[202,1151,351],[203,1404,244],
   [204,1321,270],[205,1364,233],[206,1317,223],[207,1403,244],
   [208,1147,279],[209,1147,279],[210,1404,244],[211,1421,241],[212,1289,244]];
- const h=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const h=restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const works=JSON.parse(h.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
  const source=h.match(/const SITE_WORLD_COORDINATES = \{([\s\S]*?)\n    \};/)[1];
  const lookup=Function('return ({'+source+'})')();
@@ -42,7 +43,7 @@ test('U8 content contains all 21 complete bilingual study records and valid comp
  const path=new URL('../data/ap-art-history-unit-8-content.json',import.meta.url);
  assert.ok(existsSync(path),'reviewed U8 bilingual content is required');
  const works=JSON.parse(readFileSync(path,'utf8')),manifest=JSON.parse(readFileSync(manifestPath,'utf8'));
- const html=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const html=restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const legacy=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
  const ids=new Set([...legacy,...works].map(w=>w.id));
  assert.deepEqual(works.map(w=>w.apNumber),Array.from({length:21},(_,i)=>192+i));
@@ -93,7 +94,7 @@ test('U8 media has 50 ordered exact-view slots with matching public rights and c
 });
 test('U8 structural validator enforces exact manifest views and provenance',()=>{
  const json=p=>JSON.parse(readFileSync(new URL('../'+p,import.meta.url),'utf8'));
- const html=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const html=restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const legacy=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]).filter(w=>w.apNumber<=191);
  const manifests=Object.fromEntries(Array.from({length:8},(_,i)=>[i+1,json(`data/ap-art-history-unit-${i+1}-manifest.json`)]));
  const authorities=Object.fromEntries([4,5,6,7].map(n=>[n,json(n===4?'data/ap-art-history-unit-4-public-placeholders.json':`data/ap-art-history-unit-${n}-placeholder-authority.json`)]));
@@ -118,14 +119,14 @@ test('reviewed U8 canonical projection matches all live fields and image credits
  const path=new URL('./fixtures/u8-canonical.json',import.meta.url);
  assert.ok(existsSync(path),'reviewed U8 canonical projection is required');
  const canonical=JSON.parse(readFileSync(path,'utf8'));
- const s=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const s=restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const json=id=>JSON.parse(s.match(new RegExp(`<script id="${id}"[^>]*>([\\s\\S]*?)<\\/script>`))[1]);
  const works=json('artwork-data'),credits=json('image-credit-data');
  assert.deepEqual(works.filter(w=>w.unit===8),canonical.artworks);
  assert.deepEqual(Object.fromEntries(canonical.artworks.map(w=>[w.id,credits[w.id]])),canonical.imageCredits);
 });
 test('U8 release preserves AP1–191 records and credits before adding AP192–212',()=>{
- const s=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const s=restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const json=id=>JSON.parse(s.match(new RegExp(`<script id="${id}"[^>]*>([\\s\\S]*?)<\\/script>`))[1]);
  const works=json('artwork-data'),credits=json('image-credit-data');
  const frozen=JSON.parse(readFileSync(new URL('./fixtures/u1-u7-pre-u8-hashes.json',import.meta.url),'utf8'));

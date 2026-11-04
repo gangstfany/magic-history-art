@@ -45,3 +45,22 @@ test('standalone favorites survive reload when storage is available',()=>{
  createFavoritesController(win,works).toggle(works[0].id);
  assert.equal(createFavoritesController(win,works).has(works[0].id),true);
 });
+
+test('favorites mount synchronously after a detail rebuild so logical focus can be restored',async()=>{
+ const {mountArtworkFavorites}=await import('../art-favorites.mjs');
+ const events=new Map();
+ const makeSummary=()=>({children:[],querySelector(){return this.children.find(node=>Object.hasOwn(node.dataset,'artFavorite'))||null;},append(node){this.children.push(node);}});
+ let summary=makeSummary();
+ const panel={querySelector:()=>summary};
+ const win={location:{search:''},parent:null,addEventListener(){},removeEventListener(){},MutationObserver:class{observe(){}disconnect(){}},get localStorage(){throw Error('blocked');}};win.parent=win;
+ const doc={defaultView:win,getElementById:()=>panel,createElement:()=>({dataset:{},setAttribute(){},addEventListener(){}}),addEventListener:(type,listener)=>events.set(type,listener),removeEventListener:type=>events.delete(type)};
+ const dispose=mountArtworkFavorites(doc,{ARTWORKS:works,state:{selectedId:works[0].id}});
+ assert.equal(summary.children[0].dataset.detailControl,'favorite');
+ summary=makeSummary();
+ assert.ok(events.has('art-after-render'),'rebuild hook must mount favorites before focus restoration');
+ events.get('art-after-render')();
+ assert.equal(summary.children.length,1);
+ assert.equal(summary.children[0].dataset.detailControl,'favorite');
+ events.get('art-after-render')();assert.equal(summary.children.length,1,'observer update must not duplicate favorites');
+ dispose();assert.equal(events.has('art-after-render'),false);
+});

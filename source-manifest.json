@@ -69,9 +69,9 @@
     ],
     "workCount": 250,
     "comparisonLinks": 311,
-    "authoredNotes": 164,
+    "authoredNotes": 311,
     "layout": "comparison-lens",
-    "artworkPayloadChanged": false,
+    "artworkPayloadChanged": true,
     "presentation": "floating-dialog"
   },
   "courseMapLocationRevision": {
@@ -82,5 +82,21 @@
       "241": "Japan (country representative)"
     },
     "scope": "Course display anchors; historical fabrication/creation qualifications retained."
+  },
+  "contentRefinement": {
+    "date": "2026-11-04",
+    "requestedBy": "course owner after content audit",
+    "units": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "works": 152,
+    "authoredComparisonLinks": 202,
+    "scope": "target-specific comparisons; AP28/104/110/143 qualifications and AP152 identification",
+    "exactReviewLedger": "tests/fixtures/art-content-refinement-2026-11-04.json",
+    "unchanged": "AP identities, media, coordinates, U5–U10, presentation and interaction",
+    "baselineHashPolicy": "approvedSourceHtmlSha256 remains the pre-review source; snapshot tests reverse only the exact reviewed changes before hashing"
   }
 }

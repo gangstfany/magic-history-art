@@ -626,6 +626,7 @@ function createDetailHarness(
     `"use strict";
       let imageDialogTrigger = null;
       let artworkMediaRenderGeneration = 0;
+      const selectedArtworkMedia = new Map();
       let syncedControls = null;
       // This harness isolates detail DOM. Camera geometry is covered by the
       // real-browser production map verifier; preserve the new camera seam here.
@@ -2270,4 +2271,59 @@ test('all 250 works expose readable comparison cards and a separate start contro
       }
     }
   }
+});
+
+test('selected artwork view survives detail rebuilds and uses its stable view ID', async () => {
+  const html = await loadHtml();
+  const artworks = parseJsonBlock(html, 'artwork-data');
+  const credits = parseJsonBlock(html, 'image-credit-data');
+  const harness = createDetailHarness(html, artworks, credits);
+  const work = artworks.find(work => work.id === 'ap8-stonehenge');
+  const render = item => harness.renderArtworkDetails(item, {works:[item]});
+  render(work).querySelector('.image-view-switcher').querySelectorAll('button')[1].click();
+  const rebuilt = render(work);
+  assert.equal(rebuilt.querySelector('.artwork-image-button').children[0].src, work.images[1].imageUrl);
+  assert.equal(rebuilt.querySelector('.image-view-switcher').querySelectorAll('button')[1].getAttribute('aria-pressed'), 'true');
+  const reordered = {...work, images:[...work.images].reverse()};
+  assert.equal(render(reordered).querySelector('.artwork-image-button').children[0].src, work.images[1].imageUrl);
+  render(artworks.find(item => item.id !== work.id));
+  assert.equal(render(work).querySelector('.artwork-image-button').children[0].src, work.images[1].imageUrl);
+  assert.equal(render({...work, images:[work.images[0]]}).querySelector('.artwork-image-button').children[0].src, work.images[0].imageUrl);
+});
+
+test('detail control focus restores semantic keys only for the same artwork and filters', async () => {
+  const html = await loadHtml();
+  assert.ok(html.includes('function captureDetailControlFocus('), 'detail controls must survive resize rebuilds');
+  const state = {selectedId:'ap8-stonehenge',unit:'1',search:'Stonehenge'};
+  const context = () => JSON.stringify([state.selectedId,state.unit,state.culture,state.period,state.workType,state.studyCategory,state.search]);
+  const summary = {dataset:{detailFocusContext:context()}};
+  let active, targets=[];
+  const panel = {contains:node=>node===active,querySelector:()=>summary,querySelectorAll:()=>targets};
+  const document = {get activeElement(){return active;}};
+  const {capture,restore} = Function('document','detailPanel','state',`${getFunctionSource(html,'captureDetailControlFocus')}\n${getFunctionSource(html,'restoreDetailControlFocus')}\nreturn {capture:captureDetailControlFocus,restore:restoreDetailControlFocus};`)(document,panel,state);
+  for(const key of ['view:ground','credit:license','credit:source','rights:source','favorite']){
+    active={dataset:{detailControl:key}};
+    const snapshot=capture();
+    let focused=false;
+    targets=[{dataset:{detailControl:key},focus(options){focused=options.preventScroll;}}];
+    restore(snapshot);assert.equal(focused,true,key);
+    focused=false;state.search='different';restore(snapshot);assert.equal(focused,false,'filter changes must not steal focus');state.search='Stonehenge';
+    state.selectedId='other';restore(snapshot);assert.equal(focused,false,'artwork changes must not steal focus');state.selectedId='ap8-stonehenge';
+  }
+  summary.dataset.detailFocusContext='old filters';
+  assert.equal(capture(),null,'capture rejects stale rendered context');
+});
+
+test('view selection follows canonical media ID even if the label and ordering change', async () => {
+  const html=await loadHtml(),artworks=parseJsonBlock(html,'artwork-data'),credits=parseJsonBlock(html,'image-credit-data');
+  const harness=createDetailHarness(html,artworks,credits);
+  const work=artworks.find(work=>work.images?.length>1 && work.images.every(view=>view.id));
+  const summary=harness.renderArtworkDetails(work,{works:[work]});
+  const buttons=summary.querySelector('.image-view-switcher').querySelectorAll('button');
+  buttons[1].click();
+  assert.equal(buttons[1].dataset.detailControl,`view:${work.images[1].id}`);
+  const reordered={...work,images:work.images.map(view=>({...view,label:`Renamed ${view.id}`})).reverse()};
+  const rebuilt=harness.renderArtworkDetails(reordered,{works:[reordered]});
+  assert.equal(rebuilt.querySelector('.artwork-image-button').children[0].src,work.images[1].imageUrl);
+  assert.deepEqual(rebuilt.querySelector('.image-credit-host').querySelectorAll('a').map(link=>link.dataset.detailControl),['credit:license','credit:source']);
 });

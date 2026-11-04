@@ -1,3 +1,4 @@
+import {restoreReviewedWorks} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
@@ -470,7 +471,7 @@ async function loadDocumentData() {
     html.match(new RegExp(`<script id="${id}" type="application/json">([\\s\\S]*?)<\\/script>`))[1],
   );
   return {
-    artworks: parseBlock('artwork-data'),
+    artworks: restoreReviewedWorks(parseBlock('artwork-data')),
     credits: parseBlock('image-credit-data'),
   };
 }

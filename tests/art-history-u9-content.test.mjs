@@ -1,3 +1,4 @@
+import {restoreReviewedHtml} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {existsSync, readFileSync} from 'node:fs';
@@ -55,7 +56,7 @@ test('U9 stages each of the 15 specified media views with ordered credits',()=>{
  }
 });
 test('U9 native validator accepts the reviewed staged 250-work assembly and enforces exact views',()=>{
- const h=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const h=restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const block=id=>JSON.parse(h.match(new RegExp(`<script id="${id}"[^>]*>([\\s\\S]*?)<\\/script>`))[1]);
  const media=json('data/ap-art-history-unit-9-media.json');
  const staged=json('data/ap-art-history-unit-9-content.json').map(w=>({...w,images:media.images[w.id]}));
@@ -70,7 +71,7 @@ test('U9 native validator accepts the reviewed staged 250-work assembly and enfo
  assert.throws(()=>validateArtworks(wrong,manifests,authority),/view ids|media view/);
 });
 test('U9 live integration reaches 223 while preserving AP1–212 records and credits',()=>{
- const h=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const h=restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const block=id=>JSON.parse(h.match(new RegExp(`<script id="${id}"[^>]*>([\\s\\S]*?)<\\/script>`))[1]);
  const works=block('artwork-data'),credits=block('image-credit-data');
  const frozen=JSON.parse(readFileSync(new URL('./fixtures/u1-u8-pre-u9-hashes.json',import.meta.url),'utf8'));
@@ -85,7 +86,7 @@ test('reviewed U9 canonical projection matches all live fields and image credits
  const p=new URL('./fixtures/u9-canonical.json',import.meta.url);
  assert.ok(existsSync(p),'reviewed U9 canonical projection required');
  const canonical=JSON.parse(readFileSync(p,'utf8'));
- const h=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const h=restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const block=id=>JSON.parse(h.match(new RegExp(`<script id="${id}"[^>]*>([\\s\\S]*?)<\\/script>`))[1]);
  assert.deepEqual(block('artwork-data').filter(w=>w.unit===9),canonical.artworks);
  const credits=block('image-credit-data');

@@ -1,3 +1,4 @@
+import {restoreReviewedWorks} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -52,7 +53,7 @@ test('the supplementation preserves every nonmedia field of all 250 works',async
  const {createHash}=await import('node:crypto');
  const html=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
  const works=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
- const nonmedia=works.map(({images,...work})=>work);
+ const nonmedia=restoreReviewedWorks(works).map(({images,...work})=>work);
  const expected=json('tests/fixtures/pre-supplementation-nonmedia.json');
  assert.equal(createHash('sha256').update(JSON.stringify(nonmedia)).digest('hex'),expected.nonmediaSha256);
 });

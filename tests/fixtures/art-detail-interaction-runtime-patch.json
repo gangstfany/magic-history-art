@@ -1,0 +1,50 @@
+[
+  {
+    "before": "      license.textContent = credit.licenseName;\n      line.append(license);",
+    "after": "      license.textContent = credit.licenseName;\n      license.dataset.detailControl = 'credit:license';\n      line.append(license);"
+  },
+  {
+    "before": "      source.textContent = media.imageSourceName;\n      line.append(source);",
+    "after": "      source.textContent = media.imageSourceName;\n      source.dataset.detailControl = 'credit:source';\n      line.append(source);"
+  },
+  {
+    "before": "      source.className = 'rights-placeholder-source';",
+    "after": "      source.className = 'rights-placeholder-source';\n      source.dataset.detailControl = 'rights:source';"
+  },
+  {
+    "before": "      summary.className = 'selected-summary';",
+    "after": "      summary.className = 'selected-summary';\n      summary.dataset.detailFocusContext = JSON.stringify([work.id, state.unit, state.culture, state.period, state.workType, state.studyCategory, state.search]);"
+  },
+  {
+    "before": "      let activeMediaIndex = 0;",
+    "after": "      // View IDs remain stable when resize/host height updates rebuild the panel.\n      const mediaKey = (media) => media.id ?? media.label;\n      let activeMediaIndex = Math.max(0, mediaItems.findIndex((media) => mediaKey(media) === selectedArtworkMedia.get(work.id)));"
+  },
+  {
+    "before": "        const publicMedia = mediaItems[activeMediaIndex];",
+    "after": "        const publicMedia = mediaItems[activeMediaIndex];\n        selectedArtworkMedia.set(work.id, mediaKey(publicMedia));"
+  },
+  {
+    "before": "          button.textContent = media.label;",
+    "after": "          button.textContent = media.label;\n          button.dataset.detailControl = `view:${mediaKey(media)}`;"
+  },
+  {
+    "before": "      renderActiveArtworkImage(0);",
+    "after": "      renderActiveArtworkImage(activeMediaIndex);"
+  },
+  {
+    "before": "    function render() {\n      const mapBounds",
+    "after": "    // Capture only controls in the same rendered artwork/filter context.\n    // A filter or selection action must retain its own intended focus target.\n    function captureDetailControlFocus() {\n      const active = document.activeElement;\n      const key = active?.dataset?.detailControl;\n      const context = JSON.stringify([state.selectedId, state.unit, state.culture, state.period, state.workType, state.studyCategory, state.search]);\n      const rendered = detailPanel.querySelector('.selected-summary');\n      if (!key || !detailPanel.contains(active) || rendered?.dataset.detailFocusContext !== context) return null;\n      return { key, context };\n    }\n\n    function restoreDetailControlFocus(snapshot) {\n      if (!snapshot) return;\n      const context = JSON.stringify([state.selectedId, state.unit, state.culture, state.period, state.workType, state.studyCategory, state.search]);\n      if (snapshot.context !== context) return;\n      const target = [...detailPanel.querySelectorAll('[data-detail-control]')]\n        .find((node) => node.dataset.detailControl === snapshot.key);\n      target?.focus({ preventScroll:true });\n    }\n\n    function render() {\n      const mapBounds"
+  },
+  {
+    "before": "      document.dispatchEvent?.(new Event('art-before-render'));",
+    "after": "      document.dispatchEvent?.(new Event('art-before-render'));\n      const focusedDetailControl = captureDetailControlFocus();"
+  },
+  {
+    "before": "      else if (focusedDetailImageButton) detailPanel.querySelector('.artwork-image-button')?.focus({ preventScroll:true });",
+    "after": "      else if (focusedDetailImageButton) detailPanel.querySelector('.artwork-image-button')?.focus({ preventScroll:true });\n      // Extensions mount controls synchronously before restoring logical focus.\n      document.dispatchEvent?.(new Event('art-after-render'));\n      restoreDetailControlFocus(focusedDetailControl);"
+  },
+  {
+    "before": "    let artworkMediaRenderGeneration = 0;",
+    "after": "    let artworkMediaRenderGeneration = 0;\n    const selectedArtworkMedia = new Map();"
+  }
+]

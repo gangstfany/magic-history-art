@@ -1,3 +1,4 @@
+import {restoreReviewedHtml} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync,readdirSync} from 'node:fs';
@@ -41,9 +42,16 @@ test('public release includes complete artwork payload and excludes other reposi
 });
 test('module extraction preserves the approved source page and media supplementation',()=>{
  const manifest=JSON.parse(readFileSync(path.join(root,'source-manifest.json'),'utf8'));
- const html=readFileSync(path.join(root,'art-history-map.html'),'utf8').replace('  <script type="module" src="module-bridge.mjs"></script>\n','')
+ let html=restoreReviewedHtml(readFileSync(path.join(root,'art-history-map.html'),'utf8')).replace('  <script type="module" src="module-bridge.mjs"></script>\n','')
   .replace('  <link rel="stylesheet" href="assets/art-favorites.css">\n  <script type="module" src="art-favorites.mjs"></script>\n','')
   .replace('      selectUnit,\n','');
+ // Reverse only exact reviewed runtime edits; the approved snapshot and all
+ // artwork/media data remain subject to the original unchanged page hash.
+ const runtimePatch=JSON.parse(readFileSync(path.join(root,'tests/fixtures/art-detail-interaction-runtime-patch.json'),'utf8'));
+ for(const {before,after} of runtimePatch){
+  assert.equal(html.split(after).length-1,1,'runtime integration must match exactly once');
+  html=html.replace(after,before);
+ }
  const {createHash}=process.getBuiltinModule('node:crypto');
  assert.equal(createHash('sha256').update(html).digest('hex'),manifest.approvedSourceHtmlSha256 || manifest.originalHtmlSha256);
 });

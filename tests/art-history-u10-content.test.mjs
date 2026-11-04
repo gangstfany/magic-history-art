@@ -1,3 +1,4 @@
+import {restoreReviewedHtml} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {existsSync, readFileSync} from 'node:fs';
@@ -7,7 +8,7 @@ import {assertLocalMediaContract} from '../scripts/art-history-local-media-contr
 import {fileURLToPath} from 'node:url';
 const json=p=>JSON.parse(readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const manifest=json('data/ap-art-history-unit-10-manifest.json');
-const html=()=>readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+const html=()=>restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
 const block=id=>JSON.parse(html().match(new RegExp(`<script id="${id}"[^>]*>([\\s\\S]*?)<\\/script>`))[1]);
 const media=json('data/ap-art-history-unit-10-media.json');
 const staged=json('data/ap-art-history-unit-10-content.json').map(w=>({...w,images:media.images[w.id]}));
@@ -75,7 +76,7 @@ test('U10 contains complete bilingual content with exact provenance and loaded c
  const path=new URL('../data/ap-art-history-unit-10-content.json',import.meta.url);
  assert.ok(existsSync(path),'reviewed U10 content required');
  const works=JSON.parse(readFileSync(path,'utf8'));
- const html=readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const html=restoreReviewedHtml(readFileSync(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const legacy=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
  const ids=new Set([...legacy,...works].filter(w=>w.apNumber<=250).map(w=>w.id));
  assert.deepEqual(works.map(w=>w.apNumber),Array.from({length:27},(_,i)=>224+i));

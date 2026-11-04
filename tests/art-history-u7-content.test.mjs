@@ -1,3 +1,4 @@
+import {restoreReviewedHtml} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
@@ -21,7 +22,7 @@ test('U7 content and English edition cover every study field and valid compariso
  const manifest=JSON.parse(await readFile(new URL('../data/ap-art-history-unit-7-manifest.json',import.meta.url),'utf8'));
  const english=await readFile(new URL('../docs/content/ap-art-history-unit-7-english.md',import.meta.url),'utf8');
  assert.deepEqual(content.map(w=>w.apNumber),[...views.keys()]);
- const html=await readFile(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const html=restoreReviewedHtml(await readFile(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const live=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
  const ids=new Set([...live,...content].map(w=>w.id));
  for(const work of content){
@@ -45,14 +46,14 @@ test('U7 local media ledger aligns all 20 views and rejects remote paths',async(
 });
 test('reviewed U7 canonical projection matches every live field and image credit',async()=>{
  const canonical=JSON.parse(await readFile(new URL('./fixtures/u7-canonical.json',import.meta.url),'utf8'));
- const html=await readFile(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const html=restoreReviewedHtml(await readFile(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const works=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
  const credits=JSON.parse(html.match(/<script id="image-credit-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
  assert.deepEqual(works.filter(w=>w.unit===7),canonical.artworks);
  assert.deepEqual(Object.fromEntries(canonical.artworks.map(w=>[w.id,credits[w.id]])),canonical.imageCredits);
 });
 test('release adds exactly 11 U7 records while preserving all legacy data and credits',async()=>{
- const html=await readFile(new URL('../art-history-map.html',import.meta.url),'utf8');
+ const html=restoreReviewedHtml(await readFile(new URL('../art-history-map.html',import.meta.url),'utf8'));
  const works=JSON.parse(html.match(/<script id="artwork-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
  const credits=JSON.parse(html.match(/<script id="image-credit-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
  const frozen=JSON.parse(await readFile(new URL('./fixtures/u1-u6-pre-u7-hashes.json',import.meta.url),'utf8'));

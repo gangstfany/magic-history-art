@@ -1,3 +1,4 @@
+import {restoreReviewedWorks} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
@@ -222,7 +223,7 @@ function parseJsonBlock(html, id) {
 async function loadActualData() {
   const html = await readFile(HTML_PATH, 'utf8');
   return {
-    artworks: parseJsonBlock(html, 'artwork-data'),
+    artworks: restoreReviewedWorks(parseJsonBlock(html, 'artwork-data')),
     credits: parseJsonBlock(html, 'image-credit-data'),
   };
 }

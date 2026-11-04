@@ -58,7 +58,7 @@ export function mountArtworkFavorites(doc,api){
   const summary=panel.querySelector('.selected-summary');
   if(!work||!summary)return;
   let button=summary.querySelector('[data-art-favorite]');
-  if(!button){button=doc.createElement('button');button.type='button';button.className='art-favorite-button';button.dataset.artFavorite='';summary.append(button);button.addEventListener('click',()=>controller.toggle(api.state.selectedId));}
+  if(!button){button=doc.createElement('button');button.type='button';button.className='art-favorite-button';button.dataset.artFavorite='';button.dataset.detailControl='favorite';summary.append(button);button.addEventListener('click',()=>controller.toggle(api.state.selectedId));}
   const saved=controller.has(work.id);
   button.textContent=saved?'★ 已收藏':'☆ 收藏作品';
   button.setAttribute('aria-pressed',String(saved));
@@ -66,7 +66,8 @@ export function mountArtworkFavorites(doc,api){
  }
  controller=createFavoritesController(doc.defaultView,api.ARTWORKS,()=>{if(controller)update();},item=>openArtworkFavorite(api,item));
  const observer=new doc.defaultView.MutationObserver(update);
+ doc.addEventListener('art-after-render',update);
  observer.observe(panel,{childList:true});update();
- return ()=>{controller.dispose();observer.disconnect();};
+ return ()=>{controller.dispose();observer.disconnect();doc.removeEventListener('art-after-render',update);};
 }
 if(typeof document!=='undefined'&&window.ArtHistoryMap)mountArtworkFavorites(document,window.ArtHistoryMap);

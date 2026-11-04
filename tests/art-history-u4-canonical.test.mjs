@@ -1,3 +1,4 @@
+import {restoreReviewedWorks} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -1146,7 +1147,7 @@ test('live map projects the exact canonical Unit 4 artworks and credits', async 
     readJson(FIXTURE_URL),
     readFile(HTML_URL, 'utf8'),
   ]);
-  const liveArtworks = parseJsonBlock(html, 'artwork-data').filter(({ unit }) => unit === 4);
+  const liveArtworks = restoreReviewedWorks(parseJsonBlock(html, 'artwork-data')).filter(({ unit }) => unit === 4);
   const liveCredits = parseJsonBlock(html, 'image-credit-data');
   const liveU4Credits = Object.fromEntries(
     fixture.artworks.map(({ id }) => [id, liveCredits[id]]),

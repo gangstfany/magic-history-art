@@ -1,5 +1,7 @@
 # Magic History · AP 艺术史
 
+2026-11-04 内容审查修订：U1–U4 的202条比较已逐组写入具体相同点、差异与作品证据，U4替换了缺少依据的相邻编号配对；另修正Peplos Kore、George Washington、Still Life in Studio、Rivera壁画及House in New Castle County的说明。现有视觉、图片和U5–U10保持不变。详见[修订记录](docs/art-content-refinement-2026-11-04.md)。旧canonical fixtures和页面哈希仍保留，历史快照检查只逆转精确记录的本轮字段修订；当前内容另行校验。
+
 Units 1–10 的250件作品现已统一使用悬浮窗“比较透镜”。入口为作品详情 → 比较 → 开始对比；支持跨单元配对，返回保留原学习位置。新增 `art-comparison.mjs` 和 `assets/art-comparison.css` 已纳入构建。验证记录见 `docs/art-all-units-comparison-2026-10-27.md`。悬浮窗按同源首页实际可见区域定位，支持手机滚动与关闭恢复。
 
 艺术史独立仓库，完整保留 Units 1–10 的250件作品、世界地图、筛选搜索、作品学习、比较及图片查看界面。以后修改艺术史，只提交本仓库；不会触发首页、账号或世界史仓库的发布。
