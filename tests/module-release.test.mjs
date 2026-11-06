@@ -1,3 +1,4 @@
+import {restoreStudentFlowRuntime} from './helpers/art-student-flow.mjs';
 import {restoreReviewedHtml} from './helpers/art-content-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -42,7 +43,7 @@ test('public release includes complete artwork payload and excludes other reposi
 });
 test('module extraction preserves the approved source page and media supplementation',()=>{
  const manifest=JSON.parse(readFileSync(path.join(root,'source-manifest.json'),'utf8'));
- let html=restoreReviewedHtml(readFileSync(path.join(root,'art-history-map.html'),'utf8')).replace('  <script type="module" src="module-bridge.mjs"></script>\n','')
+ let html=restoreStudentFlowRuntime(restoreReviewedHtml(readFileSync(path.join(root,'art-history-map.html'),'utf8'))).replace('  <script type="module" src="module-bridge.mjs"></script>\n','')
   .replace('  <link rel="stylesheet" href="assets/art-favorites.css">\n  <script type="module" src="art-favorites.mjs"></script>\n','')
   .replace('      selectUnit,\n','');
  // Reverse only exact reviewed runtime edits; the approved snapshot and all

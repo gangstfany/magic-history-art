@@ -1,0 +1,47 @@
+/* Student task paths, using the existing course typography and paper palette. */
+.afl-navigation{display:flex;flex-wrap:wrap;gap:8px;width:100%;padding-top:9px}
+.afl-button{min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:700 12.5px/1.4 var(--ty-font);cursor:pointer}
+.afl-button[aria-pressed=true]{color:var(--card);background:var(--ink);border-color:var(--ink)}
+.afl-button:disabled{opacity:.4;cursor:default}
+.afl-button:focus-visible,.afl-returned{outline:3px solid var(--map-blue);outline-offset:3px}
+.afl-results{padding-bottom:18px}.afl-scope,.afl-empty{font-size:12px;line-height:1.7;color:var(--ink-soft);margin:10px 0 16px}
+.afl-results .as-title{margin-bottom:8px}.afl-results .as-work-list{margin:12px 0 18px}
+.afl-sequence{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:2px 0 8px}.afl-sequence .afl-button{padding-inline:10px}
+.afl-position{margin-left:auto;font-size:11px;color:var(--ink-soft)}
+.art-identity-more{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:0}
+.art-identity-more>summary{min-height:44px;padding:12px 0;cursor:pointer;font-size:12px;color:var(--ink-soft)}
+.selected-summary>.detail-tabs{position:sticky;top:0;z-index:3;background:var(--card);padding:8px 0;border-bottom:1px solid var(--line);margin:0}
+.selected-summary>.art-favorite-button{justify-self:start;margin:0;min-height:44px}
+@media(max-width:664px){.afl-navigation{gap:6px}.afl-navigation .afl-button{flex:1;padding-inline:8px}.afl-results .as-work-card{scroll-margin-block:20px}.selected-summary>.detail-tabs{top:0}.detail-tabpanel{scroll-margin-top:65px}.afl-sequence{gap:5px}.afl-sequence .afl-button{font-size:12px}}
+
+.site-cycle[hidden]{display:none}
+
+/* APWH course frame: title/navigation, then one compact filter row. */
+.afl-course-header{width:calc(100% - 40px);max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:14px 18px;background:var(--card);border-bottom:1px solid var(--line)}
+.afl-course-header h2{margin:0;color:#963e30;font:800 16px/1.4 var(--ty-font)}
+.afl-course-header .afl-navigation{width:auto;margin-left:auto;gap:6px;padding:0}
+.afl-course-header .afl-button{min-height:32px;padding:0 12px;background:#f9f4e8;border-color:#e2dfd3;font-size:12px}
+.afl-course-header .afl-button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+body.is-embedded .afl-course-header{width:100%;max-width:none;margin:0}
+body .filter-toolbar.has-category-filters.afl-compact-toolbar{position:relative;display:grid;grid-template-columns:minmax(168px,220px) minmax(200px,1fr) auto auto;gap:12px 16px;align-items:end;padding:14px 18px;background:#fffdf8}
+.afl-compact-toolbar>.afl-unit-field{grid-column:1;grid-row:1}.afl-compact-toolbar>.afl-search-field{grid-column:2;grid-row:1;max-width:240px}
+.afl-compact-toolbar>.category-filter-more{grid-column:4;grid-row:1;position:static}
+.afl-compact-toolbar>.afl-toolbar-count{grid-column:3;grid-row:1;margin:0;align-self:center;color:#6b6558;font:600 12px/1.55 var(--ty-font)}
+body .afl-compact-toolbar .category-filter-more>summary{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:5px 14px;list-style:none;border:1px solid #e2dfd3;border-radius:8px;background:#f9f4e8;color:#211f1c}
+.afl-compact-toolbar .category-filter-more>summary::-webkit-details-marker{display:none}.afl-compact-toolbar .category-filter-more>summary::after{content:'⌄'}.afl-compact-toolbar .category-filter-more[open]>summary::after{content:'⌃'}
+.afl-filter-body{position:absolute;right:18px;top:calc(100% - 2px);z-index:30;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;width:min(600px,calc(100% - 36px));padding:18px;border:1px solid #e2dfd3;border-radius:12px;background:#fffdf8;box-shadow:0 10px 26px #211f1c22;max-height:60vh;overflow:auto}
+.afl-filter-body>.filter-label{display:grid;gap:5px;min-width:0;font-size:12px;color:#6b6558}.afl-filter-body>.category-filter-note,.afl-filter-body>.culture-filters{grid-column:1/-1}
+.afl-filter-body .category-filter-clear{margin:0;justify-self:start;color:#211f1c;background:#f9f4e8;border-color:#e2dfd3}.afl-compact-toolbar>.category-filter-chips{grid-column:1/-1}
+body .afl-compact-toolbar :is(#unitFilter,#periodFilter,#studyCategory,#typeFilter,#searchInput){border-color:#e2dfd3;background:#f9f4e8;color:#211f1c}
+body .afl-compact-toolbar .category-filter-chip{color:#211f1c;border-color:#e2dfd3;background:#f9f4e8}
+@media(max-width:664px){.afl-course-header{width:100%;padding:12px 14px;gap:8px;flex-wrap:wrap}.afl-course-header h2{font-size:15px}.afl-course-header .afl-navigation{flex-wrap:wrap}.afl-course-header .afl-button{min-height:36px;padding:0 10px}.afl-course-header .afl-navigation .afl-button{flex:initial}body .filter-toolbar.has-category-filters.afl-compact-toolbar{grid-template-columns:1fr 1fr;gap:10px;padding:12px 14px!important}.afl-compact-toolbar>.afl-search-field{max-width:none}.afl-compact-toolbar>.afl-toolbar-count{grid-column:1;grid-row:2}.afl-compact-toolbar>.category-filter-more{grid-column:2;grid-row:2;justify-self:end}.afl-filter-body{right:14px;width:calc(100% - 28px);grid-template-columns:1fr}.afl-filter-body>.category-filter-note,.afl-filter-body>.culture-filters{grid-column:1}}
+
+/* Default right pane offers learning actions rather than hierarchy documentation. */
+.detail-panel:has(.afl-start)>.result-count{display:none}
+.afl-start{padding:2px 0 14px}.afl-start>.as-kicker{margin:0 0 8px;color:var(--ink-soft)}
+.afl-start>.as-title{margin:0 0 12px}.afl-start-intro{margin:0 0 22px;color:var(--ink-soft);font-size:13px;line-height:1.65}
+.afl-start-heading{margin:20px 0 10px;font:700 13.5px/1.55 var(--ty-font);color:var(--ink)}
+.afl-unit-list{display:grid;gap:8px}.afl-unit-link{display:grid;grid-template-columns:30px minmax(0,1fr) auto 12px;align-items:center;gap:10px;min-height:60px;padding:10px 12px;width:100%;text-align:left;border:1px solid #e2dfd3;border-radius:11px;background:#f9f4e8;color:var(--ink);font-family:var(--ty-font);cursor:pointer}
+.afl-unit-badge{font-size:12px;font-weight:700;color:#963e30}.afl-unit-link strong{font-size:12.5px;line-height:1.5;font-weight:700}.afl-unit-link small{font-size:11px;white-space:nowrap;color:var(--ink-soft)}
+.afl-unit-link:focus-visible{outline:2px solid #28708a;outline-offset:2px}.afl-start-footer{margin:18px 0 0;border-top:1px solid var(--line);padding-top:14px;color:var(--ink-soft);font-size:12px;line-height:1.65}
+.afl-resume{padding-bottom:2px;border-bottom:1px solid var(--line)}.afl-resume .as-work-list{margin-bottom:16px}

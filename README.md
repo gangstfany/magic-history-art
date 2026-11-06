@@ -78,3 +78,14 @@ art-history-map.html?embed=1&hostOrigin=<URL编码的首页origin>
 收藏适配器 `art-favorites.mjs` 沿用 `module-bridge.mjs` 的明确 `hostOrigin` 校验；仅接受 parent source、准确 origin 和 `{namespace:'magic-history',version:1,module:'art'}`。首页可发送 `init` 的 `favorites` 数组、`favorites-sync` 的 `items` 数组，以及 `open-favorite` 的 `item:{id,kind:'artwork'}`。课程发送 `favorite-change` 的 `{action:'add'|'remove',item}`，打开后回复 `favorite-opened` 的 `{ok,id,kind}`。作品元数据仅包含 `{id,kind,title,subtitle,unit}`，不传图片、URL、HTML 或完整教学内容。
 
 打开收藏通过公开的 `ArtHistoryMap.selectUnit(String(work.unit))` 清除不兼容筛选，再调用 `selectArtwork(work.id, siteToken, true)`；保持作品原有学习面板及图片交互。新增运行文件和样式均通过构建白名单发布。既有 source snapshot 测试仅剥除这三个明确集成入口（API 导出、样式和模块标签），仍校验原页面哈希；作品数据与媒体权利检查保持原样。
+
+
+## Student navigation refinement · 2026-11-05–06
+
+Search now presents matching artwork cards directly and offers a global search recovery when the current Unit or filters exclude matches. Bare numbers 1–250 select AP identities exactly; common Chinese artist names map to their English names. Use a fuller date phrase (for example `200 C.E.`) for date-text searches.
+
+The existing region map remains available. The header keeps only `地图` and `我的收藏`; region and search results reuse the right-hand artwork list. `我的收藏` begins with all saved works. Detail study tabs and the existing favorite control appear near the title; materials/location/function are under `作品资料`, expanded by default; manual collapsing persists while browsing that work. Current-list previous/next and `返回列表` preserve the source list, camera and card focus. Existing image views, comparison module and canonical course/media data remain unchanged.
+
+The default right pane offers Unit 1–10 entry points and an optional last-viewed artwork card, stored locally by artwork ID. First visits do not show a resume card. The course title/navigation and compact Unit/search toolbar follow the APWH frame; period/category/type controls remain in the filter disclosure.
+
+Validation: 539 supported Node checks, 10 Python tests, 250-work data validation and 223-file public build. Four pre-existing checks remain excluded from that Node count: the U5 restricted-authority assertion and three assembled U3 fault-verifier checks requiring the unavailable Playwright runtime. Run Node checks with `--test-concurrency=1` because release tests rebuild the same `_site` directory. Browser checks covered cross-Unit search, Chinese aliases, favorites, consecutive works, and returning from AP138 in a 390px mobile list and France region list. Full view/filter deep-link restoration and separate comparison-prototype mobile image shortcuts remain later audit items. No push was performed.

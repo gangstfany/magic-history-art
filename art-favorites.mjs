@@ -58,13 +58,14 @@ export function mountArtworkFavorites(doc,api){
   const summary=panel.querySelector('.selected-summary');
   if(!work||!summary)return;
   let button=summary.querySelector('[data-art-favorite]');
-  if(!button){button=doc.createElement('button');button.type='button';button.className='art-favorite-button';button.dataset.artFavorite='';button.dataset.detailControl='favorite';summary.append(button);button.addEventListener('click',()=>controller.toggle(api.state.selectedId));}
+  if(!button){button=doc.createElement('button');button.type='button';button.className='art-favorite-button';button.dataset.artFavorite='';button.dataset.detailControl='favorite';const tabs=summary.querySelector('.detail-tabs');if(tabs)summary.insertBefore(button,tabs);else summary.append(button);button.addEventListener('click',()=>controller.toggle(api.state.selectedId));}
   const saved=controller.has(work.id);
   button.textContent=saved?'★ 已收藏':'☆ 收藏作品';
   button.setAttribute('aria-pressed',String(saved));
   button.setAttribute('aria-label',`${saved?'取消收藏':'收藏'}：${work.titleZh || work.titleEn}`);
  }
- controller=createFavoritesController(doc.defaultView,api.ARTWORKS,()=>{if(controller)update();},item=>openArtworkFavorite(api,item));
+ controller=createFavoritesController(doc.defaultView,api.ARTWORKS,()=>{if(controller){update();doc.dispatchEvent?.(new Event('art-favorites-updated'));}},item=>openArtworkFavorite(api,item));
+ api.artworkFavorites=controller;
  const observer=new doc.defaultView.MutationObserver(update);
  doc.addEventListener('art-after-render',update);
  observer.observe(panel,{childList:true});update();

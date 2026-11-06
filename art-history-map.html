@@ -16989,14 +16989,18 @@
     }
 
     function filterWorks(works, filters) {
-      const query = normalize(filters.search);
+      const aliases = {'米开朗基罗':'michelangelo','毕加索':'picasso','梵高':'van gogh','梵·高':'van gogh','达芬奇':'leonardo','达·芬奇':'leonardo','莫奈':'monet','伦勃朗':'rembrandt','克里姆特':'klimt','布朗库西':'brancusi','对立式':'contrapposto'};
+      let searchTerm = normalize(filters.search);
+      for (const [alias, canonical] of Object.entries(aliases)) searchTerm = searchTerm.replaceAll(alias, canonical);
+      const query = searchTerm;
       const queryTokens = query.split(' ').filter(Boolean);
       const apNumberMatch = query.match(/^(?:ap\s*#?\s*)?(\d{1,3})$/);
       const apNumberQuery = apNumberMatch && Number(apNumberMatch[1]) <= 250
         ? Number(apNumberMatch[1])
         : null;
-      const isApPrefixedQuery = /^ap\s*#?\s*\d{1,3}$/.test(query);
+      const isApPrefixedQuery = apNumberQuery !== null;
       return works.filter((work) => {
+        if (filters.favoritesOnly && !filters.favoriteIds?.includes(work.id)) return false;
         if (filters.unit && filters.unit !== 'all' && work.unit !== Number(filters.unit)) return false;
         if (
           filters.culture
@@ -18676,7 +18680,13 @@
       });
       summary.append(heading, chineseTitle, meta, imageStage);
       if (imageViewSwitcher) summary.append(imageViewSwitcher);
-      summary.append(creditHost, identity);
+      const identityMore = document.createElement('details');
+      identityMore.className = 'art-identity-more';
+      const identityLabel = document.createElement('summary');
+      identityLabel.textContent = '作品资料 · 材料、地点与功能';
+      identityLabel.dataset.detailControl = 'identity';
+      identityMore.append(identityLabel, identity);
+      summary.append(creditHost, identityMore);
 
       if (group.works.length > 1) {
         const cycle = document.createElement('div');
@@ -18808,7 +18818,8 @@
         });
         tablist.append(button);
       });
-      summary.append(tablist, panel);
+      summary.insertBefore(tablist, imageStage);
+      summary.append(panel);
       activateTab(tabs.some((tab) => tab.id === state.activeDetailTab) ? state.activeDetailTab : 'quick');
       return summary;
     }
@@ -19480,5 +19491,7 @@
   <link rel="stylesheet" href="assets/art-favorites.css">
   <script type="module" src="art-favorites.mjs"></script>
   <script type="module" src="module-bridge.mjs"></script>
+  <link rel="stylesheet" href="assets/art-learning-flow.css">
+  <script type="module" src="art-learning-flow.mjs"></script>
 </body>
 </html>

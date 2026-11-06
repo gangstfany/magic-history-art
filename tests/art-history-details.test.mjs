@@ -454,6 +454,18 @@ class FakeNode {
     }
   }
 
+  insertBefore(node, reference) {
+    if (node.parentNode) {
+      const old = node.parentNode.children.indexOf(node);
+      if (old >= 0) node.parentNode.children.splice(old, 1);
+    }
+    const index = this.children.indexOf(reference);
+    if (reference && index < 0) throw new Error('reference is not a child');
+    node.parentNode = this;
+    this.children.splice(index < 0 ? this.children.length : index, 0, node);
+    return node;
+  }
+
   replaceChildren(...nodes) {
     this.children.forEach((child) => {
       child.parentNode = null;

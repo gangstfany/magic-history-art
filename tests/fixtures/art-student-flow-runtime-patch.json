@@ -1,0 +1,26 @@
+[
+  {
+    "before": "      const query = normalize(filters.search);",
+    "after": "      const aliases = {'米开朗基罗':'michelangelo','毕加索':'picasso','梵高':'van gogh','梵·高':'van gogh','达芬奇':'leonardo','达·芬奇':'leonardo','莫奈':'monet','伦勃朗':'rembrandt','克里姆特':'klimt','布朗库西':'brancusi','对立式':'contrapposto'};\n      let searchTerm = normalize(filters.search);\n      for (const [alias, canonical] of Object.entries(aliases)) searchTerm = searchTerm.replaceAll(alias, canonical);\n      const query = searchTerm;"
+  },
+  {
+    "before": "      const isApPrefixedQuery = /^ap\\s*#?\\s*\\d{1,3}$/.test(query);",
+    "after": "      const isApPrefixedQuery = apNumberQuery !== null;"
+  },
+  {
+    "before": "      return works.filter((work) => {\n        if (filters.unit",
+    "after": "      return works.filter((work) => {\n        if (filters.favoritesOnly && !filters.favoriteIds?.includes(work.id)) return false;\n        if (filters.unit"
+  },
+  {
+    "before": "      summary.append(creditHost, identity);",
+    "after": "      const identityMore = document.createElement('details');\n      identityMore.className = 'art-identity-more';\n      const identityLabel = document.createElement('summary');\n      identityLabel.textContent = '作品资料 · 材料、地点与功能';\n      identityLabel.dataset.detailControl = 'identity';\n      identityMore.append(identityLabel, identity);\n      summary.append(creditHost, identityMore);"
+  },
+  {
+    "before": "      summary.append(tablist, panel);",
+    "after": "      summary.insertBefore(tablist, imageStage);\n      summary.append(panel);"
+  },
+  {
+    "before": "  <script type=\"module\" src=\"module-bridge.mjs\"></script>",
+    "after": "  <script type=\"module\" src=\"module-bridge.mjs\"></script>\n  <link rel=\"stylesheet\" href=\"assets/art-learning-flow.css\">\n  <script type=\"module\" src=\"art-learning-flow.mjs\"></script>"
+  }
+]

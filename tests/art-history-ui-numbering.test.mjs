@@ -374,7 +374,7 @@ test('art map reuses World History typography and compact detail hierarchy', asy
     /summary\.append\(heading,\s*chineseTitle,\s*meta,\s*imageStage\)/,
     'detail summary must append English heading before the Chinese subtitle and metadata',
   );
-  assert.match(html, /summary\.append\(creditHost,\s*identity\)/);
+  assert.match(html, /summary\.append\(creditHost,\s*identityMore\)/);
   const englishTitleCss = getCssDeclarations(html, '.work-title-en');
   assert.match(englishTitleCss, /font-size:\s*19px/);
   assert.match(englishTitleCss, /font-weight:\s*800/);
@@ -1100,17 +1100,17 @@ test('filterWorks combines Unit, culture, exact filters, and bilingual free sear
   assert.deepEqual(
     filterWorks(u1Works, { unit: '1', culture: 'all', period: '', workType: '', search: '200' })
       .map(({ apNumber }) => apNumber),
-    [5, 7, 10],
+    [],
   );
   assert.deepEqual(
     filterWorks(u2Works, { unit: '2', culture: 'all', period: '', workType: '', search: '100' })
       .map(({ apNumber }) => apNumber),
-    [40, 41],
+    [],
   );
   assert.deepEqual(
     filterWorks(u1Works, { unit: '1', culture: 'all', period: '', workType: '', search: '12' })
       .map(({ apNumber }) => apNumber),
-    [10],
+    [],
   );
   assert.deepEqual(
     filterWorks(u1Works, { unit: '1', culture: 'all', period: '', workType: '', search: 'Sandstone' })
@@ -1172,7 +1172,7 @@ test('filterWorks combines Unit, culture, exact filters, and bilingual free sear
       workType: '',
       search: '4',
     }).map(({ id }) => id),
-    ['ap-4', 'ap-14', 'date-4200'],
+    ['ap-4'],
   );
   assert.deepEqual(
     filterWorks(numericSemanticsWorks, {
@@ -1196,7 +1196,7 @@ test('filterWorks combines Unit, culture, exact filters, and bilingual free sear
   assert.deepEqual(searchU3('哥特式'), [60, 61, 62]);
   assert.deepEqual(searchU3('New Spain'), [81, 94, 95, 97]);
   assert.deepEqual(searchU3('新西班牙'), [81, 94, 95, 97]);
-  assert.deepEqual(searchU3('48'), [48, 72]);
+  assert.deepEqual(searchU3('48'), [48]);
   assert.deepEqual(searchU3('AP 48'), [48]);
   assert.deepEqual(searchU3('Late Antique & Byzantine'), [48, 49, 50, 51, 52]);
   assert.deepEqual(searchU3('晚期古代与拜占庭'), [48, 49, 50, 51, 52]);
