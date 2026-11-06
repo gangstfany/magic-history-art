@@ -1,0 +1,133 @@
+/* Comparison study: visual evidence on the left, reading on the right. */
+:root{--compare-blue:#426b93}
+.page-header h1{color:var(--accent)}
+.page-header .subtitle{max-width:940px}
+.ac-host.has-prototype-comparison{padding-bottom:28px}
+body .ac-panel.ac-integrated{position:relative;inset:auto;display:flex;width:calc(100% - 40px);max-width:1180px;height:540px;max-height:none;margin:0 auto;padding:0;border:1px solid var(--line);border-radius:18px;box-shadow:none;background:var(--card);color:var(--ink);overflow:hidden}
+body .ac-integrated .ac-toolbar{gap:18px;min-height:73px;padding:12px 20px;border-color:var(--line);background:var(--card);flex-wrap:wrap}
+.ac-heading-group{display:flex;align-items:baseline;gap:9px}
+.ac-kicker{font-size:14px;font-weight:800}
+body .ac-integrated .ac-toolbar h2{font-size:12px!important;font-weight:500!important;color:var(--ink-soft);letter-spacing:.03em!important}
+body .ac-integrated .ac-back{min-height:44px;min-width:104px;border-radius:999px;border-color:var(--line);color:var(--ink);background:var(--paper);font-size:12.5px}
+.ac-examples{display:flex;gap:10px;align-items:center;margin-left:auto;font-size:12px;color:var(--ink-soft)}
+.ac-examples select{max-width:285px;min-height:44px;border-color:var(--line);background:var(--paper);border-radius:10px;font-size:12.5px}
+body .ac-integrated .ac-scroll{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(320px,1fr);gap:0;padding:0;overflow:hidden;align-items:stretch}
+body .ac-integrated .ac-gallery{background:var(--paper);border:0;border-radius:0;padding:18px;overflow:auto}
+body .ac-integrated .ac-gallery>summary{display:none}
+body .ac-integrated .ac-images{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0}
+body .ac-integrated .ac-art{background:transparent;border:0;border-radius:0;box-shadow:none;padding:0 14px 0 0;min-width:0}
+body .ac-integrated .ac-art+.ac-art{padding:0 0 0 14px;border-left:1px solid var(--line)}
+body .ac-integrated .ac-art>.ac-meta:first-child{font-size:12px!important;color:var(--compare-blue);margin:0 0 8px;font-weight:700!important}
+body .ac-integrated .ac-art h3{font-size:19px!important;min-height:0;line-height:1.3!important;margin:0 0 8px;color:var(--ink)}
+body .ac-integrated .ac-title-en{font-size:12px!important;font-weight:500!important;line-height:1.6!important;margin-top:5px;color:var(--ink-soft)}
+body .ac-integrated .ac-art>.ac-meta:nth-of-type(2){min-height:38px;margin-bottom:12px;font-size:12px!important;font-weight:500!important;color:var(--ink-soft)}
+body .ac-integrated .ac-image{height:240px;max-height:none;background:var(--surface-sunken);border:1px solid var(--line);border-radius:10px;padding:10px}
+body .ac-integrated .ac-zoom{background:var(--card);border-color:var(--line);color:var(--compare-blue);font-size:11px}
+body .ac-integrated .ac-views{gap:5px;margin:8px 0;min-height:44px}
+body .ac-integrated .ac-views button{border-color:var(--line);border-radius:999px;color:var(--ink-soft);background:var(--card);min-height:44px;font-size:11px!important}
+body .ac-integrated .ac-views button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--card)}
+body .ac-integrated .ac-credit{font-size:11px;color:var(--ink-soft)}
+body .ac-integrated .ac-reading{position:static;padding:20px;border:0;border-left:1px solid var(--line);border-radius:0;background:var(--card);overflow:auto;min-width:0}
+body .ac-integrated .ac-reading:before{content:'阅读与比较';color:var(--ink-soft);letter-spacing:0;font-size:12px;margin-bottom:14px}
+body .ac-integrated .ac-tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);padding:0 0 14px;margin-bottom:18px;flex-wrap:wrap}
+body .ac-integrated .ac-tabs button{min-height:44px;padding:8px 13px;border:1px solid var(--line);border-radius:999px;font-size:12.5px!important;color:var(--ink);background:var(--paper)}
+body .ac-integrated .ac-tabs button[aria-selected=true]{background:var(--ink);border-color:var(--ink);color:var(--card)}
+body .ac-integrated .ac-note{padding:0;background:transparent;border:0;border-radius:0}
+body .ac-integrated .ac-content h3{font-size:13.5px!important;color:var(--ink)!important;margin:0 0 12px}
+body .ac-integrated .ac-content p{font-size:13.5px!important;font-weight:500!important;line-height:1.85!important;color:var(--ink)}
+body .ac-integrated .ac-columns{display:block}
+body .ac-integrated .ac-columns article+article{margin-top:20px;padding:20px 0 0;border-top:1px solid var(--line)}
+body .ac-integrated .ac-columns article h3{color:var(--compare-blue)!important}
+body .ac-integrated .ac-hint{font-size:12px!important;font-weight:500!important;line-height:1.7!important;color:var(--ink-soft);padding:16px 0 0;margin-top:24px;border-top:1px solid var(--line)}
+body .ac-integrated button:hover{filter:none}
+body .ac-integrated button:focus-visible,body .ac-integrated select:focus-visible{outline:3px solid var(--compare-blue);outline-offset:3px}
+@media(max-width:900px){body .ac-integrated .ac-scroll{grid-template-columns:minmax(0,1.2fr) minmax(290px,1fr)}body .ac-integrated .ac-image{height:205px}.ac-examples>span{display:none}.ac-examples select{max-width:230px}}
+@media(max-width:664px){body .ac-panel.ac-integrated{width:calc(100% - 24px);height:auto;overflow:visible}body .ac-integrated .ac-toolbar{gap:12px;padding:12px}.ac-examples{width:100%;margin:0}.ac-examples>span{display:block}.ac-examples select{max-width:none;min-width:0;flex:1}body .ac-integrated .ac-scroll{display:flex;flex-direction:column;overflow:visible}body .ac-integrated .ac-gallery{padding:14px;width:100%;overflow:visible}body .ac-integrated .ac-art{padding-right:9px}body .ac-integrated .ac-art+.ac-art{padding-left:9px}body .ac-integrated .ac-art h3{font-size:16px!important}body .ac-integrated .ac-image{height:190px;padding:6px}body .ac-integrated .ac-reading{width:100%;padding:18px 14px;border-left:0;border-top:1px solid var(--line);overflow:visible}body .ac-integrated .ac-meta{overflow-wrap:anywhere}}
+/* Keep only the useful Unit context while reading a chosen comparison. */
+.has-prototype-comparison #filterContainer{padding-top:8px;margin-bottom:18px;gap:20px}
+.has-prototype-comparison #filterContainer>:not(:first-child){display:none!important}
+.has-prototype-comparison #filterContainer:after{content:'作品学习 / 作品对比 · 2 件作品';font-size:12px;line-height:44px;color:var(--ink-soft)}
+body .ac-panel.ac-integrated .ac-art{box-shadow:none!important}
+body .ac-panel.ac-integrated .ac-art h3{min-height:0!important}
+body .ac-panel.ac-integrated .ac-art>.ac-meta:nth-of-type(2){min-height:38px}
+@media(max-width:664px){.has-prototype-comparison #filterContainer{gap:6px;padding:0 12px}.has-prototype-comparison #filterContainer:after{line-height:24px}.has-prototype-comparison #filterContainer>label:first-child{width:100%}.has-prototype-comparison #unitFilter{width:100%}}
+/* Stronger teaching hierarchy; keep the course palette and type scale. */
+body .ac-panel.ac-integrated{height:635px}
+body .ac-integrated .ac-reading:before{display:none}
+body .ac-integrated .ac-tabs{margin-bottom:20px;padding-bottom:16px}
+body .ac-integrated .ac-content .ac-question{font-size:19px!important;line-height:1.5!important;font-weight:800!important;letter-spacing:-.02em;margin:0 0 18px}
+.ac-label{display:block;color:var(--ink-soft);font-size:11px;font-weight:700;letter-spacing:.03em;margin-bottom:5px}
+.ac-common{padding:12px 14px;background:var(--paper);border:1px solid var(--line);border-radius:9px;margin-bottom:20px}
+body .ac-integrated .ac-common p{font-size:12.5px!important;line-height:1.65!important}
+.ac-difference-title{font-size:12px;color:var(--ink-soft);margin:0 0 10px;font-weight:600}
+.ac-evidence{padding:12px 0 14px;border-bottom:1px solid var(--line)}
+.ac-evidence-head{display:flex;align-items:center;gap:9px;margin-bottom:7px}
+.ac-letter{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--compare-blue);color:white;font-size:12px;font-weight:800;flex-shrink:0}
+.ac-evidence-1 .ac-letter{background:#8a5c39}
+.ac-evidence-head strong{font-size:15px;line-height:1.4}
+body .ac-integrated .ac-evidence p{font-size:12.5px!important;line-height:1.75!important;padding-left:33px;color:var(--ink-soft)}
+.ac-takeaway{margin-top:18px;border-left:3px solid var(--compare-blue);padding:3px 0 3px 12px}
+.ac-takeaway strong{display:block;font-size:14px;line-height:1.65}
+body .ac-integrated .ac-hint{display:none}
+body .ac-panel.ac-integrated .ac-art:first-child>.ac-meta:first-child{color:var(--compare-blue)}
+body .ac-panel.ac-integrated .ac-art:nth-child(2)>.ac-meta:first-child{color:#8a5c39}
+body .ac-integrated .ac-art .ac-look-cue{padding:12px 2px 6px;font-size:12px;line-height:1.65;font-weight:700;color:var(--ink);margin:0}
+body .ac-integrated .ac-image{height:280px}
+@media(max-width:900px){body .ac-integrated .ac-image{height:220px}}
+@media(max-width:664px){body .ac-panel.ac-integrated{height:auto}body .ac-integrated .ac-image{height:190px}body .ac-integrated .ac-content .ac-question{font-size:18px!important}}
+.ac-detailed-difference{padding:8px 0 16px;margin-bottom:12px;border-bottom:1px solid var(--line)}
+.ac-detailed-difference h4{font-size:14px;line-height:1.5;margin:0 0 12px;font-weight:800}
+.ac-evidence-line{display:flex;gap:9px;margin-bottom:10px;align-items:flex-start}
+.ac-evidence-line .ac-letter{width:22px;height:22px;font-size:11px;margin-top:2px}
+.ac-evidence-line:nth-of-type(2) .ac-letter{background:#8a5c39}
+body .ac-integrated .ac-evidence-line p{font-size:12.5px!important;line-height:1.85!important;font-weight:500!important;flex:1;min-width:0}
+body .ac-integrated .ac-explain{font-size:12px!important;line-height:1.8!important;color:var(--ink-soft);padding:9px 12px;background:var(--paper);border-radius:6px;margin:12px 0 0}
+.ac-answer-link{display:block;width:100%;min-height:44px;text-align:left;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);font-weight:700;font-size:12.5px;padding:10px 12px;margin-top:18px;cursor:pointer}
+.ac-model-prompt{padding:12px;background:var(--paper);border:1px solid var(--line);border-radius:8px;margin:14px 0 12px}
+body .ac-integrated .ac-model-prompt p{font-size:12.5px!important;line-height:1.75!important}
+.ac-answer-meta{display:block;font-size:11px;color:var(--ink-soft);margin-bottom:16px}
+body .ac-integrated .ac-model-paragraph{font-size:13.5px!important;line-height:1.85!important;font-weight:400!important;margin-bottom:16px}
+.ac-answer-outline{margin-top:20px;border-top:1px solid var(--line);padding-top:10px}
+.ac-answer-outline summary{min-height:44px;line-height:44px;font-size:12px;cursor:pointer;color:var(--compare-blue)}
+body .ac-integrated .ac-answer-outline p{font-size:12px!important;line-height:1.8!important;color:var(--ink-soft)}
+body .ac-integrated .ac-reading{scrollbar-gutter:stable}
+body .ac-integrated .ac-tabs{position:sticky;top:-20px;background:var(--card);z-index:2;padding-top:10px;margin-top:-10px;gap:5px}
+body .ac-integrated .ac-tabs button{padding-inline:10px;font-size:12px!important}
+/* Two reading destinations; the comparison question persists above both. */
+body .ac-integrated .ac-reading{display:flex;flex-direction:column;overflow:hidden;padding:20px;scrollbar-gutter:auto}
+.ac-reader-head{flex:0 0 auto;padding:0 0 14px}
+body .ac-integrated .ac-fixed-question{font-size:18px;font-weight:800;line-height:1.5;letter-spacing:-.01em;margin:0 0 5px;color:var(--ink)}
+.ac-question-english{font-size:11px;color:var(--ink-soft)}
+.ac-question-english summary{cursor:pointer;min-height:32px;line-height:32px;color:var(--compare-blue)}
+.ac-question-english p{font-size:12px;line-height:1.7;margin:4px 0 8px}
+body .ac-integrated .ac-tabs{position:static;flex-shrink:0;display:grid;grid-template-columns:1fr 1fr;padding:0 0 14px;margin:0 0 14px;gap:8px}
+body .ac-integrated .ac-tabs button{font-size:12.5px!important}
+body .ac-integrated .ac-content{flex:1;min-height:0;overflow:auto;padding:2px 9px 12px 0;scrollbar-gutter:stable;overscroll-behavior:contain}
+body .ac-integrated .ac-analysis-help{font-size:11px!important;line-height:1.6!important;color:var(--ink-soft);margin:-3px 0 9px}
+.ac-detailed-difference{margin:0;border-bottom:1px solid var(--line);padding:0}
+.ac-angle-summary{min-height:54px;display:flex;align-items:center;gap:11px;cursor:pointer;list-style:none;padding:12px 2px}
+.ac-angle-summary::-webkit-details-marker{display:none}
+.ac-angle-summary:after{content:'+';font-size:18px;font-weight:400;margin-left:auto;color:var(--ink-soft)}
+.ac-detailed-difference[open]>.ac-angle-summary:after{content:'−'}
+.ac-angle-number{font-size:11px;font-weight:700;color:var(--ink-soft)}
+.ac-angle-summary strong{font-size:13.5px;font-weight:700}
+.ac-detailed-difference>.ac-evidence-line{margin:0 2px 12px}
+body .ac-integrated .ac-detailed-difference>.ac-explain{margin:0 0 15px}
+body .ac-integrated .ac-difference-title{margin-bottom:10px}
+body .ac-integrated .ac-common{margin-bottom:18px}
+.ac-model-guide{color:var(--ink-soft)!important;font-size:12px!important;line-height:1.7!important;margin:0 0 12px!important}
+.ac-answer-role{font-size:11px;font-weight:700;line-height:1.5;color:var(--compare-blue);padding-left:9px;border-left:2px solid var(--compare-blue);margin:18px 0 8px}
+.ac-answer-passage+.ac-answer-passage{border-top:1px solid var(--line);padding-top:1px}
+@media(max-width:664px){body .ac-integrated .ac-reading{overflow:visible;padding:18px 14px}body .ac-integrated .ac-content{overflow:visible;padding-right:0;scrollbar-gutter:auto}.ac-reader-head{padding-bottom:12px}body .ac-integrated .ac-fixed-question{font-size:17px}.ac-question-english p{overflow-wrap:anywhere}}
+
+/* Visible prompt and a stronger comparison takeaway. */
+.ac-question-english{margin-top:12px;padding:0;color:var(--ink)}
+.ac-question-english>.ac-label{font-size:10px;letter-spacing:.07em;color:var(--ink-soft);margin-bottom:5px}
+.ac-question-english p{font-size:12px;line-height:1.7;font-weight:500;margin:0}
+body .ac-integrated .ac-takeaway{margin-top:20px;padding:16px;border:1px solid #b9c8d8;border-left:5px solid var(--compare-blue);border-radius:8px;background:#e9eff5}
+body .ac-integrated .ac-takeaway>.ac-label{font-size:11px;font-weight:800;color:#365878;margin-bottom:8px}
+body .ac-integrated .ac-takeaway>strong{font-size:16px;font-weight:800;line-height:1.65;color:#211f1c}
+@media(max-width:664px){.ac-question-english p{font-size:12px;line-height:1.7}body .ac-integrated .ac-takeaway{padding:14px}body .ac-integrated .ac-takeaway>strong{font-size:15px}}
+
+/* Integrate only within the existing embedded course frame. */
+body.is-embedded .ac-panel.ac-integrated{width:100%;max-width:none;margin:0;border:0;border-radius:0}

@@ -167,9 +167,9 @@ export function mountLearningFlow(doc,api){
  doc.addEventListener('click',event=>{
   if(!event.target.closest?.('.detail-tab'))return;
   win.requestAnimationFrame(()=>{
-   const target=panel.querySelector('.detail-tabpanel'),tabs=panel.querySelector('.detail-tabs');if(!target||!tabs)return;
+   const target=panel.querySelector('.detail-tabpanel');if(!target)return;
    if(win.innerWidth<=664)target.scrollIntoView({block:'start',behavior:'instant'});
-   else panel.scrollTo({top:panel.scrollTop+target.getBoundingClientRect().top-panel.getBoundingClientRect().top-tabs.offsetHeight-16,behavior:'instant'});
+   else panel.scrollTo({top:panel.scrollTop+target.getBoundingClientRect().top-panel.getBoundingClientRect().top-16,behavior:'instant'});
   });
  });
  observer=new win.MutationObserver(update);update();

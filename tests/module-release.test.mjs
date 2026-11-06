@@ -29,10 +29,10 @@ test('public release includes complete artwork payload and excludes other reposi
  for(const row of archive.images.filter(row=>row.group==='remoteFallbacks'))assert.ok(!existsSync(path.join(output,row.filePath)),'unused fallback excluded');
  assert.ok(!existsSync(path.join(output,'study-media/manifest.json')),'archive metadata is not published');
  assert.match(html,/<script type="module" src="module-bridge.mjs"><\/script>/);
- assert.match(html,/<script type="module" src="art-comparison.mjs"><\/script>/);
+ assert.match(html,/<script type="module" src="art-comparison.mjs(?:\?[^" ]+)?"><\/script>/);
  assert.match(html,/<script type="module" src="art-favorites.mjs"><\/script>/);
  assert.match(html,/<link rel="stylesheet" href="assets\/art-favorites.css">/);
- for(const file of ['art-favorites.mjs','assets/art-favorites.css','art-comparison.mjs','assets/art-comparison.css','art-category-filters.mjs','assets/art-category-filters.css','art-study-panel.mjs','assets/art-study-panel.css'])assert.ok(existsSync(path.join(output,file)),file);
+ for(const file of ['art-favorites.mjs','assets/art-favorites.css','art-comparison.mjs','assets/art-comparison.css','assets/art-comparison-study.css','art-category-filters.mjs','assets/art-category-filters.css','art-study-panel.mjs','assets/art-study-panel.css'])assert.ok(existsSync(path.join(output,file)),file);
  for(const file of ['.private-media','world-map.html','assets/auth','tests','scripts','.git'])assert.ok(!existsSync(path.join(output,file)),file);
  assert.ok(existsSync(path.join(output,'.nojekyll')));
  const entries=[];

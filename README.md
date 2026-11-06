@@ -89,3 +89,10 @@ The existing region map remains available. The header keeps only `地图` and `�
 The default right pane offers Unit 1–10 entry points and an optional last-viewed artwork card, stored locally by artwork ID. First visits do not show a resume card. The course title/navigation and compact Unit/search toolbar follow the APWH frame; period/category/type controls remain in the filter disclosure.
 
 Validation: 539 supported Node checks, 10 Python tests, 250-work data validation and 223-file public build. Four pre-existing checks remain excluded from that Node count: the U5 restricted-authority assertion and three assembled U3 fault-verifier checks requiring the unavailable Playwright runtime. Run Node checks with `--test-concurrency=1` because release tests rebuild the same `_site` directory. Browser checks covered cross-Unit search, Chinese aliases, favorites, consecutive works, and returning from AP138 in a 390px mobile list and France region list. Full view/filter deep-link restoration and separate comparison-prototype mobile image shortcuts remain later audit items. No push was performed.
+
+
+## Integrated comparison study · 2026-11-06
+
+Artwork → 比较 → 开始对比 opens the new course-integrated study view. Images sit beside the visible comparison question/prompt and two reading tabs: 比较分析 and 示范答案. Four existing teaching examples provide detailed A/B evidence and teacher-written, non-official model answers: AP128/129, AP107/115, AP135/139 and AP1/2. Other authored comparison pairs retain their existing comparison note and explicitly indicate when a model answer is unavailable. Return restores the original artwork; course navigation exits comparison. Artwork study tabs now scroll normally rather than sticking over images.
+
+New presentation CSS is explicitly included in the public build; no image, textbook, local-preview shell or account files are added.
